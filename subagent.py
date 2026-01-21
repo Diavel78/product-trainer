@@ -9,7 +9,7 @@ FEED_URL = "https://motohunt.com/feed/inventory/g2387-426e2dea251a38c7bd9a6d5ea9
 SPECS_FILE = "specs_database.json"
 OUTPUT_FILE = "index.html"
 
-# Mapping Feed Location Names to Your Store Numbers
+# Mapping Feed Location Names & URL Slugs to Your Store Numbers
 LOCATION_MAP = {
     "North Lake Havasu": "(1) North Lake Havasu",
     "Bullhead City": "(2) Bullhead City",
@@ -32,18 +32,37 @@ def fetch_inventory_feed():
     except: return []
 
 def resolve_location(item):
-    # 1. Direct Keys
+    # 1. Direct Keys (Feed provided location)
     raw_loc = item.get('location') or item.get('dealer_name') or ""
-    # 2. URL Check
-    url = item.get('url') or item.get('vehicle_url') or ""
     
-    # Check map
+    # 2. URL Check (The most accurate method for Anderson)
+    url = (item.get('url') or item.get('vehicle_url') or "").lower()
+    
+    # Combine raw location and URL for a broad search
     check_str = (raw_loc + " " + url).lower()
     
-    if "north lake" in check_str or "havasu city, az 86403" in check_str: return "(1) North Lake Havasu"
-    if "south lake" in check_str or "az west" in check_str or "havasu city, az 86406" in check_str: return "(4) South Lake Havasu"
+    # --- DOMAIN & KEYWORD MAPPING RULES ---
+    
+    # (1) North Lake Havasu
+    if "andersonpowersportshavasu.com" in check_str: return "(1) North Lake Havasu"
+    if "north lake" in check_str: return "(1) North Lake Havasu"
+    if "havasu city, az 86403" in check_str: return "(1) North Lake Havasu"
+    
+    # (2) Bullhead City
+    if "andersonpowersportsbullhead.com" in check_str: return "(2) Bullhead City"
     if "bullhead" in check_str: return "(2) Bullhead City"
+    
+    # (3) Parker
+    if "andersonpowersportsparker" in check_str: return "(3) Parker"
     if "parker" in check_str: return "(3) Parker"
+    
+    # (4) South Lake Havasu (AZ West)
+    if "az west" in check_str: return "(4) South Lake Havasu"
+    if "south lake" in check_str: return "(4) South Lake Havasu"
+    if "havasu city, az 86406" in check_str: return "(4) South Lake Havasu"
+    
+    # (5) Reno
+    if "andersonpowersportsreno.com" in check_str: return "(5) Reno"
     if "reno" in check_str: return "(5) Reno"
     
     return "Unassigned"
@@ -56,7 +75,7 @@ def process_inventory(raw_data):
         location = resolve_location(item)
         link = item.get('url') or item.get('vehicle_url') or "#"
         
-        # Categorization Logic
+        # Categorization Logic for Filters
         v_type = item.get('type') or item.get('category') or "Other"
         make = item.get('make') or "Other"
         condition = item.get('condition') or "New"
@@ -90,8 +109,6 @@ def generate_html(inventory, specs_db):
         enhanced_inv.append(unit)
 
     timestamp = datetime.datetime.now().strftime("%m/%d %I:%M %p")
-    
-    # Generate JSON data for JS
     inv_json = json.dumps(enhanced_inv)
 
     html_content = f"""
@@ -178,14 +195,14 @@ def generate_html(inventory, specs_db):
                 <label class="filter-label">Type</label>
                 <select id="typeFilter">
                     <option value="">All Types</option>
-                    </select>
+                </select>
             </div>
             
             <div class="filter-group">
                 <label class="filter-label">Make</label>
                 <select id="makeFilter">
                     <option value="">All Makes</option>
-                    </select>
+                </select>
             </div>
         </div>
 
@@ -247,10 +264,9 @@ def generate_html(inventory, specs_db):
                             ${{content}}
                         </div>
                     `;
-                }}).join('').slice(0, 500000); // Safety limit for DOM size
+                }}).join('').slice(0, 500000); 
             }}
 
-            // Filtering Logic
             function filter() {{
                 const s = document.getElementById('search').value.toLowerCase();
                 const l = document.getElementById('locFilter').value;
@@ -265,17 +281,14 @@ def generate_html(inventory, specs_db):
                     return matchSearch && matchLoc && matchType && matchMake;
                 }});
                 
-                // Limit render to 50 items for speed until scrolled (simple virtual list)
                 render(filtered.slice(0, 50));
             }}
 
-            // Event Listeners
             document.getElementById('search').addEventListener('keyup', filter);
             document.getElementById('locFilter').addEventListener('change', filter);
             document.getElementById('typeFilter').addEventListener('change', filter);
             document.getElementById('makeFilter').addEventListener('change', filter);
 
-            // Init
             render(data.slice(0, 50));
         </script>
     </body>
