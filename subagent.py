@@ -11,13 +11,28 @@ OUTPUT_FILE = "index.html"
 
 # Mapping Feed Location Names & URL Slugs to Your Store Numbers
 LOCATION_MAP = {
-    "North Lake Havasu": "(1) North Lake Havasu",
-    "Bullhead City": "(2) Bullhead City",
-    "Bullhead": "(2) Bullhead City",
-    "Parker": "(3) Parker",
-    "AZ West": "(4) South Lake Havasu",
-    "South Lake Havasu": "(4) South Lake Havasu",
-    "Reno": "(5) Reno"
+    # (1) North Lake Havasu
+    "andersonpowersportshavasu": "(1) North Lake Havasu",
+    "north lake": "(1) North Lake Havasu",
+    "havasu city, az 86403": "(1) North Lake Havasu",
+    
+    # (2) Bullhead City
+    "andersonpowersportsbullhead": "(2) Bullhead City",
+    "bullhead": "(2) Bullhead City",
+    
+    # (3) Parker
+    "andersonpowersportsparker": "(3) Parker",
+    "parker": "(3) Parker",
+    
+    # (4) South Lake Havasu (AZ West)
+    "andersonazwestallsports": "(4) South Lake Havasu", # <--- FIXED: Catches your South store domain
+    "az west": "(4) South Lake Havasu",
+    "south lake": "(4) South Lake Havasu",
+    "havasu city, az 86406": "(4) South Lake Havasu",
+    
+    # (5) Reno
+    "andersonpowersportsreno": "(5) Reno",
+    "reno": "(5) Reno"
 }
 
 def fetch_inventory_feed():
@@ -35,35 +50,16 @@ def resolve_location(item):
     # 1. Direct Keys (Feed provided location)
     raw_loc = item.get('location') or item.get('dealer_name') or ""
     
-    # 2. URL Check (The most accurate method for Anderson)
+    # 2. URL Check (The most accurate method)
     url = (item.get('url') or item.get('vehicle_url') or "").lower()
     
     # Combine raw location and URL for a broad search
     check_str = (raw_loc + " " + url).lower()
     
-    # --- DOMAIN & KEYWORD MAPPING RULES ---
-    
-    # (1) North Lake Havasu
-    if "andersonpowersportshavasu.com" in check_str: return "(1) North Lake Havasu"
-    if "north lake" in check_str: return "(1) North Lake Havasu"
-    if "havasu city, az 86403" in check_str: return "(1) North Lake Havasu"
-    
-    # (2) Bullhead City
-    if "andersonpowersportsbullhead.com" in check_str: return "(2) Bullhead City"
-    if "bullhead" in check_str: return "(2) Bullhead City"
-    
-    # (3) Parker
-    if "andersonpowersportsparker" in check_str: return "(3) Parker"
-    if "parker" in check_str: return "(3) Parker"
-    
-    # (4) South Lake Havasu (AZ West)
-    if "az west" in check_str: return "(4) South Lake Havasu"
-    if "south lake" in check_str: return "(4) South Lake Havasu"
-    if "havasu city, az 86406" in check_str: return "(4) South Lake Havasu"
-    
-    # (5) Reno
-    if "andersonpowersportsreno.com" in check_str: return "(5) Reno"
-    if "reno" in check_str: return "(5) Reno"
+    # Check against our map
+    for key, val in LOCATION_MAP.items():
+        if key in check_str:
+            return val
     
     return "Unassigned"
 
