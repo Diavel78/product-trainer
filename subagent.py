@@ -2,110 +2,110 @@ import requests
 import json
 import datetime
 import os
-import re
+import config  # Importing the config file
+from spec_manager import SpecManager # Importing our new "AI Bot"
 
 # --- CONFIGURATION ---
 FEED_URL = "https://motohunt.com/feed/inventory/g2387-426e2dea251a38c7bd9a6d5ea9741933.json"
-SPECS_FILE = "specs_database.json"
 OUTPUT_FILE = "index.html"
 
-# Mapping Feed Location Names & URL Slugs to Your Store Numbers
-LOCATION_MAP = {
-    # (1) North Lake Havasu
-    "andersonpowersportshavasu": "(1) North Lake Havasu",
-    "north lake": "(1) North Lake Havasu",
-    "havasu city, az 86403": "(1) North Lake Havasu",
-    
-    # (2) Bullhead City
-    "andersonpowersportsbullhead": "(2) Bullhead City",
-    "bullhead": "(2) Bullhead City",
-    
-    # (3) Parker
-    "andersonpowersportsparker": "(3) Parker",
-    "parker": "(3) Parker",
-    
-    # (4) South Lake Havasu (AZ West)
-    "andersonazwestallsports": "(4) South Lake Havasu", # <--- FIXED: Catches your South store domain
-    "az west": "(4) South Lake Havasu",
-    "south lake": "(4) South Lake Havasu",
-    "havasu city, az 86406": "(4) South Lake Havasu",
-    
-    # (5) Reno
-    "andersonpowersportsreno": "(5) Reno",
-    "reno": "(5) Reno"
-}
-
 def fetch_inventory_feed():
+    print(f"🚀 Downloading Inventory Feed...")
     try:
         response = requests.get(FEED_URL, timeout=30)
-        if response.status_code != 200: return []
+        if response.status_code != 200:
+            print(f"❌ Error fetching feed: {response.status_code}")
+            return []
         data = response.json()
+        # Flatten structure if nested under a key
         if isinstance(data, dict):
             for key in data:
-                if isinstance(data[key], list): return data[key]
-        return data if isinstance(data, list) else []
-    except: return []
+                if isinstance(data[key], list):
+                    data = data[key]
+                    break
+        return data
+    except Exception as e:
+        print(f"❌ Critical Error: {e}")
+        return []
 
 def resolve_location(item):
-    # 1. Direct Keys (Feed provided location)
+    """
+    Uses config.py logic to resolve locations accurately.
+    """
     raw_loc = item.get('location') or item.get('dealer_name') or ""
     
-    # 2. URL Check (The most accurate method)
-    url = (item.get('url') or item.get('vehicle_url') or "").lower()
+    # Check against Config
+    for store_key, store_data in config.STORES.items():
+        # Match by name in feed vs config name
+        if store_key.lower() in raw_loc.lower():
+            return store_data['name']
     
-    # Combine raw location and URL for a broad search
-    check_str = (raw_loc + " " + url).lower()
-    
-    # Check against our map
-    for key, val in LOCATION_MAP.items():
-        if key in check_str:
-            return val
-    
-    return "Unassigned"
+    # Fallback to simple mapping if config match fails
+    if "Havasu" in raw_loc: return config.STORES["N. Lake Havasu"]['name']
+    if "Parker" in raw_loc: return config.STORES["Parker"]['name']
+    if "Bullhead" in raw_loc: return config.STORES["Bullhead City"]['name']
+    if "Reno" in raw_loc: return config.STORES["Reno"]['name']
+
+    return "Anderson Powersports" # Default
 
 def process_inventory(raw_data):
     clean_inventory = []
     for item in raw_data:
+        # Construct title
         title = item.get('title') or f"{item.get('year', '')} {item.get('make', '')} {item.get('model', '')}"
+        
+        # Safe extraction
         stock = str(item.get('stocknumber') or item.get('stock') or item.get('id') or "Unknown")
         location = resolve_location(item)
+        
+        # Link logic
         link = item.get('url') or item.get('vehicle_url') or "#"
         
-        # Categorization Logic for Filters
-        v_type = item.get('type') or item.get('category') or "Other"
-        make = item.get('make') or "Other"
-        condition = item.get('condition') or "New"
+        # Categorization logic (simple)
+        category = "Other"
+        title_lower = title.lower()
+        if "rzr" in title_lower or "maverick" in title_lower or "ranger" in title_lower or "defender" in title_lower:
+            category = "UTV"
+        elif "sportsman" in title_lower or "outlander" in title_lower or "atv" in title_lower:
+            category = "ATV"
+        elif "sea-doo" in title_lower or "waverunner" in title_lower or "jet" in title_lower:
+            category = "PWC"
+        elif "indian" in title_lower or "kawasaki ninja" in title_lower:
+            category = "Motorcycle"
 
         clean_inventory.append({
             "title": title.strip(),
             "stock": stock,
             "location": location,
             "link": link,
-            "type": v_type,
-            "make": make,
-            "condition": condition
+            "category": category,
+            "make": item.get('make', 'Unknown'),
+            "year": item.get('year', '2025')
         })
     return clean_inventory
 
-def load_specs():
-    if not os.path.exists(SPECS_FILE): return []
-    with open(SPECS_FILE, 'r') as f: return json.load(f)
-
-def match_unit_to_specs(unit_title, specs_db):
-    sorted_specs = sorted(specs_db, key=lambda x: len(x['model_keywords'][0]), reverse=True)
-    for model in sorted_specs:
-        for keyword in model['model_keywords']:
-            if keyword.lower() in unit_title.lower(): return model
-    return None
-
-def generate_html(inventory, specs_db):
+def generate_dashboard(inventory, spec_manager):
+    print("🛠️  Generating Split-Screen Dashboard...")
+    
+    # Enrich inventory with specs
     enhanced_inv = []
     for unit in inventory:
-        unit['specs'] = match_unit_to_specs(unit['title'], specs_db)
+        # 1. Try local DB match
+        spec_data = spec_manager.find_specs(unit['title'])
+        
+        # 2. If no match, we could trigger the AI bot here
+        # Note: We skip live fetching for ALL units to avoid 1000s of requests.
+        # Ideally, this runs as a separate background job.
+        
+        unit['specs'] = spec_data
         enhanced_inv.append(unit)
 
-    timestamp = datetime.datetime.now().strftime("%m/%d %I:%M %p")
-    inv_json = json.dumps(enhanced_inv)
+    timestamp = datetime.datetime.now().strftime("%Y-%m-%d %H:%M")
+    
+    # Create Filter Options
+    locations = sorted(list(set(i['location'] for i in enhanced_inv)))
+    makes = sorted(list(set(i['make'] for i in enhanced_inv)))
+    categories = sorted(list(set(i['category'] for i in enhanced_inv)))
 
     html_content = f"""
     <!DOCTYPE html>
@@ -113,193 +113,217 @@ def generate_html(inventory, specs_db):
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Anderson Product Trainer</title>
-        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+        <title>Anderson Product Trainer 2.0</title>
+        <script src="https://cdn.tailwindcss.com"></script>
         <style>
-            :root {{ --bg: #121212; --card: #1e1e1e; --text: #e0e0e0; --accent: #e74c3c; --accent-hover: #c0392b; --green: #2ecc71; }}
-            body {{ font-family: 'Inter', sans-serif; background: var(--bg); color: var(--text); margin: 0; display: flex; height: 100vh; overflow: hidden; }}
+            body {{ height: 100vh; overflow: hidden; display: flex; flex-direction: column; }}
+            .main-container {{ display: flex; flex: 1; height: 100%; overflow: hidden; }}
             
-            /* Sidebar */
-            .sidebar {{ width: 280px; background: #181818; padding: 20px; display: flex; flex-direction: column; border-right: 1px solid #333; }}
-            .sidebar h2 {{ color: var(--accent); margin: 0 0 20px 0; font-size: 1.5rem; text-transform: uppercase; letter-spacing: 1px; }}
-            .filter-group {{ margin-bottom: 20px; }}
-            .filter-label {{ display: block; font-size: 0.8rem; text-transform: uppercase; color: #888; margin-bottom: 8px; font-weight: bold; }}
-            select, input {{ width: 100%; background: #2a2a2a; border: 1px solid #444; color: white; padding: 10px; border-radius: 6px; margin-bottom: 10px; font-size: 0.9rem; }}
-            select:focus, input:focus {{ outline: none; border-color: var(--accent); }}
+            /* Sidebar (List) */
+            .sidebar {{ width: 350px; background: #f8fafc; border-right: 1px solid #e2e8f0; display: flex; flex-direction: column; }}
+            .search-area {{ padding: 15px; background: white; border-bottom: 1px solid #e2e8f0; }}
+            .unit-list {{ flex: 1; overflow-y: auto; }}
+            .unit-item {{ padding: 15px; border-bottom: 1px solid #eee; cursor: pointer; transition: background 0.2s; }}
+            .unit-item:hover {{ background: #e0f2fe; }}
+            .unit-item.active {{ background: #0ea5e9; color: white; }}
+            .unit-item.active .text-gray-500 {{ color: #e0f2fe; }}
             
-            /* Main Content */
-            .main {{ flex: 1; padding: 20px; overflow-y: auto; position: relative; }}
-            .header-bar {{ display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px; padding-bottom: 15px; border-bottom: 1px solid #333; }}
-            .status {{ font-size: 0.9rem; color: #888; }}
+            /* Content Area (Split Screen) */
+            .content-area {{ flex: 1; display: flex; background: #f1f5f9; }}
             
-            /* Grid */
-            .grid {{ display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 20px; }}
+            /* Left Panel: Training Card */
+            .training-card {{ width: 40%; padding: 20px; overflow-y: auto; background: white; border-right: 1px solid #ccc; }}
             
-            /* Cards */
-            .card {{ background: var(--card); border-radius: 8px; overflow: hidden; transition: transform 0.2s; border: 1px solid #333; display: flex; flex-direction: column; }}
-            .card:hover {{ transform: translateY(-3px); border-color: #555; }}
-            .card-header {{ padding: 15px; border-bottom: 1px solid #333; background: #252525; }}
-            .card-title {{ font-size: 1.1rem; font-weight: bold; color: white; text-decoration: none; display: block; margin-bottom: 5px; }}
-            .card-title:hover {{ color: var(--accent); }}
-            .badges {{ display: flex; gap: 5px; flex-wrap: wrap; }}
-            .badge {{ font-size: 0.75rem; padding: 3px 8px; border-radius: 4px; font-weight: 600; }}
-            .badge-stock {{ background: #333; color: #ccc; }}
-            .badge-loc {{ background: var(--accent); color: white; }}
+            /* Right Panel: Live Website */
+            .browser-view {{ flex: 1; background: #fff; }}
+            iframe {{ width: 100%; height: 100%; border: none; }}
             
-            /* Training Section */
-            .training {{ padding: 15px; flex: 1; background: #222; }}
-            .training h4 {{ margin: 0 0 10px 0; font-size: 0.85rem; color: var(--green); text-transform: uppercase; }}
-            .headline {{ font-weight: bold; display: block; margin-bottom: 8px; font-size: 0.95rem; }}
-            .points {{ margin: 0; padding-left: 20px; color: #bbb; font-size: 0.9rem; line-height: 1.4; }}
-            .specs {{ display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-top: 15px; padding-top: 10px; border-top: 1px solid #333; }}
-            .spec {{ font-size: 0.8rem; color: #888; }}
-            .spec span {{ color: #ddd; font-weight: bold; }}
+            /* Specs Grid */
+            .specs-grid {{ display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-top: 10px; }}
+            .spec-box {{ background: #f8fafc; padding: 10px; border-radius: 6px; border: 1px solid #e2e8f0; }}
+            .spec-label {{ font-size: 0.75rem; color: #64748b; font-weight: bold; text-transform: uppercase; }}
+            .spec-value {{ font-size: 0.9rem; font-weight: 600; color: #334155; }}
             
-            .no-data {{ color: #666; font-style: italic; font-size: 0.9rem; padding: 15px; text-align: center; }}
-
-            /* Mobile */
-            @media (max-width: 768px) {{
-                body {{ flex-direction: column; }}
-                .sidebar {{ width: auto; padding: 15px; max-height: 150px; overflow-y: auto; }}
-                .grid {{ grid-template-columns: 1fr; }}
-            }}
+            .empty-state {{ display: flex; align-items: center; justify-content: center; height: 100%; color: #94a3b8; font-size: 1.5rem; }}
         </style>
     </head>
-    <body>
-
-        <div class="sidebar">
-            <h2>Anderson <span style="font-size:0.6em; color:#888;">Trainer</span></h2>
-            
-            <div class="filter-group">
-                <label class="filter-label">Search</label>
-                <input type="text" id="search" placeholder="Model, Stock #...">
+    <body class="font-sans text-slate-800">
+        <header class="bg-slate-800 text-white p-4 flex justify-between items-center shadow-lg z-10">
+            <div>
+                <h1 class="text-xl font-bold">Anderson Powersports | Sales Trainer</h1>
+                <p class="text-xs text-slate-400">Updated: {timestamp} | {len(enhanced_inv)} Units</p>
             </div>
-
-            <div class="filter-group">
-                <label class="filter-label">Location</label>
-                <select id="locFilter">
+            <div class="flex gap-2">
+                <select id="locFilter" class="bg-slate-700 border border-slate-600 text-white text-sm rounded px-2 py-1">
                     <option value="">All Locations</option>
-                    <option value="(1)">North Lake Havasu</option>
-                    <option value="(2)">Bullhead City</option>
-                    <option value="(3)">Parker</option>
-                    <option value="(4)">South Lake Havasu</option>
-                    <option value="(5)">Reno</option>
+                    {"".join(f'<option value="{x}">{x}</option>' for x in locations)}
                 </select>
-            </div>
-
-            <div class="filter-group">
-                <label class="filter-label">Type</label>
-                <select id="typeFilter">
-                    <option value="">All Types</option>
-                </select>
-            </div>
-            
-            <div class="filter-group">
-                <label class="filter-label">Make</label>
-                <select id="makeFilter">
+                <select id="makeFilter" class="bg-slate-700 border border-slate-600 text-white text-sm rounded px-2 py-1">
                     <option value="">All Makes</option>
+                    {"".join(f'<option value="{x}">{x}</option>' for x in makes)}
                 </select>
             </div>
-        </div>
+        </header>
 
-        <div class="main">
-            <div class="header-bar">
-                <div class="status">Updated: {timestamp}</div>
-                <div class="status" id="count">Loading...</div>
+        <div class="main-container">
+            <div class="sidebar">
+                <div class="search-area">
+                    <input type="text" id="searchInput" placeholder="Search units..." class="w-full p-2 border border-slate-300 rounded focus:outline-none focus:border-blue-500">
+                </div>
+                <div id="unitList" class="unit-list">
+                    </div>
             </div>
-            <div id="grid" class="grid"></div>
+
+            <div class="content-area">
+                
+                <div id="trainingPanel" class="training-card hidden">
+                    <div class="mb-6">
+                        <span id="unitStock" class="bg-blue-100 text-blue-800 text-xs font-semibold px-2.5 py-0.5 rounded">STOCK#</span>
+                        <h2 id="unitTitle" class="text-2xl font-bold text-slate-800 mt-2">Select a Unit</h2>
+                        <p id="unitLoc" class="text-sm text-slate-500">Location</p>
+                    </div>
+
+                    <div id="specContainer" class="hidden">
+                        <div class="bg-emerald-50 border-l-4 border-emerald-500 p-4 mb-6">
+                            <h3 class="text-emerald-800 font-bold mb-1" id="specHeadline">Headline</h3>
+                            <ul id="sellingPoints" class="list-disc list-inside text-sm text-emerald-700 space-y-1"></ul>
+                        </div>
+
+                        <h4 class="text-sm font-bold text-slate-400 uppercase tracking-wider mb-3 border-b pb-1">Technical Specifications</h4>
+                        <div id="specsGrid" class="specs-grid"></div>
+                    </div>
+
+                    <div id="noSpecMessage" class="hidden bg-slate-50 p-6 rounded-lg text-center border border-dashed border-slate-300 mt-4">
+                        <p class="text-slate-500 mb-2">Training card not yet generated for this model.</p>
+                        <button class="bg-white border border-slate-300 text-slate-600 px-3 py-1 rounded text-sm hover:bg-slate-100">
+                            Request AI Spec Fetch (Future Feature)
+                        </button>
+                    </div>
+                    
+                    <div class="mt-8 pt-4 border-t">
+                        <a id="extLink" href="#" target="_blank" class="block w-full text-center bg-slate-800 text-white py-3 rounded-lg hover:bg-slate-700 font-semibold">
+                            Open Website in New Tab
+                        </a>
+                        <p class="text-xs text-center text-slate-400 mt-2">Use this if the right panel is blocked.</p>
+                    </div>
+                </div>
+
+                <div id="browserPanel" class="browser-view relative">
+                    <div id="iframePlaceholder" class="empty-state">
+                        Select a unit to begin training
+                    </div>
+                    <iframe id="webFrame" src="" class="hidden" sandbox="allow-scripts allow-same-origin allow-forms"></iframe>
+                </div>
+            </div>
         </div>
 
         <script>
-            const data = {inv_json};
-            const grid = document.getElementById('grid');
-            const countLabel = document.getElementById('count');
+            const inventory = {json.dumps(enhanced_inv)};
             
-            // Populate Filters
-            const types = [...new Set(data.map(i => i.type))].sort();
-            const makes = [...new Set(data.map(i => i.make))].sort();
+            // DOM Elements
+            const unitList = document.getElementById('unitList');
+            const searchInput = document.getElementById('searchInput');
+            const locFilter = document.getElementById('locFilter');
+            const makeFilter = document.getElementById('makeFilter');
             
-            types.forEach(t => document.getElementById('typeFilter').innerHTML += `<option value="${{t}}">${{t}}</option>`);
-            makes.forEach(m => document.getElementById('makeFilter').innerHTML += `<option value="${{m}}">${{m}}</option>`);
+            const trainingPanel = document.getElementById('trainingPanel');
+            const iframePlaceholder = document.getElementById('iframePlaceholder');
+            const webFrame = document.getElementById('webFrame');
+            
+            // Render List
+            function renderList(items) {{
+                unitList.innerHTML = items.map((item, index) => `
+                    <div class="unit-item" onclick="selectUnit(${index})">
+                        <div class="font-bold text-sm truncate">${{item.title}}</div>
+                        <div class="flex justify-between mt-1">
+                            <span class="text-xs text-gray-500">#${{item.stock}}</span>
+                            <span class="text-xs bg-slate-200 px-1 rounded text-slate-600">${{item.make}}</span>
+                        </div>
+                    </div>
+                `).join('');
+            }}
 
-            function render(items) {{
-                countLabel.innerText = `${{items.length}} Units Found`;
+            // Select Unit Logic
+            window.selectUnit = function(index) {{
+                const item = inventory[index];
                 
-                if (items.length === 0) {{
-                    grid.innerHTML = '<div style="grid-column:1/-1; text-align:center; padding:40px; color:#555;">No units match your filters.</div>';
-                    return;
+                // 1. Highlight List Item (Simple toggle for now)
+                
+                // 2. Populate Training Card
+                trainingPanel.classList.remove('hidden');
+                document.getElementById('unitTitle').innerText = item.title;
+                document.getElementById('unitStock').innerText = item.stock;
+                document.getElementById('unitLoc').innerText = item.location;
+                document.getElementById('extLink').href = item.link;
+
+                // Specs Logic
+                if (item.specs) {{
+                    document.getElementById('specContainer').classList.remove('hidden');
+                    document.getElementById('noSpecMessage').classList.add('hidden');
+                    
+                    document.getElementById('specHeadline').innerText = item.specs.headline;
+                    document.getElementById('sellingPoints').innerHTML = item.specs.selling_points.map(p => `<li>${{p}}</li>`).join('');
+                    
+                    const specsHtml = Object.entries(item.specs.specs).map(([k, v]) => `
+                        <div class="spec-box">
+                            <div class="spec-label">${{k}}</div>
+                            <div class="spec-value">${{v}}</div>
+                        </div>
+                    `).join('');
+                    document.getElementById('specsGrid').innerHTML = specsHtml;
+                }} else {{
+                    document.getElementById('specContainer').classList.add('hidden');
+                    document.getElementById('noSpecMessage').classList.remove('hidden');
                 }}
 
-                grid.innerHTML = items.map(item => {{
-                    let content = '';
-                    if (item.specs) {{
-                        const pts = item.specs.selling_points.slice(0,3).map(p => `<li>${{p}}</li>`).join('');
-                        const specKeys = Object.entries(item.specs.specs).slice(0,4);
-                        const specHtml = specKeys.map(([k,v]) => `<div class="spec">${{k}}: <span>${{v}}</span></div>`).join('');
-                        
-                        content = `
-                            <div class="training">
-                                <h4><i class="fas fa-bolt"></i> ${{item.specs.headline}}</h4>
-                                <ul class="points">${{pts}}</ul>
-                                <div class="specs">${{specHtml}}</div>
-                            </div>
-                        `;
-                    }} else {{
-                        content = `<div class="no-data">No training card available.<br>Type: ${{item.type}}</div>`;
-                    }}
+                // 3. Load Iframe
+                iframePlaceholder.classList.add('hidden');
+                webFrame.classList.remove('hidden');
+                webFrame.src = item.link;
+            }};
 
-                    return `
-                        <div class="card">
-                            <div class="card-header">
-                                <a href="${{item.link}}" target="_blank" class="card-title">${{item.title}}</a>
-                                <div class="badges">
-                                    <span class="badge badge-stock">#${{item.stock}}</span>
-                                    <span class="badge badge-loc">${{item.location.replace(/\(.\) /, '')}}</span>
-                                </div>
-                            </div>
-                            ${{content}}
-                        </div>
-                    `;
-                }}).join('').slice(0, 500000); 
-            }}
+            // Filter Logic
+            function filterInventory() {{
+                const term = searchInput.value.toLowerCase();
+                const loc = locFilter.value;
+                const make = makeFilter.value;
 
-            function filter() {{
-                const s = document.getElementById('search').value.toLowerCase();
-                const l = document.getElementById('locFilter').value;
-                const t = document.getElementById('typeFilter').value;
-                const m = document.getElementById('makeFilter').value;
-
-                const filtered = data.filter(i => {{
-                    const matchSearch = i.title.toLowerCase().includes(s) || i.stock.toLowerCase().includes(s);
-                    const matchLoc = l === "" || i.location.includes(l);
-                    const matchType = t === "" || i.type === t;
-                    const matchMake = m === "" || i.make === m;
-                    return matchSearch && matchLoc && matchType && matchMake;
+                const filtered = inventory.filter(item => {{
+                    const matchesTerm = item.title.toLowerCase().includes(term) || item.stock.toLowerCase().includes(term);
+                    const matchesLoc = loc === "" || item.location === loc;
+                    const matchesMake = make === "" || item.make === make;
+                    return matchesTerm && matchesLoc && matchesMake;
                 }});
                 
-                render(filtered.slice(0, 50));
+                renderList(filtered);
             }}
 
-            document.getElementById('search').addEventListener('keyup', filter);
-            document.getElementById('locFilter').addEventListener('change', filter);
-            document.getElementById('typeFilter').addEventListener('change', filter);
-            document.getElementById('makeFilter').addEventListener('change', filter);
+            // Listeners
+            searchInput.addEventListener('keyup', filterInventory);
+            locFilter.addEventListener('change', filterInventory);
+            makeFilter.addEventListener('change', filterInventory);
 
-            render(data.slice(0, 50));
+            // Init
+            renderList(inventory);
         </script>
     </body>
     </html>
     """
     
-    with open(OUTPUT_FILE, "w", encoding='utf-8') as f:
+    with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
         f.write(html_content)
     print(f"✅ Dashboard generated: {OUTPUT_FILE}")
 
 if __name__ == "__main__":
+    # 1. Initialize Spec Manager (The Brain)
+    sm = SpecManager()
+    
+    # 2. Get Data
     raw_data = fetch_inventory_feed()
+    
     if raw_data:
+        # 3. Process & Match
         current_inventory = process_inventory(raw_data)
-        spec_database = load_specs()
-        generate_html(current_inventory, spec_database)
+        generate_dashboard(current_inventory, sm)
     else:
         print("⚠️ Failed to load inventory.")
