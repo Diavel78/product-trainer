@@ -22,27 +22,13 @@ LOCATION_MAP = {
 
 # Normalizing Categories
 CATEGORY_MAP = {
-    "Utility Vehicle": "UTV",
-    "Side x Side": "UTV",
-    "Side by Side": "UTV",
-    "SxS": "UTV",
-    "ATV": "ATV",
-    "All Terrain Vehicle": "ATV",
-    "Quad": "ATV",
-    "Motorcycle": "Motorcycle",
-    "Street Bike": "Motorcycle",
-    "Dirt Bike": "Motorcycle",
-    "Scooter": "Motorcycle",
-    "Cruiser": "Motorcycle",
-    "Personal Watercraft": "PWC",
-    "PWC": "PWC",
-    "Watercraft": "PWC",
-    "Jet Ski": "PWC",
-    "Boat": "Boat",
-    "Pontoon": "Boat",
-    "Marine": "Boat",
-    "Snowmobile": "Snowmobile",
-    "Sled": "Snowmobile"
+    "Utility Vehicle": "UTV", "Side x Side": "UTV", "Side by Side": "UTV", "SxS": "UTV",
+    "ATV": "ATV", "All Terrain Vehicle": "ATV", "Quad": "ATV",
+    "Motorcycle": "Motorcycle", "Street Bike": "Motorcycle", "Dirt Bike": "Motorcycle",
+    "Scooter": "Motorcycle", "Cruiser": "Motorcycle",
+    "Personal Watercraft": "PWC", "PWC": "PWC", "Watercraft": "PWC", "Jet Ski": "PWC",
+    "Boat": "Boat", "Pontoon": "Boat", "Marine": "Boat",
+    "Snowmobile": "Snowmobile", "Sled": "Snowmobile"
 }
 
 def fetch_inventory_feed():
@@ -85,40 +71,29 @@ def resolve_location(item):
     return "Unassigned Location"
 
 def resolve_category(item):
-    # 1. Trailer Check
     stock = str(item.get('stocknumber') or item.get('stock') or item.get('id') or "").lower()
-    if 't' in stock:
+    if 't' in stock and len(stock) > 4: 
         return "Trailer"
 
-    # 2. Map Check
     raw_cat = item.get('category') or item.get('vehicle_type') or item.get('type') or item.get('class') or ""
     if raw_cat:
         for key, val in CATEGORY_MAP.items():
             if key.lower() in raw_cat.lower():
                 return val
     
-    # 3. Fallback: Infer from title
     title = item.get('title', '').lower()
-    if 'rzr' in title or 'ranger' in title or 'maverick' in title or 'defender' in title:
+    if 'rzr' in title or 'ranger' in title or 'maverick' in title or 'defender' in title or 'general' in title or 'zforce' in title or 'uforce' in title:
         return "UTV"
-    if 'sportsman' in title or 'outlander' in title or 'grizzly' in title:
-        return "ATV"
-    if 'ninja' in title or 'gsx' in title or 'road glide' in title:
+    if 'sportsman' in title or 'outlander' in title or 'grizzly' in title or 'cforce' in title or 'pioneer' in title or 'talon' in title or 'mule' in title or 'teryx' in title or 'wolverine' in title or 'viking' in title:
+        return "UTV" # Catching more UTVs
+    if 'ninja' in title or 'gsx' in title or 'road glide' in title or 'chief' in title or 'scout' in title or 'ibex' in title or 'crf' in title or 'kx' in title or 'yz' in title:
         return "Motorcycle"
-    if 'sea-doo' in title or 'waverunner' in title or 'jet ski' in title:
+    if 'sea-doo' in title or 'waverunner' in title or 'jet ski' in title or 'switch' in title:
         return "PWC"
+    if 'bennington' in title or 'godfrey' in title or 'yamaha boat' in title:
+        return "Boat"
     
     return "Other"
-
-def resolve_condition(item):
-    url = str(item.get('url') or item.get('vehicle_url') or "").lower()
-    
-    if "pre-owned" in url or "used" in url:
-        return "Used"
-    if "new" in url:
-        return "New"
-        
-    return "New" # Default to New if unknown, as most inventory is new
 
 def process_inventory(raw_data):
     clean_inventory = []
@@ -127,8 +102,14 @@ def process_inventory(raw_data):
         stock = str(item.get('stocknumber') or item.get('stock') or item.get('id') or "Unknown")
         location = resolve_location(item)
         category = resolve_category(item)
-        condition = resolve_condition(item)
         link = item.get('url') or item.get('vehicle_url') or "#"
+        
+        cond_raw = str(item.get('condition') or "").lower()
+        url_raw = str(link).lower()
+        if "used" in cond_raw or "pre-owned" in cond_raw or "used" in url_raw or "pre-owned" in url_raw:
+            condition = "Used"
+        else:
+            condition = "New"
 
         clean_inventory.append({
             "title": title.strip(),
@@ -139,9 +120,7 @@ def process_inventory(raw_data):
             "link": link
         })
     
-    # Sort by Stock Number (Oldest to Newest)
     clean_inventory.sort(key=lambda x: x['stock'])
-    
     return clean_inventory
 
 def load_specs():
@@ -150,13 +129,27 @@ def load_specs():
     with open(SPECS_FILE, 'r') as f:
         return json.load(f)
 
+def calculate_match_score(unit_title, model_keywords):
+    title_tokens = set(re.findall(r'\w+', unit_title.lower()))
+    best_keyword_score = 0
+    for keyword_phrase in model_keywords:
+        kw_tokens = set(re.findall(r'\w+', keyword_phrase.lower()))
+        match_count = len(kw_tokens.intersection(title_tokens))
+        if match_count == len(kw_tokens):
+            score = match_count * 10 
+            if score > best_keyword_score:
+                best_keyword_score = score
+    return best_keyword_score
+
 def match_unit_to_specs(unit_title, specs_db):
-    sorted_specs = sorted(specs_db, key=lambda x: len(x['model_keywords'][0]), reverse=True)
-    for model in sorted_specs:
-        for keyword in model['model_keywords']:
-            if keyword.lower() in unit_title.lower():
-                return model
-    return None
+    best_match = None
+    highest_score = 0
+    for model in specs_db:
+        score = calculate_match_score(unit_title, model['model_keywords'])
+        if score > highest_score and score > 0:
+            highest_score = score
+            best_match = model
+    return best_match
 
 def generate_html(inventory, specs_db):
     print("🛠️  Generating Trainer Dashboard...")
@@ -172,6 +165,7 @@ def generate_html(inventory, specs_db):
 
     timestamp = datetime.datetime.now().strftime("%Y-%m-%d %H:%M")
     stats_html = " | ".join([f"{k}: {v}" for k, v in loc_counts.items()])
+    json_data = json.dumps(enhanced_inv)
 
     html_content = f"""
     <!DOCTYPE html>
@@ -275,7 +269,7 @@ def generate_html(inventory, specs_db):
         </div>
 
         <script>
-            const inventory = {json.dumps(enhanced_inv)};
+            const inventory = {json_data};
             const resultsArea = document.getElementById('resultsArea');
             const searchInput = document.getElementById('searchInput');
             const storeSelect = document.getElementById('storeSelect');
@@ -420,6 +414,17 @@ if __name__ == "__main__":
     if raw_data:
         current_inventory = process_inventory(raw_data)
         spec_database = load_specs()
-        generate_html(current_inventory, spec_database)
+        
+        match_count = 0
+        for item in current_inventory:
+            match = match_unit_to_specs(item['title'], spec_database)
+            if match:
+                match_count += 1
+        
+        print(f"Total Inventory: {len(current_inventory)}")
+        print(f"Total Matched: {match_count}")
+        
+        # Uncommented and ready to run
+        generate_html(current_inventory, spec_database) 
     else:
         print("⚠️ Failed to load inventory.")
