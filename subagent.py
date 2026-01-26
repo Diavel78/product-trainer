@@ -110,6 +110,16 @@ def resolve_category(item):
     
     return "Other"
 
+def resolve_condition(item):
+    url = str(item.get('url') or item.get('vehicle_url') or "").lower()
+    
+    if "pre-owned" in url or "used" in url:
+        return "Used"
+    if "new" in url:
+        return "New"
+        
+    return "New" # Default to New if unknown, as most inventory is new
+
 def process_inventory(raw_data):
     clean_inventory = []
     for item in raw_data:
@@ -117,6 +127,7 @@ def process_inventory(raw_data):
         stock = str(item.get('stocknumber') or item.get('stock') or item.get('id') or "Unknown")
         location = resolve_location(item)
         category = resolve_category(item)
+        condition = resolve_condition(item)
         link = item.get('url') or item.get('vehicle_url') or "#"
 
         clean_inventory.append({
@@ -124,11 +135,11 @@ def process_inventory(raw_data):
             "stock": stock,
             "location": location,
             "category": category,
+            "condition": condition,
             "link": link
         })
     
-    # Sort by Stock Number (Standard alphanumeric sort)
-    # This ensures "Oldest to Newest" ordering within store groups
+    # Sort by Stock Number (Oldest to Newest)
     clean_inventory.sort(key=lambda x: x['stock'])
     
     return clean_inventory
@@ -198,7 +209,8 @@ def generate_html(inventory, specs_db):
             .card-header {{ display: flex; justify-content: space-between; align-items: flex-start; }}
             .location-tag {{ background: #1565c0; color: white; padding: 4px 8px; border-radius: 4px; font-size: 0.9em; font-weight: bold; margin-left: 10px; white-space: nowrap; }}
             .category-tag {{ background: #ff9800; color: black; padding: 4px 8px; border-radius: 4px; font-size: 0.8em; font-weight: bold; margin-right: 5px; text-transform: uppercase; }}
-            .stock-tag {{ background: #455a64; color: white; padding: 4px 8px; border-radius: 4px; font-size: 0.9em; }}
+            .condition-tag {{ background: #7b1fa2; color: white; padding: 4px 8px; border-radius: 4px; font-size: 0.8em; font-weight: bold; margin-right: 5px; text-transform: uppercase; }}
+            .stock-tag {{ background: #455a64; color: white; padding: 4px 8px; border-radius: 4px; font-size: 0.9em; display: inline-block; margin-top: 5px; }}
             
             .selling-points {{ background: var(--highlight-bg); padding: 15px; margin-top: 10px; border-radius: 6px; border: 1px solid var(--border-color); }}
             .selling-points h4 {{ margin-top: 0; color: #80cbc4; margin-bottom: 5px; }}
@@ -233,13 +245,14 @@ def generate_html(inventory, specs_db):
     <body>
         <div class="header">
             <h1>Anderson Powersports | Inventory & Product Trainer</h1>
-            <p>Updated: {timestamp} | Total Units: {len(enhanced_inv)}</p>
+            <p>Updated: {timestamp} | Total Inventory: {len(enhanced_inv)} | <span id="matchCount" style="color: var(--accent-green); font-weight: bold;">Showing: {len(enhanced_inv)}</span></p>
             <div class="stats">{stats_html}</div>
         </div>
 
         <div class="filter-container">
             <select id="storeSelect" class="filter-select"><option value="All">All Locations</option></select>
             <select id="categorySelect" class="filter-select"><option value="All">All Categories</option></select>
+            <select id="conditionSelect" class="filter-select"><option value="All">All Conditions</option></select>
         </div>
 
         <input type="text" id="searchInput" class="search-box" placeholder="Search (e.g. 'Pro R', '12345')...">
@@ -267,6 +280,7 @@ def generate_html(inventory, specs_db):
             const searchInput = document.getElementById('searchInput');
             const storeSelect = document.getElementById('storeSelect');
             const categorySelect = document.getElementById('categorySelect');
+            const conditionSelect = document.getElementById('conditionSelect');
             const modal = document.getElementById('unitModal');
             const modalTitle = document.getElementById('modalTitle');
             const modalLeftPane = document.getElementById('modalLeftPane');
@@ -275,18 +289,23 @@ def generate_html(inventory, specs_db):
             // 1. Populate Dropdowns
             const locations = [...new Set(inventory.map(item => item.location))].sort();
             const categories = [...new Set(inventory.map(item => item.category))].sort();
+            const conditions = [...new Set(inventory.map(item => item.condition))].sort();
+
             locations.forEach(loc => storeSelect.add(new Option(loc, loc)));
             categories.forEach(cat => categorySelect.add(new Option(cat, cat)));
+            conditions.forEach(cond => conditionSelect.add(new Option(cond, cond)));
 
             // 2. Render
             function render() {{
                 const term = searchInput.value.toLowerCase();
                 const selectedStore = storeSelect.value;
                 const selectedCategory = categorySelect.value;
+                const selectedCondition = conditionSelect.value;
 
                 const filtered = inventory.filter(item => {{
                     if (selectedStore !== 'All' && item.location !== selectedStore) return false;
                     if (selectedCategory !== 'All' && item.category !== selectedCategory) return false;
+                    if (selectedCondition !== 'All' && item.condition !== selectedCondition) return false;
                     if (term === '') return true;
                     return (
                         item.title.toLowerCase().includes(term) || 
@@ -294,16 +313,26 @@ def generate_html(inventory, specs_db):
                         (item.specs && item.specs.headline.toLowerCase().includes(term))
                     );
                 }});
+                
+                // Update Match Count
+                const matchCountElement = document.getElementById('matchCount');
+                if (matchCountElement) {{
+                    matchCountElement.textContent = `Showing: ${{filtered.length}}`;
+                }}
 
                 if (filtered.length === 0) {{ resultsArea.innerHTML = '<p style="text-align:center; color:#888;">No matches found.</p>'; return; }}
 
                 resultsArea.innerHTML = filtered.slice(0, 100).map((item, index) => {{
-                    // Generate Preview Card (Simpler than before)
                     let badgeColor = item.specs ? 'var(--accent-green)' : '#555';
+                    // Determine condition badge color
+                    let condColor = item.condition === 'New' ? '#00e676' : '#ffb74d'; // Green for New, Orange for Used
+                    let condStyle = `background: ${{condColor}}; color: black; padding: 4px 8px; border-radius: 4px; font-size: 0.8em; font-weight: bold; margin-right: 5px; text-transform: uppercase;`;
+
                     return `
                         <div class="card" style="border-left-color: ${{badgeColor}}" onclick="openModal('${{item.stock}}')">
                             <div class="card-header">
                                 <div>
+                                    <span style="${{condStyle}}">${{item.condition}}</span>
                                     <span class="category-tag">${{item.category}}</span>
                                     <strong>${{item.title}}</strong>
                                     <br>
@@ -325,7 +354,6 @@ def generate_html(inventory, specs_db):
                 modalTitle.textContent = item.title;
                 modalFrame.src = item.link;
 
-                // Build Left Pane Training Content
                 let content = `
                     <div style="margin-bottom:20px;">
                         <span class="category-tag">${{item.category}}</span>
@@ -375,11 +403,7 @@ def generate_html(inventory, specs_db):
             searchInput.addEventListener('keyup', render);
             storeSelect.addEventListener('change', render);
             categorySelect.addEventListener('change', render);
-            
-            // Close modal when clicking outside
-            window.onclick = function(event) {{
-                if (event.target == modal) closeModal();
-            }}
+            conditionSelect.addEventListener('change', render);
 
             render();
         </script>
