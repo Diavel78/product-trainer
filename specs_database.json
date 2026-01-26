@@ -36,7 +36,31 @@
     "specs": { "HP": "114", "Width": "64 in", "Clearance": "14.5 in" }
   },
   {
-    "model_keywords": ["Ranger XP 1000", "Ranger Crew"],
+    "model_keywords": ["RZR Pro XP", "RZR Pro XP 4"],
+    "oem": "Polaris",
+    "headline": "The Turbocharged Standard",
+    "selling_points": [
+      "181 HP Turbo engine at a value price point.",
+      "64-inch width fits on most standard trails.",
+      "Dynamix 2.0 Active Suspension (Ultimate/Premium).",
+      "One of the best power-to-weight ratios in the industry."
+    ],
+    "specs": { "HP": "181", "Width": "64 in", "Travel": "22 in" }
+  },
+  {
+    "model_keywords": ["RZR Trail", "RZR Trail S"],
+    "oem": "Polaris",
+    "headline": "Trail Agility",
+    "selling_points": [
+      "50-inch (Trail) or 60-inch (Trail S) width options.",
+      "Class-leading power-to-weight ratio.",
+      "Tightest turning radius for wooded trails.",
+      "Full doors and premium ergonomics."
+    ],
+    "specs": { "HP": "75 or 100", "Width": "50 or 60 in", "Hitch": "1.25 in" }
+  },
+  {
+    "model_keywords": ["Ranger XP 1000", "Ranger Crew XP 1000"],
     "oem": "Polaris",
     "headline": "King of Utility",
     "selling_points": [
@@ -48,16 +72,292 @@
     "specs": { "HP": "82", "Towing": "2,500 lbs", "Payload": "1,500 lbs" }
   },
   {
-    "model_keywords": ["Ranger 150", "RZR 200"],
+    "model_keywords": ["Ranger 1000", "Ranger Crew 1000"],
     "oem": "Polaris",
-    "headline": "Youth Safety & Fun",
+    "headline": "Smooth & Reliable Workhorse",
     "selling_points": [
-      "Ride Control: Set speed limits/geofencing from your phone.",
-      "Helmet Aware Technology: Vehicle won't start without helmet.",
-      "Adjustable steering and seat to grow with the child.",
-      "Protective cage and safety nets standard."
+      "61 HP SOHC engine tuned for low-end torque.",
+      "One-piece chassis for reduced flex and rattles.",
+      "Large bed capacity for pallets and hay bales.",
+      "Softer suspension tuning for all-day ride comfort."
     ],
-    "specs": { "Engine": "EFI", "Safety": "App Controlled", "Start": "Electric" }
+    "specs": { "HP": "61", "Towing": "2,500 lbs", "Clearance": "12 in" }
+  },
+  {
+    "model_keywords": ["Ranger SP 570", "Ranger Crew SP 570"],
+    "oem": "Polaris",
+    "headline": "Mid-Size Capability",
+    "selling_points": [
+      "44 HP ProStar 570 engine - Proven reliability.",
+      "Compact 56-inch width fits in full-size pickup beds.",
+      "Tight turning radius for navigating barns and tight trails.",
+      "Spacious cab with ample legroom for a mid-size."
+    ],
+    "specs": { "HP": "44", "Width": "56 in", "Towing": "1,500 lbs" }
+  },
+  {
+    "model_keywords": ["Ranger 500"],
+    "oem": "Polaris",
+    "headline": "The Value Workhorse",
+    "selling_points": [
+      "32 HP ProStar engine - plenty for chores and property maintenance.",
+      "Compact 58-inch width fits in most truck beds.",
+      "1,500 lb towing capacity matches larger machines.",
+      "Low maintenance and easy to service."
+    ],
+    "specs": { "HP": "32", "Width": "58 in", "Towing": "1,500 lbs" }
+  },
+  {
+    "model_keywords": ["Xpedition", "Xpedition XP", "Xpedition ADV"],
+    "oem": "Polaris",
+    "headline": "The Adventure Side-by-Side",
+    "selling_points": [
+      "Fully enclosed cab with Heat & A/C (NorthStar trims).",
+      "Lock & Ride MAX cargo system for limitless packing.",
+      "200+ mile fuel range for long-distance overlanding.",
+      "FOX Podium QS3 shocks with Position Sensitive Spiral technology."
+    ],
+    "specs": { "HP": "114", "Range": "200+ Miles", "Alternator": "140 Amps" }
+  },
+  {
+    "model_keywords": ["General XP 1000", "General 1000"],
+    "oem": "Polaris",
+    "headline": "The Original Crossover",
+    "selling_points": [
+      "100 HP ProStar engine blends sport speed with utility power.",
+      "Dumping cargo box with 600 lb capacity.",
+      "Standard Rockford Fosgate audio on many trims.",
+      "High-clearance A-arms for 13.5 inches of clearance (XP models)."
+    ],
+    "specs": { "HP": "100", "Towing": "1,500 lbs", "Suspension": "Walker Evans" }
+  },
+  {
+    "model_keywords": ["Sportsman 570", "Sportsman 450"],
+    "oem": "Polaris",
+    "headline": "#1 Selling ATV Industry-Wide",
+    "selling_points": [
+      "Ride Control with throttle modes (Work, Standard, Sport).",
+      "Integrated front storage (6.5 gal) under the rack.",
+      "True On-Demand AWD performs better than limited-slip diffs.",
+      "Sealed suspension bushings for lower maintenance."
+    ],
+    "specs": { "HP": "44 (570)", "Towing": "1,350 lbs", "Drive": "True AWD" }
+  },
+  {
+    "model_keywords": ["Sportsman 850", "Sportsman XP 1000"],
+    "oem": "Polaris",
+    "headline": "Big Bore Performance",
+    "selling_points": [
+      "78 HP (850) or 90 HP (1000) engines for massive power.",
+      "High-Clearance Arched A-Arms for conquering ruts.",
+      "Active Descent Control (ADC) for steep downhill safety.",
+      "360 lb rack capacity with steel reinforced tie-downs."
+    ],
+    "specs": { "HP": "78 or 90", "Towing": "1,500 lbs", "Clearance": "12 in" }
+  },
+  {
+    "model_keywords": ["RMK", "Pro RMK", "RMK Khaos", "Patriot Boost", "Patriot 9R"],
+    "oem": "Polaris",
+    "headline": "World's Best Mountain Sled",
+    "selling_points": [
+      "Matryx Platform: Narrow, localized cockpit for effortless control.",
+      "Patriot Boost (Turbo) or 9R (Big Bore) engine options for massive power.",
+      "Khaos suspension geometry is playful and lively; Pro RMK is precise.",
+      "Slash Tunnel design reduces drag in deep snow."
+    ],
+    "specs": { "Track": "155/163/165", "Engine": "850/9R/Boost", "Chassis": "Matryx" }
+  },
+  {
+    "model_keywords": ["RZR 200"],
+    "oem": "Polaris",
+    "headline": "Youth Performance Safety",
+    "selling_points": [
+      "Ride Control: Set speed limits and geofencing from the Ride Command App.",
+      "Helmet Aware Technology: Vehicle won't start without a helmet beacon.",
+      "Independent rear suspension for a real trail ride.",
+      "Grow-with-me steering and seat adjustment."
+    ],
+    "specs": { "Engine": "180cc EFI", "Safety": "App Connected", "Tires": "24 inch" }
+  },
+  {
+    "model_keywords": ["Ranger 150"],
+    "oem": "Polaris",
+    "headline": "Youth Utility Safety",
+    "selling_points": [
+      "Geofencing and Speed Limiting via smartphone app.",
+      "Passcode protection: Control who starts the vehicle.",
+      "Adjustable steering wheel and driver's seat.",
+      "Included safety flag and helmets."
+    ],
+    "specs": { "Engine": "150cc EFI", "Clearance": "8 in", "Safety": "Passcode" }
+  },
+  {
+    "model_keywords": ["Outlaw 70", "Sportsman 110"],
+    "oem": "Polaris",
+    "headline": "Kids First ATV",
+    "selling_points": [
+      "Single-lever disc brakes for easy learning.",
+      "Parental speed limiter to control learning curve.",
+      "Safety tether kill switch included.",
+      "EFI engine for reliable starting in all weather (Outlaw/Sportsman)."
+    ],
+    "specs": { "Start": "Electric", "Safety": "Tether/Limiter", "Engine": "EFI" }
+  },
+  {
+    "model_keywords": ["Slingshot", "Slingshot S", "Slingshot SL", "Slingshot R"],
+    "oem": "Polaris",
+    "headline": "The Ultimate Joyride",
+    "selling_points": [
+      "ProStar 2.0L 4-Cylinder engine (up to 203 HP).",
+      "AutoDrive (automatic) or 5-Speed Manual transmission options.",
+      "Open-air cockpit for a visceral driving experience.",
+      "Ride Command display with Apple CarPlay (R/SL models)."
+    ],
+    "specs": { "HP": "178-203", "0-60": "4.9 sec", "Trans": "Auto/Manual" }
+  },
+  {
+    "model_keywords": ["UFORCE 1000", "UFORCE 1000 XL"],
+    "oem": "CFMOTO",
+    "headline": "Maximum Value Utility",
+    "selling_points": [
+      "79 HP V-Twin engine (more standard power than Ranger 1000).",
+      "Comes STANDARD with roof, winch, and alloy wheels.",
+      "3-person bench seat with under-seat tool storage.",
+      "Drive-by-wire throttle for smooth engagement."
+    ],
+    "specs": { "HP": "79", "Winch": "3,500 lbs", "Warranty": "1-Year" }
+  },
+  {
+    "model_keywords": ["UFORCE U10", "UFORCE U10 Pro"],
+    "oem": "CFMOTO",
+    "headline": "The New Standard in Utility",
+    "selling_points": [
+      "All-new styling and interior refinement for 2025/2026.",
+      "88 HP (Pro) engine with massive torque.",
+      "E-Shift electric gear selector (Pro models).",
+      "8-inch touchscreen display with Apple CarPlay (Pro models)."
+    ],
+    "specs": { "HP": "88", "Tech": "CarPlay", "Trans": "Auto E-Shift" }
+  },
+  {
+    "model_keywords": ["UFORCE 600"],
+    "oem": "CFMOTO",
+    "headline": "Compact Workhorse",
+    "selling_points": [
+      "41 HP engine with smooth CVTech transmission.",
+      "Tight turning radius for navigating barns and trails.",
+      "Tilting cargo bed with nitrogen-gas assist struts.",
+      "Standard Electronic Power Steering (EPS)."
+    ],
+    "specs": { "HP": "41", "Towing": "1,500 lbs", "Width": "58 in" }
+  },
+  {
+    "model_keywords": ["ZFORCE 950", "ZFORCE Sport"],
+    "oem": "CFMOTO",
+    "headline": "Sport Performance, Unbeatable Price",
+    "selling_points": [
+      "963cc V-Twin delivers punchy sport performance.",
+      "Standard features: Roof, winch, and RideVision LED lights.",
+      "Quadlink rear suspension for stability in corners.",
+      "Pulse TFT color display with Bluetooth connectivity."
+    ],
+    "specs": { "HP": "85", "Width": "60 in", "Shocks": "Piggyback" }
+  },
+  {
+    "model_keywords": ["CFORCE 600", "CFORCE 500", "CFORCE 400"],
+    "oem": "CFMOTO",
+    "headline": "Fully Loaded ATV",
+    "selling_points": [
+      "Why buy bare bones? Comes with winch and racks standard.",
+      "CVTech transmission ensures smooth power delivery.",
+      "Engine braking system for controlled descents.",
+      "High-intensity LED lighting for night riding."
+    ],
+    "specs": { "Drive": "2WD/4WD/Lock", "Steering": "EPS Standard", "Brakes": "4-Wheel Disc" }
+  },
+  {
+    "model_keywords": ["CFORCE 800", "CFORCE 1000", "CFORCE 800 Touring", "CFORCE 1000 Touring"],
+    "oem": "CFMOTO",
+    "headline": "Next-Gen Touring ATV",
+    "selling_points": [
+      "All-new G3 chassis is lighter, stronger, and more comfortable.",
+      "Class-leading horsepower (80+ HP on 1000cc).",
+      "Selectable ride modes (Sport, Normal, Work).",
+      "Standard passenger seat with premium backrest (Touring models)."
+    ],
+    "specs": { "HP": "75/90", "Tech": "Ride Modes", "Features": "2-Up Seat" }
+  },
+  {
+    "model_keywords": ["Ibex 800", "Ibex 450"],
+    "oem": "CFMOTO",
+    "headline": "Adventure Touring Redefined",
+    "selling_points": [
+      "KTM-derived engine architecture for proven reliability.",
+      "Cornering ABS and Cruise Control standard on 800 trims.",
+      "Adjustable KYB suspension.",
+      "7-inch TFT display with connectivity and navigation."
+    ],
+    "specs": { "HP": "94 (800)", "Modes": "Rain/Sport", "Tech": "Quickshifter" }
+  },
+  {
+    "model_keywords": ["450SS", "SS 450", "675SS", "SS 675", "450NK", "675NK", "800NK"],
+    "oem": "CFMOTO",
+    "headline": "Street Performance Value",
+    "selling_points": [
+      "270-degree crank engines (450/800) sound and feel amazing.",
+      "Triple-cylinder engine (675) offers unique power delivery.",
+      "Brembo brakes and adjustable suspension on many models.",
+      "TFT displays and LED lighting standard."
+    ],
+    "specs": { "Brakes": "Brembo/J.Juan", "Screen": "5-inch TFT", "Warranty": "2-Year" }
+  },
+  {
+    "model_keywords": ["Papio", "Papio SS", "Papio CL"],
+    "oem": "CFMOTO",
+    "headline": "Mini Moto Fun",
+    "selling_points": [
+      "6-speed transmission (unlike the 4-speed Grom/Z125).",
+      "Stylish retro (CL) or cafe racer (SS) designs.",
+      "Exceptionally affordable price point.",
+      "Lightweight and easy to ride for beginners."
+    ],
+    "specs": { "Engine": "126cc Air-Cooled", "Gears": "6-Speed", "Style": "Retro" }
+  },
+  {
+    "model_keywords": ["Indian Challenger", "Challenger Dark Horse", "Challenger Limited"],
+    "oem": "Indian Motorcycle",
+    "headline": "The Ultimate American Bagger",
+    "selling_points": [
+      "PowerPlus 108 liquid-cooled V-Twin (122 HP, 128 ft-lbs).",
+      "Chassis-mounted fairing for superior high-speed stability.",
+      "Smart Lean Technology: Cornering ABS & Traction Control.",
+      "Inverted front suspension for sport-like handling."
+    ],
+    "specs": { "HP": "122", "Torque": "128 ft-lbs", "Screen": "7in Touch" }
+  },
+  {
+    "model_keywords": ["Indian Chief", "Chief Dark Horse", "Chief Bobber"],
+    "oem": "Indian Motorcycle",
+    "headline": "Air-Cooled American Muscle",
+    "selling_points": [
+      "Thunderstroke 116 V-Twin delivers massive low-end torque.",
+      "Steel tube frame for classic looks and modern handling.",
+      "4-inch Ride Command touchscreen hidden in a classic gauge.",
+      "Keyless ignition and rear cylinder deactivation."
+    ],
+    "specs": { "Torque": "120 ft-lbs", "Frame": "Steel Tube", "Tech": "Ride Command" }
+  },
+  {
+    "model_keywords": ["Indian Scout", "Scout Bobber", "Scout Rogue"],
+    "oem": "Indian Motorcycle",
+    "headline": "Legendary Speed & Style",
+    "selling_points": [
+      "Liquid-cooled V-Twin (100 HP) - Highest HP in its class.",
+      "Low seat height and lightweight chassis for easy control.",
+      "USB charging port standard on all models.",
+      "No valve service required until 32,000 miles."
+    ],
+    "specs": { "HP": "100", "Displacement": "1133cc", "Weight": "540 lbs" }
   },
   {
     "model_keywords": ["Maverick R", "Maverick R X"],
@@ -65,8 +365,8 @@
     "headline": "240HP DCT Precision Monster",
     "selling_points": [
       "240 HP Rotax Turbo - Highest HP in class.",
-      "7-Speed DCT Transmission - No CVT belt.",
-      "Tall Knuckle Suspension for superior handling.",
+      "7-Speed DCT Transmission - No CVT belt to change.",
+      "Tall Knuckle Suspension geometry for massive travel.",
       "10.25-inch Touchscreen with Navigation."
     ],
     "specs": { "HP": "240", "Trans": "7-Speed DCT", "Width": "77 in" }
@@ -96,64 +396,28 @@
     "specs": { "Torque": "69 lb-ft", "Towing": "2,500 lbs", "Engine": "V-Twin" }
   },
   {
-    "model_keywords": ["Talon", "Talon 1000R", "Talon 1000X"],
-    "oem": "Honda",
-    "headline": "Direct Drive Reliability",
+    "model_keywords": ["Commander", "Commander MAX"],
+    "oem": "Can-Am",
+    "headline": "Do It All: Trail & Chore",
     "selling_points": [
-      "Dual-Clutch Transmission (DCT) - No belts to slip.",
-      "i-4WD System provides traction without steering effort.",
-      "Launch Control for drag racing starts.",
-      "FOX Live Valve suspension on select trims."
+      "Dump bed utility with sport-tuned suspension.",
+      "No-dive front geometry keeps the nose up during braking.",
+      "100 HP Rotax engine (1000R models).",
+      "Premium interior fit and finish."
     ],
-    "specs": { "HP": "105", "Trans": "6-Speed DCT", "Drive": "i-4WD" }
+    "specs": { "HP": "100", "Bed": "600 lbs", "Width": "64 in" }
   },
   {
-    "model_keywords": ["Pioneer 1000", "Pioneer 1000-5"],
-    "oem": "Honda",
-    "headline": "Versatility Defined",
+    "model_keywords": ["Outlander", "Outlander MAX"],
+    "oem": "Can-Am",
+    "headline": "Class-Leading ATV Power",
     "selling_points": [
-      "QuickFlip seating converts cargo bed to seats instantly.",
-      "DCT Transmission - No rubber belts.",
-      "Turf Mode to protect lawns.",
-      "Self-leveling rear suspension (1000-5)."
+      "Rotax V-Twin engines (570, 850, 1000R).",
+      "Torsional Trailing Arm Independent (TTI) rear suspension.",
+      "LinQ quick-attach accessory system on racks.",
+      "Tri-Mode Dynamic Power Steering (DPS)."
     ],
-    "specs": { "Engine": "999cc Twin", "Trans": "6-Speed DCT", "Seats": "3-5" }
-  },
-  {
-    "model_keywords": ["CRF", "CRF450", "CRF250", "CRF110"],
-    "oem": "Honda",
-    "headline": "Honda Reliability & Performance",
-    "selling_points": [
-      "Unicam engine design (compact & powerful).",
-      "EFI Fuel Injection on almost all models (easy starting).",
-      "Electric start standard on trail & race bikes.",
-      "Legendary resale value and durability."
-    ],
-    "specs": { "Engine": "4-Stroke", "Start": "Electric", "Frame": "Aluminum" }
-  },
-  {
-    "model_keywords": ["YZ", "YZ250", "YZ450", "YZ125", "YZ85", "YZ65"],
-    "oem": "Yamaha",
-    "headline": "Race Winning Heritage",
-    "selling_points": [
-      "Power Tuner App: Tune engine mapping from your phone (4-strokes).",
-      "Class-leading KYB SSS Suspension.",
-      "Reversed cylinder head (4-strokes) for mass centralization.",
-      "Rider-friendly ergonomics."
-    ],
-    "specs": { "Suspension": "KYB SSS", "App": "Power Tuner", "Engine": "2 or 4 Stroke" }
-  },
-  {
-    "model_keywords": ["RMAX", "RMAX2", "RMAX4"],
-    "oem": "Yamaha",
-    "headline": "Proven Off-Road Capability",
-    "selling_points": [
-      "10-Year Belt Warranty (Industry Exclusive).",
-      "Class-leading 108 HP 999cc Twin.",
-      "D-Mode throttle control: Crawl, Trail, Sport.",
-      "Fox iQS suspension adjustable from the cab."
-    ],
-    "specs": { "HP": "108", "Warranty": "10-Year Belt", "Suspension": "Fox iQS" }
+    "specs": { "Suspension": "TTI Rear", "Steering": "Tri-Mode DPS", "Rack": "LinQ" }
   },
   {
     "model_keywords": ["Switch", "Switch Cruise", "Switch Sport"],
@@ -168,18 +432,6 @@
     "specs": { "Steering": "Handlebar", "Brake": "iBR", "Hull": "Tri-Hull" }
   },
   {
-    "model_keywords": ["Spark", "Spark Trixx"],
-    "oem": "Sea-Doo",
-    "headline": "Playful Fun",
-    "selling_points": [
-      "Lightweight Polytec hull - easy to tow and whip.",
-      "Rotax 900 ACE engine - incredibly fuel efficient.",
-      "Trixx package enables wheelies on water.",
-      "Affordable and customizable."
-    ],
-    "specs": { "Hull": "Polytec", "Engine": "900 ACE", "Riders": "2 or 3" }
-  },
-  {
     "model_keywords": ["GTI", "GTR", "RXP", "RXT", "GTX"],
     "oem": "Sea-Doo",
     "headline": "Sea-Doo Performance & Luxury",
@@ -192,63 +444,411 @@
     "specs": { "Brake": "iBR", "Cooling": "Closed-Loop", "Storage": "Large" }
   },
   {
-    "model_keywords": ["VX", "FX", "GP1800", "JetBlaster"],
-    "oem": "Yamaha",
-    "headline": "Yamaha WaveRunner Reliability",
+    "model_keywords": ["FishPro", "FishPro Sport", "FishPro Trophy", "FishPro Scout"],
+    "oem": "Sea-Doo",
+    "headline": "Purpose-Built Fishing",
     "selling_points": [
-      "RiDE System: Dual throttle control for easy docking.",
-      "TR-1 or SVHO Marine Engines (Legendary reliability).",
-      "Visibility Spout creates a safety rooster tail.",
-      "Connext Touchscreen display."
+      "Extended rear platform for stability when casting.",
+      "LinQ Fishing Cooler with rod holders included.",
+      "Garmin Navigation and Fish Finder pre-installed.",
+      "Trolling mode for precise low-speed control."
     ],
-    "specs": { "System": "RiDE", "Engine": "Yamaha Marine", "Hull": "NanoXcel" }
+    "specs": { "Tech": "Garmin", "Cooler": "LinQ Fishing", "Hull": "ST3 or GTI" }
   },
   {
-    "model_keywords": ["KRX", "Teryx"],
+    "model_keywords": ["Wake", "Wake Pro"],
+    "oem": "Sea-Doo",
+    "headline": "Tow Sports Ready",
+    "selling_points": [
+      "Retractable LinQ Ski Pylon included.",
+      "Wakeboard Rack included.",
+      "Ski Mode: Set consistent ramp speeds for towing.",
+      "Polytec (Wake) or ST3 Fiberglass (Pro) hull options."
+    ],
+    "specs": { "Pylon": "Retractable", "Mode": "Ski Mode", "Rack": "Included" }
+  },
+  {
+    "model_keywords": ["Spark", "Spark Trixx"],
+    "oem": "Sea-Doo",
+    "headline": "Playful Fun",
+    "selling_points": [
+      "Lightweight Polytec hull - easy to tow and whip.",
+      "Rotax 900 ACE engine - incredibly fuel efficient.",
+      "Trixx package enables wheelies on water.",
+      "Affordable and customizable."
+    ],
+    "specs": { "Hull": "Polytec", "Engine": "900 ACE", "Riders": "2 or 3" }
+  },
+  {
+    "model_keywords": ["Bennington", "Bennington Q", "Bennington S", "Bennington G", "Bennington M", "Bennington R"],
+    "oem": "Bennington",
+    "headline": "Premier Luxury Pontoons",
+    "selling_points": [
+      "Industry-leading 10-Year Bow-to-Stern Warranty.",
+      "Simtex Vinyl: Easy to clean, stays cool, resists mildew.",
+      "Customizable layouts (Swingback, Quad Bench).",
+      "V-Hull performance tritoon packages available."
+    ],
+    "specs": { "Warranty": "10-Year", "Upholstery": "Simtex", "Design": "Luxury" }
+  },
+  {
+    "model_keywords": ["Godfrey", "Monaco", "Sweetwater", "Xperience", "AquaPatio"],
+    "oem": "Godfrey",
+    "headline": "Enduring Quality on Water",
+    "selling_points": [
+      "Godfrey has been building pontoons since 1958 (pioneers).",
+      "Impact+ Pontoon System for superior handling.",
+      "Versatile layouts like the Split Bench or Bar models.",
+      "Heavy-duty channel construction rails."
+    ],
+    "specs": { "History": "Since 1958", "Rails": "Anodized", "Tube": "Impact+" }
+  },
+  {
+    "model_keywords": ["Pioneer 1000", "Pioneer 1000-5", "Pioneer 1000-6"],
+    "oem": "Honda",
+    "headline": "The DCT Difference",
+    "selling_points": [
+      "6-Speed Dual Clutch Transmission (DCT) - No rubber belts to slip or break.",
+      "i-4WD system (Trail/Forest trims) offers traction control without steering effort.",
+      "QuickFlip seating (1000-5 models) instantly converts bed space to passenger seats.",
+      "Self-leveling rear suspension maintains ride height when loaded (Deluxe/Forest)."
+    ],
+    "specs": { "HP": "72", "Trans": "6-Speed DCT", "Towing": "2,500 lbs" }
+  },
+  {
+    "model_keywords": ["Pioneer 700", "Pioneer 700-4"],
+    "oem": "Honda",
+    "headline": "Mid-Size Versatility",
+    "selling_points": [
+      "675cc engine with a real automotive-style transmission (No belts).",
+      "QuickFlip seating allows 2, 3, or 4 passenger configurations.",
+      "Electric Power Steering (Deluxe/Forest models).",
+      "Legendary Honda reliability."
+    ],
+    "specs": { "Engine": "675cc", "Trans": "Auto", "Seats": "2 or 4" }
+  },
+  {
+    "model_keywords": ["Pioneer 500", "Pioneer 520"],
+    "oem": "Honda",
+    "headline": "Trail Compact",
+    "selling_points": [
+      "50-inch width fits in full-size pickup beds and narrow trails.",
+      "5-speed transmission with paddle shifters (fun to drive).",
+      "Dump bed (520) or Rack (500) for utility use.",
+      "Low center of gravity for stability."
+    ],
+    "specs": { "Width": "50 in", "Trans": "5-Speed", "Bed": "Dump (520)" }
+  },
+  {
+    "model_keywords": ["Talon 1000R", "Talon 1000X", "Talon 1000R-4"],
+    "oem": "Honda",
+    "headline": "Direct Drive Performance",
+    "selling_points": [
+      "Gear-driven DCT transmission puts 100% of the power to the ground.",
+      "Launch Mode allows for drag-strip style starts (off the line acceleration).",
+      "FOX Live Valve suspension (select trims) adjusts damping 200 times/second.",
+      "One-piece frame design for exceptional durability."
+    ],
+    "specs": { "HP": "105", "Trans": "6-Speed DCT", "Suspension": "FOX Live Valve" }
+  },
+  {
+    "model_keywords": ["Rebel 1100", "Rebel 500", "Rebel 300"],
+    "oem": "Honda",
+    "headline": "Modern Cruiser Style",
+    "selling_points": [
+      "DCT Automatic transmission available (1100 model).",
+      "Low seat height creates confidence for all riders.",
+      "Blacked-out 'bobber' style straight from the factory.",
+      "Unicam engine delivers strong torque."
+    ],
+    "specs": { "Trans": "DCT Avail", "Style": "Bobber", "Seat": "Low" }
+  },
+  {
+    "model_keywords": ["Grom"],
+    "oem": "Honda",
+    "headline": "Small Bike, Big Fun",
+    "selling_points": [
+      "125cc engine gets 100+ MPG.",
+      "Customizable body panels - make it your own.",
+      "Inverted front fork for premium handling.",
+      "The best-selling mini-moto in the world."
+    ],
+    "specs": { "Engine": "125cc", "MPG": "100+", "Wheels": "12-inch" }
+  },
+  {
+    "model_keywords": ["CRF450R", "CRF250R", "CRF450RX", "CRF250RX"],
+    "oem": "Honda",
+    "headline": "Race Ready",
+    "selling_points": [
+      "HRC Launch Control for holeshots.",
+      "Hydraulic clutch for consistent feel.",
+      "Showa suspension tuned for motocross/cross-country.",
+      "Winningest brand in motocross history."
+    ],
+    "specs": { "Start": "Electric", "Clutch": "Hydraulic", "Map": "Selectable" }
+  },
+  {
+    "model_keywords": ["CRF", "CRF50F", "CRF110F", "CRF125F", "CRF250F", "CRF300L", "CRF450RL", "XR150L"],
+    "oem": "Honda",
+    "headline": "Trail & Dual Sport",
+    "selling_points": [
+      "Bulletproof air-cooled engines (Trail models).",
+      "Electric start on almost all models.",
+      "Street legal capability (L models) for town-to-trail riding.",
+      "Low maintenance costs."
+    ],
+    "specs": { "Engine": "4-Stroke", "Start": "Electric", "Use": "Trail/Road" }
+  },
+  {
+    "model_keywords": ["Mule PRO-FXT", "Mule PRO-FXT 1000", "Mule PRO-FX", "Mule PRO-FXR"],
+    "oem": "Kawasaki",
+    "headline": "Kawasaki Strong & Versatile",
+    "selling_points": [
+      "Kawasaki Strong 3-Year Limited Warranty (Industry Leading).",
+      "Exclusive Trans Cab™ system: Converts from 3 to 6 passengers in 1 minute (FXT).",
+      "Self-leveling rear suspension keeps the ride level even with heavy loads.",
+      "Simple, proven reliability favored by ranchers and job sites."
+    ],
+    "specs": { "Warranty": "3-Year", "Seats": "3 to 6 (Trans Cab)", "Engine": "999cc Twin" }
+  },
+  {
+    "model_keywords": ["Teryx KRX 1000", "KRX 1000", "KRX4 1000"],
     "oem": "Kawasaki",
     "headline": "Built to Conquer Rocks",
     "selling_points": [
-      "Massive torque CVT designed for crawling.",
-      "High clearance A-arms standard.",
-      "Roomiest cabin in the class.",
-      "Stock 31-inch tires on beadlock wheels."
+      "Massive CVT transmission with centrifugal clutch for smooth, belt-saving engagement.",
+      "High-clearance arched A-arms standard for rock crawling.",
+      "Roomiest cabin in the sport UTV class.",
+      "Beadlock wheels and 31-inch Maxxis Carnivore tires come stock."
     ],
-    "specs": { "Suspension": "Fox 2.5", "Width": "68 in", "Engine": "999cc Twin" }
+    "specs": { "Suspension": "FOX 2.5", "Width": "68 in", "Engine": "999cc Twin" }
   },
   {
-    "model_keywords": ["Mule", "Pro-FXT", "Pro-MX"],
+    "model_keywords": ["Teryx", "Teryx4", "Teryx S", "Teryx4 S"],
     "oem": "Kawasaki",
-    "headline": "Kawasaki Strong",
+    "headline": "Adventure Ready",
     "selling_points": [
-      "3-Year Warranty (Industry Leading).",
-      "Trans Cab (FXT): Converts 3 to 6 seats in 1 minute.",
-      "Steel cargo bed floor.",
-      "Simple, proven reliability."
+      "S models feature long-travel suspension (10+ inches) and wider stance.",
+      "Strong V-Twin 783cc engine with tons of torque.",
+      "Fox Podium 2.0 shocks standard.",
+      "Standard 3-Year Warranty."
     ],
-    "specs": { "Warranty": "3-Year", "Steering": "EPS", "Frame": "Ladder" }
+    "specs": { "Engine": "783cc V-Twin", "Warranty": "3-Year", "Width": "60-62 in" }
+  },
+  {
+    "model_keywords": ["Ninja", "Ninja 400", "Ninja 500", "Ninja 650", "Ninja ZX-6R", "Z500", "Z650"],
+    "oem": "Kawasaki",
+    "headline": "Sportbike Heritage",
+    "selling_points": [
+      "Slipper clutch reduces rear-wheel hop on downshifts.",
+      "Lightweight trellis frame for agile handling.",
+      "Ergo-Fit system allows adjustable riding position.",
+      "Aggressive styling inspired by World Superbike champions."
+    ],
+    "specs": { "Brakes": "ABS Avail", "Screen": "TFT (Select)", "Clutch": "Assist/Slipper" }
+  },
+  {
+    "model_keywords": ["KLR650", "KLR 650"],
+    "oem": "Kawasaki",
+    "headline": "The Ultimate Dual Sport",
+    "selling_points": [
+      "Legendary reliability - will run forever.",
+      "Now featuring Fuel Injection (EFI) for better altitude performance.",
+      "Large 6.1 gallon tank for massive range.",
+      "Wind protection and luggage racks standard."
+    ],
+    "specs": { "Range": "300+ Miles", "Engine": "652cc Thumper", "Tech": "EFI" }
   },
   {
     "model_keywords": ["KLX", "KLX110", "KLX140", "KLX230", "KLX300"],
     "oem": "Kawasaki",
-    "headline": "Off-Road Play Bikes",
+    "headline": "Get Out and Play",
     "selling_points": [
-      "Push-button electric start.",
-      "Low maintenance air-cooled engines.",
+      "Push-button electric start on all modern KLX models.",
+      "Low maintenance air-cooled or liquid-cooled engines.",
       "Disc brakes front and rear (most models).",
-      "Low seat height options for beginners."
+      "R (offroad) and S (dual sport) variations available."
     ],
     "specs": { "Start": "Electric", "Engine": "4-Stroke", "Brakes": "Disc" }
   },
   {
-    "model_keywords": ["KX", "KX250", "KX450"],
+    "model_keywords": ["Brute Force", "Brute Force 750", "Brute Force 300", "Brute Force 450"],
     "oem": "Kawasaki",
-    "headline": "The Bike That Builds Champions",
+    "headline": "ATV Muscle",
     "selling_points": [
-      "Ergo-Fit: Adjustable footpegs and handlebars.",
-      "Hydraulic clutch for consistent feel.",
-      "Launch Control Mode.",
-      "Slim perimeter frame."
+      "V-Twin engine (750) delivers instant torque and sound.",
+      "Speed-sensitive Electric Power Steering (EPS).",
+      "Fully enclosed wet rear brake (sealed from mud).",
+      "Rugged steel cargo racks."
     ],
-    "specs": { "Clutch": "Hydraulic", "Frame": "Aluminum", "Start": "Electric" }
+    "specs": { "Engine": "V-Twin (750)", "Steering": "EPS", "Drive": "4x4" }
+  },
+  {
+    "model_keywords": ["KFX", "KFX 50", "KFX 90"],
+    "oem": "Kawasaki",
+    "headline": "Start Them Young",
+    "selling_points": [
+      "Parental controls: Throttle limiter and CVT collar.",
+      "Electric start with kick-start backup.",
+      "Full floorboards protect young feet.",
+      "Sporty styling matches the big quads."
+    ],
+    "specs": { "Engine": "4-Stroke", "Start": "Electric", "Safety": "Limiter" }
+  },
+  {
+    "model_keywords": ["Wolverine RMAX2", "Wolverine RMAX4", "Wolverine X2"],
+    "oem": "Yamaha",
+    "headline": "Proven Off-Road Capability",
+    "selling_points": [
+      "10-Year Belt Warranty - The only manufacturer confident enough to offer this.",
+      "Class-leading 108 HP 999cc engine (RMAX).",
+      "D-Mode throttle control (Sport, Trail, Crawl) adapts engine character instantly.",
+      "Fox iQS suspension (Limited/XT-R) adjustable from the cockpit."
+    ],
+    "specs": { "HP": "108", "Warranty": "10-Year Belt", "Suspension": "Fox iQS" }
+  },
+  {
+    "model_keywords": ["Viking", "Viking VI"],
+    "oem": "Yamaha",
+    "headline": "True 3-Seat Utility",
+    "selling_points": [
+      "Real 3-person seating with pass-through floor.",
+      "Ultramatic transmission provides all-wheel engine braking.",
+      "Steel cargo bed for durability.",
+      "Simple, reliable 700cc single-cylinder engine."
+    ],
+    "specs": { "Seats": "3 or 6", "Bed": "Steel", "Braking": "4-Wheel Eng" }
+  },
+  {
+    "model_keywords": ["Waverunner FX", "FX Cruiser", "FX SVHO", "FX Limited"],
+    "oem": "Yamaha",
+    "headline": "Luxury & Performance on Water",
+    "selling_points": [
+      "SVHO Supercharged engine (SVHO models) is the largest displacement in the industry (1.8L).",
+      "Connext Touchscreen with Drive Control and security modes.",
+      "RiDE system: Dual throttle controls for intuitive deceleration and docking.",
+      "Multi-Mount system for speakers, GPS, or cameras."
+    ],
+    "specs": { "Engine": "1.8L SVHO", "Hull": "NanoXcel 2", "Tech": "RiDE System" }
+  },
+  {
+    "model_keywords": ["Waverunner VX", "VX Deluxe", "VX Cruiser", "VX Limited", "VX-C"],
+    "oem": "Yamaha",
+    "headline": "#1 Selling PWC in History",
+    "selling_points": [
+      "TR-1 High Output 3-cylinder engine is lightweight, fuel-efficient, and reliable.",
+      "RiDE system makes docking and reversing stress-free.",
+      "Deep, stable hull design perfect for families and first-time riders.",
+      "Factory-installed integrated audio system (Audio trims)."
+    ],
+    "specs": { "Engine": "TR-1 HO", "Riders": "1-3", "Hull": "SMC/NanoXcel" }
+  },
+  {
+    "model_keywords": ["GP", "GP SVHO", "GP HO"],
+    "oem": "Yamaha",
+    "headline": "Born to Race",
+    "selling_points": [
+      "Cornering lights (on 2025+ models) for visibility.",
+      "Auto Trim system keeps the bow planted.",
+      "Race-inspired ergonomics lock the rider in.",
+      "Supercharged power (SVHO) dominates the buoy course."
+    ],
+    "specs": { "Engine": "SVHO/HO", "Hull": "NanoXcel 2", "Trim": "Auto" }
+  },
+  {
+    "model_keywords": ["JetBlaster", "JetBlaster PRO", "JetBlaster DLX"],
+    "oem": "Yamaha",
+    "headline": "Freestyle Fun",
+    "selling_points": [
+      "Built on the playful EX hull but with a more powerful engine.",
+      "Raised, wide handlebars for stand-up riding capability.",
+      "Foot chocks for performing tricks and aggressive cornering.",
+      "Electric trim allows you to pop wheelies or plant the nose for turns."
+    ],
+    "specs": { "Engine": "TR-1 HO", "Class": "Freestyle", "Trim": "Electric" }
+  },
+  {
+    "model_keywords": ["SuperJet"],
+    "oem": "Yamaha",
+    "headline": "Stand Up Dominance",
+    "selling_points": [
+      "4-Stroke TR-1 engine makes it legal on most waterways.",
+      "L-Mode (Learning Mode) for beginners.",
+      "Adjustable steering pole extendable to fit rider height.",
+      "Wide hull for stability compared to old 2-strokes."
+    ],
+    "specs": { "Type": "Stand-Up", "Engine": "4-Stroke", "Hull": "VaRTM" }
+  },
+  {
+    "model_keywords": ["Tenere 700"],
+    "oem": "Yamaha",
+    "headline": "The Next Horizon is Yours",
+    "selling_points": [
+      "CP2 Parallel Twin engine offers perfect torque for dirt and street.",
+      "Switchable ABS for off-road control.",
+      "Rally-bred styling and durability.",
+      "Simple cockpit focused on the ride, not distractions."
+    ],
+    "specs": { "Engine": "689cc Twin", "ABS": "Switchable", "Use": "ADV" }
+  },
+  {
+    "model_keywords": ["MT-07", "MT-03", "MT-09"],
+    "oem": "Yamaha",
+    "headline": "Dark Side of Japan",
+    "selling_points": [
+      "Master of Torque (MT) engines provide thrilling acceleration.",
+      "Lightweight chassis for nimble urban riding.",
+      "Upright riding position gives great visibility.",
+      "Aggressive naked bike styling."
+    ],
+    "specs": { "Style": "Naked", "Engine": "CP2/CP3", "Tech": "TFT" }
+  },
+  {
+    "model_keywords": ["Yamaha Boats", "AR250", "AR220", "SX195", "SX220", "255XD", "255XE"],
+    "oem": "Yamaha",
+    "headline": "The Jet Boat Advantage",
+    "selling_points": [
+      "Internal Jet Drive: No propeller to worry about; safer for swimming.",
+      "Articulating Keel for precise steering control.",
+      "Swim platform sits close to the water for easy lounging.",
+      "Standard tower and bimini top on AR/255 models."
+    ],
+    "specs": { "Drive": "Jet", "Safety": "Prop-Free", "Platform": "Bi-Level" }
+  },
+  {
+    "model_keywords": ["YZ", "YZ250", "YZ450", "YZ125", "YZ85", "YZ65"],
+    "oem": "Yamaha",
+    "headline": "Race Winning Heritage",
+    "selling_points": [
+      "Power Tuner App: Tune engine mapping from your phone (4-strokes).",
+      "Class-leading KYB SSS Suspension.",
+      "Reversed cylinder head (4-strokes) for mass centralization.",
+      "Rider-friendly ergonomics."
+    ],
+    "specs": { "Suspension": "KYB SSS", "App": "Power Tuner", "Engine": "2 or 4 Stroke" }
+  },
+  {
+    "model_keywords": ["TT-R", "TT-R50", "TT-R110", "TT-R125", "TT-R230", "PW50"],
+    "oem": "Yamaha",
+    "headline": "Fun for Everyone",
+    "selling_points": [
+      "PW50 is the industry standard for first-time riders (shaft drive, auto).",
+      "TT-R line features electric start (except 50) and low seat heights.",
+      "Bulletproof engine reliability.",
+      "Easy to ride with smooth power delivery."
+    ],
+    "specs": { "Start": "Electric/Kick", "Engine": "4-Stroke", "Drive": "Chain/Shaft" }
+  },
+  {
+    "model_keywords": ["YFZ50", "Raptor 110", "Raptor 700", "YFZ450R"],
+    "oem": "Yamaha",
+    "headline": "Sport ATV Leaders",
+    "selling_points": [
+      "YFZ450R is the only race-ready sport quad left in production.",
+      "Raptor 700 offers massive torque and all-day trail comfort.",
+      "Youth models (50/110) styling mimics the big quads.",
+      "Reliable and proven designs."
+    ],
+    "specs": { "Type": "Sport", "Drive": "2WD", "Trans": "Manual/CVT" }
   }
 ]
