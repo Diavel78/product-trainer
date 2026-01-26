@@ -126,6 +126,11 @@ def process_inventory(raw_data):
             "category": category,
             "link": link
         })
+    
+    # Sort by Stock Number (Standard alphanumeric sort)
+    # This ensures "Oldest to Newest" ordering within store groups
+    clean_inventory.sort(key=lambda x: x['stock'])
+    
     return clean_inventory
 
 def load_specs():
