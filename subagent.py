@@ -112,6 +112,7 @@ def generate_html(inventory, specs_db):
     timestamp = datetime.datetime.now().strftime("%Y-%m-%d %H:%M")
     stats_html = " | ".join([f"{k}: {v}" for k, v in loc_counts.items()])
 
+    # UPDATED CSS FOR DARK THEME
     html_content = f"""
     <!DOCTYPE html>
     <html lang="en">
@@ -120,22 +121,35 @@ def generate_html(inventory, specs_db):
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Anderson Powersports Product Trainer</title>
         <style>
-            body {{ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background: #f4f4f9; padding: 20px; }}
-            .header {{ background: #2c3e50; color: white; padding: 20px; border-radius: 8px; margin-bottom: 20px; }}
-            .stats {{ font-size: 0.85em; opacity: 0.9; margin-top: 5px; }}
-            .search-box {{ width: 100%; padding: 15px; font-size: 18px; border: 2px solid #ddd; border-radius: 8px; margin-bottom: 20px; box-sizing: border-box; }}
-            .card {{ background: white; padding: 20px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); margin-bottom: 15px; border-left: 5px solid #ccc; }}
-            .card.has-specs {{ border-left-color: #27ae60; }}
+            :root {{
+                --bg-color: #121212;
+                --card-bg: #1e1e1e;
+                --text-main: #e0e0e0;
+                --text-muted: #b0bec5;
+                --accent-blue: #64b5f6;
+                --accent-green: #00e676;
+                --header-bg: #1f1f1f;
+                --border-color: #333;
+                --input-bg: #2c2c2c;
+                --highlight-bg: #263238;
+            }}
+            body {{ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background: var(--bg-color); color: var(--text-main); padding: 20px; }}
+            .header {{ background: var(--header-bg); color: white; padding: 20px; border-radius: 8px; margin-bottom: 20px; border: 1px solid var(--border-color); }}
+            .stats {{ font-size: 0.85em; opacity: 0.8; margin-top: 5px; color: var(--text-muted); }}
+            .search-box {{ width: 100%; padding: 15px; font-size: 18px; background: var(--input-bg); color: white; border: 2px solid var(--border-color); border-radius: 8px; margin-bottom: 20px; box-sizing: border-box; }}
+            .search-box::placeholder {{ color: #757575; }}
+            .card {{ background: var(--card-bg); padding: 20px; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.3); margin-bottom: 15px; border-left: 5px solid #555; }}
+            .card.has-specs {{ border-left-color: var(--accent-green); }}
             .card-header {{ display: flex; justify-content: space-between; align-items: flex-start; }}
-            .location-tag {{ background: #3498db; color: white; padding: 4px 8px; border-radius: 4px; font-size: 0.9em; font-weight: bold; margin-left: 10px; }}
-            .stock-tag {{ background: #7f8c8d; color: white; padding: 4px 8px; border-radius: 4px; font-size: 0.9em; }}
-            .selling-points {{ background: #e8f8f5; padding: 15px; margin-top: 10px; border-radius: 6px; }}
-            .selling-points h4 {{ margin-top: 0; color: #16a085; margin-bottom: 5px; }}
-            .headline {{ font-weight: bold; color: #2c3e50; display: block; margin-bottom: 8px; }}
+            .location-tag {{ background: #1565c0; color: white; padding: 4px 8px; border-radius: 4px; font-size: 0.9em; font-weight: bold; margin-left: 10px; }}
+            .stock-tag {{ background: #455a64; color: white; padding: 4px 8px; border-radius: 4px; font-size: 0.9em; }}
+            .selling-points {{ background: var(--highlight-bg); padding: 15px; margin-top: 10px; border-radius: 6px; border: 1px solid var(--border-color); }}
+            .selling-points h4 {{ margin-top: 0; color: #80cbc4; margin-bottom: 5px; }}
+            .headline {{ font-weight: bold; color: white; display: block; margin-bottom: 8px; font-size: 1.1em; }}
             .specs-grid {{ display: grid; grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); gap: 10px; margin-top: 10px; }}
-            .spec-item {{ background: #fff; border: 1px solid #eee; padding: 8px; text-align: center; border-radius: 4px; font-size: 0.85em; }}
-            a {{ color: #2c3e50; text-decoration: none; font-weight: bold; font-size: 1.1em; }}
-            a:hover {{ text-decoration: underline; }}
+            .spec-item {{ background: #2c2c2c; border: 1px solid #444; padding: 8px; text-align: center; border-radius: 4px; font-size: 0.85em; color: var(--text-main); }}
+            a {{ color: var(--accent-blue); text-decoration: none; font-weight: bold; font-size: 1.1em; }}
+            a:hover {{ text-decoration: underline; color: #90caf9; }}
         </style>
     </head>
     <body>
@@ -152,7 +166,7 @@ def generate_html(inventory, specs_db):
             const searchInput = document.getElementById('searchInput');
 
             function render(items) {{
-                if (items.length === 0) {{ resultsArea.innerHTML = '<p style="text-align:center; color:#777;">No matches found.</p>'; return; }}
+                if (items.length === 0) {{ resultsArea.innerHTML = '<p style="text-align:center; color:#888;">No matches found.</p>'; return; }}
                 const displayItems = items.slice(0, 100);
                 resultsArea.innerHTML = displayItems.map(item => {{
                     let trainingHtml = '';
@@ -163,7 +177,7 @@ def generate_html(inventory, specs_db):
                         ).join('');
                         trainingHtml = `<div class="selling-points"><h4>💡 Sales Knowledge</h4><span class="headline">${{item.specs.headline}}</span><ul>${{points}}</ul><div class="specs-grid">${{specs}}</div></div>`;
                     }} else {{
-                        trainingHtml = `<div style="margin-top:10px; color:#aaa; font-style:italic; font-size:0.9em;">Training card not yet created for this model.</div>`;
+                        trainingHtml = `<div style="margin-top:10px; color:#777; font-style:italic; font-size:0.9em;">Training card not yet created for this model.</div>`;
                     }}
                     return `<div class="card ${{item.specs ? 'has-specs' : ''}}"><div class="card-header"><div><a href="${{item.link}}" target="_blank">${{item.title}}</a><br><span class="stock-tag">#${{item.stock}}</span></div><span class="location-tag">${{item.location}}</span></div>${{trainingHtml}}</div>`;
                 }}).join('');
