@@ -9,7 +9,7 @@ FEED_URL = "https://motohunt.com/feed/inventory/g2387-426e2dea251a38c7bd9a6d5ea9
 SPECS_FILE = "specs_database.json"
 OUTPUT_FILE = "index.html"
 
-# FIREBASE CONFIGURATION (Embedded)
+# FIREBASE CONFIGURATION (Embedded with your keys)
 FIREBASE_CONFIG_JS = """
 {
   apiKey: "AIzaSyAfgVJvPdmYAkfjgCzQA0L3GiwcHqp412s",
@@ -302,12 +302,14 @@ def generate_html(inventory, specs_db):
             const firebaseConfig = {FIREBASE_CONFIG_JS};
             
             // FIREBASE INIT
-            if (firebaseConfig.apiKey !== "PASTE_YOUR_API_KEY_HERE") {{
-                firebase.initializeApp(firebaseConfig);
+            if (firebaseConfig.apiKey && firebaseConfig.apiKey !== "PASTE_YOUR_API_KEY_HERE") {{
+                if (!firebase.apps.length) {{
+                    firebase.initializeApp(firebaseConfig);
+                }}
                 var db = firebase.database();
                 console.log("Firebase Connected");
             }} else {{
-                console.warn("Firebase not configured in subagent.py");
+                console.warn("Firebase not configured correctly.");
             }}
 
             const resultsArea = document.getElementById('resultsArea');
@@ -477,7 +479,6 @@ def generate_html(inventory, specs_db):
                 modal.style.display = "none";
                 modalFrame.src = ""; 
                 document.body.style.overflow = "auto";
-                // Detach listeners if needed, but simple overwrite is fine for this scale
             }};
 
             // Event Listeners
