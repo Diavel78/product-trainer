@@ -9,7 +9,20 @@ FEED_URL = "https://motohunt.com/feed/inventory/g2387-426e2dea251a38c7bd9a6d5ea9
 SPECS_FILE = "specs_database.json"
 OUTPUT_FILE = "index.html"
 
-# Mapping Feed Location Names to Your Store Numbers
+# FIREBASE CONFIGURATION (Embedded)
+FIREBASE_CONFIG_JS = """
+{
+  apiKey: "AIzaSyAfgVJvPdmYAkfjgCzQA0L3GiwcHqp412s",
+  authDomain: "anderson-trainer.firebaseapp.com",
+  databaseURL: "https://anderson-trainer-default-rtdb.firebaseio.com",
+  projectId: "anderson-trainer",
+  storageBucket: "anderson-trainer.firebasestorage.app",
+  messagingSenderId: "637062348956",
+  appId: "1:637062348956:web:0a660a80e31810bb392d59",
+  measurementId: "G-THJZ99GDJ7"
+}
+"""
+
 LOCATION_MAP = {
     "North Lake Havasu": "(1) North Lake Havasu",
     "Bullhead City": "(2) Bullhead City",
@@ -20,7 +33,6 @@ LOCATION_MAP = {
     "Reno": "(5) Reno"
 }
 
-# Normalizing Categories
 CATEGORY_MAP = {
     "Utility Vehicle": "UTV", "Side x Side": "UTV", "Side by Side": "UTV", "SxS": "UTV",
     "ATV": "ATV", "All Terrain Vehicle": "ATV", "Quad": "ATV",
@@ -85,13 +97,15 @@ def resolve_category(item):
     if 'rzr' in title or 'ranger' in title or 'maverick' in title or 'defender' in title or 'general' in title or 'zforce' in title or 'uforce' in title:
         return "UTV"
     if 'sportsman' in title or 'outlander' in title or 'grizzly' in title or 'cforce' in title or 'pioneer' in title or 'talon' in title or 'mule' in title or 'teryx' in title or 'wolverine' in title or 'viking' in title:
-        return "UTV" # Catching more UTVs
-    if 'ninja' in title or 'gsx' in title or 'road glide' in title or 'chief' in title or 'scout' in title or 'ibex' in title or 'crf' in title or 'kx' in title or 'yz' in title:
+        return "UTV" 
+    if 'ninja' in title or 'gsx' in title or 'road glide' in title or 'chief' in title or 'scout' in title or 'ibex' in title or 'crf' in title or 'kx' in title or 'yz' in title or 'klr' in title or 'mt-' in title:
         return "Motorcycle"
-    if 'sea-doo' in title or 'waverunner' in title or 'jet ski' in title or 'switch' in title:
+    if 'sea-doo' in title or 'waverunner' in title or 'jet ski' in title or 'switch' in title or 'spark' in title or 'fishpro' in title:
         return "PWC"
     if 'bennington' in title or 'godfrey' in title or 'yamaha boat' in title:
         return "Boat"
+    if 'rmk' in title or 'khaos' in title or 'timbersled' in title:
+        return "Snowmobile"
     
     return "Other"
 
@@ -99,7 +113,7 @@ def process_inventory(raw_data):
     clean_inventory = []
     for item in raw_data:
         title = item.get('title') or f"{item.get('year', '')} {item.get('make', '')} {item.get('model', '')}"
-        stock = str(item.get('stocknumber') or item.get('stock') or item.get('id') or "Unknown")
+        stock = str(item.get('stocknumber') or item.get('stock') or item.get('id') or "Unknown").strip().upper()
         location = resolve_location(item)
         category = resolve_category(item)
         link = item.get('url') or item.get('vehicle_url') or "#"
@@ -174,6 +188,10 @@ def generate_html(inventory, specs_db):
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Anderson Powersports Product Trainer</title>
+        
+        <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-database.js"></script>
+
         <style>
             :root {{
                 --bg-color: #121212;
@@ -182,6 +200,7 @@ def generate_html(inventory, specs_db):
                 --text-muted: #b0bec5;
                 --accent-blue: #64b5f6;
                 --accent-green: #00e676;
+                --accent-orange: #ff9800;
                 --header-bg: #1f1f1f;
                 --border-color: #333;
                 --input-bg: #2c2c2c;
@@ -197,9 +216,11 @@ def generate_html(inventory, specs_db):
             .search-box {{ width: 100%; padding: 15px; font-size: 18px; background: var(--input-bg); color: white; border: 2px solid var(--border-color); border-radius: 8px; margin-bottom: 20px; box-sizing: border-box; }}
             
             /* CARDS */
-            .card {{ background: var(--card-bg); padding: 20px; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.3); margin-bottom: 15px; border-left: 5px solid #555; cursor: pointer; transition: transform 0.2s, border-left-color 0.2s; }}
+            .card {{ background: var(--card-bg); padding: 20px; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.3); margin-bottom: 15px; border-left: 5px solid #555; cursor: pointer; transition: transform 0.2s, border-left-color 0.2s; position: relative; }}
             .card:hover {{ transform: translateY(-3px); border-left-color: var(--accent-blue); }}
             .card.has-specs {{ border-left-color: var(--accent-green); }}
+            .card.has-note {{ border-right: 5px solid var(--accent-orange); }} /* Highlight notes */
+            
             .card-header {{ display: flex; justify-content: space-between; align-items: flex-start; }}
             .location-tag {{ background: #1565c0; color: white; padding: 4px 8px; border-radius: 4px; font-size: 0.9em; font-weight: bold; margin-left: 10px; white-space: nowrap; }}
             .category-tag {{ background: #ff9800; color: black; padding: 4px 8px; border-radius: 4px; font-size: 0.8em; font-weight: bold; margin-right: 5px; text-transform: uppercase; }}
@@ -211,6 +232,14 @@ def generate_html(inventory, specs_db):
             .headline {{ font-weight: bold; color: white; display: block; margin-bottom: 8px; font-size: 1.1em; }}
             .specs-grid {{ display: grid; grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); gap: 10px; margin-top: 10px; }}
             .spec-item {{ background: #2c2c2c; border: 1px solid #444; padding: 8px; text-align: center; border-radius: 4px; font-size: 0.85em; color: var(--text-main); }}
+            
+            /* NOTES SECTION */
+            .note-container {{ margin-top: 20px; padding-top: 15px; border-top: 1px solid #444; }}
+            .note-status {{ font-size: 0.8em; color: #888; margin-bottom: 5px; float: right; }}
+            textarea.note-input {{ width: 100%; height: 80px; padding: 10px; background: #121212; color: white; border: 1px solid #444; border-radius: 4px; box-sizing: border-box; font-family: sans-serif; resize: vertical; }}
+            textarea.note-input:focus {{ border-color: var(--accent-blue); outline: none; }}
+            .note-badge {{ position: absolute; bottom: 10px; right: 10px; background: var(--accent-orange); color: black; border-radius: 50%; width: 24px; height: 24px; text-align: center; font-weight: bold; display: none; }}
+
             a {{ color: var(--accent-blue); text-decoration: none; font-weight: bold; font-size: 1.1em; }}
             a:hover {{ text-decoration: underline; color: #90caf9; }}
 
@@ -270,6 +299,17 @@ def generate_html(inventory, specs_db):
 
         <script>
             const inventory = {json_data};
+            const firebaseConfig = {FIREBASE_CONFIG_JS};
+            
+            // FIREBASE INIT
+            if (firebaseConfig.apiKey !== "PASTE_YOUR_API_KEY_HERE") {{
+                firebase.initializeApp(firebaseConfig);
+                var db = firebase.database();
+                console.log("Firebase Connected");
+            }} else {{
+                console.warn("Firebase not configured in subagent.py");
+            }}
+
             const resultsArea = document.getElementById('resultsArea');
             const searchInput = document.getElementById('searchInput');
             const storeSelect = document.getElementById('storeSelect');
@@ -301,6 +341,8 @@ def generate_html(inventory, specs_db):
                     if (selectedCategory !== 'All' && item.category !== selectedCategory) return false;
                     if (selectedCondition !== 'All' && item.condition !== selectedCondition) return false;
                     if (term === '') return true;
+                    
+                    // Basic search
                     return (
                         item.title.toLowerCase().includes(term) || 
                         item.stock.toLowerCase().includes(term) ||
@@ -318,12 +360,11 @@ def generate_html(inventory, specs_db):
 
                 resultsArea.innerHTML = filtered.slice(0, 100).map((item, index) => {{
                     let badgeColor = item.specs ? 'var(--accent-green)' : '#555';
-                    // Determine condition badge color
-                    let condColor = item.condition === 'New' ? '#00e676' : '#ffb74d'; // Green for New, Orange for Used
+                    let condColor = item.condition === 'New' ? '#00e676' : '#ffb74d'; 
                     let condStyle = `background: ${{condColor}}; color: black; padding: 4px 8px; border-radius: 4px; font-size: 0.8em; font-weight: bold; margin-right: 5px; text-transform: uppercase;`;
-
+                    
                     return `
-                        <div class="card" style="border-left-color: ${{badgeColor}}" onclick="openModal('${{item.stock}}')">
+                        <div class="card" id="card-${{item.stock}}" style="border-left-color: ${{badgeColor}}" onclick="openModal('${{item.stock}}')">
                             <div class="card-header">
                                 <div>
                                     <span style="${{condStyle}}">${{item.condition}}</span>
@@ -335,9 +376,22 @@ def generate_html(inventory, specs_db):
                                 <span class="location-tag">${{item.location}}</span>
                             </div>
                             ${{item.specs ? `<div style="margin-top:10px; font-size:0.9em; color:#bbb;">💡 ${{(item.specs.headline)}}</div>` : ''}}
+                            <div id="badge-${{item.stock}}" class="note-badge">📝</div>
                         </div>
                     `;
                 }}).join('');
+                
+                // SYNC BADGES (Show orange dot if note exists)
+                if (typeof db !== 'undefined') {{
+                    filtered.slice(0, 100).forEach(item => {{
+                        db.ref('notes/' + item.stock).once('value').then(snapshot => {{
+                            if (snapshot.exists() && snapshot.val().trim() !== "") {{
+                                const badge = document.getElementById('badge-' + item.stock);
+                                if (badge) badge.style.display = 'block';
+                            }}
+                        }});
+                    }});
+                }}
             }}
 
             // 3. Modal Logic
@@ -355,6 +409,15 @@ def generate_html(inventory, specs_db):
                         <div style="margin-top:10px; color: var(--accent-blue); font-weight:bold;">${{item.location}}</div>
                     </div>
                 `;
+                
+                // NOTES SECTION (Realtime)
+                content += `
+                    <div class="note-container">
+                        <span id="noteStatus" class="note-status">Loading notes...</span>
+                        <h4 style="margin:0 0 10px 0;">📝 Sales Notes</h4>
+                        <textarea id="noteInput" class="note-input" placeholder="Add sales notes here (e.g., Winch added, customer interested)..."></textarea>
+                    </div>
+                `;
 
                 if (item.specs) {{
                     const points = item.specs.selling_points.map(p => `<li>${{p}}</li>`).join('');
@@ -363,7 +426,7 @@ def generate_html(inventory, specs_db):
                     ).join('');
                     
                     content += `
-                        <div class="selling-points">
+                        <div class="selling-points" style="margin-top:20px;">
                             <h4 style="font-size:1.2em; border-bottom:1px solid #444; padding-bottom:5px;">💡 Sales Knowledge</h4>
                             <span class="headline" style="font-size:1.3em; margin:15px 0;">${{item.specs.headline}}</span>
                             <ul style="line-height:1.6;">${{points}}</ul>
@@ -372,9 +435,8 @@ def generate_html(inventory, specs_db):
                         </div>
                     `;
                 }} else {{
-                    content += `<div style="padding:20px; text-align:center; color:#777; border:1px dashed #444; border-radius:8px;">
+                    content += `<div style="padding:20px; text-align:center; color:#777; border:1px dashed #444; border-radius:8px; margin-top:20px;">
                         <h3>No Training Card Available</h3>
-                        <p>Add this model to <code>specs_database.json</code> to populate this section.</p>
                     </div>`;
                 }}
                 
@@ -384,13 +446,38 @@ def generate_html(inventory, specs_db):
 
                 modalLeftPane.innerHTML = content;
                 modal.style.display = "block";
-                document.body.style.overflow = "hidden"; // Prevent background scrolling
+                document.body.style.overflow = "hidden"; 
+                
+                // BIND FIREBASE TO TEXTAREA
+                if (typeof db !== 'undefined') {{
+                    const noteInput = document.getElementById('noteInput');
+                    const noteStatus = document.getElementById('noteStatus');
+                    const noteRef = db.ref('notes/' + stock);
+                    
+                    // Listen for changes
+                    noteRef.on('value', (snapshot) => {{
+                        const val = snapshot.val() || "";
+                        if (document.activeElement !== noteInput) {{ // Don't overwrite if user is typing
+                            noteInput.value = val;
+                        }}
+                        noteStatus.textContent = "Synced";
+                    }});
+                    
+                    // Save on input
+                    noteInput.addEventListener('input', (e) => {{
+                        noteStatus.textContent = "Saving...";
+                        noteRef.set(e.target.value).then(() => {{
+                            noteStatus.textContent = "Saved";
+                        }});
+                    }});
+                }}
             }};
 
             window.closeModal = function() {{
                 modal.style.display = "none";
-                modalFrame.src = ""; // Stop video playback/loading
+                modalFrame.src = ""; 
                 document.body.style.overflow = "auto";
+                // Detach listeners if needed, but simple overwrite is fine for this scale
             }};
 
             // Event Listeners
@@ -405,12 +492,13 @@ def generate_html(inventory, specs_db):
     </html>
     """
     
-    with open(OUTPUT_FILE, "w") as f:
+    with open(OUTPUT_FILE, "w", encoding='utf-8') as f:
         f.write(html_content)
     print(f"✅ Dashboard generated: {OUTPUT_FILE}")
 
 if __name__ == "__main__":
     raw_data = fetch_inventory_feed()
+    
     if raw_data:
         current_inventory = process_inventory(raw_data)
         spec_database = load_specs()
@@ -424,7 +512,6 @@ if __name__ == "__main__":
         print(f"Total Inventory: {len(current_inventory)}")
         print(f"Total Matched: {match_count}")
         
-        # Uncommented and ready to run
         generate_html(current_inventory, spec_database) 
     else:
         print("⚠️ Failed to load inventory.")
