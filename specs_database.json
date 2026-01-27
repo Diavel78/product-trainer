@@ -5,11 +5,35 @@
     "headline": "The 225HP Naturally Aspirated Beast",
     "selling_points": [
       "225 HP ProStar Fury 2.0L engine - Biggest factory engine in a SxS.",
-      "One-piece chassis with fully welded cage (No bolts to rattle).",
       "MaxLink Suspension: 29 inches of usable travel.",
-      "Steel belt transmission - No rubber belts to break."
+      "One-piece chassis with fully welded cage (No bolts to rattle).",
+      "Strongest belt in RZR history with massive cooling system."
     ],
     "specs": { "HP": "225", "Width": "74 in", "Suspension": "MaxLink 29in" }
+  },
+  {
+    "model_keywords": ["RZR Pro S", "Pro S 4"],
+    "oem": "Polaris",
+    "headline": "Wide Open Performance Value",
+    "selling_points": [
+      "181 HP Turbo engine with 74-inch wide stability.",
+      "Dynamix DV Active Suspension (Ultimate trims) adjusts shocks on the fly.",
+      "Fresh cabin air intakes to keep you cool.",
+      "Same tough chassis DNA as the Pro R but lighter and more nimble."
+    ],
+    "specs": { "HP": "181", "Width": "74 in", "Travel": "27/28 in" }
+  },
+  {
+    "model_keywords": ["Ranger XD 1500", "Ranger Crew XD 1500"],
+    "oem": "Polaris",
+    "headline": "Extreme Duty Capability",
+    "selling_points": [
+      "STEELDRIVE Automatic Transmission - 100% Steel Belt (No rubber to break).",
+      "Massive 1,500 lb Cargo Box Capacity.",
+      "3,500 lb Towing Capacity (Industry Leading).",
+      "110 HP ProStar 1500cc 3-Cylinder Engine."
+    ],
+    "specs": { "Box": "1,500 lbs", "Towing": "3,500 lbs", "Trans": "STEELDRIVE" }
   },
   {
     "model_keywords": ["RZR Turbo R", "Turbo R 4"],
@@ -65,11 +89,11 @@
     "headline": "King of Utility",
     "selling_points": [
       "82 HP ProStar engine with 2,500 lb towing capacity.",
+      "1,000 lb Cargo Box Capacity (Standard Models).",
       "13 inches of ground clearance.",
-      "30% stronger front drive than previous models.",
-      "Massive 1,000 lb cargo box capacity."
+      "30% stronger front drive than previous models."
     ],
-    "specs": { "HP": "82", "Towing": "2,500 lbs", "Payload": "1,500 lbs" }
+    "specs": { "HP": "82", "Towing": "2,500 lbs", "Box": "1,000 lbs" }
   },
   {
     "model_keywords": ["Ranger 1000", "Ranger Crew 1000"],
@@ -78,10 +102,10 @@
     "selling_points": [
       "61 HP SOHC engine tuned for low-end torque.",
       "One-piece chassis for reduced flex and rattles.",
-      "Large bed capacity for pallets and hay bales.",
+      "1,000 lb Cargo Box Capacity.",
       "Softer suspension tuning for all-day ride comfort."
     ],
-    "specs": { "HP": "61", "Towing": "2,500 lbs", "Clearance": "12 in" }
+    "specs": { "HP": "61", "Towing": "2,500 lbs", "Box": "1,000 lbs" }
   },
   {
     "model_keywords": ["Ranger SP 570", "Ranger Crew SP 570"],
@@ -90,10 +114,10 @@
     "selling_points": [
       "44 HP ProStar 570 engine - Proven reliability.",
       "Compact 56-inch width fits in full-size pickup beds.",
-      "Tight turning radius for navigating barns and tight trails.",
+      "500 lb Gas-Assist Dump Box.",
       "Spacious cab with ample legroom for a mid-size."
     ],
-    "specs": { "HP": "44", "Width": "56 in", "Towing": "1,500 lbs" }
+    "specs": { "HP": "44", "Width": "56 in", "Box": "500 lbs" }
   },
   {
     "model_keywords": ["Ranger 500"],
@@ -102,10 +126,10 @@
     "selling_points": [
       "32 HP ProStar engine - plenty for chores and property maintenance.",
       "Compact 58-inch width fits in most truck beds.",
-      "1,500 lb towing capacity matches larger machines.",
+      "500 lb Cargo Box Capacity.",
       "Low maintenance and easy to service."
     ],
-    "specs": { "HP": "32", "Width": "58 in", "Towing": "1,500 lbs" }
+    "specs": { "HP": "32", "Width": "58 in", "Box": "500 lbs" }
   },
   {
     "model_keywords": ["Xpedition", "Xpedition XP", "Xpedition ADV"],
@@ -114,7 +138,7 @@
     "selling_points": [
       "Fully enclosed cab with Heat & A/C (NorthStar trims).",
       "Lock & Ride MAX cargo system for limitless packing.",
-      "200+ mile fuel range for long-distance overlanding.",
+      "200+ mile fuel range (Manufacturer Claim).",
       "FOX Podium QS3 shocks with Position Sensitive Spiral technology."
     ],
     "specs": { "HP": "114", "Range": "200+ Miles", "Alternator": "140 Amps" }
@@ -129,7 +153,7 @@
       "Standard Rockford Fosgate audio on many trims.",
       "High-clearance A-arms for 13.5 inches of clearance (XP models)."
     ],
-    "specs": { "HP": "100", "Towing": "1,500 lbs", "Suspension": "Walker Evans" }
+    "specs": { "HP": "100", "Box": "600 lbs", "Suspension": "Walker Evans" }
   },
   {
     "model_keywords": ["Sportsman 570", "Sportsman 450"],
@@ -365,7 +389,7 @@
     "headline": "240HP DCT Precision Monster",
     "selling_points": [
       "240 HP Rotax Turbo - Highest HP in class.",
-      "7-Speed DCT Transmission - No CVT belt to change.",
+      "7-Speed Dual Clutch Transmission (DCT) - Gear-on-gear, no belt.",
       "Tall Knuckle Suspension geometry for massive travel.",
       "10.25-inch Touchscreen with Navigation."
     ],
