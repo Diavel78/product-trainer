@@ -9,7 +9,7 @@ FEED_URL = "https://motohunt.com/feed/inventory/g2387-426e2dea251a38c7bd9a6d5ea9
 SPECS_FILE = "specs_database.json"
 OUTPUT_FILE = "index.html"
 
-# FIREBASE CONFIGURATION (Embedded with your keys)
+# YOUR SPECIFIC FIREBASE CONFIG (Do not edit)
 FIREBASE_CONFIG_JS = """
 {
   apiKey: "AIzaSyAfgVJvPdmYAkfjgCzQA0L3GiwcHqp412s",
@@ -190,6 +190,7 @@ def generate_html(inventory, specs_db):
         <title>Anderson Powersports Product Trainer</title>
         
         <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-auth.js"></script>
         <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-database.js"></script>
 
         <style>
@@ -206,9 +207,41 @@ def generate_html(inventory, specs_db):
                 --input-bg: #2c2c2c;
                 --highlight-bg: #263238;
             }}
-            body {{ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background: var(--bg-color); color: var(--text-main); padding: 20px; margin: 0; }}
-            .header {{ background: var(--header-bg); color: white; padding: 20px; border-radius: 8px; margin-bottom: 20px; border: 1px solid var(--border-color); }}
+            body {{ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background: var(--bg-color); color: var(--text-main); padding: 0; margin: 0; }}
+            
+            /* LOGIN SCREEN */
+            #login-overlay {{
+                position: fixed; top: 0; left: 0; width: 100%; height: 100%;
+                background: #121212; z-index: 9999; display: flex;
+                justify-content: center; align-items: center; flex-direction: column;
+            }}
+            .login-box {{
+                background: var(--card-bg); padding: 40px; border-radius: 8px;
+                border: 1px solid var(--border-color); text-align: center; width: 300px;
+            }}
+            .login-box input {{
+                width: 100%; padding: 12px; margin-bottom: 15px; background: #2c2c2c;
+                border: 1px solid #444; color: white; border-radius: 4px; box-sizing: border-box;
+            }}
+            .login-box button {{
+                width: 100%; padding: 12px; background: var(--accent-blue); color: black;
+                border: none; font-weight: bold; border-radius: 4px; cursor: pointer;
+            }}
+            .login-box button:hover {{ background: #90caf9; }}
+            #login-error {{ color: #ff5252; margin-top: 10px; font-size: 0.9em; }}
+            
+            /* APP CONTENT (Hidden by default) */
+            #app-content {{ padding: 20px; display: none; }}
+            
+            .header {{ background: var(--header-bg); color: white; padding: 20px; border-radius: 8px; margin-bottom: 20px; border: 1px solid var(--border-color); position: relative; }}
             .stats {{ font-size: 0.85em; opacity: 0.8; margin-top: 5px; color: var(--text-muted); }}
+            
+            .logout-btn {{
+                position: absolute; top: 20px; right: 20px;
+                background: transparent; border: 1px solid #666; color: #aaa;
+                padding: 5px 10px; cursor: pointer; border-radius: 4px; font-size: 0.8em;
+            }}
+            .logout-btn:hover {{ color: white; border-color: white; }}
             
             /* FILTER BAR */
             .filter-container {{ display: flex; gap: 10px; margin-bottom: 20px; flex-wrap: wrap; }}
@@ -219,7 +252,7 @@ def generate_html(inventory, specs_db):
             .card {{ background: var(--card-bg); padding: 20px; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.3); margin-bottom: 15px; border-left: 5px solid #555; cursor: pointer; transition: transform 0.2s, border-left-color 0.2s; position: relative; }}
             .card:hover {{ transform: translateY(-3px); border-left-color: var(--accent-blue); }}
             .card.has-specs {{ border-left-color: var(--accent-green); }}
-            .card.has-note {{ border-right: 5px solid var(--accent-orange); }} /* Highlight notes */
+            .card.has-note {{ border-right: 5px solid var(--accent-orange); }} 
             
             .card-header {{ display: flex; justify-content: space-between; align-items: flex-start; }}
             .location-tag {{ background: #1565c0; color: white; padding: 4px 8px; border-radius: 4px; font-size: 0.9em; font-weight: bold; margin-left: 10px; white-space: nowrap; }}
@@ -254,7 +287,7 @@ def generate_html(inventory, specs_db):
             .split-container {{ display: flex; flex: 1; height: 100%; overflow: hidden; }}
             .pane-left {{ flex: 0 0 35%; padding: 20px; overflow-y: auto; background: var(--card-bg); border-right: 1px solid var(--border-color); min-width: 320px; }}
             .pane-right {{ flex: 1; background: white; position: relative; }}
-            .iframe-loader {{ position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); color: black; }}
+            .iframe-loader {{ position: absolute; top: 50%; left: 50%; transform: translate(-50%; -50%); color: black; }}
             iframe {{ width: 100%; height: 100%; border: none; }}
             
             /* Responsive Modal */
@@ -266,20 +299,34 @@ def generate_html(inventory, specs_db):
         </style>
     </head>
     <body>
-        <div class="header">
-            <h1>Anderson Powersports | Inventory & Product Trainer</h1>
-            <p>Updated: {timestamp} | Total Inventory: {len(enhanced_inv)} | <span id="matchCount" style="color: var(--accent-green); font-weight: bold;">Showing: {len(enhanced_inv)}</span></p>
-            <div class="stats">{stats_html}</div>
+    
+        <div id="login-overlay">
+            <div class="login-box">
+                <h2 style="margin-top:0;">Staff Login</h2>
+                <input type="email" id="email" placeholder="Email">
+                <input type="password" id="password" placeholder="Password">
+                <button onclick="login()">Login</button>
+                <p id="login-error"></p>
+            </div>
         </div>
 
-        <div class="filter-container">
-            <select id="storeSelect" class="filter-select"><option value="All">All Locations</option></select>
-            <select id="categorySelect" class="filter-select"><option value="All">All Categories</option></select>
-            <select id="conditionSelect" class="filter-select"><option value="All">All Conditions</option></select>
-        </div>
+        <div id="app-content">
+            <div class="header">
+                <h1>Anderson Powersports | Inventory & Product Trainer</h1>
+                <p>Updated: {timestamp} | Total Inventory: {len(enhanced_inv)} | <span id="matchCount" style="color: var(--accent-green); font-weight: bold;">Showing: {len(enhanced_inv)}</span></p>
+                <div class="stats">{stats_html}</div>
+                <button class="logout-btn" onclick="logout()">Logout</button>
+            </div>
 
-        <input type="text" id="searchInput" class="search-box" placeholder="Search (e.g. 'Pro R', '12345')...">
-        <div id="resultsArea"></div>
+            <div class="filter-container">
+                <select id="storeSelect" class="filter-select"><option value="All">All Locations</option></select>
+                <select id="categorySelect" class="filter-select"><option value="All">All Categories</option></select>
+                <select id="conditionSelect" class="filter-select"><option value="All">All Conditions</option></select>
+            </div>
+
+            <input type="text" id="searchInput" class="search-box" placeholder="Search (e.g. 'Pro R', '12345')...">
+            <div id="resultsArea"></div>
+        </div>
 
         <div id="unitModal" class="modal">
             <div class="modal-content">
@@ -303,15 +350,52 @@ def generate_html(inventory, specs_db):
             
             // FIREBASE INIT
             if (firebaseConfig.apiKey && firebaseConfig.apiKey !== "PASTE_YOUR_API_KEY_HERE") {{
-                if (!firebase.apps.length) {{
-                    firebase.initializeApp(firebaseConfig);
-                }}
+                firebase.initializeApp(firebaseConfig);
+                var auth = firebase.auth();
                 var db = firebase.database();
                 console.log("Firebase Connected");
+                
+                // AUTH OBSERVER
+                auth.onAuthStateChanged((user) => {{
+                    const overlay = document.getElementById('login-overlay');
+                    const app = document.getElementById('app-content');
+                    
+                    if (user) {{
+                        // Logged In
+                        overlay.style.display = 'none';
+                        app.style.display = 'block';
+                        // Trigger render to sync badges
+                        render();
+                    }} else {{
+                        // Logged Out
+                        overlay.style.display = 'flex';
+                        app.style.display = 'none';
+                    }}
+                }});
+                
             }} else {{
                 console.warn("Firebase not configured correctly.");
             }}
 
+            // LOGIN LOGIC
+            function login() {{
+                const email = document.getElementById('email').value;
+                const pass = document.getElementById('password').value;
+                const errorText = document.getElementById('login-error');
+                
+                errorText.textContent = "Logging in...";
+                
+                auth.signInWithEmailAndPassword(email, pass)
+                    .catch((error) => {{
+                        errorText.textContent = error.message;
+                    }});
+            }}
+
+            function logout() {{
+                auth.signOut();
+            }}
+
+            // APP LOGIC
             const resultsArea = document.getElementById('resultsArea');
             const searchInput = document.getElementById('searchInput');
             const storeSelect = document.getElementById('storeSelect');
@@ -322,7 +406,6 @@ def generate_html(inventory, specs_db):
             const modalLeftPane = document.getElementById('modalLeftPane');
             const modalFrame = document.getElementById('modalFrame');
 
-            // 1. Populate Dropdowns
             const locations = [...new Set(inventory.map(item => item.location))].sort();
             const categories = [...new Set(inventory.map(item => item.category))].sort();
             const conditions = [...new Set(inventory.map(item => item.condition))].sort();
@@ -331,7 +414,6 @@ def generate_html(inventory, specs_db):
             categories.forEach(cat => categorySelect.add(new Option(cat, cat)));
             conditions.forEach(cond => conditionSelect.add(new Option(cond, cond)));
 
-            // 2. Render
             function render() {{
                 const term = searchInput.value.toLowerCase();
                 const selectedStore = storeSelect.value;
@@ -344,7 +426,6 @@ def generate_html(inventory, specs_db):
                     if (selectedCondition !== 'All' && item.condition !== selectedCondition) return false;
                     if (term === '') return true;
                     
-                    // Basic search
                     return (
                         item.title.toLowerCase().includes(term) || 
                         item.stock.toLowerCase().includes(term) ||
@@ -352,7 +433,6 @@ def generate_html(inventory, specs_db):
                     );
                 }});
                 
-                // Update Match Count
                 const matchCountElement = document.getElementById('matchCount');
                 if (matchCountElement) {{
                     matchCountElement.textContent = `Showing: ${{filtered.length}}`;
@@ -383,8 +463,8 @@ def generate_html(inventory, specs_db):
                     `;
                 }}).join('');
                 
-                // SYNC BADGES (Show orange dot if note exists)
-                if (typeof db !== 'undefined') {{
+                // SYNC BADGES (If DB is ready)
+                if (typeof db !== 'undefined' && auth.currentUser) {{
                     filtered.slice(0, 100).forEach(item => {{
                         db.ref('notes/' + item.stock).once('value').then(snapshot => {{
                             if (snapshot.exists() && snapshot.val().trim() !== "") {{
@@ -396,7 +476,6 @@ def generate_html(inventory, specs_db):
                 }}
             }}
 
-            // 3. Modal Logic
             window.openModal = function(stock) {{
                 const item = inventory.find(i => i.stock === stock);
                 if (!item) return;
@@ -412,7 +491,7 @@ def generate_html(inventory, specs_db):
                     </div>
                 `;
                 
-                // NOTES SECTION (Realtime)
+                // NOTES SECTION
                 content += `
                     <div class="note-container">
                         <span id="noteStatus" class="note-status">Loading notes...</span>
@@ -450,22 +529,21 @@ def generate_html(inventory, specs_db):
                 modal.style.display = "block";
                 document.body.style.overflow = "hidden"; 
                 
-                // BIND FIREBASE TO TEXTAREA
                 if (typeof db !== 'undefined') {{
                     const noteInput = document.getElementById('noteInput');
                     const noteStatus = document.getElementById('noteStatus');
                     const noteRef = db.ref('notes/' + stock);
                     
-                    // Listen for changes
+                    // Listen
                     noteRef.on('value', (snapshot) => {{
                         const val = snapshot.val() || "";
-                        if (document.activeElement !== noteInput) {{ // Don't overwrite if user is typing
+                        if (document.activeElement !== noteInput) {{ 
                             noteInput.value = val;
                         }}
                         noteStatus.textContent = "Synced";
                     }});
                     
-                    // Save on input
+                    // Save
                     noteInput.addEventListener('input', (e) => {{
                         noteStatus.textContent = "Saving...";
                         noteRef.set(e.target.value).then(() => {{
@@ -481,13 +559,12 @@ def generate_html(inventory, specs_db):
                 document.body.style.overflow = "auto";
             }};
 
-            // Event Listeners
             searchInput.addEventListener('keyup', render);
             storeSelect.addEventListener('change', render);
             categorySelect.addEventListener('change', render);
             conditionSelect.addEventListener('change', render);
 
-            render();
+            // Initial render call moved to auth state listener
         </script>
     </body>
     </html>
