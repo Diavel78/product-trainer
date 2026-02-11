@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anderson Powersports — Internal Tools</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,600;9..40,700&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg: #0b0e13;
+            --surface: #13171e;
+            --border: #1e2530;
+            --text: #e2e8f0;
+            --text-muted: #6b7a90;
+            --blue: #3b82f6;
+            --blue-glow: rgba(59, 130, 246, 0.15);
+            --green: #22c55e;
+            --green-glow: rgba(34, 197, 94, 0.12);
+            --orange: #f59e0b;
+            --orange-glow: rgba(245, 158, 11, 0.12);
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: 'DM Sans', sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 40px 24px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        /* Subtle background grid */
+        body::before {
+            content: '';
+            position: fixed;
+            top: 0; left: 0; right: 0; bottom: 0;
+            background-image: 
+                linear-gradient(rgba(59,130,246,0.03) 1px, transparent 1px),
+                linear-gradient(90deg, rgba(59,130,246,0.03) 1px, transparent 1px);
+            background-size: 60px 60px;
+            pointer-events: none;
+            z-index: 0;
+        }
+
+        /* Top glow */
+        body::after {
+            content: '';
+            position: fixed;
+            top: -200px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 800px;
+            height: 500px;
+            background: radial-gradient(ellipse, rgba(59,130,246,0.08) 0%, transparent 70%);
+            pointer-events: none;
+            z-index: 0;
+        }
+
+        .container {
+            position: relative;
+            z-index: 1;
+            width: 100%;
+            max-width: 720px;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 56px;
+        }
+
+        .logo-mark {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.72em;
+            letter-spacing: 0.25em;
+            text-transform: uppercase;
+            color: var(--blue);
+            margin-bottom: 16px;
+            opacity: 0;
+            animation: fadeUp 0.6s ease forwards;
+        }
+
+        .header h1 {
+            font-size: 2.2em;
+            font-weight: 700;
+            letter-spacing: -0.03em;
+            line-height: 1.15;
+            margin-bottom: 12px;
+            opacity: 0;
+            animation: fadeUp 0.6s ease 0.1s forwards;
+        }
+
+        .header p {
+            color: var(--text-muted);
+            font-size: 1em;
+            opacity: 0;
+            animation: fadeUp 0.6s ease 0.2s forwards;
+        }
+
+        .tools-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+
+        .tool-card {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 16px;
+            padding: 36px 28px;
+            text-decoration: none;
+            color: var(--text);
+            transition: all 0.3s ease;
+            position: relative;
+            overflow: hidden;
+            opacity: 0;
+            animation: fadeUp 0.6s ease forwards;
+        }
+
+        .tool-card:nth-child(1) { animation-delay: 0.3s; }
+        .tool-card:nth-child(2) { animation-delay: 0.4s; }
+
+        .tool-card::before {
+            content: '';
+            position: absolute;
+            top: 0; left: 0; right: 0;
+            height: 3px;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+
+        .tool-card:hover {
+            border-color: transparent;
+            transform: translateY(-4px);
+        }
+
+        .tool-card.trainer::before {
+            background: linear-gradient(90deg, var(--green), var(--blue));
+        }
+        .tool-card.trainer:hover {
+            border-color: rgba(34, 197, 94, 0.3);
+            box-shadow: 0 8px 40px rgba(34, 197, 94, 0.08), 0 0 0 1px rgba(34, 197, 94, 0.15);
+        }
+
+        .tool-card.report::before {
+            background: linear-gradient(90deg, var(--orange), #ef4444);
+        }
+        .tool-card.report:hover {
+            border-color: rgba(245, 158, 11, 0.3);
+            box-shadow: 0 8px 40px rgba(245, 158, 11, 0.08), 0 0 0 1px rgba(245, 158, 11, 0.15);
+        }
+
+        .tool-card:hover::before {
+            opacity: 1;
+        }
+
+        .tool-icon {
+            font-size: 2em;
+            margin-bottom: 20px;
+            display: block;
+        }
+
+        .tool-card h2 {
+            font-size: 1.15em;
+            font-weight: 700;
+            margin-bottom: 8px;
+            letter-spacing: -0.01em;
+        }
+
+        .tool-card p {
+            color: var(--text-muted);
+            font-size: 0.85em;
+            line-height: 1.55;
+            margin-bottom: 20px;
+        }
+
+        .tool-tag {
+            display: inline-block;
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.68em;
+            padding: 4px 10px;
+            border-radius: 6px;
+            letter-spacing: 0.03em;
+        }
+
+        .trainer .tool-tag {
+            background: var(--green-glow);
+            color: var(--green);
+        }
+
+        .report .tool-tag {
+            background: var(--orange-glow);
+            color: var(--orange);
+        }
+
+        .arrow {
+            position: absolute;
+            bottom: 28px;
+            right: 28px;
+            color: var(--text-muted);
+            font-size: 1.2em;
+            transition: all 0.3s ease;
+            opacity: 0.4;
+        }
+
+        .tool-card:hover .arrow {
+            opacity: 1;
+            transform: translateX(4px);
+        }
+        .trainer:hover .arrow { color: var(--green); }
+        .report:hover .arrow { color: var(--orange); }
+
+        .footer {
+            text-align: center;
+            margin-top: 56px;
+            color: var(--text-muted);
+            font-size: 0.75em;
+            opacity: 0;
+            animation: fadeUp 0.6s ease 0.55s forwards;
+        }
+
+        @keyframes fadeUp {
+            from { opacity: 0; transform: translateY(16px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        @media (max-width: 560px) {
+            .tools-grid { grid-template-columns: 1fr; }
+            .header h1 { font-size: 1.6em; }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="header">
+            <div class="logo-mark">Anderson Powersports</div>
+            <h1>Internal Tools</h1>
+            <p>Staff resources for all five locations</p>
+        </div>
+
+        <div class="tools-grid">
+            <a href="trainer.html" class="tool-card trainer">
+                <span class="tool-icon">📋</span>
+                <h2>Product Trainer</h2>
+                <p>Live inventory with sales knowledge cards, key specs, and selling points for every unit in stock.</p>
+                <span class="tool-tag">Staff Login Required</span>
+                <span class="arrow">→</span>
+            </a>
+
+            <a href="report.html" class="tool-card report">
+                <span class="tool-icon">📊</span>
+                <h2>Operations Report</h2>
+                <p>Feed health audit, inventory snapshot by location, and daily delta tracking across all stores.</p>
+                <span class="tool-tag">Updated Daily 6AM MST</span>
+                <span class="arrow">→</span>
+            </a>
+        </div>
+
+        <div class="footer">
+            North Lake Havasu · Bullhead City · Parker · South Lake Havasu · Reno
+        </div>
+    </div>
+
+</body>
+</html>
