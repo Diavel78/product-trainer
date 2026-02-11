@@ -1082,7 +1082,7 @@ def generate_report(summary, inv_issues, google_issues, fb_issues, delta, invent
         </div>
         <div class="meta">
             {timestamp}<br>
-            <a href="index.html" style="color: var(--accent); text-decoration: none; font-size: 0.95em;">← Back to Trainer</a>
+            <a href="trainer.html" style="color: var(--accent); text-decoration: none; font-size: 0.95em;">← Back to Trainer</a>
         </div>
     </div>
 
