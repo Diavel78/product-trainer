@@ -7,7 +7,7 @@ import re
 # --- CONFIGURATION ---
 FEED_URL = "https://motohunt.com/feed/inventory/g2387-426e2dea251a38c7bd9a6d5ea9741933.json"
 SPECS_FILE = "specs_database.json"
-OUTPUT_FILE = "index.html"
+OUTPUT_FILE = "trainer.html"
 
 # YOUR SPECIFIC FIREBASE CONFIG (Do not edit)
 FIREBASE_CONFIG_JS = """
