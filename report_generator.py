@@ -713,6 +713,10 @@ def generate_report(summary, inv_issues, google_issues, fb_issues, delta, invent
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Anderson Powersports — Operations Report</title>
+    
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-auth.js"></script>
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,500;0,9..40,700;1,9..40,400&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
     <style>
@@ -1076,6 +1080,20 @@ def generate_report(summary, inv_issues, google_issues, fb_issues, delta, invent
 </head>
 <body>
 
+    <!-- LOGIN OVERLAY -->
+    <div id="login-overlay" style="position:fixed;top:0;left:0;width:100%;height:100%;background:#0d1117;z-index:9999;display:flex;justify-content:center;align-items:center;">
+        <div style="background:#161b22;padding:40px;border-radius:12px;border:1px solid #30363d;text-align:center;width:320px;">
+            <h2 style="margin-top:0;margin-bottom:6px;font-size:1.3em;">Staff Login</h2>
+            <p style="color:#8b949e;font-size:0.85em;margin-bottom:24px;">Anderson Powersports Operations Report</p>
+            <input type="email" id="email" placeholder="Email" style="width:100%;padding:12px;margin-bottom:12px;background:#0d1117;border:1px solid #30363d;color:white;border-radius:8px;box-sizing:border-box;">
+            <input type="password" id="password" placeholder="Password" onkeydown="if(event.key==='Enter')login()" style="width:100%;padding:12px;margin-bottom:12px;background:#0d1117;border:1px solid #30363d;color:white;border-radius:8px;box-sizing:border-box;">
+            <button onclick="login()" style="width:100%;padding:12px;background:#58a6ff;color:white;border:none;font-weight:bold;border-radius:8px;cursor:pointer;">Login</button>
+            <p id="login-error" style="color:#f85149;margin-top:12px;font-size:0.85em;"></p>
+        </div>
+    </div>
+
+    <div id="app-content" style="display:none;">
+
     <div class="top-bar">
         <div>
             <h1>Anderson Powersports <span>Operations Report</span></h1>
@@ -1181,6 +1199,37 @@ def generate_report(summary, inv_issues, google_issues, fb_issues, delta, invent
         </div>
 
     </div>
+
+    </div><!-- end app-content -->
+
+    <script>
+        // Firebase Auth
+        const firebaseConfig = {{
+            apiKey: "AIzaSyAfgVJvPdmYAkfjgCzQA0L3GiwcHqp412s",
+            authDomain: "anderson-trainer.firebaseapp.com",
+            databaseURL: "https://anderson-trainer-default-rtdb.firebaseio.com",
+            projectId: "anderson-trainer",
+            storageBucket: "anderson-trainer.firebasestorage.app",
+            messagingSenderId: "637062348956",
+            appId: "1:637062348956:web:0a660a80e31810bb392d59",
+            measurementId: "G-THJZ99GDJ7"
+        }};
+        firebase.initializeApp(firebaseConfig);
+        var auth = firebase.auth();
+
+        auth.onAuthStateChanged((user) => {{
+            document.getElementById('login-overlay').style.display = user ? 'none' : 'flex';
+            document.getElementById('app-content').style.display = user ? 'block' : 'none';
+        }});
+
+        function login() {{
+            const email = document.getElementById('email').value;
+            const pass = document.getElementById('password').value;
+            document.getElementById('login-error').textContent = "Logging in...";
+            auth.signInWithEmailAndPassword(email, pass)
+                .catch((e) => {{ document.getElementById('login-error').textContent = e.message; }});
+        }}
+    </script>
 
     <script>
         // Tab switching
