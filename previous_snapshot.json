@@ -1,48 +1,6 @@
 {
-  "date": "2026-02-18 14:03",
+  "date": "2026-02-19 14:04",
   "units": {
-    "081096": {
-      "title": "2026 Echo Trailers Advantage ERA-14-15T",
-      "store_label": "(5) Reno",
-      "category": "Trailer",
-      "condition": "New",
-      "price": 4795.0
-    },
-    "081099": {
-      "title": "2026 Echo Trailers Advantage ERA-14-15T",
-      "store_label": "(5) Reno",
-      "category": "Trailer",
-      "condition": "New",
-      "price": 4795.0
-    },
-    "081097": {
-      "title": "2026 Echo Trailers Advantage ERA-14-15T",
-      "store_label": "(5) Reno",
-      "category": "Trailer",
-      "condition": "New",
-      "price": 4795.0
-    },
-    "081095": {
-      "title": "2026 Echo Trailers Advantage ERA-17-15T",
-      "store_label": "(5) Reno",
-      "category": "Trailer",
-      "condition": "New",
-      "price": 5495.0
-    },
-    "081094": {
-      "title": "2026 Echo Trailers Advantage ERA-17-15T",
-      "store_label": "(5) Reno",
-      "category": "Trailer",
-      "condition": "New",
-      "price": 5495.0
-    },
-    "081098": {
-      "title": "2026 Echo Trailers Advantage ERA-14-15T",
-      "store_label": "(5) Reno",
-      "category": "Trailer",
-      "condition": "New",
-      "price": 4795.0
-    },
     "BT1276": {
       "title": "2025 Built WC217",
       "store_label": "(2) Bullhead City",
@@ -92,14 +50,14 @@
       "condition": "Used",
       "price": 1590.0
     },
-    "BT1303": {
+    "BT1301": {
       "title": "2025 Built Double",
       "store_label": "(2) Bullhead City",
       "category": "Trailer",
       "condition": "New",
       "price": 3695.0
     },
-    "BT1302": {
+    "BT1303": {
       "title": "2025 Built Double",
       "store_label": "(2) Bullhead City",
       "category": "Trailer",
@@ -113,12 +71,54 @@
       "condition": "New",
       "price": 3695.0
     },
-    "BT1301": {
+    "BT1302": {
       "title": "2025 Built Double",
       "store_label": "(2) Bullhead City",
       "category": "Trailer",
       "condition": "New",
       "price": 3695.0
+    },
+    "081097": {
+      "title": "2026 Echo Trailers Advantage ERA-14-15T",
+      "store_label": "(5) Reno",
+      "category": "Trailer",
+      "condition": "New",
+      "price": 4795.0
+    },
+    "081098": {
+      "title": "2026 Echo Trailers Advantage ERA-14-15T",
+      "store_label": "(5) Reno",
+      "category": "Trailer",
+      "condition": "New",
+      "price": 4795.0
+    },
+    "081096": {
+      "title": "2026 Echo Trailers Advantage ERA-14-15T",
+      "store_label": "(5) Reno",
+      "category": "Trailer",
+      "condition": "New",
+      "price": 4795.0
+    },
+    "081099": {
+      "title": "2026 Echo Trailers Advantage ERA-14-15T",
+      "store_label": "(5) Reno",
+      "category": "Trailer",
+      "condition": "New",
+      "price": 4795.0
+    },
+    "081094": {
+      "title": "2026 Echo Trailers Advantage ERA-17-15T",
+      "store_label": "(5) Reno",
+      "category": "Trailer",
+      "condition": "New",
+      "price": 5495.0
+    },
+    "081095": {
+      "title": "2026 Echo Trailers Advantage ERA-17-15T",
+      "store_label": "(5) Reno",
+      "category": "Trailer",
+      "condition": "New",
+      "price": 5495.0
     },
     "A1598": {
       "title": "2024 Godfrey Pontoons AP275SDE",
@@ -307,21 +307,28 @@
       "store_label": "(1) North Lake Havasu",
       "category": "Boat",
       "condition": "New",
-      "price": 47499.0
+      "price": 48999.0
+    },
+    "H3299": {
+      "title": "2025 Yamaha Boats SX195",
+      "store_label": "(1) North Lake Havasu",
+      "category": "Boat",
+      "condition": "New",
+      "price": 40299.0
     },
     "H3454": {
       "title": "2025 Sea-Doo Switch Cruise Limited 21 - 230 hp Painted",
       "store_label": "(1) North Lake Havasu",
       "category": "Boat",
       "condition": "New",
-      "price": 43999.0
+      "price": 46099.0
     },
     "H3473": {
       "title": "2025 Sea-Doo Switch Cruise Limited 21 - 230 hp Painted",
       "store_label": "(1) North Lake Havasu",
       "category": "Boat",
       "condition": "New",
-      "price": 43999.0
+      "price": 46099.0
     },
     "HP3616": {
       "title": "2021 Yamaha Marine 252SE",
@@ -428,19 +435,19 @@
       "condition": "New",
       "price": 78499.0
     },
-    "H3829": {
-      "title": "2026 Yamaha Marine BPT1800G-CAP",
-      "store_label": "(1) North Lake Havasu",
-      "category": "Boat",
-      "condition": "New",
-      "price": 126999.0
-    },
     "H3831": {
       "title": "2026 Yamaha Marine TP1800A-CBP",
       "store_label": "(1) North Lake Havasu",
       "category": "Boat",
       "condition": "New",
       "price": 49999.0
+    },
+    "H3829": {
+      "title": "2026 Yamaha Marine BPT1800G-CAP",
+      "store_label": "(1) North Lake Havasu",
+      "category": "Boat",
+      "condition": "New",
+      "price": 126999.0
     },
     "H3855": {
       "title": "2026 Yamaha Marine TP1800A-CBP",
@@ -589,19 +596,19 @@
       "condition": "New",
       "price": 45799.0
     },
-    "B3431": {
-      "title": "2026 Sea-Doo Switch Cruise 21 - 300 hp - Tech Painted",
-      "store_label": "(2) Bullhead City",
-      "category": "Boat",
-      "condition": "New",
-      "price": 52599.0
-    },
     "B3430": {
       "title": "2026 Sea-Doo Switch Sport 21 - 300 hp Painted",
       "store_label": "(2) Bullhead City",
       "category": "Boat",
       "condition": "New",
       "price": 47349.0
+    },
+    "B3431": {
+      "title": "2026 Sea-Doo Switch Cruise 21 - 300 hp - Tech Painted",
+      "store_label": "(2) Bullhead City",
+      "category": "Boat",
+      "condition": "New",
+      "price": 52599.0
     },
     "632109": {
       "title": "2025 Polaris RMK SP 155 650 Mirage Gray Gloss Black",
@@ -645,8 +652,8 @@
       "condition": "New",
       "price": 3999.0
     },
-    "292646": {
-      "title": "2023 Timbersled ARO 3 S PREMIUM - BLACK",
+    "246715": {
+      "title": "2024 Timbersled RIOT 3 S PREMIUM - BLACK",
       "store_label": "(5) Reno",
       "category": "Snowmobile",
       "condition": "New",
@@ -659,8 +666,8 @@
       "condition": "New",
       "price": 0
     },
-    "246715": {
-      "title": "2024 Timbersled RIOT 3 S PREMIUM - BLACK",
+    "292646": {
+      "title": "2023 Timbersled ARO 3 S PREMIUM - BLACK",
       "store_label": "(5) Reno",
       "category": "Snowmobile",
       "condition": "New",
@@ -680,19 +687,19 @@
       "condition": "New",
       "price": 23396.0
     },
-    "054619": {
-      "title": "2026 Polaris PRO-RMK 165 850 Gloss Black Blue Dusk",
-      "store_label": "(5) Reno",
-      "category": "Snowmobile",
-      "condition": "New",
-      "price": 18596.0
-    },
     "059614": {
       "title": "2026 Polaris Patriot 9R RMK Khaos 146 Premium Matte Casecade Gr",
       "store_label": "(5) Reno",
       "category": "Snowmobile",
       "condition": "New",
       "price": 22216.0
+    },
+    "054619": {
+      "title": "2026 Polaris PRO-RMK 165 850 Gloss Black Blue Dusk",
+      "store_label": "(5) Reno",
+      "category": "Snowmobile",
+      "condition": "New",
+      "price": 18596.0
     },
     "054618": {
       "title": "2026 Polaris PRO-RMK 165 850 Gloss Black Blue Dusk",
@@ -736,33 +743,19 @@
       "condition": "Used",
       "price": 13299.0
     },
-    "H3713": {
-      "title": "2026 Sea-Doo RXT-X 325 Gulfstream Blue Premium",
-      "store_label": "(1) North Lake Havasu",
-      "category": "PWC",
-      "condition": "New",
-      "price": 22299.0
-    },
-    "B3364": {
-      "title": "2026 Yamaha Waverunners FX HO with Audio",
-      "store_label": "(2) Bullhead City",
-      "category": "PWC",
-      "condition": "New",
-      "price": 17799.0
-    },
     "H3066": {
       "title": "2025 Yamaha Waverunners VX Limited",
       "store_label": "(1) North Lake Havasu",
       "category": "PWC",
       "condition": "New",
-      "price": 12999.0
+      "price": 13499.0
     },
     "H3104": {
       "title": "2025 Yamaha Waverunners VX Cruiser with Audio",
       "store_label": "(1) North Lake Havasu",
       "category": "PWC",
       "condition": "New",
-      "price": 11999.0
+      "price": 12499.0
     },
     "H3148": {
       "title": "2025 Yamaha Waverunners Jetblaster",
@@ -776,42 +769,42 @@
       "store_label": "(1) North Lake Havasu",
       "category": "PWC",
       "condition": "New",
-      "price": 7699.0
+      "price": 7999.0
     },
     "H3143": {
       "title": "2025 Yamaha Waverunners VX Cruiser with Audio",
       "store_label": "(1) North Lake Havasu",
       "category": "PWC",
       "condition": "New",
-      "price": 11999.0
+      "price": 12499.0
     },
     "H3151": {
       "title": "2025 Yamaha Waverunners VX Limited",
       "store_label": "(1) North Lake Havasu",
       "category": "PWC",
       "condition": "New",
-      "price": 12499.0
+      "price": 13499.0
     },
     "H3171": {
       "title": "2025 Yamaha Waverunners Jetblaster PRO 2-Up",
       "store_label": "(1) North Lake Havasu",
       "category": "PWC",
       "condition": "New",
-      "price": 9499.0
+      "price": 9999.0
     },
     "H3170": {
       "title": "2025 Yamaha Waverunners Jetblaster PRO 2-Up",
       "store_label": "(1) North Lake Havasu",
       "category": "PWC",
       "condition": "New",
-      "price": 9499.0
+      "price": 9999.0
     },
     "H3182": {
       "title": "2025 Yamaha Waverunners Jetblaster PRO 3-Up",
       "store_label": "(1) North Lake Havasu",
       "category": "PWC",
       "condition": "New",
-      "price": 10199.0
+      "price": 10999.0
     },
     "HP3206": {
       "title": "2022 Kawasaki Jet Ski Ultra 310 310X",
@@ -820,180 +813,180 @@
       "condition": "Used",
       "price": 11998.0
     },
-    "H3205": {
-      "title": "2025 Yamaha Waverunners Jetblaster DLX 2-Up",
-      "store_label": "(1) North Lake Havasu",
-      "category": "PWC",
-      "condition": "New",
-      "price": 7699.0
-    },
     "H3204": {
       "title": "2025 Yamaha Waverunners Jetblaster DLX 2-Up",
       "store_label": "(1) North Lake Havasu",
       "category": "PWC",
       "condition": "New",
-      "price": 7699.0
+      "price": 7999.0
+    },
+    "H3205": {
+      "title": "2025 Yamaha Waverunners Jetblaster DLX 2-Up",
+      "store_label": "(1) North Lake Havasu",
+      "category": "PWC",
+      "condition": "New",
+      "price": 7999.0
     },
     "H3284": {
       "title": "2025 Yamaha Waverunners Jetblaster DLX 3-Up",
       "store_label": "(1) North Lake Havasu",
       "category": "PWC",
       "condition": "New",
-      "price": 8499.0
-    },
-    "H3311": {
-      "title": "2025 Yamaha Waverunners VX Deluxe With Audio",
-      "store_label": "(1) North Lake Havasu",
-      "category": "PWC",
-      "condition": "New",
-      "price": 11999.0
+      "price": 8999.0
     },
     "H3310": {
       "title": "2025 Yamaha Waverunners VX Deluxe With Audio",
       "store_label": "(1) North Lake Havasu",
       "category": "PWC",
       "condition": "New",
-      "price": 11999.0
+      "price": 12499.0
     },
-    "H3320": {
-      "title": "2025 Yamaha Waverunners FX SVHO",
+    "H3311": {
+      "title": "2025 Yamaha Waverunners VX Deluxe With Audio",
       "store_label": "(1) North Lake Havasu",
       "category": "PWC",
       "condition": "New",
-      "price": 16999.0
+      "price": 12499.0
     },
     "H3321": {
       "title": "2025 Yamaha Waverunners FX SVHO",
       "store_label": "(1) North Lake Havasu",
       "category": "PWC",
       "condition": "New",
-      "price": 16999.0
+      "price": 17499.0
+    },
+    "H3320": {
+      "title": "2025 Yamaha Waverunners FX SVHO",
+      "store_label": "(1) North Lake Havasu",
+      "category": "PWC",
+      "condition": "New",
+      "price": 17499.0
     },
     "H3349": {
       "title": "2025 Yamaha Waverunners FX HO",
       "store_label": "(1) North Lake Havasu",
       "category": "PWC",
       "condition": "New",
-      "price": 13999.0
+      "price": 14499.0
     },
     "H3359": {
       "title": "2025 Yamaha Waverunners VX Cruiser with Audio",
       "store_label": "(1) North Lake Havasu",
       "category": "PWC",
       "condition": "New",
-      "price": 11999.0
+      "price": 12499.0
     },
     "H3372": {
       "title": "2025 Yamaha Waverunners FX Cruiser SVHO",
       "store_label": "(1) North Lake Havasu",
       "category": "PWC",
       "condition": "New",
-      "price": 17199.0
+      "price": 17699.0
     },
     "H3430": {
       "title": "2025 Yamaha Waverunners FX Cruiser SVHO",
       "store_label": "(1) North Lake Havasu",
       "category": "PWC",
       "condition": "New",
-      "price": 17199.0
+      "price": 17699.0
     },
     "H3495": {
       "title": "2025 Sea-Doo GTX 230 Tech, Audio, iDF, iBR",
       "store_label": "(1) North Lake Havasu",
       "category": "PWC",
       "condition": "New",
-      "price": 14599.0
+      "price": 15199.0
     },
     "H3499": {
       "title": "2025 Sea-Doo GTX 230 Tech, Audio, iDF, iBR",
       "store_label": "(1) North Lake Havasu",
       "category": "PWC",
       "condition": "New",
-      "price": 14599.0
+      "price": 15199.0
     },
     "H3498": {
       "title": "2025 Sea-Doo GTX 230 Tech, Audio, iDF, iBR",
       "store_label": "(1) North Lake Havasu",
       "category": "PWC",
       "condition": "New",
-      "price": 14599.0
+      "price": 15199.0
     },
     "H3502": {
       "title": "2025 Sea-Doo GTX 230 Tech, Audio, iDF, iBR",
       "store_label": "(1) North Lake Havasu",
       "category": "PWC",
       "condition": "New",
-      "price": 14599.0
+      "price": 15199.0
     },
     "H3500": {
       "title": "2025 Sea-Doo GTX 230 Tech, Audio, iDF, iBR",
       "store_label": "(1) North Lake Havasu",
       "category": "PWC",
       "condition": "New",
-      "price": 14599.0
+      "price": 15199.0
     },
     "H3501": {
       "title": "2025 Sea-Doo GTX 230 Tech, Audio, iDF, iBR",
       "store_label": "(1) North Lake Havasu",
       "category": "PWC",
       "condition": "New",
-      "price": 14599.0
+      "price": 15199.0
     },
     "H3508": {
       "title": "2025 Yamaha Waverunners Jetblaster DLX 2-Up",
       "store_label": "(1) North Lake Havasu",
       "category": "PWC",
       "condition": "New",
-      "price": 7699.0
+      "price": 7999.0
     },
     "H3510": {
       "title": "2025 Yamaha Waverunners Jetblaster PRO 2-Up",
       "store_label": "(1) North Lake Havasu",
       "category": "PWC",
       "condition": "New",
-      "price": 9499.0
+      "price": 9999.0
     },
     "H3517": {
       "title": "2025 Yamaha Waverunners Jetblaster DLX 2-Up",
       "store_label": "(1) North Lake Havasu",
       "category": "PWC",
       "condition": "New",
-      "price": 7699.0
-    },
-    "H3511": {
-      "title": "2025 Yamaha Waverunners Jetblaster PRO 3-Up",
-      "store_label": "(1) North Lake Havasu",
-      "category": "PWC",
-      "condition": "New",
-      "price": 10499.0
+      "price": 7999.0
     },
     "H3509": {
       "title": "2025 Yamaha Waverunners Jetblaster PRO 2-Up",
       "store_label": "(1) North Lake Havasu",
       "category": "PWC",
       "condition": "New",
-      "price": 9499.0
+      "price": 9999.0
     },
     "H3512": {
       "title": "2025 Yamaha Waverunners Jetblaster PRO 3-Up",
       "store_label": "(1) North Lake Havasu",
       "category": "PWC",
       "condition": "New",
-      "price": 10499.0
+      "price": 10999.0
+    },
+    "H3511": {
+      "title": "2025 Yamaha Waverunners Jetblaster PRO 3-Up",
+      "store_label": "(1) North Lake Havasu",
+      "category": "PWC",
+      "condition": "New",
+      "price": 10999.0
     },
     "H3538": {
       "title": "2025 Sea-Doo Wake Pro 230",
       "store_label": "(1) North Lake Havasu",
       "category": "PWC",
       "condition": "New",
-      "price": 15699.0
+      "price": 16199.0
     },
     "H3539": {
       "title": "2025 Sea-Doo Wake Pro 230",
       "store_label": "(1) North Lake Havasu",
       "category": "PWC",
       "condition": "New",
-      "price": 15699.0
+      "price": 16199.0
     },
     "H3540": {
       "title": "2025 Sea-Doo Wake Pro 230",
@@ -1007,42 +1000,35 @@
       "store_label": "(1) North Lake Havasu",
       "category": "PWC",
       "condition": "New",
-      "price": 15699.0
+      "price": 16199.0
     },
     "H3536": {
       "title": "2025 Sea-Doo GTX 170 iBR and iDF",
       "store_label": "(1) North Lake Havasu",
       "category": "PWC",
       "condition": "New",
-      "price": 12699.0
+      "price": 13199.0
     },
     "H3553": {
       "title": "2025 Sea-Doo GTX 170 iBR and iDF",
       "store_label": "(1) North Lake Havasu",
       "category": "PWC",
       "condition": "New",
-      "price": 12699.0
+      "price": 13199.0
     },
     "H3591": {
       "title": "2025 Sea-Doo GTX 230 Ibr And Idf",
       "store_label": "(1) North Lake Havasu",
       "category": "PWC",
       "condition": "New",
-      "price": 13699.0
+      "price": 14199.0
     },
     "H3590": {
       "title": "2025 Sea-Doo GTX 230 Ibr And Idf",
       "store_label": "(1) North Lake Havasu",
       "category": "PWC",
       "condition": "New",
-      "price": 13699.0
-    },
-    "H3622": {
-      "title": "2026 Yamaha Waverunners SuperJet",
-      "store_label": "(1) North Lake Havasu",
-      "category": "PWC",
-      "condition": "New",
-      "price": 11499.0
+      "price": 14199.0
     },
     "H3624": {
       "title": "2026 Yamaha WaveRunners SuperJet",
@@ -1051,7 +1037,21 @@
       "condition": "New",
       "price": 11499.0
     },
+    "H3622": {
+      "title": "2026 Yamaha Waverunners SuperJet",
+      "store_label": "(1) North Lake Havasu",
+      "category": "PWC",
+      "condition": "New",
+      "price": 11499.0
+    },
     "H3631": {
+      "title": "2026 Yamaha Waverunners SuperJet",
+      "store_label": "(1) North Lake Havasu",
+      "category": "PWC",
+      "condition": "New",
+      "price": 11499.0
+    },
+    "H3632": {
       "title": "2026 Yamaha Waverunners SuperJet",
       "store_label": "(1) North Lake Havasu",
       "category": "PWC",
@@ -1072,13 +1072,6 @@
       "condition": "New",
       "price": 11499.0
     },
-    "H3632": {
-      "title": "2026 Yamaha Waverunners SuperJet",
-      "store_label": "(1) North Lake Havasu",
-      "category": "PWC",
-      "condition": "New",
-      "price": 11499.0
-    },
     "H3660A": {
       "title": "2017 Sea-Doo RXT X 300",
       "store_label": "(1) North Lake Havasu",
@@ -1086,12 +1079,26 @@
       "condition": "Used",
       "price": 9498.0
     },
+    "H3687": {
+      "title": "2026 Sea-Doo GTX Limited 325 Teal Metallic",
+      "store_label": "(1) North Lake Havasu",
+      "category": "PWC",
+      "condition": "New",
+      "price": 22549.0
+    },
     "H3689": {
       "title": "2026 Sea-Doo GTX Limited 325 White Pearl Premium",
       "store_label": "(1) North Lake Havasu",
       "category": "PWC",
       "condition": "New",
       "price": 22949.0
+    },
+    "H3683": {
+      "title": "2026 Sea-Doo RXP-X 325 Ibr Ice Metal Manta Green",
+      "store_label": "(1) North Lake Havasu",
+      "category": "PWC",
+      "condition": "New",
+      "price": 20099.0
     },
     "H3686": {
       "title": "2026 Sea-Doo SparkTrixx For 3 Rotax 900 ACE - 90 Ibr",
@@ -1106,20 +1113,6 @@
       "category": "PWC",
       "condition": "New",
       "price": 9399.0
-    },
-    "H3687": {
-      "title": "2026 Sea-Doo GTX Limited 325 Teal Metallic",
-      "store_label": "(1) North Lake Havasu",
-      "category": "PWC",
-      "condition": "New",
-      "price": 22549.0
-    },
-    "H3683": {
-      "title": "2026 Sea-Doo RXP-X 325 Ibr Ice Metal Manta Green",
-      "store_label": "(1) North Lake Havasu",
-      "category": "PWC",
-      "condition": "New",
-      "price": 20099.0
     },
     "H3685": {
       "title": "2026 Sea-Doo GTX Limited 325 White Pearl Premium",
@@ -1156,13 +1149,6 @@
       "condition": "New",
       "price": 19099.0
     },
-    "H3697": {
-      "title": "2026 Sea-Doo GTR X 300 iBR",
-      "store_label": "(1) North Lake Havasu",
-      "category": "PWC",
-      "condition": "New",
-      "price": 17899.0
-    },
     "H3698": {
       "title": "2026 Sea-Doo GTI 130",
       "store_label": "(1) North Lake Havasu",
@@ -1170,19 +1156,19 @@
       "condition": "New",
       "price": 12099.0
     },
+    "H3697": {
+      "title": "2026 Sea-Doo GTR X 300 iBR",
+      "store_label": "(1) North Lake Havasu",
+      "category": "PWC",
+      "condition": "New",
+      "price": 17899.0
+    },
     "H3715": {
       "title": "2026 Sea-Doo RXT-X 325 Gulfstream Blue Premium",
       "store_label": "(1) North Lake Havasu",
       "category": "PWC",
       "condition": "New",
       "price": 22299.0
-    },
-    "H3716": {
-      "title": "2026 Sea-Doo RXT-X 325 Ice Metal Manta Green",
-      "store_label": "(1) North Lake Havasu",
-      "category": "PWC",
-      "condition": "New",
-      "price": 21899.0
     },
     "H3718": {
       "title": "2026 Sea-Doo Spark For 3 Rotax 900 ACE - 90 CONV With I",
@@ -1192,6 +1178,20 @@
       "price": 9399.0
     },
     "H3717": {
+      "title": "2026 Sea-Doo RXT-X 325 Ice Metal Manta Green",
+      "store_label": "(1) North Lake Havasu",
+      "category": "PWC",
+      "condition": "New",
+      "price": 21899.0
+    },
+    "H3713": {
+      "title": "2005 Yamaha Waverunners JetBlaster PRO 3-Up",
+      "store_label": "(1) North Lake Havasu",
+      "category": "PWC",
+      "condition": "New",
+      "price": 0
+    },
+    "H3716": {
       "title": "2026 Sea-Doo RXT-X 325 Ice Metal Manta Green",
       "store_label": "(1) North Lake Havasu",
       "category": "PWC",
@@ -1212,13 +1212,6 @@
       "condition": "New",
       "price": 11499.0
     },
-    "H3726": {
-      "title": "2026 Sea-Doo RXP-X 325 iBR Gulfstream Blue Premium",
-      "store_label": "(1) North Lake Havasu",
-      "category": "PWC",
-      "condition": "New",
-      "price": 20499.0
-    },
     "H3724": {
       "title": "2026 Sea-Doo RXT-X 325 Ice Metal / Manta Green",
       "store_label": "(1) North Lake Havasu",
@@ -1226,12 +1219,12 @@
       "condition": "New",
       "price": 21899.0
     },
-    "H3728": {
-      "title": "2026 Sea-Doo SparkTrixx for 3 Rotax 900 ACE - 90 iBR",
+    "H3726": {
+      "title": "2026 Sea-Doo RXP-X 325 iBR Gulfstream Blue Premium",
       "store_label": "(1) North Lake Havasu",
       "category": "PWC",
       "condition": "New",
-      "price": 10099.0
+      "price": 20499.0
     },
     "H3727": {
       "title": "2026 Sea-Doo GTX Limited 325 White Pearl Premium",
@@ -1240,13 +1233,6 @@
       "condition": "New",
       "price": 22949.0
     },
-    "H3729": {
-      "title": "2026 Yamaha Waverunners SuperJet",
-      "store_label": "(1) North Lake Havasu",
-      "category": "PWC",
-      "condition": "New",
-      "price": 11499.0
-    },
     "H3725": {
       "title": "2026 Sea-Doo RXP-X 325 iBR Gulfstream Blue Premium",
       "store_label": "(1) North Lake Havasu",
@@ -1254,12 +1240,19 @@
       "condition": "New",
       "price": 20499.0
     },
-    "H3749": {
-      "title": "2026 Yamaha Waverunners JB1050B-CB",
+    "H3729": {
+      "title": "2026 Yamaha Waverunners SuperJet",
       "store_label": "(1) North Lake Havasu",
       "category": "PWC",
       "condition": "New",
-      "price": 11699.0
+      "price": 11499.0
+    },
+    "H3728": {
+      "title": "2026 Sea-Doo SparkTrixx for 3 Rotax 900 ACE - 90 iBR",
+      "store_label": "(1) North Lake Havasu",
+      "category": "PWC",
+      "condition": "New",
+      "price": 10099.0
     },
     "H3748": {
       "title": "2026 Yamaha Waverunners FX Cruiser SVHO",
@@ -1267,6 +1260,13 @@
       "category": "PWC",
       "condition": "New",
       "price": 21599.0
+    },
+    "H3749": {
+      "title": "2026 Yamaha Waverunners JB1050B-CB",
+      "store_label": "(1) North Lake Havasu",
+      "category": "PWC",
+      "condition": "New",
+      "price": 11699.0
     },
     "H3747": {
       "title": "2026 Yamaha Waverunners FX Cruiser SVHO",
@@ -1289,13 +1289,6 @@
       "condition": "New",
       "price": 11499.0
     },
-    "H3768": {
-      "title": "2026 Sea-Doo SparkTrixx For 3 Rotax 900 ACE - 90 Ibr",
-      "store_label": "(1) North Lake Havasu",
-      "category": "PWC",
-      "condition": "New",
-      "price": 10099.0
-    },
     "H3766": {
       "title": "2026 Sea-Doo GTR 230 iBR",
       "store_label": "(1) North Lake Havasu",
@@ -1303,12 +1296,12 @@
       "condition": "New",
       "price": 14899.0
     },
-    "H3767": {
-      "title": "2026 Sea-Doo GTR 230 BRP Premium Audio, Ibr",
+    "H3768": {
+      "title": "2026 Sea-Doo SparkTrixx For 3 Rotax 900 ACE - 90 Ibr",
       "store_label": "(1) North Lake Havasu",
       "category": "PWC",
       "condition": "New",
-      "price": 15699.0
+      "price": 10099.0
     },
     "H3765": {
       "title": "2026 Sea-Doo RXT-X 325 Ice Metal Manta Green",
@@ -1317,14 +1310,21 @@
       "condition": "New",
       "price": 21899.0
     },
-    "H3763": {
+    "H3767": {
+      "title": "2026 Sea-Doo GTR 230 BRP Premium Audio, Ibr",
+      "store_label": "(1) North Lake Havasu",
+      "category": "PWC",
+      "condition": "New",
+      "price": 15699.0
+    },
+    "H3764": {
       "title": "2026 Sea-Doo RXT-X 325 Gulfstream Blue Premium",
       "store_label": "(1) North Lake Havasu",
       "category": "PWC",
       "condition": "New",
       "price": 22299.0
     },
-    "H3764": {
+    "H3763": {
       "title": "2026 Sea-Doo RXT-X 325 Gulfstream Blue Premium",
       "store_label": "(1) North Lake Havasu",
       "category": "PWC",
@@ -1338,15 +1338,15 @@
       "condition": "Used",
       "price": 6498.0
     },
-    "H3844": {
-      "title": "2026 Yamaha Waverunners VX1050C-CB",
+    "H3845": {
+      "title": "2026 Yamaha VX1050C-CB",
       "store_label": "(1) North Lake Havasu",
       "category": "PWC",
       "condition": "New",
       "price": 13999.0
     },
-    "H3845": {
-      "title": "2026 Yamaha VX1050C-CB",
+    "H3844": {
+      "title": "2026 Yamaha Waverunners VX1050C-CB",
       "store_label": "(1) North Lake Havasu",
       "category": "PWC",
       "condition": "New",
@@ -1366,7 +1366,7 @@
       "condition": "New",
       "price": 14899.0
     },
-    "H3839": {
+    "H3838": {
       "title": "2026 Yamaha Waverunners VX",
       "store_label": "(1) North Lake Havasu",
       "category": "PWC",
@@ -1380,7 +1380,7 @@
       "condition": "New",
       "price": 15699.0
     },
-    "H3838": {
+    "H3839": {
       "title": "2026 Yamaha Waverunners VX",
       "store_label": "(1) North Lake Havasu",
       "category": "PWC",
@@ -1436,19 +1436,19 @@
       "condition": "Used",
       "price": 6998.0
     },
+    "H3878": {
+      "title": "2026 Sea-Doo SparkTrixx For 3 Rotax 900 ACE - 90 Ibr",
+      "store_label": "(1) North Lake Havasu",
+      "category": "PWC",
+      "condition": "New",
+      "price": 10099.0
+    },
     "H3873": {
       "title": "2026 Sea-Doo RXT-X 325 Gulfstream Blue Premium",
       "store_label": "(1) North Lake Havasu",
       "category": "PWC",
       "condition": "New",
       "price": 22299.0
-    },
-    "H3877": {
-      "title": "2026 Sea-Doo GTR 230 BRP Premium Audio, Ibr",
-      "store_label": "(1) North Lake Havasu",
-      "category": "PWC",
-      "condition": "New",
-      "price": 15699.0
     },
     "H3874": {
       "title": "2026 Sea-Doo GTR-X 300 Tech, BRP Premium Audio, Ibr",
@@ -1457,12 +1457,12 @@
       "condition": "New",
       "price": 19099.0
     },
-    "H3878": {
-      "title": "2026 Sea-Doo SparkTrixx For 3 Rotax 900 ACE - 90 Ibr",
+    "H3877": {
+      "title": "2026 Sea-Doo GTR 230 BRP Premium Audio, Ibr",
       "store_label": "(1) North Lake Havasu",
       "category": "PWC",
       "condition": "New",
-      "price": 10099.0
+      "price": 15699.0
     },
     "H3868": {
       "title": "2026 Sea-Doo 00011TA00",
@@ -1470,13 +1470,6 @@
       "category": "PWC",
       "condition": "New",
       "price": 17149.0
-    },
-    "H3872": {
-      "title": "2026 Sea-Doo RXT-X 325 Gulfstream Blue Premium",
-      "store_label": "(1) North Lake Havasu",
-      "category": "PWC",
-      "condition": "New",
-      "price": 22299.0
     },
     "H3869": {
       "title": "2026 Sea-Doo 00011TD00",
@@ -1492,14 +1485,21 @@
       "condition": "New",
       "price": 19849.0
     },
-    "H3362": {
+    "H3872": {
+      "title": "2026 Sea-Doo RXT-X 325 Gulfstream Blue Premium",
+      "store_label": "(1) North Lake Havasu",
+      "category": "PWC",
+      "condition": "New",
+      "price": 22299.0
+    },
+    "H3371": {
       "title": "2025 Yamaha Waverunners FX Cruiser SVHO",
       "store_label": "(1) North Lake Havasu",
       "category": "PWC",
       "condition": "New",
       "price": 20599.0
     },
-    "H3371": {
+    "H3362": {
       "title": "2025 Yamaha Waverunners FX Cruiser SVHO",
       "store_label": "(1) North Lake Havasu",
       "category": "PWC",
@@ -1512,594 +1512,6 @@
       "category": "PWC",
       "condition": "New",
       "price": 22299.0
-    },
-    "P2593": {
-      "title": "2024 Yamaha Waverunners VX Limited",
-      "store_label": "(3) Parker",
-      "category": "PWC",
-      "condition": "New",
-      "price": 12599.0
-    },
-    "P2491": {
-      "title": "2024 Kawasaki STX 160X",
-      "store_label": "(3) Parker",
-      "category": "PWC",
-      "condition": "New",
-      "price": 9599.0
-    },
-    "P2684A": {
-      "title": "2022 Yamaha Waverunners FX Cruiser SVHO with Audio System",
-      "store_label": "(3) Parker",
-      "category": "PWC",
-      "condition": "Used",
-      "price": 12999.0
-    },
-    "P2755": {
-      "title": "2025 Yamaha Waverunners VX-C",
-      "store_label": "(3) Parker",
-      "category": "PWC",
-      "condition": "New",
-      "price": 7999.0
-    },
-    "P2760": {
-      "title": "2025 Yamaha Waverunners VX Deluxe",
-      "store_label": "(3) Parker",
-      "category": "PWC",
-      "condition": "New",
-      "price": 11299.0
-    },
-    "P2794": {
-      "title": "2025 Yamaha Waverunners VX Cruiser",
-      "store_label": "(3) Parker",
-      "category": "PWC",
-      "condition": "New",
-      "price": 11199.0
-    },
-    "P2797": {
-      "title": "2025 Yamaha Waverunners VX Cruiser with Audio",
-      "store_label": "(3) Parker",
-      "category": "PWC",
-      "condition": "New",
-      "price": 11799.0
-    },
-    "P2826": {
-      "title": "2025 Sea-Doo FishPro Trophy 170",
-      "store_label": "(3) Parker",
-      "category": "PWC",
-      "condition": "New",
-      "price": 18999.0
-    },
-    "P2853": {
-      "title": "2025 Yamaha Waverunners VX Cruiser",
-      "store_label": "(3) Parker",
-      "category": "PWC",
-      "condition": "New",
-      "price": 11199.0
-    },
-    "P2851": {
-      "title": "2025 Yamaha Waverunners VX Cruiser with Audio",
-      "store_label": "(3) Parker",
-      "category": "PWC",
-      "condition": "New",
-      "price": 11799.0
-    },
-    "P2844": {
-      "title": "2025 Yamaha Waverunners GP SVHO with Audio",
-      "store_label": "(3) Parker",
-      "category": "PWC",
-      "condition": "New",
-      "price": 16099.0
-    },
-    "P2841": {
-      "title": "2025 Yamaha Waverunners VX-C",
-      "store_label": "(3) Parker",
-      "category": "PWC",
-      "condition": "New",
-      "price": 7999.0
-    },
-    "P2839": {
-      "title": "2025 Yamaha Waverunners VX-C",
-      "store_label": "(3) Parker",
-      "category": "PWC",
-      "condition": "New",
-      "price": 7999.0
-    },
-    "P2868": {
-      "title": "2025 Yamaha Waverunners VX Deluxe",
-      "store_label": "(3) Parker",
-      "category": "PWC",
-      "condition": "New",
-      "price": 12899.0
-    },
-    "P2866": {
-      "title": "2025 Yamaha Waverunners GP HO",
-      "store_label": "(3) Parker",
-      "category": "PWC",
-      "condition": "New",
-      "price": 12699.0
-    },
-    "P2867": {
-      "title": "2025 Yamaha Waverunners VX Deluxe",
-      "store_label": "(3) Parker",
-      "category": "PWC",
-      "condition": "New",
-      "price": 11299.0
-    },
-    "P2941": {
-      "title": "2025 Kawasaki Ultra 310LX-S",
-      "store_label": "(3) Parker",
-      "category": "PWC",
-      "condition": "New",
-      "price": 18699.0
-    },
-    "P2946": {
-      "title": "2025 Kawasaki Ultra 160LX-S Angler",
-      "store_label": "(3) Parker",
-      "category": "PWC",
-      "condition": "New",
-      "price": 14399.0
-    },
-    "P2945": {
-      "title": "2025 Kawasaki Ultra 310X",
-      "store_label": "(3) Parker",
-      "category": "PWC",
-      "condition": "New",
-      "price": 17699.0
-    },
-    "P2947": {
-      "title": "2025 Kawasaki Ultra 160LX-S Angler",
-      "store_label": "(3) Parker",
-      "category": "PWC",
-      "condition": "New",
-      "price": 14399.0
-    },
-    "P2940": {
-      "title": "2025 Kawasaki Ultra 310LX-S",
-      "store_label": "(3) Parker",
-      "category": "PWC",
-      "condition": "New",
-      "price": 18699.0
-    },
-    "P3003": {
-      "title": "2025 Kawasaki STX 160LX",
-      "store_label": "(3) Parker",
-      "category": "PWC",
-      "condition": "New",
-      "price": 11599.0
-    },
-    "P3014": {
-      "title": "2025 Sea-Doo Wake Pro 230",
-      "store_label": "(3) Parker",
-      "category": "PWC",
-      "condition": "New",
-      "price": 15699.0
-    },
-    "P3009": {
-      "title": "2025 Yamaha Waverunners FX SVHO",
-      "store_label": "(3) Parker",
-      "category": "PWC",
-      "condition": "New",
-      "price": 16999.0
-    },
-    "P3020": {
-      "title": "2025 Kawasaki STX 160LX",
-      "store_label": "(3) Parker",
-      "category": "PWC",
-      "condition": "New",
-      "price": 11599.0
-    },
-    "P3088B": {
-      "title": "2018 Sea-Doo RXT-X 300",
-      "store_label": "(3) Parker",
-      "category": "PWC",
-      "condition": "Used",
-      "price": 8999.0
-    },
-    "P3097B": {
-      "title": "2022 Yamaha Waverunners GP1800C-XA",
-      "store_label": "(3) Parker",
-      "category": "PWC",
-      "condition": "Used",
-      "price": 10599.0
-    },
-    "P3106": {
-      "title": "2025 Sea-Doo FishPro Trophy 170",
-      "store_label": "(3) Parker",
-      "category": "PWC",
-      "condition": "New",
-      "price": 18999.0
-    },
-    "P3111": {
-      "title": "2025 Sea-Doo Wake 170 BRP Premium Audio, iDF, iBR",
-      "store_label": "(3) Parker",
-      "category": "PWC",
-      "condition": "New",
-      "price": 12899.0
-    },
-    "P3109": {
-      "title": "2025 Sea-Doo RXT-X 325 Metallic Tan / Lava Red Premium",
-      "store_label": "(3) Parker",
-      "category": "PWC",
-      "condition": "New",
-      "price": 17899.0
-    },
-    "P3114": {
-      "title": "2025 Yamaha Waverunners Jetblaster PRO 2-Up",
-      "store_label": "(3) Parker",
-      "category": "PWC",
-      "condition": "New",
-      "price": 9499.0
-    },
-    "P3115": {
-      "title": "2025 Kawasaki STX 160X",
-      "store_label": "(3) Parker",
-      "category": "PWC",
-      "condition": "New",
-      "price": 11059.0
-    },
-    "P2900A": {
-      "title": "2016 Sea-Doo GTX Limited 300",
-      "store_label": "(3) Parker",
-      "category": "PWC",
-      "condition": "Used",
-      "price": 9425.0
-    },
-    "P3172": {
-      "title": "2025 Sea-Doo RXT-X 325 Metallic Tan / Lava Red Premium",
-      "store_label": "(3) Parker",
-      "category": "PWC",
-      "condition": "New",
-      "price": 17899.0
-    },
-    "P3171": {
-      "title": "2025 Sea-Doo Spark Trixx for 3 Rotax 900 ACE - 90 iBR",
-      "store_label": "(3) Parker",
-      "category": "PWC",
-      "condition": "New",
-      "price": 8799.0
-    },
-    "P3168": {
-      "title": "2025 Sea-Doo GTI SE 130 iBR",
-      "store_label": "(3) Parker",
-      "category": "PWC",
-      "condition": "New",
-      "price": 10149.0
-    },
-    "P3170": {
-      "title": "2025 Sea-Doo Wake 170 BRP Premium Audio, iDF, iBR",
-      "store_label": "(3) Parker",
-      "category": "PWC",
-      "condition": "New",
-      "price": 12899.0
-    },
-    "P3169": {
-      "title": "2025 Sea-Doo RXT-X 325 Metallic Tan / Lava Red Premium",
-      "store_label": "(3) Parker",
-      "category": "PWC",
-      "condition": "New",
-      "price": 17899.0
-    },
-    "P3202": {
-      "title": "2025 Sea-Doo GTX Limited 325 Teal Metallic",
-      "store_label": "(3) Parker",
-      "category": "PWC",
-      "condition": "New",
-      "price": 18499.0
-    },
-    "P3249": {
-      "title": "2026 Sea-Doo GTX 170 Tech, Audio, Idf, Ibr",
-      "store_label": "(3) Parker",
-      "category": "PWC",
-      "condition": "New",
-      "price": 17149.0
-    },
-    "P3251": {
-      "title": "2026 Sea-Doo SparkTrixx For 3 Rotax 900 ACE - 90 Ibr",
-      "store_label": "(3) Parker",
-      "category": "PWC",
-      "condition": "New",
-      "price": 10099.0
-    },
-    "P3252": {
-      "title": "2026 Sea-Doo SparkTrixx For 3 Rotax 900 ACE - 90 Ibr",
-      "store_label": "(3) Parker",
-      "category": "PWC",
-      "condition": "New",
-      "price": 10099.0
-    },
-    "P3250": {
-      "title": "2026 Sea-Doo Wake 170 BRP Premium Audio, Idf, Ibr",
-      "store_label": "(3) Parker",
-      "category": "PWC",
-      "condition": "New",
-      "price": 15649.0
-    },
-    "P3273": {
-      "title": "2026 Sea-Doo SparkTrixx for 3 Rotax 900 ACE - 90 iBR",
-      "store_label": "(3) Parker",
-      "category": "PWC",
-      "condition": "New",
-      "price": 10099.0
-    },
-    "P3276": {
-      "title": "2026 Yamaha Waverunners SuperJet",
-      "store_label": "(3) Parker",
-      "category": "PWC",
-      "condition": "New",
-      "price": 11499.0
-    },
-    "P3275": {
-      "title": "2026 Yamaha Waverunners SuperJet",
-      "store_label": "(3) Parker",
-      "category": "PWC",
-      "condition": "New",
-      "price": 11499.0
-    },
-    "P3274": {
-      "title": "2026 Yamaha Waverunners SuperJet",
-      "store_label": "(3) Parker",
-      "category": "PWC",
-      "condition": "New",
-      "price": 11499.0
-    },
-    "P3277": {
-      "title": "2026 Yamaha Waverunners SuperJet",
-      "store_label": "(3) Parker",
-      "category": "PWC",
-      "condition": "New",
-      "price": 11499.0
-    },
-    "P3283": {
-      "title": "2026 Yamaha Waverunners FX HO",
-      "store_label": "(3) Parker",
-      "category": "PWC",
-      "condition": "New",
-      "price": 17199.0
-    },
-    "P3238B": {
-      "title": "2020 Kawasaki Jet Ski SX-R",
-      "store_label": "(3) Parker",
-      "category": "PWC",
-      "condition": "Used",
-      "price": 7296.0
-    },
-    "P3238A": {
-      "title": "2020 Kawasaki Jet Ski SX-R",
-      "store_label": "(3) Parker",
-      "category": "PWC",
-      "condition": "Used",
-      "price": 7296.0
-    },
-    "P3292": {
-      "title": "2026 Sea-Doo SparkTrixx for 3 Rotax 900 ACE - 90 iBR",
-      "store_label": "(3) Parker",
-      "category": "PWC",
-      "condition": "New",
-      "price": 10099.0
-    },
-    "P3290": {
-      "title": "2026 Sea-Doo 25TC",
-      "store_label": "(3) Parker",
-      "category": "PWC",
-      "condition": "New",
-      "price": 14849.0
-    },
-    "P3289": {
-      "title": "2026 Sea-Doo GTX Limited 325 Teal Metallic",
-      "store_label": "(3) Parker",
-      "category": "PWC",
-      "condition": "New",
-      "price": 22549.0
-    },
-    "P3291": {
-      "title": "2026 Sea-Doo RXT-X 325 Ice Metal / Manta Green",
-      "store_label": "(3) Parker",
-      "category": "PWC",
-      "condition": "New",
-      "price": 21899.0
-    },
-    "P3328": {
-      "title": "2026 Sea-Doo GTI SE 170 Tech, Audio, Idf, Ibr",
-      "store_label": "(3) Parker",
-      "category": "PWC",
-      "condition": "New",
-      "price": 14699.0
-    },
-    "P3329": {
-      "title": "2026 Sea-Doo GTR 230 BRP Premium Audio, Ibr",
-      "store_label": "(3) Parker",
-      "category": "PWC",
-      "condition": "New",
-      "price": 15699.0
-    },
-    "P3327": {
-      "title": "2026 Sea-Doo GTX 170 Tech, Audio, Idf, Ibr",
-      "store_label": "(3) Parker",
-      "category": "PWC",
-      "condition": "New",
-      "price": 17149.0
-    },
-    "P3373": {
-      "title": "2026 Sea-Doo GTX Limited 325 Teal Metallic",
-      "store_label": "(3) Parker",
-      "category": "PWC",
-      "condition": "New",
-      "price": 22549.0
-    },
-    "P3386": {
-      "title": "2026 Yamaha Waverunners VX Cruiser HO",
-      "store_label": "(3) Parker",
-      "category": "PWC",
-      "condition": "New",
-      "price": 14899.0
-    },
-    "P3387": {
-      "title": "2026 Yamaha Waverunners GP HO with Audio",
-      "store_label": "(3) Parker",
-      "category": "PWC",
-      "condition": "New",
-      "price": 16699.0
-    },
-    "P3388": {
-      "title": "2026 Yamaha Waverunners VX Cruiser",
-      "store_label": "(3) Parker",
-      "category": "PWC",
-      "condition": "New",
-      "price": 13999.0
-    },
-    "P3383": {
-      "title": "2026 Yamaha Waverunners VX Cruiser HO",
-      "store_label": "(3) Parker",
-      "category": "PWC",
-      "condition": "New",
-      "price": 14899.0
-    },
-    "P3384": {
-      "title": "2026 Yamaha Waverunners JetBlaster",
-      "store_label": "(3) Parker",
-      "category": "PWC",
-      "condition": "New",
-      "price": 8499.0
-    },
-    "P3385": {
-      "title": "2026 Yamaha Waverunners VX1900C-CB",
-      "store_label": "(3) Parker",
-      "category": "PWC",
-      "condition": "New",
-      "price": 14899.0
-    },
-    "P3380": {
-      "title": "2026 Yamaha Waverunners Jetblaster DLX 3-Up",
-      "store_label": "(3) Parker",
-      "category": "PWC",
-      "condition": "New",
-      "price": 10399.0
-    },
-    "P3382": {
-      "title": "2026 Yamaha Waverunners VX Cruiser HO",
-      "store_label": "(3) Parker",
-      "category": "PWC",
-      "condition": "New",
-      "price": 14899.0
-    },
-    "P3379": {
-      "title": "2026 Yamaha Waverunners Jetblaster DLX 3-Up",
-      "store_label": "(3) Parker",
-      "category": "PWC",
-      "condition": "New",
-      "price": 10399.0
-    },
-    "P3381": {
-      "title": "2026 Yamaha Waverunners VX Cruiser HO",
-      "store_label": "(3) Parker",
-      "category": "PWC",
-      "condition": "New",
-      "price": 14899.0
-    },
-    "P3378": {
-      "title": "2026 Yamaha Waverunners JetBlaster LTD",
-      "store_label": "(3) Parker",
-      "category": "PWC",
-      "condition": "New",
-      "price": 12399.0
-    },
-    "P3377": {
-      "title": "2026 Yamaha Waverunners JetBlaster LTD",
-      "store_label": "(3) Parker",
-      "category": "PWC",
-      "condition": "New",
-      "price": 12399.0
-    },
-    "PP2994": {
-      "title": "2023 Sea-Doo Spark 3-up Rotax 900 ACE CONV with iBR",
-      "store_label": "(3) Parker",
-      "category": "PWC",
-      "condition": "Used",
-      "price": 6499.0
-    },
-    "P3399": {
-      "title": "2026 Kawasaki Jet Ski Ultra 310 LX",
-      "store_label": "(3) Parker",
-      "category": "PWC",
-      "condition": "New",
-      "price": 21799.0
-    },
-    "P3426": {
-      "title": "2026 Yamaha Waverunners VX Limited HO",
-      "store_label": "(3) Parker",
-      "category": "PWC",
-      "condition": "New",
-      "price": 16699.0
-    },
-    "P3425": {
-      "title": "2026 Yamaha Waverunners VX Limited HO",
-      "store_label": "(3) Parker",
-      "category": "PWC",
-      "condition": "New",
-      "price": 16699.0
-    },
-    "P3427": {
-      "title": "2026 Yamaha Waverunners VX Limited",
-      "store_label": "(3) Parker",
-      "category": "PWC",
-      "condition": "New",
-      "price": 15199.0
-    },
-    "P3433": {
-      "title": "2026 Yamaha Waverunners SuperJet",
-      "store_label": "(3) Parker",
-      "category": "PWC",
-      "condition": "New",
-      "price": 11499.0
-    },
-    "P3432": {
-      "title": "2026 Yamaha Waverunners SuperJet",
-      "store_label": "(3) Parker",
-      "category": "PWC",
-      "condition": "New",
-      "price": 11499.0
-    },
-    "P3431": {
-      "title": "2026 Yamaha Waverunners SuperJet",
-      "store_label": "(3) Parker",
-      "category": "PWC",
-      "condition": "New",
-      "price": 11499.0
-    },
-    "P3430": {
-      "title": "2026 Yamaha Waverunners SuperJet",
-      "store_label": "(3) Parker",
-      "category": "PWC",
-      "condition": "New",
-      "price": 11499.0
-    },
-    "P3454": {
-      "title": "2026 Sea-Doo 00011TA00",
-      "store_label": "(3) Parker",
-      "category": "PWC",
-      "condition": "New",
-      "price": 17149.0
-    },
-    "P3458": {
-      "title": "2024 Honda Navi Pearl Red",
-      "store_label": "(3) Parker",
-      "category": "Motorcycle",
-      "condition": "New",
-      "price": 2099.0
-    },
-    "P3467": {
-      "title": "2026 Yamaha Waverunners FX Cruiser HO",
-      "store_label": "(3) Parker",
-      "category": "PWC",
-      "condition": "New",
-      "price": 18599.0
-    },
-    "P3468": {
-      "title": "2026 Yamaha Waverunners FX Cruiser HO",
-      "store_label": "(3) Parker",
-      "category": "PWC",
-      "condition": "New",
-      "price": 18599.0
     },
     "B2749": {
       "title": "2025 Yamaha Waverunners VX Deluxe",
@@ -2178,14 +1590,14 @@
       "condition": "New",
       "price": 17599.0
     },
-    "B2812": {
+    "B2811": {
       "title": "2025 Yamaha Waverunners VX Cruiser HO",
       "store_label": "(2) Bullhead City",
       "category": "PWC",
       "condition": "New",
       "price": 12199.0
     },
-    "B2811": {
+    "B2812": {
       "title": "2025 Yamaha Waverunners VX Cruiser HO",
       "store_label": "(2) Bullhead City",
       "category": "PWC",
@@ -2241,14 +1653,14 @@
       "condition": "New",
       "price": 12699.0
     },
-    "B2848": {
+    "B2849": {
       "title": "2025 Yamaha Waverunners VX Limited",
       "store_label": "(2) Bullhead City",
       "category": "PWC",
       "condition": "New",
       "price": 12299.0
     },
-    "B2849": {
+    "B2848": {
       "title": "2025 Yamaha Waverunners VX Limited",
       "store_label": "(2) Bullhead City",
       "category": "PWC",
@@ -2297,13 +1709,6 @@
       "condition": "New",
       "price": 11199.0
     },
-    "B2927": {
-      "title": "2025 Yamaha Waverunners GP HO with Audio",
-      "store_label": "(2) Bullhead City",
-      "category": "PWC",
-      "condition": "New",
-      "price": 13999.0
-    },
     "B2929": {
       "title": "2025 Yamaha Waverunners GP HO with Audio",
       "store_label": "(2) Bullhead City",
@@ -2312,6 +1717,13 @@
       "price": 13999.0
     },
     "B2928": {
+      "title": "2025 Yamaha Waverunners GP HO with Audio",
+      "store_label": "(2) Bullhead City",
+      "category": "PWC",
+      "condition": "New",
+      "price": 13999.0
+    },
+    "B2927": {
       "title": "2025 Yamaha Waverunners GP HO with Audio",
       "store_label": "(2) Bullhead City",
       "category": "PWC",
@@ -2332,14 +1744,14 @@
       "condition": "New",
       "price": 13999.0
     },
-    "B2964": {
+    "B2966": {
       "title": "2025 Yamaha Waverunners Jetblaster DLX 3-Up",
       "store_label": "(2) Bullhead City",
       "category": "PWC",
       "condition": "New",
       "price": 8499.0
     },
-    "B2966": {
+    "B2964": {
       "title": "2025 Yamaha Waverunners Jetblaster DLX 3-Up",
       "store_label": "(2) Bullhead City",
       "category": "PWC",
@@ -2465,14 +1877,14 @@
       "condition": "New",
       "price": 11499.0
     },
-    "B3197": {
+    "B3199": {
       "title": "2026 Yamaha Waverunners SuperJet",
       "store_label": "(2) Bullhead City",
       "category": "PWC",
       "condition": "New",
       "price": 11499.0
     },
-    "B3199": {
+    "B3197": {
       "title": "2026 Yamaha Waverunners SuperJet",
       "store_label": "(2) Bullhead City",
       "category": "PWC",
@@ -2486,6 +1898,13 @@
       "condition": "Used",
       "price": 9095.0
     },
+    "B3212": {
+      "title": "2026 Sea-Doo GTX Limited 325 Teal Metallic",
+      "store_label": "(2) Bullhead City",
+      "category": "PWC",
+      "condition": "New",
+      "price": 22549.0
+    },
     "B3213": {
       "title": "2026 Sea-Doo GTI SE 170 Tech, Audio, Idf, Ibr",
       "store_label": "(2) Bullhead City",
@@ -2493,12 +1912,12 @@
       "condition": "New",
       "price": 14699.0
     },
-    "B3212": {
-      "title": "2026 Sea-Doo GTX Limited 325 Teal Metallic",
+    "B3224": {
+      "title": "2026 Sea-Doo GTI SE 170 Ibr",
       "store_label": "(2) Bullhead City",
       "category": "PWC",
       "condition": "New",
-      "price": 22549.0
+      "price": 13899.0
     },
     "B3225": {
       "title": "2026 Sea-Doo Spark For 3 Rotax 900 ACE - 90 CONV With I",
@@ -2513,13 +1932,6 @@
       "category": "PWC",
       "condition": "New",
       "price": 10099.0
-    },
-    "B3224": {
-      "title": "2026 Sea-Doo GTI SE 170 Ibr",
-      "store_label": "(2) Bullhead City",
-      "category": "PWC",
-      "condition": "New",
-      "price": 13899.0
     },
     "B3223": {
       "title": "2026 Sea-Doo GTX Limited 325 White Pearl Premium",
@@ -2542,13 +1954,6 @@
       "condition": "New",
       "price": 9399.0
     },
-    "B3227": {
-      "title": "2026 Sea-Doo GTX 170 Tech, Audio, Idf, Ibr",
-      "store_label": "(2) Bullhead City",
-      "category": "PWC",
-      "condition": "New",
-      "price": 17149.0
-    },
     "B3228": {
       "title": "2026 Sea-Doo GTR-X 300 Tech, BRP Premium Audio, Ibr",
       "store_label": "(2) Bullhead City",
@@ -2556,12 +1961,12 @@
       "condition": "New",
       "price": 19099.0
     },
-    "B3242": {
-      "title": "2026 Sea-Doo SparkTrixx For 3 Rotax 900 ACE - 90 Ibr",
+    "B3227": {
+      "title": "2026 Sea-Doo GTX 170 Tech, Audio, Idf, Ibr",
       "store_label": "(2) Bullhead City",
       "category": "PWC",
       "condition": "New",
-      "price": 10099.0
+      "price": 17149.0
     },
     "B3241": {
       "title": "2026 Sea-Doo RXT-X 325 Ice Metal Manta Green",
@@ -2570,12 +1975,12 @@
       "condition": "New",
       "price": 21899.0
     },
-    "B3250": {
-      "title": "2026 Yamaha Waverunners GP HO with Audio",
+    "B3242": {
+      "title": "2026 Sea-Doo SparkTrixx For 3 Rotax 900 ACE - 90 Ibr",
       "store_label": "(2) Bullhead City",
       "category": "PWC",
       "condition": "New",
-      "price": 0
+      "price": 10099.0
     },
     "B3254": {
       "title": "2026 Yamaha Waverunners VX",
@@ -2591,14 +1996,21 @@
       "condition": "New",
       "price": 20899.0
     },
-    "B3253": {
+    "B3256": {
       "title": "2026 Yamaha Waverunners VX",
       "store_label": "(2) Bullhead City",
       "category": "PWC",
       "condition": "New",
       "price": 0
     },
-    "B3256": {
+    "B3250": {
+      "title": "2026 Yamaha Waverunners GP HO with Audio",
+      "store_label": "(2) Bullhead City",
+      "category": "PWC",
+      "condition": "New",
+      "price": 0
+    },
+    "B3253": {
       "title": "2026 Yamaha Waverunners VX",
       "store_label": "(2) Bullhead City",
       "category": "PWC",
@@ -2612,15 +2024,15 @@
       "condition": "New",
       "price": 0
     },
-    "B3252": {
-      "title": "2026 Yamaha Waverunners JetBlaster DLX 2-Up",
+    "B3251": {
+      "title": "2026 Yamaha Waverunners Jetblaster DLX 3-Up",
       "store_label": "(2) Bullhead City",
       "category": "PWC",
       "condition": "New",
       "price": 0
     },
-    "B3251": {
-      "title": "2026 Yamaha Waverunners Jetblaster DLX 3-Up",
+    "B3252": {
+      "title": "2026 Yamaha Waverunners JetBlaster DLX 2-Up",
       "store_label": "(2) Bullhead City",
       "category": "PWC",
       "condition": "New",
@@ -2633,26 +2045,12 @@
       "condition": "New",
       "price": 0
     },
-    "B3267": {
-      "title": "2026 Sea-Doo GTX 300 Tech, Audio, iDF, iBR",
+    "B3270": {
+      "title": "2026 Sea-Doo SparkTrixx for 3 Rotax 900 ACE - 90 iBR",
       "store_label": "(2) Bullhead City",
       "category": "PWC",
       "condition": "New",
-      "price": 19849.0
-    },
-    "B3268": {
-      "title": "2026 Sea-Doo RXT-X 325 Gulfstream Blue Premium",
-      "store_label": "(2) Bullhead City",
-      "category": "PWC",
-      "condition": "New",
-      "price": 22299.0
-    },
-    "B3266": {
-      "title": "2026 Sea-Doo GTX 230 iBR and iDF",
-      "store_label": "(2) Bullhead City",
-      "category": "PWC",
-      "condition": "New",
-      "price": 16949.0
+      "price": 10099.0
     },
     "B3269": {
       "title": "2026 Sea-Doo Spark for 2 Rotax 900 ACE- 90 CONV with IB",
@@ -2661,12 +2059,33 @@
       "condition": "New",
       "price": 8799.0
     },
-    "B3270": {
-      "title": "2026 Sea-Doo SparkTrixx for 3 Rotax 900 ACE - 90 iBR",
+    "B3266": {
+      "title": "2026 Sea-Doo GTX 230 iBR and iDF",
       "store_label": "(2) Bullhead City",
       "category": "PWC",
       "condition": "New",
-      "price": 10099.0
+      "price": 16949.0
+    },
+    "B3268": {
+      "title": "2026 Sea-Doo RXT-X 325 Gulfstream Blue Premium",
+      "store_label": "(2) Bullhead City",
+      "category": "PWC",
+      "condition": "New",
+      "price": 22299.0
+    },
+    "B3267": {
+      "title": "2026 Sea-Doo GTX 300 Tech, Audio, iDF, iBR",
+      "store_label": "(2) Bullhead City",
+      "category": "PWC",
+      "condition": "New",
+      "price": 19849.0
+    },
+    "B3277": {
+      "title": "2026 Yamaha WaveRunners SuperJet",
+      "store_label": "(2) Bullhead City",
+      "category": "PWC",
+      "condition": "New",
+      "price": 11499.0
     },
     "B3278": {
       "title": "2026 Yamaha Waverunners SuperJet",
@@ -2682,21 +2101,14 @@
       "condition": "New",
       "price": 11499.0
     },
-    "B3277": {
-      "title": "2026 Yamaha WaveRunners SuperJet",
-      "store_label": "(2) Bullhead City",
-      "category": "PWC",
-      "condition": "New",
-      "price": 11499.0
-    },
-    "B3295": {
+    "B3294": {
       "title": "2026 Yamaha Waverunners VX Cruiser HO",
       "store_label": "(2) Bullhead City",
       "category": "PWC",
       "condition": "New",
       "price": 14899.0
     },
-    "B3294": {
+    "B3295": {
       "title": "2026 Yamaha Waverunners VX Cruiser HO",
       "store_label": "(2) Bullhead City",
       "category": "PWC",
@@ -2717,13 +2129,6 @@
       "condition": "New",
       "price": 15599.0
     },
-    "B3292": {
-      "title": "2026 Yamaha Waverunners VX Cruiser HO with Audio",
-      "store_label": "(2) Bullhead City",
-      "category": "PWC",
-      "condition": "New",
-      "price": 15599.0
-    },
     "B3289": {
       "title": "2026 Yamaha Waverunners FX Cruiser HO",
       "store_label": "(2) Bullhead City",
@@ -2737,6 +2142,13 @@
       "category": "PWC",
       "condition": "New",
       "price": 12399.0
+    },
+    "B3292": {
+      "title": "2026 Yamaha Waverunners VX Cruiser HO with Audio",
+      "store_label": "(2) Bullhead City",
+      "category": "PWC",
+      "condition": "New",
+      "price": 15599.0
     },
     "B3288": {
       "title": "2026 Yamaha Waverunners FX Cruiser SVHO",
@@ -2759,13 +2171,6 @@
       "condition": "New",
       "price": 11499.0
     },
-    "B3306": {
-      "title": "2026 Yamaha Waverunners SuperJet",
-      "store_label": "(2) Bullhead City",
-      "category": "PWC",
-      "condition": "New",
-      "price": 11499.0
-    },
     "B3305": {
       "title": "2026 Yamaha Waverunners SuperJet",
       "store_label": "(2) Bullhead City",
@@ -2773,12 +2178,12 @@
       "condition": "New",
       "price": 11499.0
     },
-    "B3309": {
-      "title": "2026 Sea-Doo GTR-X 300 Tech, BRP Premium Audio, iBR",
+    "B3306": {
+      "title": "2026 Yamaha Waverunners SuperJet",
       "store_label": "(2) Bullhead City",
       "category": "PWC",
       "condition": "New",
-      "price": 19099.0
+      "price": 11499.0
     },
     "B3310": {
       "title": "2026 Sea-Doo GTR 230 BRP Premium Audio, iBR",
@@ -2787,14 +2192,21 @@
       "condition": "New",
       "price": 15699.0
     },
-    "B3314": {
+    "B3309": {
+      "title": "2026 Sea-Doo GTR-X 300 Tech, BRP Premium Audio, iBR",
+      "store_label": "(2) Bullhead City",
+      "category": "PWC",
+      "condition": "New",
+      "price": 19099.0
+    },
+    "B3313": {
       "title": "2026 Yamaha Waverunners FX Limited SVHO",
       "store_label": "(2) Bullhead City",
       "category": "PWC",
       "condition": "New",
       "price": 22199.0
     },
-    "B3313": {
+    "B3314": {
       "title": "2026 Yamaha Waverunners FX Limited SVHO",
       "store_label": "(2) Bullhead City",
       "category": "PWC",
@@ -2829,15 +2241,22 @@
       "condition": "New",
       "price": 14899.0
     },
-    "B3367": {
-      "title": "2026 Yamaha Waverunners VX",
+    "B3364": {
+      "title": "2026 Yamaha Waverunners FX HO with Audio",
+      "store_label": "(2) Bullhead City",
+      "category": "PWC",
+      "condition": "New",
+      "price": 17799.0
+    },
+    "B3366": {
+      "title": "2026 Yamaha Waverunners JetBlaster PRO 3-Up",
       "store_label": "(2) Bullhead City",
       "category": "PWC",
       "condition": "New",
       "price": 12399.0
     },
-    "B3366": {
-      "title": "2026 Yamaha Waverunners JetBlaster PRO 3-Up",
+    "B3367": {
+      "title": "2026 Yamaha Waverunners VX",
       "store_label": "(2) Bullhead City",
       "category": "PWC",
       "condition": "New",
@@ -2851,13 +2270,6 @@
       "price": 14899.0
     },
     "B3384": {
-      "title": "2026 Yamaha Waverunners VX Cruiser HO",
-      "store_label": "(2) Bullhead City",
-      "category": "PWC",
-      "condition": "New",
-      "price": 14899.0
-    },
-    "B3383": {
       "title": "2026 Yamaha Waverunners VX Cruiser HO",
       "store_label": "(2) Bullhead City",
       "category": "PWC",
@@ -2878,7 +2290,21 @@
       "condition": "New",
       "price": 14899.0
     },
+    "B3383": {
+      "title": "2026 Yamaha Waverunners VX Cruiser HO",
+      "store_label": "(2) Bullhead City",
+      "category": "PWC",
+      "condition": "New",
+      "price": 14899.0
+    },
     "B3378": {
+      "title": "2026 Yamaha Waverunners JetBlaster DLX 2-Up",
+      "store_label": "(2) Bullhead City",
+      "category": "PWC",
+      "condition": "New",
+      "price": 9499.0
+    },
+    "B3379": {
       "title": "2026 Yamaha Waverunners JetBlaster DLX 2-Up",
       "store_label": "(2) Bullhead City",
       "category": "PWC",
@@ -2892,40 +2318,12 @@
       "condition": "New",
       "price": 15599.0
     },
-    "B3379": {
-      "title": "2026 Yamaha Waverunners JetBlaster DLX 2-Up",
-      "store_label": "(2) Bullhead City",
-      "category": "PWC",
-      "condition": "New",
-      "price": 9499.0
-    },
     "B3377": {
       "title": "2026 Yamaha Waverunners Jetblaster DLX 3-Up",
       "store_label": "(2) Bullhead City",
       "category": "PWC",
       "condition": "New",
       "price": 10399.0
-    },
-    "B3380": {
-      "title": "2026 Yamaha Waverunners VX Cruiser",
-      "store_label": "(2) Bullhead City",
-      "category": "PWC",
-      "condition": "New",
-      "price": 13999.0
-    },
-    "B3376": {
-      "title": "2026 Yamaha Waverunners Jetblaster DLX 3-Up",
-      "store_label": "(2) Bullhead City",
-      "category": "PWC",
-      "condition": "New",
-      "price": 10399.0
-    },
-    "B3374": {
-      "title": "2026 Yamaha Waverunners JetBlaster PRO 2-Up",
-      "store_label": "(2) Bullhead City",
-      "category": "PWC",
-      "condition": "New",
-      "price": 11699.0
     },
     "B3375": {
       "title": "2026 Yamaha Waverunners JetBlaster LTD",
@@ -2941,12 +2339,26 @@
       "condition": "New",
       "price": 12399.0
     },
-    "B3371": {
-      "title": "2026 Yamaha Waverunners FX Cruiser SVHO",
+    "B3376": {
+      "title": "2026 Yamaha Waverunners Jetblaster DLX 3-Up",
       "store_label": "(2) Bullhead City",
       "category": "PWC",
       "condition": "New",
-      "price": 21599.0
+      "price": 10399.0
+    },
+    "B3380": {
+      "title": "2026 Yamaha Waverunners VX Cruiser",
+      "store_label": "(2) Bullhead City",
+      "category": "PWC",
+      "condition": "New",
+      "price": 13999.0
+    },
+    "B3374": {
+      "title": "2026 Yamaha Waverunners JetBlaster PRO 2-Up",
+      "store_label": "(2) Bullhead City",
+      "category": "PWC",
+      "condition": "New",
+      "price": 11699.0
     },
     "B3373": {
       "title": "2026 Yamaha Waverunners JetBlaster PRO 2-Up",
@@ -2955,19 +2367,19 @@
       "condition": "New",
       "price": 11699.0
     },
+    "B3371": {
+      "title": "2026 Yamaha Waverunners FX Cruiser SVHO",
+      "store_label": "(2) Bullhead City",
+      "category": "PWC",
+      "condition": "New",
+      "price": 21599.0
+    },
     "B3412": {
       "title": "2026 Sea-Doo GTR-X 300 iBR",
       "store_label": "(2) Bullhead City",
       "category": "PWC",
       "condition": "New",
       "price": 17899.0
-    },
-    "B3410": {
-      "title": "2026 Sea-Doo GTX 230 iBR and iDF",
-      "store_label": "(2) Bullhead City",
-      "category": "PWC",
-      "condition": "New",
-      "price": 16949.0
     },
     "B3408": {
       "title": "2026 Sea-Doo GTX 170 iBR and iDF",
@@ -2976,13 +2388,6 @@
       "condition": "New",
       "price": 15949.0
     },
-    "B3411": {
-      "title": "2026 Sea-Doo RXP-X 325 Tech, BRP Premium A, iBR Ice Metal /",
-      "store_label": "(2) Bullhead City",
-      "category": "PWC",
-      "condition": "New",
-      "price": 21999.0
-    },
     "B3409": {
       "title": "2026 Sea-Doo GTX 230 Tech, Audio, iDF, iBR",
       "store_label": "(2) Bullhead City",
@@ -2990,12 +2395,33 @@
       "condition": "New",
       "price": 18149.0
     },
-    "B3434": {
-      "title": "2026 Sea-Doo GTX 300 iBR and iDF",
+    "B3410": {
+      "title": "2026 Sea-Doo GTX 230 iBR and iDF",
       "store_label": "(2) Bullhead City",
       "category": "PWC",
       "condition": "New",
-      "price": 18649.0
+      "price": 16949.0
+    },
+    "B3411": {
+      "title": "2026 Sea-Doo RXP-X 325 Tech, BRP Premium A, iBR Ice Metal /",
+      "store_label": "(2) Bullhead City",
+      "category": "PWC",
+      "condition": "New",
+      "price": 21999.0
+    },
+    "B3437": {
+      "title": "2026 Sea-Doo GTI SE 170 iBR",
+      "store_label": "(2) Bullhead City",
+      "category": "PWC",
+      "condition": "New",
+      "price": 13899.0
+    },
+    "B3433": {
+      "title": "2026 Sea-Doo Wake Pro 230",
+      "store_label": "(2) Bullhead City",
+      "category": "PWC",
+      "condition": "New",
+      "price": 19849.0
     },
     "B3439": {
       "title": "2026 Sea-Doo Spark for 3 Rotax 900 ACE - 90 CONV with I",
@@ -3011,6 +2437,13 @@
       "condition": "New",
       "price": 13899.0
     },
+    "B3434": {
+      "title": "2026 Sea-Doo GTX 300 iBR and iDF",
+      "store_label": "(2) Bullhead City",
+      "category": "PWC",
+      "condition": "New",
+      "price": 18649.0
+    },
     "B3435": {
       "title": "2026 Sea-Doo GTI SE 130 iBR",
       "store_label": "(2) Bullhead City",
@@ -3018,19 +2451,12 @@
       "condition": "New",
       "price": 13299.0
     },
-    "B3433": {
-      "title": "2026 Sea-Doo Wake Pro 230",
+    "B3432": {
+      "title": "2026 Sea-Doo GTX 170 Tech, Audio, iDF, iBR",
       "store_label": "(2) Bullhead City",
       "category": "PWC",
       "condition": "New",
-      "price": 19849.0
-    },
-    "B3437": {
-      "title": "2026 Sea-Doo GTI SE 170 iBR",
-      "store_label": "(2) Bullhead City",
-      "category": "PWC",
-      "condition": "New",
-      "price": 13899.0
+      "price": 17149.0
     },
     "B3438": {
       "title": "2026 Sea-Doo GTR 230 iBR",
@@ -3038,13 +2464,6 @@
       "category": "PWC",
       "condition": "New",
       "price": 14899.0
-    },
-    "B3432": {
-      "title": "2026 Sea-Doo GTX 170 Tech, Audio, iDF, iBR",
-      "store_label": "(2) Bullhead City",
-      "category": "PWC",
-      "condition": "New",
-      "price": 17149.0
     },
     "B3462": {
       "title": "2026 Sea-Doo RXT-X 325 Gulfstream Blue Premium",
@@ -3060,13 +2479,6 @@
       "condition": "New",
       "price": 12399.0
     },
-    "B3486": {
-      "title": "2026 Yamaha Waverunners VX",
-      "store_label": "(2) Bullhead City",
-      "category": "PWC",
-      "condition": "New",
-      "price": 12399.0
-    },
     "B3487": {
       "title": "2026 Yamaha Waverunners VX",
       "store_label": "(2) Bullhead City",
@@ -3074,7 +2486,7 @@
       "condition": "New",
       "price": 12399.0
     },
-    "B3484": {
+    "B3486": {
       "title": "2026 Yamaha Waverunners VX",
       "store_label": "(2) Bullhead City",
       "category": "PWC",
@@ -3088,7 +2500,7 @@
       "condition": "New",
       "price": 12399.0
     },
-    "B3482": {
+    "B3484": {
       "title": "2026 Yamaha Waverunners VX",
       "store_label": "(2) Bullhead City",
       "category": "PWC",
@@ -3109,14 +2521,7 @@
       "condition": "New",
       "price": 12399.0
     },
-    "B3478": {
-      "title": "2026 Yamaha Waverunners VX",
-      "store_label": "(2) Bullhead City",
-      "category": "PWC",
-      "condition": "New",
-      "price": 12399.0
-    },
-    "B3479": {
+    "B3482": {
       "title": "2026 Yamaha Waverunners VX",
       "store_label": "(2) Bullhead City",
       "category": "PWC",
@@ -3137,21 +2542,21 @@
       "condition": "New",
       "price": 12399.0
     },
+    "B3479": {
+      "title": "2026 Yamaha Waverunners VX",
+      "store_label": "(2) Bullhead City",
+      "category": "PWC",
+      "condition": "New",
+      "price": 12399.0
+    },
+    "B3478": {
+      "title": "2026 Yamaha Waverunners VX",
+      "store_label": "(2) Bullhead City",
+      "category": "PWC",
+      "condition": "New",
+      "price": 12399.0
+    },
     "B3471": {
-      "title": "2026 Yamaha Waverunners VX",
-      "store_label": "(2) Bullhead City",
-      "category": "PWC",
-      "condition": "New",
-      "price": 12399.0
-    },
-    "B3476": {
-      "title": "2026 Yamaha Waverunners VX",
-      "store_label": "(2) Bullhead City",
-      "category": "PWC",
-      "condition": "New",
-      "price": 12399.0
-    },
-    "B3473": {
       "title": "2026 Yamaha Waverunners VX",
       "store_label": "(2) Bullhead City",
       "category": "PWC",
@@ -3172,6 +2577,34 @@
       "condition": "New",
       "price": 12399.0
     },
+    "B3473": {
+      "title": "2026 Yamaha Waverunners VX",
+      "store_label": "(2) Bullhead City",
+      "category": "PWC",
+      "condition": "New",
+      "price": 12399.0
+    },
+    "B3476": {
+      "title": "2026 Yamaha Waverunners VX",
+      "store_label": "(2) Bullhead City",
+      "category": "PWC",
+      "condition": "New",
+      "price": 12399.0
+    },
+    "B3472": {
+      "title": "2026 Yamaha Waverunners VX",
+      "store_label": "(2) Bullhead City",
+      "category": "PWC",
+      "condition": "New",
+      "price": 12399.0
+    },
+    "B3469": {
+      "title": "2026 Yamaha Waverunners VX",
+      "store_label": "(2) Bullhead City",
+      "category": "PWC",
+      "condition": "New",
+      "price": 12399.0
+    },
     "B3470": {
       "title": "2026 Yamaha Waverunners VX",
       "store_label": "(2) Bullhead City",
@@ -3186,14 +2619,7 @@
       "condition": "New",
       "price": 12399.0
     },
-    "B3469": {
-      "title": "2026 Yamaha Waverunners VX",
-      "store_label": "(2) Bullhead City",
-      "category": "PWC",
-      "condition": "New",
-      "price": 12399.0
-    },
-    "B3472": {
+    "B3466": {
       "title": "2026 Yamaha Waverunners VX",
       "store_label": "(2) Bullhead City",
       "category": "PWC",
@@ -3207,19 +2633,733 @@
       "condition": "New",
       "price": 12399.0
     },
-    "B3466": {
-      "title": "2026 Yamaha Waverunners VX",
-      "store_label": "(2) Bullhead City",
-      "category": "PWC",
-      "condition": "New",
-      "price": 12399.0
-    },
     "B3467": {
       "title": "2026 Yamaha Waverunners VX",
       "store_label": "(2) Bullhead City",
       "category": "PWC",
       "condition": "New",
       "price": 12399.0
+    },
+    "B3505": {
+      "title": "2026 Yamaha Waverunners VX",
+      "store_label": "(2) Bullhead City",
+      "category": "PWC",
+      "condition": "New",
+      "price": 12399.0
+    },
+    "B3502": {
+      "title": "2026 Yamaha Waverunners VX",
+      "store_label": "(2) Bullhead City",
+      "category": "PWC",
+      "condition": "New",
+      "price": 12399.0
+    },
+    "B3503": {
+      "title": "2026 Yamaha Waverunners VX",
+      "store_label": "(2) Bullhead City",
+      "category": "PWC",
+      "condition": "New",
+      "price": 12399.0
+    },
+    "B3504": {
+      "title": "2026 Yamaha Waverunners VX",
+      "store_label": "(2) Bullhead City",
+      "category": "PWC",
+      "condition": "New",
+      "price": 12399.0
+    },
+    "B3500": {
+      "title": "2026 Yamaha Waverunners VX",
+      "store_label": "(2) Bullhead City",
+      "category": "PWC",
+      "condition": "New",
+      "price": 12399.0
+    },
+    "B3499": {
+      "title": "2026 Yamaha Waverunners VX",
+      "store_label": "(2) Bullhead City",
+      "category": "PWC",
+      "condition": "New",
+      "price": 12399.0
+    },
+    "B3501": {
+      "title": "2026 Yamaha Waverunners VX",
+      "store_label": "(2) Bullhead City",
+      "category": "PWC",
+      "condition": "New",
+      "price": 12399.0
+    },
+    "B3497": {
+      "title": "2026 Yamaha Waverunners VX",
+      "store_label": "(2) Bullhead City",
+      "category": "PWC",
+      "condition": "New",
+      "price": 12399.0
+    },
+    "B3493": {
+      "title": "2025 Yamaha Waverunners VX Deluxe",
+      "store_label": "(2) Bullhead City",
+      "category": "PWC",
+      "condition": "New",
+      "price": 12899.0
+    },
+    "B3494": {
+      "title": "2025 Yamaha Waverunners VX Deluxe",
+      "store_label": "(2) Bullhead City",
+      "category": "PWC",
+      "condition": "New",
+      "price": 12899.0
+    },
+    "B3498": {
+      "title": "2026 Yamaha Waverunners VX",
+      "store_label": "(2) Bullhead City",
+      "category": "PWC",
+      "condition": "New",
+      "price": 12399.0
+    },
+    "B3495": {
+      "title": "2025 Yamaha Waverunners VX Deluxe",
+      "store_label": "(2) Bullhead City",
+      "category": "PWC",
+      "condition": "New",
+      "price": 12899.0
+    },
+    "B3512": {
+      "title": "2026 Yamaha Waverunners VX",
+      "store_label": "(2) Bullhead City",
+      "category": "PWC",
+      "condition": "New",
+      "price": 12399.0
+    },
+    "B3507": {
+      "title": "2026 Yamaha Waverunners VX",
+      "store_label": "(2) Bullhead City",
+      "category": "PWC",
+      "condition": "New",
+      "price": 12399.0
+    },
+    "B3508": {
+      "title": "2026 Yamaha Waverunners VX",
+      "store_label": "(2) Bullhead City",
+      "category": "PWC",
+      "condition": "New",
+      "price": 12399.0
+    },
+    "B3509": {
+      "title": "2026 Yamaha Waverunners VX",
+      "store_label": "(2) Bullhead City",
+      "category": "PWC",
+      "condition": "New",
+      "price": 12399.0
+    },
+    "B3510": {
+      "title": "2026 Yamaha Waverunners VX",
+      "store_label": "(2) Bullhead City",
+      "category": "PWC",
+      "condition": "New",
+      "price": 12399.0
+    },
+    "B3511": {
+      "title": "2026 Yamaha Waverunners VX",
+      "store_label": "(2) Bullhead City",
+      "category": "PWC",
+      "condition": "New",
+      "price": 12399.0
+    },
+    "B3506": {
+      "title": "2026 Yamaha Waverunners VX",
+      "store_label": "(2) Bullhead City",
+      "category": "PWC",
+      "condition": "New",
+      "price": 12399.0
+    },
+    "P2593": {
+      "title": "2024 Yamaha Waverunners VX Limited",
+      "store_label": "(3) Parker",
+      "category": "PWC",
+      "condition": "New",
+      "price": 12599.0
+    },
+    "P2491": {
+      "title": "2024 Kawasaki STX 160X",
+      "store_label": "(3) Parker",
+      "category": "PWC",
+      "condition": "New",
+      "price": 9599.0
+    },
+    "P2684A": {
+      "title": "2022 Yamaha Waverunners FX Cruiser SVHO with Audio System",
+      "store_label": "(3) Parker",
+      "category": "PWC",
+      "condition": "Used",
+      "price": 12999.0
+    },
+    "P2755": {
+      "title": "2025 Yamaha Waverunners VX-C",
+      "store_label": "(3) Parker",
+      "category": "PWC",
+      "condition": "New",
+      "price": 7999.0
+    },
+    "P2760": {
+      "title": "2025 Yamaha Waverunners VX Deluxe",
+      "store_label": "(3) Parker",
+      "category": "PWC",
+      "condition": "New",
+      "price": 11299.0
+    },
+    "P2794": {
+      "title": "2025 Yamaha Waverunners VX Cruiser",
+      "store_label": "(3) Parker",
+      "category": "PWC",
+      "condition": "New",
+      "price": 11199.0
+    },
+    "P2797": {
+      "title": "2025 Yamaha Waverunners VX Cruiser with Audio",
+      "store_label": "(3) Parker",
+      "category": "PWC",
+      "condition": "New",
+      "price": 11799.0
+    },
+    "P2826": {
+      "title": "2025 Sea-Doo FishPro Trophy 170",
+      "store_label": "(3) Parker",
+      "category": "PWC",
+      "condition": "New",
+      "price": 18999.0
+    },
+    "P2853": {
+      "title": "2025 Yamaha Waverunners VX Cruiser",
+      "store_label": "(3) Parker",
+      "category": "PWC",
+      "condition": "New",
+      "price": 11199.0
+    },
+    "P2851": {
+      "title": "2025 Yamaha Waverunners VX Cruiser with Audio",
+      "store_label": "(3) Parker",
+      "category": "PWC",
+      "condition": "New",
+      "price": 11799.0
+    },
+    "P2844": {
+      "title": "2025 Yamaha Waverunners GP SVHO with Audio",
+      "store_label": "(3) Parker",
+      "category": "PWC",
+      "condition": "New",
+      "price": 16099.0
+    },
+    "P2839": {
+      "title": "2025 Yamaha Waverunners VX-C",
+      "store_label": "(3) Parker",
+      "category": "PWC",
+      "condition": "New",
+      "price": 7999.0
+    },
+    "P2841": {
+      "title": "2025 Yamaha Waverunners VX-C",
+      "store_label": "(3) Parker",
+      "category": "PWC",
+      "condition": "New",
+      "price": 7999.0
+    },
+    "P2868": {
+      "title": "2025 Yamaha Waverunners VX Deluxe",
+      "store_label": "(3) Parker",
+      "category": "PWC",
+      "condition": "New",
+      "price": 12899.0
+    },
+    "P2867": {
+      "title": "2025 Yamaha Waverunners VX Deluxe",
+      "store_label": "(3) Parker",
+      "category": "PWC",
+      "condition": "New",
+      "price": 11299.0
+    },
+    "P2866": {
+      "title": "2025 Yamaha Waverunners GP HO",
+      "store_label": "(3) Parker",
+      "category": "PWC",
+      "condition": "New",
+      "price": 12699.0
+    },
+    "P2946": {
+      "title": "2025 Kawasaki Ultra 160LX-S Angler",
+      "store_label": "(3) Parker",
+      "category": "PWC",
+      "condition": "New",
+      "price": 14399.0
+    },
+    "P2941": {
+      "title": "2025 Kawasaki Ultra 310LX-S",
+      "store_label": "(3) Parker",
+      "category": "PWC",
+      "condition": "New",
+      "price": 18699.0
+    },
+    "P2947": {
+      "title": "2025 Kawasaki Ultra 160LX-S Angler",
+      "store_label": "(3) Parker",
+      "category": "PWC",
+      "condition": "New",
+      "price": 14399.0
+    },
+    "P2945": {
+      "title": "2025 Kawasaki Ultra 310X",
+      "store_label": "(3) Parker",
+      "category": "PWC",
+      "condition": "New",
+      "price": 17699.0
+    },
+    "P2940": {
+      "title": "2025 Kawasaki Ultra 310LX-S",
+      "store_label": "(3) Parker",
+      "category": "PWC",
+      "condition": "New",
+      "price": 18699.0
+    },
+    "P3003": {
+      "title": "2025 Kawasaki STX 160LX",
+      "store_label": "(3) Parker",
+      "category": "PWC",
+      "condition": "New",
+      "price": 11599.0
+    },
+    "P3014": {
+      "title": "2025 Sea-Doo Wake Pro 230",
+      "store_label": "(3) Parker",
+      "category": "PWC",
+      "condition": "New",
+      "price": 15699.0
+    },
+    "P3009": {
+      "title": "2025 Yamaha Waverunners FX SVHO",
+      "store_label": "(3) Parker",
+      "category": "PWC",
+      "condition": "New",
+      "price": 16999.0
+    },
+    "P3020": {
+      "title": "2025 Kawasaki STX 160LX",
+      "store_label": "(3) Parker",
+      "category": "PWC",
+      "condition": "New",
+      "price": 11599.0
+    },
+    "P3088B": {
+      "title": "2018 Sea-Doo RXT-X 300",
+      "store_label": "(3) Parker",
+      "category": "PWC",
+      "condition": "Used",
+      "price": 8999.0
+    },
+    "P3097B": {
+      "title": "2022 Yamaha Waverunners GP1800C-XA",
+      "store_label": "(3) Parker",
+      "category": "PWC",
+      "condition": "Used",
+      "price": 10599.0
+    },
+    "P3106": {
+      "title": "2025 Sea-Doo FishPro Trophy 170",
+      "store_label": "(3) Parker",
+      "category": "PWC",
+      "condition": "New",
+      "price": 18999.0
+    },
+    "P3109": {
+      "title": "2025 Sea-Doo RXT-X 325 Metallic Tan / Lava Red Premium",
+      "store_label": "(3) Parker",
+      "category": "PWC",
+      "condition": "New",
+      "price": 17899.0
+    },
+    "P3111": {
+      "title": "2025 Sea-Doo Wake 170 BRP Premium Audio, iDF, iBR",
+      "store_label": "(3) Parker",
+      "category": "PWC",
+      "condition": "New",
+      "price": 12899.0
+    },
+    "P3115": {
+      "title": "2025 Kawasaki STX 160X",
+      "store_label": "(3) Parker",
+      "category": "PWC",
+      "condition": "New",
+      "price": 11059.0
+    },
+    "P3114": {
+      "title": "2025 Yamaha Waverunners Jetblaster PRO 2-Up",
+      "store_label": "(3) Parker",
+      "category": "PWC",
+      "condition": "New",
+      "price": 9499.0
+    },
+    "P2900A": {
+      "title": "2016 Sea-Doo GTX Limited 300",
+      "store_label": "(3) Parker",
+      "category": "PWC",
+      "condition": "Used",
+      "price": 9425.0
+    },
+    "P3171": {
+      "title": "2025 Sea-Doo Spark Trixx for 3 Rotax 900 ACE - 90 iBR",
+      "store_label": "(3) Parker",
+      "category": "PWC",
+      "condition": "New",
+      "price": 8799.0
+    },
+    "P3172": {
+      "title": "2025 Sea-Doo RXT-X 325 Metallic Tan / Lava Red Premium",
+      "store_label": "(3) Parker",
+      "category": "PWC",
+      "condition": "New",
+      "price": 17899.0
+    },
+    "P3170": {
+      "title": "2025 Sea-Doo Wake 170 BRP Premium Audio, iDF, iBR",
+      "store_label": "(3) Parker",
+      "category": "PWC",
+      "condition": "New",
+      "price": 12899.0
+    },
+    "P3168": {
+      "title": "2025 Sea-Doo GTI SE 130 iBR",
+      "store_label": "(3) Parker",
+      "category": "PWC",
+      "condition": "New",
+      "price": 10149.0
+    },
+    "P3169": {
+      "title": "2025 Sea-Doo RXT-X 325 Metallic Tan / Lava Red Premium",
+      "store_label": "(3) Parker",
+      "category": "PWC",
+      "condition": "New",
+      "price": 17899.0
+    },
+    "P3202": {
+      "title": "2025 Sea-Doo GTX Limited 325 Teal Metallic",
+      "store_label": "(3) Parker",
+      "category": "PWC",
+      "condition": "New",
+      "price": 18499.0
+    },
+    "P3249": {
+      "title": "2026 Sea-Doo GTX 170 Tech, Audio, Idf, Ibr",
+      "store_label": "(3) Parker",
+      "category": "PWC",
+      "condition": "New",
+      "price": 17149.0
+    },
+    "P3251": {
+      "title": "2026 Sea-Doo SparkTrixx For 3 Rotax 900 ACE - 90 Ibr",
+      "store_label": "(3) Parker",
+      "category": "PWC",
+      "condition": "New",
+      "price": 10099.0
+    },
+    "P3252": {
+      "title": "2026 Sea-Doo SparkTrixx For 3 Rotax 900 ACE - 90 Ibr",
+      "store_label": "(3) Parker",
+      "category": "PWC",
+      "condition": "New",
+      "price": 10099.0
+    },
+    "P3250": {
+      "title": "2026 Sea-Doo Wake 170 BRP Premium Audio, Idf, Ibr",
+      "store_label": "(3) Parker",
+      "category": "PWC",
+      "condition": "New",
+      "price": 15649.0
+    },
+    "P3273": {
+      "title": "2026 Sea-Doo SparkTrixx for 3 Rotax 900 ACE - 90 iBR",
+      "store_label": "(3) Parker",
+      "category": "PWC",
+      "condition": "New",
+      "price": 10099.0
+    },
+    "P3274": {
+      "title": "2026 Yamaha Waverunners SuperJet",
+      "store_label": "(3) Parker",
+      "category": "PWC",
+      "condition": "New",
+      "price": 11499.0
+    },
+    "P3275": {
+      "title": "2026 Yamaha Waverunners SuperJet",
+      "store_label": "(3) Parker",
+      "category": "PWC",
+      "condition": "New",
+      "price": 11499.0
+    },
+    "P3276": {
+      "title": "2026 Yamaha Waverunners SuperJet",
+      "store_label": "(3) Parker",
+      "category": "PWC",
+      "condition": "New",
+      "price": 11499.0
+    },
+    "P3277": {
+      "title": "2026 Yamaha Waverunners SuperJet",
+      "store_label": "(3) Parker",
+      "category": "PWC",
+      "condition": "New",
+      "price": 11499.0
+    },
+    "P3283": {
+      "title": "2026 Yamaha Waverunners FX HO",
+      "store_label": "(3) Parker",
+      "category": "PWC",
+      "condition": "New",
+      "price": 17199.0
+    },
+    "P3238B": {
+      "title": "2020 Kawasaki Jet Ski SX-R",
+      "store_label": "(3) Parker",
+      "category": "PWC",
+      "condition": "Used",
+      "price": 7296.0
+    },
+    "P3238A": {
+      "title": "2020 Kawasaki Jet Ski SX-R",
+      "store_label": "(3) Parker",
+      "category": "PWC",
+      "condition": "Used",
+      "price": 7296.0
+    },
+    "P3291": {
+      "title": "2026 Sea-Doo RXT-X 325 Ice Metal / Manta Green",
+      "store_label": "(3) Parker",
+      "category": "PWC",
+      "condition": "New",
+      "price": 21899.0
+    },
+    "P3290": {
+      "title": "2026 Sea-Doo 25TC",
+      "store_label": "(3) Parker",
+      "category": "PWC",
+      "condition": "New",
+      "price": 14849.0
+    },
+    "P3289": {
+      "title": "2026 Sea-Doo GTX Limited 325 Teal Metallic",
+      "store_label": "(3) Parker",
+      "category": "PWC",
+      "condition": "New",
+      "price": 22549.0
+    },
+    "P3292": {
+      "title": "2026 Sea-Doo SparkTrixx for 3 Rotax 900 ACE - 90 iBR",
+      "store_label": "(3) Parker",
+      "category": "PWC",
+      "condition": "New",
+      "price": 10099.0
+    },
+    "P3328": {
+      "title": "2026 Sea-Doo GTI SE 170 Tech, Audio, Idf, Ibr",
+      "store_label": "(3) Parker",
+      "category": "PWC",
+      "condition": "New",
+      "price": 14699.0
+    },
+    "P3327": {
+      "title": "2026 Sea-Doo GTX 170 Tech, Audio, Idf, Ibr",
+      "store_label": "(3) Parker",
+      "category": "PWC",
+      "condition": "New",
+      "price": 17149.0
+    },
+    "P3329": {
+      "title": "2026 Sea-Doo GTR 230 BRP Premium Audio, Ibr",
+      "store_label": "(3) Parker",
+      "category": "PWC",
+      "condition": "New",
+      "price": 15699.0
+    },
+    "P3373": {
+      "title": "2026 Sea-Doo GTX Limited 325 Teal Metallic",
+      "store_label": "(3) Parker",
+      "category": "PWC",
+      "condition": "New",
+      "price": 22549.0
+    },
+    "P3386": {
+      "title": "2026 Yamaha Waverunners VX Cruiser HO",
+      "store_label": "(3) Parker",
+      "category": "PWC",
+      "condition": "New",
+      "price": 14899.0
+    },
+    "P3387": {
+      "title": "2026 Yamaha Waverunners GP HO with Audio",
+      "store_label": "(3) Parker",
+      "category": "PWC",
+      "condition": "New",
+      "price": 16699.0
+    },
+    "P3388": {
+      "title": "2026 Yamaha Waverunners VX Cruiser",
+      "store_label": "(3) Parker",
+      "category": "PWC",
+      "condition": "New",
+      "price": 13999.0
+    },
+    "P3383": {
+      "title": "2026 Yamaha Waverunners VX Cruiser HO",
+      "store_label": "(3) Parker",
+      "category": "PWC",
+      "condition": "New",
+      "price": 14899.0
+    },
+    "P3384": {
+      "title": "2026 Yamaha Waverunners JetBlaster",
+      "store_label": "(3) Parker",
+      "category": "PWC",
+      "condition": "New",
+      "price": 8499.0
+    },
+    "P3385": {
+      "title": "2026 Yamaha Waverunners VX1900C-CB",
+      "store_label": "(3) Parker",
+      "category": "PWC",
+      "condition": "New",
+      "price": 14899.0
+    },
+    "P3381": {
+      "title": "2026 Yamaha Waverunners VX Cruiser HO",
+      "store_label": "(3) Parker",
+      "category": "PWC",
+      "condition": "New",
+      "price": 14899.0
+    },
+    "P3380": {
+      "title": "2026 Yamaha Waverunners Jetblaster DLX 3-Up",
+      "store_label": "(3) Parker",
+      "category": "PWC",
+      "condition": "New",
+      "price": 10399.0
+    },
+    "P3382": {
+      "title": "2026 Yamaha Waverunners VX Cruiser HO",
+      "store_label": "(3) Parker",
+      "category": "PWC",
+      "condition": "New",
+      "price": 14899.0
+    },
+    "P3379": {
+      "title": "2026 Yamaha Waverunners Jetblaster DLX 3-Up",
+      "store_label": "(3) Parker",
+      "category": "PWC",
+      "condition": "New",
+      "price": 10399.0
+    },
+    "P3377": {
+      "title": "2026 Yamaha Waverunners JetBlaster LTD",
+      "store_label": "(3) Parker",
+      "category": "PWC",
+      "condition": "New",
+      "price": 12399.0
+    },
+    "P3378": {
+      "title": "2026 Yamaha Waverunners JetBlaster LTD",
+      "store_label": "(3) Parker",
+      "category": "PWC",
+      "condition": "New",
+      "price": 12399.0
+    },
+    "PP2994": {
+      "title": "2023 Sea-Doo Spark 3-up Rotax 900 ACE CONV with iBR",
+      "store_label": "(3) Parker",
+      "category": "PWC",
+      "condition": "Used",
+      "price": 6499.0
+    },
+    "P3399": {
+      "title": "2026 Kawasaki Jet Ski Ultra 310 LX",
+      "store_label": "(3) Parker",
+      "category": "PWC",
+      "condition": "New",
+      "price": 21799.0
+    },
+    "P3426": {
+      "title": "2026 Yamaha Waverunners VX Limited HO",
+      "store_label": "(3) Parker",
+      "category": "PWC",
+      "condition": "New",
+      "price": 16699.0
+    },
+    "P3425": {
+      "title": "2026 Yamaha Waverunners VX Limited HO",
+      "store_label": "(3) Parker",
+      "category": "PWC",
+      "condition": "New",
+      "price": 16699.0
+    },
+    "P3427": {
+      "title": "2026 Yamaha Waverunners VX Limited",
+      "store_label": "(3) Parker",
+      "category": "PWC",
+      "condition": "New",
+      "price": 15199.0
+    },
+    "P3433": {
+      "title": "2026 Yamaha Waverunners SuperJet",
+      "store_label": "(3) Parker",
+      "category": "PWC",
+      "condition": "New",
+      "price": 11499.0
+    },
+    "P3431": {
+      "title": "2026 Yamaha Waverunners SuperJet",
+      "store_label": "(3) Parker",
+      "category": "PWC",
+      "condition": "New",
+      "price": 11499.0
+    },
+    "P3432": {
+      "title": "2026 Yamaha Waverunners SuperJet",
+      "store_label": "(3) Parker",
+      "category": "PWC",
+      "condition": "New",
+      "price": 11499.0
+    },
+    "P3430": {
+      "title": "2026 Yamaha Waverunners SuperJet",
+      "store_label": "(3) Parker",
+      "category": "PWC",
+      "condition": "New",
+      "price": 11499.0
+    },
+    "P3454": {
+      "title": "2026 Sea-Doo 00011TA00",
+      "store_label": "(3) Parker",
+      "category": "PWC",
+      "condition": "New",
+      "price": 17149.0
+    },
+    "P3458": {
+      "title": "2026 Sea-Doo RXT-X 325 Gulfstream Blue Premium",
+      "store_label": "(3) Parker",
+      "category": "PWC",
+      "condition": "New",
+      "price": 22299.0
+    },
+    "P3468": {
+      "title": "2026 Yamaha Waverunners FX Cruiser HO",
+      "store_label": "(3) Parker",
+      "category": "PWC",
+      "condition": "New",
+      "price": 18599.0
+    },
+    "P3467": {
+      "title": "2026 Yamaha Waverunners FX Cruiser HO",
+      "store_label": "(3) Parker",
+      "category": "PWC",
+      "condition": "New",
+      "price": 18599.0
     },
     "A1964": {
       "title": "2024 Polaris Sportsman 110",
@@ -3291,12 +3431,47 @@
       "condition": "New",
       "price": 15999.0
     },
-    "000993": {
-      "title": "2025 CFMOTO CForce 1000 Touring Camo",
+    "J000011": {
+      "title": "2022 Can-Am Outlander MAX XT-P 1000R",
       "store_label": "(5) Reno",
       "category": "ATV",
+      "condition": "Used",
+      "price": 11145.0
+    },
+    "B2742": {
+      "title": "2025 Polaris Sportsman 450 H.O. EPS",
+      "store_label": "(2) Bullhead City",
+      "category": "ATV",
       "condition": "New",
-      "price": 9699.0
+      "price": 7049.0
+    },
+    "B2982": {
+      "title": "2025 Polaris Sportsman 570 Utility HD",
+      "store_label": "(2) Bullhead City",
+      "category": "ATV",
+      "condition": "New",
+      "price": 8849.0
+    },
+    "B3012": {
+      "title": "2025 Polaris Sportsman 450 H.O. EPS",
+      "store_label": "(2) Bullhead City",
+      "category": "ATV",
+      "condition": "New",
+      "price": 7049.0
+    },
+    "B3140": {
+      "title": "2025 Polaris Phoenix 200",
+      "store_label": "(2) Bullhead City",
+      "category": "ATV",
+      "condition": "New",
+      "price": 4299.0
+    },
+    "B3151": {
+      "title": "2025 Polaris Sportsman 450 H.O. EPS",
+      "store_label": "(2) Bullhead City",
+      "category": "ATV",
+      "condition": "New",
+      "price": 7049.0
     },
     "000857": {
       "title": "2025 CFMOTO CForce 1000 Touring Camo",
@@ -3305,12 +3480,19 @@
       "condition": "New",
       "price": 9699.0
     },
-    "000841": {
-      "title": "2025 CFMOTO CForce 800 Touring Camo",
+    "000993": {
+      "title": "2025 CFMOTO CForce 1000 Touring Camo",
       "store_label": "(5) Reno",
       "category": "ATV",
       "condition": "New",
-      "price": 8699.0
+      "price": 9699.0
+    },
+    "004198": {
+      "title": "2025 CFMOTO CForce 600 Touring Camo",
+      "store_label": "(5) Reno",
+      "category": "ATV",
+      "condition": "New",
+      "price": 7199.0
     },
     "000846": {
       "title": "2025 CFMOTO CForce 800 Touring Camo",
@@ -3326,12 +3508,12 @@
       "condition": "New",
       "price": 8699.0
     },
-    "004198": {
-      "title": "2025 CFMOTO CForce 600 Touring Camo",
+    "000841": {
+      "title": "2025 CFMOTO CForce 800 Touring Camo",
       "store_label": "(5) Reno",
       "category": "ATV",
       "condition": "New",
-      "price": 7199.0
+      "price": 8699.0
     },
     "004800": {
       "title": "2025 CFMOTO CForce 600 Touring Camo",
@@ -3410,13 +3592,6 @@
       "condition": "New",
       "price": 6999.0
     },
-    "J000011": {
-      "title": "2022 Can-Am Outlander MAX XT-P 1000R",
-      "store_label": "(5) Reno",
-      "category": "ATV",
-      "condition": "Used",
-      "price": 11145.0
-    },
     "000507": {
       "title": "2026 CFMOTO CFORCE 800 Touring",
       "store_label": "(5) Reno",
@@ -3430,13 +3605,6 @@
       "category": "ATV",
       "condition": "New",
       "price": 9499.0
-    },
-    "018807": {
-      "title": "2026 Polaris Sportsman 570 Trail",
-      "store_label": "(5) Reno",
-      "category": "ATV",
-      "condition": "New",
-      "price": 10499.0
     },
     "041618": {
       "title": "2026 Polaris Sportsman Touring 570 Ultimate",
@@ -3641,41 +3809,6 @@
       "condition": "New",
       "price": 9999.0
     },
-    "B2742": {
-      "title": "2025 Polaris Sportsman 450 H.O. EPS",
-      "store_label": "(2) Bullhead City",
-      "category": "ATV",
-      "condition": "New",
-      "price": 7049.0
-    },
-    "B2982": {
-      "title": "2025 Polaris Sportsman 570 Utility HD",
-      "store_label": "(2) Bullhead City",
-      "category": "ATV",
-      "condition": "New",
-      "price": 8849.0
-    },
-    "B3012": {
-      "title": "2025 Polaris Sportsman 450 H.O. EPS",
-      "store_label": "(2) Bullhead City",
-      "category": "ATV",
-      "condition": "New",
-      "price": 7049.0
-    },
-    "B3140": {
-      "title": "2025 Polaris Phoenix 200",
-      "store_label": "(2) Bullhead City",
-      "category": "ATV",
-      "condition": "New",
-      "price": 4299.0
-    },
-    "B3151": {
-      "title": "2025 Polaris Sportsman 450 H.O. EPS",
-      "store_label": "(2) Bullhead City",
-      "category": "ATV",
-      "condition": "New",
-      "price": 7049.0
-    },
     "A2261A": {
       "title": "2021 Honda Pioneer 1000 Limited Edition",
       "store_label": "(4) South Lake Havasu",
@@ -3794,6 +3927,13 @@
       "category": "UTV",
       "condition": "New",
       "price": 17299.0
+    },
+    "U1106": {
+      "title": "2024 Polaris Ranger Crew XD 1500 NorthStar Edition Ultimate",
+      "store_label": "(4) South Lake Havasu",
+      "category": "UTV",
+      "condition": "Used",
+      "price": 0
     },
     "A2488A": {
       "title": "2024 Yamaha YXZ10YEXPL",
@@ -4446,6 +4586,783 @@
       "condition": "Used",
       "price": 0
     },
+    "H1888A": {
+      "title": "2022 Can-Am Defender MAX Limited HD10",
+      "store_label": "(1) North Lake Havasu",
+      "category": "UTV",
+      "condition": "Used",
+      "price": 0
+    },
+    "H3641": {
+      "title": "2026 Can-Am Defender DPS CAB HD9 Compass Green",
+      "store_label": "(1) North Lake Havasu",
+      "category": "UTV",
+      "condition": "New",
+      "price": 20999.0
+    },
+    "H3693": {
+      "title": "2026 Can-Am Maverick X3 Max X RS Turbo RR Dusty Navy_4.5 in",
+      "store_label": "(1) North Lake Havasu",
+      "category": "UTV",
+      "condition": "New",
+      "price": 36199.0
+    },
+    "H3692": {
+      "title": "2026 Can-Am Defender MAX X mr HD11 with half-doors",
+      "store_label": "(1) North Lake Havasu",
+      "category": "UTV",
+      "condition": "New",
+      "price": 29199.0
+    },
+    "H3711": {
+      "title": "2026 Can-Am Maverick X3 Max X RS Turbo RR Dusty Navy_4.5 in",
+      "store_label": "(1) North Lake Havasu",
+      "category": "UTV",
+      "condition": "New",
+      "price": 36199.0
+    },
+    "H3712": {
+      "title": "2026 Can-Am Maverick X3 Max X RS Turbo RR Triple Black_4.5 in",
+      "store_label": "(1) North Lake Havasu",
+      "category": "UTV",
+      "condition": "New",
+      "price": 36199.0
+    },
+    "H3735": {
+      "title": "2026 Can-Am Maverick R Max X",
+      "store_label": "(1) North Lake Havasu",
+      "category": "UTV",
+      "condition": "New",
+      "price": 43299.0
+    },
+    "H3736": {
+      "title": "2026 Can-Am Maverick R Max X",
+      "store_label": "(1) North Lake Havasu",
+      "category": "UTV",
+      "condition": "New",
+      "price": 43299.0
+    },
+    "H3756": {
+      "title": "2026 Can-Am Maverick X3 DS Turbo Scandi Blue & Orange Crush",
+      "store_label": "(1) North Lake Havasu",
+      "category": "UTV",
+      "condition": "New",
+      "price": 19999.0
+    },
+    "H3786": {
+      "title": "2026 Can-Am Commander MAX XT 1000R",
+      "store_label": "(1) North Lake Havasu",
+      "category": "UTV",
+      "condition": "New",
+      "price": 24999.0
+    },
+    "H3775B": {
+      "title": "2018 Polaris RZR XP Turbo EPS Velocity Blue",
+      "store_label": "(1) North Lake Havasu",
+      "category": "UTV",
+      "condition": "Used",
+      "price": 10998.0
+    },
+    "H3817": {
+      "title": "2026 Can-Am Maverick R Max X",
+      "store_label": "(1) North Lake Havasu",
+      "category": "UTV",
+      "condition": "New",
+      "price": 43299.0
+    },
+    "H3810": {
+      "title": "2026 Can-Am Maverick R MAX X rc",
+      "store_label": "(1) North Lake Havasu",
+      "category": "UTV",
+      "condition": "New",
+      "price": 51499.0
+    },
+    "H3811": {
+      "title": "2026 Can-Am Maverick X3 MAX X Turbo",
+      "store_label": "(1) North Lake Havasu",
+      "category": "UTV",
+      "condition": "New",
+      "price": 26499.0
+    },
+    "H3808": {
+      "title": "2026 Can-Am Maverick R MAX X rc",
+      "store_label": "(1) North Lake Havasu",
+      "category": "UTV",
+      "condition": "New",
+      "price": 51499.0
+    },
+    "H3807": {
+      "title": "2026 Can-Am Maverick R MAX X rc",
+      "store_label": "(1) North Lake Havasu",
+      "category": "UTV",
+      "condition": "New",
+      "price": 51499.0
+    },
+    "H3821": {
+      "title": "2026 Can-Am Maverick R Max X",
+      "store_label": "(1) North Lake Havasu",
+      "category": "UTV",
+      "condition": "New",
+      "price": 43299.0
+    },
+    "H3827": {
+      "title": "2026 Can-Am Maverick R Max X RS Dusty Navy",
+      "store_label": "(1) North Lake Havasu",
+      "category": "UTV",
+      "condition": "New",
+      "price": 47499.0
+    },
+    "H3818": {
+      "title": "2026 Can-Am Maverick X3 MAX DS Turbo Dusty Navy",
+      "store_label": "(1) North Lake Havasu",
+      "category": "UTV",
+      "condition": "New",
+      "price": 24299.0
+    },
+    "H3819": {
+      "title": "2026 Can-Am Maverick R Max X RS",
+      "store_label": "(1) North Lake Havasu",
+      "category": "UTV",
+      "condition": "New",
+      "price": 47499.0
+    },
+    "H3859": {
+      "title": "2026 Can-Am Defender XT HD9",
+      "store_label": "(1) North Lake Havasu",
+      "category": "UTV",
+      "condition": "New",
+      "price": 17799.0
+    },
+    "H3864": {
+      "title": "2026 Can-Am Maverick X3 DS Turbo Scandi Blue & Orange Crush",
+      "store_label": "(1) North Lake Havasu",
+      "category": "UTV",
+      "condition": "New",
+      "price": 19999.0
+    },
+    "HP3884A": {
+      "title": "2023 Yamaha YXZ 1000R SS XT-R",
+      "store_label": "(1) North Lake Havasu",
+      "category": "Other",
+      "condition": "Used",
+      "price": 18499.0
+    },
+    "H3882": {
+      "title": "2026 Can-Am Defender MAX XT CAB HD11 With 10.25 In.Display",
+      "store_label": "(1) North Lake Havasu",
+      "category": "UTV",
+      "condition": "New",
+      "price": 34599.0
+    },
+    "H3881": {
+      "title": "2026 Can-Am Defender MAX XT CAB HD11",
+      "store_label": "(1) North Lake Havasu",
+      "category": "UTV",
+      "condition": "New",
+      "price": 33099.0
+    },
+    "H3891": {
+      "title": "2025 Can-Am Defender MAX DPS HD9 Compass Green",
+      "store_label": "(1) North Lake Havasu",
+      "category": "UTV",
+      "condition": "New",
+      "price": 15999.0
+    },
+    "H3890": {
+      "title": "2025 Can-Am Defender MAX DPS HD9 Compass Green",
+      "store_label": "(1) North Lake Havasu",
+      "category": "UTV",
+      "condition": "New",
+      "price": 15999.0
+    },
+    "H3901": {
+      "title": "2026 Can-Am Commander MAX XT-P",
+      "store_label": "(1) North Lake Havasu",
+      "category": "UTV",
+      "condition": "New",
+      "price": 28099.0
+    },
+    "H3912": {
+      "title": "2026 Can-Am Defender MAX Limited HD11 Desert Tan & Carbon Blac",
+      "store_label": "(1) North Lake Havasu",
+      "category": "UTV",
+      "condition": "New",
+      "price": 37899.0
+    },
+    "H3924": {
+      "title": "2026 Can-Am Maverick X3 DS Turbo Dusty Navy",
+      "store_label": "(1) North Lake Havasu",
+      "category": "UTV",
+      "condition": "New",
+      "price": 21299.0
+    },
+    "H3921": {
+      "title": "2026 Can-Am Maverick R MAX X Rc",
+      "store_label": "(1) North Lake Havasu",
+      "category": "UTV",
+      "condition": "New",
+      "price": 51499.0
+    },
+    "H3922": {
+      "title": "2026 Can-Am Maverick X3 MAX DS Turbo Dusty Navy",
+      "store_label": "(1) North Lake Havasu",
+      "category": "UTV",
+      "condition": "New",
+      "price": 24299.0
+    },
+    "H3929": {
+      "title": "2026 Can-Am Defender MAX Limited HD11 Desert Tan & Carbon Blac",
+      "store_label": "(1) North Lake Havasu",
+      "category": "UTV",
+      "condition": "New",
+      "price": 37899.0
+    },
+    "H3931": {
+      "title": "2026 Can-Am Defender MAX Limited HD11",
+      "store_label": "(1) North Lake Havasu",
+      "category": "UTV",
+      "condition": "New",
+      "price": 37799.0
+    },
+    "HP3933": {
+      "title": "2025 Polaris RZR XP 4 1000 Ultimate",
+      "store_label": "(1) North Lake Havasu",
+      "category": "UTV",
+      "condition": "Used",
+      "price": 22999.0
+    },
+    "B2879": {
+      "title": "2025 Polaris Ranger Crew 1000 Premium",
+      "store_label": "(2) Bullhead City",
+      "category": "UTV",
+      "condition": "New",
+      "price": 16999.0
+    },
+    "B3180": {
+      "title": "2025 Polaris Ranger Crew XD 1500 NorthStar Edition Ultimate",
+      "store_label": "(2) Bullhead City",
+      "category": "UTV",
+      "condition": "New",
+      "price": 42449.0
+    },
+    "B3203": {
+      "title": "2026 Polaris Ranger 1000 EPS",
+      "store_label": "(2) Bullhead City",
+      "category": "UTV",
+      "condition": "New",
+      "price": 15799.0
+    },
+    "B3202": {
+      "title": "2026 Polaris RZR Pro XP 4 Sport",
+      "store_label": "(2) Bullhead City",
+      "category": "UTV",
+      "condition": "New",
+      "price": 25499.0
+    },
+    "B3205": {
+      "title": "2026 Polaris RZR Pro S 4 Sport",
+      "store_label": "(2) Bullhead City",
+      "category": "UTV",
+      "condition": "New",
+      "price": 27499.0
+    },
+    "B3215": {
+      "title": "2026 Can-Am Maverick Trail DPS 1000R",
+      "store_label": "(2) Bullhead City",
+      "category": "UTV",
+      "condition": "New",
+      "price": 13999.0
+    },
+    "B3217": {
+      "title": "2026 Polaris Ranger Crew SP 570 NorthStar Edition",
+      "store_label": "(2) Bullhead City",
+      "category": "UTV",
+      "condition": "New",
+      "price": 22899.0
+    },
+    "B3218": {
+      "title": "2026 Polaris RZR 200 EFI",
+      "store_label": "(2) Bullhead City",
+      "category": "UTV",
+      "condition": "New",
+      "price": 6999.0
+    },
+    "B3236": {
+      "title": "2026 Polaris RZR Pro XP Sport",
+      "store_label": "(2) Bullhead City",
+      "category": "UTV",
+      "condition": "New",
+      "price": 22999.0
+    },
+    "B3235": {
+      "title": "2026 Polaris RZR Pro XP Ultimate",
+      "store_label": "(2) Bullhead City",
+      "category": "UTV",
+      "condition": "New",
+      "price": 33499.0
+    },
+    "B3234": {
+      "title": "2026 Polaris RZR Pro S 4 Ultimate",
+      "store_label": "(2) Bullhead City",
+      "category": "UTV",
+      "condition": "New",
+      "price": 38999.0
+    },
+    "B3245": {
+      "title": "2026 Polaris RZR Pro XP 4 Sport",
+      "store_label": "(2) Bullhead City",
+      "category": "UTV",
+      "condition": "New",
+      "price": 25999.0
+    },
+    "B3262": {
+      "title": "2026 Polaris Ranger Crew XP 1000 Premium",
+      "store_label": "(2) Bullhead City",
+      "category": "UTV",
+      "condition": "New",
+      "price": 22499.0
+    },
+    "B3276": {
+      "title": "2026 Polaris RZR 200 EFI",
+      "store_label": "(2) Bullhead City",
+      "category": "UTV",
+      "condition": "New",
+      "price": 6999.0
+    },
+    "B3282": {
+      "title": "2026 Polaris RZR Pro XP 4 Sport",
+      "store_label": "(2) Bullhead City",
+      "category": "UTV",
+      "condition": "New",
+      "price": 25999.0
+    },
+    "B3284": {
+      "title": "2026 Polaris RZR Pro S Sport",
+      "store_label": "(2) Bullhead City",
+      "category": "UTV",
+      "condition": "New",
+      "price": 25499.0
+    },
+    "B3304": {
+      "title": "2026 Polaris RZR Trail S",
+      "store_label": "(2) Bullhead City",
+      "category": "UTV",
+      "condition": "New",
+      "price": 21999.0
+    },
+    "B3311": {
+      "title": "2026 Polaris RZR Pro S 4 Ultimate",
+      "store_label": "(2) Bullhead City",
+      "category": "UTV",
+      "condition": "New",
+      "price": 38999.0
+    },
+    "B3317": {
+      "title": "2026 Polaris Ranger Crew XP 1000 NorthStar Edition Ultimate Premium",
+      "store_label": "(2) Bullhead City",
+      "category": "UTV",
+      "condition": "New",
+      "price": 34999.0
+    },
+    "B3316": {
+      "title": "2026 Polaris Ranger XP 1000 Northstar Premium Blue Labyrinth",
+      "store_label": "(2) Bullhead City",
+      "category": "UTV",
+      "condition": "New",
+      "price": 29199.0
+    },
+    "B3320": {
+      "title": "2026 Polaris Ranger XD 1500 Northstar Mountaineer Edition",
+      "store_label": "(2) Bullhead City",
+      "category": "UTV",
+      "condition": "New",
+      "price": 45999.0
+    },
+    "B3323": {
+      "title": "2026 Polaris RZR Pro XP 4 Ultimate",
+      "store_label": "(2) Bullhead City",
+      "category": "UTV",
+      "condition": "New",
+      "price": 36499.0
+    },
+    "B3322": {
+      "title": "2026 Polaris RZR Pro XP Sport",
+      "store_label": "(2) Bullhead City",
+      "category": "UTV",
+      "condition": "New",
+      "price": 22999.0
+    },
+    "B3331": {
+      "title": "2025 Can-Am Maverick X3 X Rs Turbo RR Fiery Red & Hyper Silver",
+      "store_label": "(2) Bullhead City",
+      "category": "UTV",
+      "condition": "New",
+      "price": 26799.0
+    },
+    "B3328": {
+      "title": "2026 Can-Am Commander MAX XT-P",
+      "store_label": "(2) Bullhead City",
+      "category": "UTV",
+      "condition": "New",
+      "price": 28099.0
+    },
+    "B3342": {
+      "title": "2026 Polaris RZR 200 EFI",
+      "store_label": "(2) Bullhead City",
+      "category": "UTV",
+      "condition": "New",
+      "price": 6999.0
+    },
+    "B3348": {
+      "title": "2026 Polaris RZR Pro XP 4 Sport",
+      "store_label": "(2) Bullhead City",
+      "category": "UTV",
+      "condition": "New",
+      "price": 25999.0
+    },
+    "B3347": {
+      "title": "2026 Polaris GENERAL XP 1000 Ultimate",
+      "store_label": "(2) Bullhead City",
+      "category": "UTV",
+      "condition": "New",
+      "price": 26999.0
+    },
+    "B3345": {
+      "title": "2026 Polaris RZR Pro R 4 Ultimate",
+      "store_label": "(2) Bullhead City",
+      "category": "UTV",
+      "condition": "New",
+      "price": 47999.0
+    },
+    "B3344": {
+      "title": "2026 Polaris RZR Pro R 4 Ultimate",
+      "store_label": "(2) Bullhead City",
+      "category": "UTV",
+      "condition": "New",
+      "price": 47999.0
+    },
+    "B3358": {
+      "title": "2026 Can-Am Maverick X3 MAX RS Turbo Dusty Navy",
+      "store_label": "(2) Bullhead City",
+      "category": "UTV",
+      "condition": "New",
+      "price": 26699.0
+    },
+    "B3353": {
+      "title": "2026 Polaris Xpedition ADV 5 Northstar",
+      "store_label": "(2) Bullhead City",
+      "category": "UTV",
+      "condition": "New",
+      "price": 45499.0
+    },
+    "B3354": {
+      "title": "2025 Can-Am Maverick X3 X rc TURBO RR 64",
+      "store_label": "(2) Bullhead City",
+      "category": "UTV",
+      "condition": "New",
+      "price": 24499.0
+    },
+    "B3356": {
+      "title": "2025 Can-Am Maverick X3 X Rs Turbo RR With Smart-Shox Fiery Re",
+      "store_label": "(2) Bullhead City",
+      "category": "UTV",
+      "condition": "New",
+      "price": 28499.0
+    },
+    "B3352": {
+      "title": "2026 Polaris RZR XP S 4 1000 Sport",
+      "store_label": "(2) Bullhead City",
+      "category": "UTV",
+      "condition": "New",
+      "price": 22999.0
+    },
+    "B3181A": {
+      "title": "2024 Polaris Xpedition ADV Northstar",
+      "store_label": "(2) Bullhead City",
+      "category": "UTV",
+      "condition": "Used",
+      "price": 29995.0
+    },
+    "B3361": {
+      "title": "2026 Polaris Ranger Crew XD 1500 Northstar Mountaineer Edition",
+      "store_label": "(2) Bullhead City",
+      "category": "UTV",
+      "condition": "New",
+      "price": 49999.0
+    },
+    "B3362": {
+      "title": "2026 Can-Am Defender DPS HD7 Compass Green",
+      "store_label": "(2) Bullhead City",
+      "category": "UTV",
+      "condition": "New",
+      "price": 14899.0
+    },
+    "BP1139": {
+      "title": "2022 Polaris RZR Pro XP 4 Ultimate",
+      "store_label": "(2) Bullhead City",
+      "category": "UTV",
+      "condition": "Used",
+      "price": 27500.0
+    },
+    "B3392": {
+      "title": "2026 Polaris RZR Pro R Ultimate",
+      "store_label": "(2) Bullhead City",
+      "category": "UTV",
+      "condition": "New",
+      "price": 43999.0
+    },
+    "B3391": {
+      "title": "2026 Polaris Ranger 500",
+      "store_label": "(2) Bullhead City",
+      "category": "UTV",
+      "condition": "New",
+      "price": 9999.0
+    },
+    "B3388": {
+      "title": "2026 Polaris Ranger SP 570",
+      "store_label": "(2) Bullhead City",
+      "category": "UTV",
+      "condition": "New",
+      "price": 11999.0
+    },
+    "B3389": {
+      "title": "2026 Polaris RZR XP 1000 Sport",
+      "store_label": "(2) Bullhead City",
+      "category": "UTV",
+      "condition": "New",
+      "price": 17999.0
+    },
+    "B3390": {
+      "title": "2026 Polaris RZR XP S 4 1000 Sport",
+      "store_label": "(2) Bullhead City",
+      "category": "UTV",
+      "condition": "New",
+      "price": 22999.0
+    },
+    "B3394": {
+      "title": "2026 Can-Am Maverick X3 MAX DS Turbo Dusty Navy",
+      "store_label": "(2) Bullhead City",
+      "category": "UTV",
+      "condition": "New",
+      "price": 24299.0
+    },
+    "B3395": {
+      "title": "2026 Can-Am Maverick X3 Max X RS Turbo RR With Smart-Shox",
+      "store_label": "(2) Bullhead City",
+      "category": "UTV",
+      "condition": "New",
+      "price": 37899.0
+    },
+    "B3400": {
+      "title": "2026 Polaris RZR XP S 4 1000 Ultimate",
+      "store_label": "(2) Bullhead City",
+      "category": "UTV",
+      "condition": "New",
+      "price": 29499.0
+    },
+    "B3403": {
+      "title": "2026 Polaris RZR Pro R 4 Ultimate",
+      "store_label": "(2) Bullhead City",
+      "category": "UTV",
+      "condition": "New",
+      "price": 47999.0
+    },
+    "B3406": {
+      "title": "2026 Can-Am Maverick X3 Max X RS Turbo RR With Smart-Shox",
+      "store_label": "(2) Bullhead City",
+      "category": "UTV",
+      "condition": "New",
+      "price": 37899.0
+    },
+    "B3414": {
+      "title": "2026 Polaris Ranger XD 1500 Northstar Ultimate",
+      "store_label": "(2) Bullhead City",
+      "category": "UTV",
+      "condition": "New",
+      "price": 45999.0
+    },
+    "B3415": {
+      "title": "2026 Polaris RZR XP 4 1000 Sport",
+      "store_label": "(2) Bullhead City",
+      "category": "UTV",
+      "condition": "New",
+      "price": 20999.0
+    },
+    "B3418": {
+      "title": "2026 Polaris Ranger 500",
+      "store_label": "(2) Bullhead City",
+      "category": "UTV",
+      "condition": "New",
+      "price": 9999.0
+    },
+    "B3419": {
+      "title": "2026 Polaris RZR XP S 1000 Ultimate",
+      "store_label": "(2) Bullhead City",
+      "category": "UTV",
+      "condition": "New",
+      "price": 26499.0
+    },
+    "B3426": {
+      "title": "2026 Polaris RZR Pro S Ultimate",
+      "store_label": "(2) Bullhead City",
+      "category": "UTV",
+      "condition": "New",
+      "price": 35999.0
+    },
+    "B3427": {
+      "title": "2026 Polaris RZR Pro XP 4 Ultimate",
+      "store_label": "(2) Bullhead City",
+      "category": "UTV",
+      "condition": "New",
+      "price": 36499.0
+    },
+    "B3423": {
+      "title": "2026 Polaris RZR XP S 1000 Ultimate",
+      "store_label": "(2) Bullhead City",
+      "category": "UTV",
+      "condition": "New",
+      "price": 26499.0
+    },
+    "B3442": {
+      "title": "2026 Can-Am Maverick X3 MAX X Turbo",
+      "store_label": "(2) Bullhead City",
+      "category": "UTV",
+      "condition": "New",
+      "price": 26499.0
+    },
+    "B3440": {
+      "title": "2026 Can-Am Maverick R Max X RS With Smart-Shox",
+      "store_label": "(2) Bullhead City",
+      "category": "UTV",
+      "condition": "New",
+      "price": 49199.0
+    },
+    "B3444": {
+      "title": "2026 Polaris Xpedition ADV 5 Northstar",
+      "store_label": "(2) Bullhead City",
+      "category": "UTV",
+      "condition": "New",
+      "price": 45499.0
+    },
+    "B3443": {
+      "title": "2026 Polaris Xpedition ADV 5 Northstar",
+      "store_label": "(2) Bullhead City",
+      "category": "UTV",
+      "condition": "New",
+      "price": 45499.0
+    },
+    "B3441A": {
+      "title": "2023 Can-Am Maverick X3 MAX DS Turbo",
+      "store_label": "(2) Bullhead City",
+      "category": "UTV",
+      "condition": "Used",
+      "price": 16250.0
+    },
+    "B3445": {
+      "title": "2026 Polaris Xpedition ADV 5 Northstar",
+      "store_label": "(2) Bullhead City",
+      "category": "UTV",
+      "condition": "New",
+      "price": 45499.0
+    },
+    "B3446": {
+      "title": "2026 Polaris Xpedition ADV 5 Northstar",
+      "store_label": "(2) Bullhead City",
+      "category": "UTV",
+      "condition": "New",
+      "price": 45499.0
+    },
+    "B3451": {
+      "title": "2026 Polaris RZR Pro R 4 Ultimate",
+      "store_label": "(2) Bullhead City",
+      "category": "UTV",
+      "condition": "New",
+      "price": 47999.0
+    },
+    "B3450": {
+      "title": "2026 Polaris RZR Pro R Ultimate",
+      "store_label": "(2) Bullhead City",
+      "category": "UTV",
+      "condition": "New",
+      "price": 43999.0
+    },
+    "B3449": {
+      "title": "2026 Polaris RZR Pro R Ultimate",
+      "store_label": "(2) Bullhead City",
+      "category": "UTV",
+      "condition": "New",
+      "price": 43999.0
+    },
+    "B3452": {
+      "title": "2026 Can-Am Maverick R X Rc",
+      "store_label": "(2) Bullhead City",
+      "category": "UTV",
+      "condition": "New",
+      "price": 47999.0
+    },
+    "B3453": {
+      "title": "2026 Can-Am Maverick R MAX X Rc With Smart-Shox",
+      "store_label": "(2) Bullhead City",
+      "category": "UTV",
+      "condition": "New",
+      "price": 53199.0
+    },
+    "B3448": {
+      "title": "2026 Polaris RZR Pro R Ultimate",
+      "store_label": "(2) Bullhead City",
+      "category": "UTV",
+      "condition": "New",
+      "price": 43999.0
+    },
+    "B3461": {
+      "title": "2026 Can-Am Defender Limited HD11",
+      "store_label": "(2) Bullhead City",
+      "category": "UTV",
+      "condition": "New",
+      "price": 34699.0
+    },
+    "B3464": {
+      "title": "2026 Polaris RZR Pro R 4 Ultimate",
+      "store_label": "(2) Bullhead City",
+      "category": "UTV",
+      "condition": "New",
+      "price": 47999.0
+    },
+    "B3492": {
+      "title": "2026 Can-Am 0009Tk00",
+      "store_label": "(2) Bullhead City",
+      "category": "Other",
+      "condition": "New",
+      "price": 49199.0
+    },
+    "B3491": {
+      "title": "2026 Can-Am Maverick R MAX X Rc",
+      "store_label": "(2) Bullhead City",
+      "category": "UTV",
+      "condition": "New",
+      "price": 51499.0
+    },
+    "B3489": {
+      "title": "2026 Polaris Xpedition ADV 5 Northstar",
+      "store_label": "(2) Bullhead City",
+      "category": "UTV",
+      "condition": "New",
+      "price": 45499.0
+    },
+    "B3490": {
+      "title": "2026 Polaris Xpedition XP 5 Northstar",
+      "store_label": "(2) Bullhead City",
+      "category": "UTV",
+      "condition": "New",
+      "price": 44499.0
+    },
+    "B3496": {
+      "title": "2026 Polaris GENERAL XP 4 1000 Ultimate",
+      "store_label": "(2) Bullhead City",
+      "category": "UTV",
+      "condition": "New",
+      "price": 31999.0
+    },
     "117005": {
       "title": "2025 Polaris RZR XP 1000 Sport",
       "store_label": "(5) Reno",
@@ -4481,19 +5398,19 @@
       "condition": "New",
       "price": 35199.0
     },
-    "288981": {
-      "title": "2026 Polaris Ranger Crew XP 1000 NorthStar Edition Premium Blue",
-      "store_label": "(5) Reno",
-      "category": "UTV",
-      "condition": "New",
-      "price": 31699.0
-    },
     "288677": {
       "title": "2026 Polaris Ranger Crew XP 1000 NorthStar Edition Ultimate",
       "store_label": "(5) Reno",
       "category": "UTV",
       "condition": "New",
       "price": 34999.0
+    },
+    "288981": {
+      "title": "2026 Polaris Ranger Crew XP 1000 NorthStar Edition Premium Blue",
+      "store_label": "(5) Reno",
+      "category": "UTV",
+      "condition": "New",
+      "price": 31699.0
     },
     "049888": {
       "title": "2025 Polaris RZR XP 4 1000 Ultimate",
@@ -4502,26 +5419,12 @@
       "condition": "New",
       "price": 23499.0
     },
-    "047707": {
-      "title": "2025 Polaris RZR XP 1000 Ultimate",
-      "store_label": "(5) Reno",
-      "category": "UTV",
-      "condition": "New",
-      "price": 19999.0
-    },
     "142165": {
       "title": "2026 Polaris RZR Pro S 4 Sport",
       "store_label": "(5) Reno",
       "category": "UTV",
       "condition": "New",
       "price": 27499.0
-    },
-    "000062": {
-      "title": "2026 CFMOTO ZFORCE 950 Sport 4",
-      "store_label": "(5) Reno",
-      "category": "UTV",
-      "condition": "New",
-      "price": 18999.0
     },
     "000234": {
       "title": "2026 CFMOTO ZFORCE 950 Sport 4",
@@ -4530,14 +5433,21 @@
       "condition": "New",
       "price": 18999.0
     },
-    "000073": {
+    "000062": {
+      "title": "2026 CFMOTO ZFORCE 950 Sport 4",
+      "store_label": "(5) Reno",
+      "category": "UTV",
+      "condition": "New",
+      "price": 18999.0
+    },
+    "000328": {
       "title": "2026 CFMOTO ZFORCE 950 Sport",
       "store_label": "(5) Reno",
       "category": "UTV",
       "condition": "New",
       "price": 15999.0
     },
-    "000328": {
+    "000073": {
       "title": "2026 CFMOTO ZFORCE 950 Sport",
       "store_label": "(5) Reno",
       "category": "UTV",
@@ -4564,13 +5474,6 @@
       "category": "UTV",
       "condition": "New",
       "price": 44999.0
-    },
-    "141688": {
-      "title": "2026 Polaris RZR Pro S 4 Ultimate",
-      "store_label": "(5) Reno",
-      "category": "UTV",
-      "condition": "New",
-      "price": 38999.0
     },
     "000922": {
       "title": "2025 CFMOTO ZFORCE 950 Sport",
@@ -4606,13 +5509,6 @@
       "category": "UTV",
       "condition": "New",
       "price": 17299.0
-    },
-    "327955": {
-      "title": "2026 Polaris RZR 200 EFI",
-      "store_label": "(5) Reno",
-      "category": "UTV",
-      "condition": "New",
-      "price": 6999.0
     },
     "328087": {
       "title": "2026 Polaris RZR 200 EFI",
@@ -4705,26 +5601,12 @@
       "condition": "New",
       "price": 45499.0
     },
-    "145872": {
-      "title": "2025 Polaris RZR Pro R 4 Ultimate",
-      "store_label": "(5) Reno",
-      "category": "UTV",
-      "condition": "New",
-      "price": 41999.0
-    },
     "172282": {
       "title": "2026 Polaris GENERAL XP 1000 Ultimate",
       "store_label": "(5) Reno",
       "category": "UTV",
       "condition": "New",
       "price": 26999.0
-    },
-    "144713": {
-      "title": "2025 Polaris RZR Pro R 4 Ultimate",
-      "store_label": "(5) Reno",
-      "category": "UTV",
-      "condition": "New",
-      "price": 42999.0
     },
     "189179": {
       "title": "2025 Polaris Xpedition ADV Northstar",
@@ -4789,13 +5671,6 @@
       "condition": "New",
       "price": 33499.0
     },
-    "202137": {
-      "title": "2026 Polaris Ranger XD 1500 Northstar Mountaineer Edition",
-      "store_label": "(5) Reno",
-      "category": "UTV",
-      "condition": "New",
-      "price": 45999.0
-    },
     "299367": {
       "title": "2026 Polaris Ranger Crew XP 1000 Northstar Edition Ultimate Pol",
       "store_label": "(5) Reno",
@@ -4809,6 +5684,13 @@
       "category": "UTV",
       "condition": "New",
       "price": 63535.0
+    },
+    "202137": {
+      "title": "2026 Polaris Ranger XD 1500 Northstar Mountaineer Edition",
+      "store_label": "(5) Reno",
+      "category": "UTV",
+      "condition": "New",
+      "price": 45999.0
     },
     "120475": {
       "title": "2026 Polaris RZR XP S 4 1000 Ultimate",
@@ -4845,20 +5727,6 @@
       "condition": "New",
       "price": 29499.0
     },
-    "002388": {
-      "title": "2026 CFMOTO UFORCE U10 Pro Highland",
-      "store_label": "(5) Reno",
-      "category": "UTV",
-      "condition": "New",
-      "price": 24499.0
-    },
-    "000736": {
-      "title": "2022 Can-Am Defender MAX XT HD10",
-      "store_label": "(5) Reno",
-      "category": "UTV",
-      "condition": "Used",
-      "price": 15999.0
-    },
     "002228": {
       "title": "2026 CFMOTO UFORCE U10 Pro Highland",
       "store_label": "(5) Reno",
@@ -4872,6 +5740,20 @@
       "category": "UTV",
       "condition": "New",
       "price": 24949.0
+    },
+    "002388": {
+      "title": "2026 CFMOTO UFORCE U10 Pro Highland",
+      "store_label": "(5) Reno",
+      "category": "UTV",
+      "condition": "New",
+      "price": 24499.0
+    },
+    "000736": {
+      "title": "2022 Can-Am Defender MAX XT HD10",
+      "store_label": "(5) Reno",
+      "category": "UTV",
+      "condition": "Used",
+      "price": 15999.0
     },
     "120419": {
       "title": "2026 Polaris RZR XP S 4 1000 Ultimate",
@@ -4901,19 +5783,19 @@
       "condition": "New",
       "price": 20699.0
     },
-    "093369": {
-      "title": "2026 Polaris Ranger Crew SP 570 NorthStar Edition",
-      "store_label": "(5) Reno",
-      "category": "UTV",
-      "condition": "New",
-      "price": 22899.0
-    },
     "203098": {
       "title": "2026 Polaris Ranger Crew XD 1500 Northstar Mountaineer Edition",
       "store_label": "(5) Reno",
       "category": "UTV",
       "condition": "New",
       "price": 49999.0
+    },
+    "093369": {
+      "title": "2026 Polaris Ranger Crew SP 570 NorthStar Edition",
+      "store_label": "(5) Reno",
+      "category": "UTV",
+      "condition": "New",
+      "price": 22899.0
     },
     "120478": {
       "title": "2026 Polaris RZR XP S 4 1000 Ultimate",
@@ -4922,12 +5804,12 @@
       "condition": "New",
       "price": 29499.0
     },
-    "120592": {
-      "title": "2026 Polaris RZR XP S 1000 Sport",
+    "118810": {
+      "title": "2026 Polaris RZR XP S 4 1000 Sport",
       "store_label": "(5) Reno",
       "category": "UTV",
       "condition": "New",
-      "price": 20999.0
+      "price": 23299.0
     },
     "103656": {
       "title": "2026 Polaris Ranger 500",
@@ -4936,21 +5818,21 @@
       "condition": "New",
       "price": 9999.0
     },
-    "118810": {
-      "title": "2026 Polaris RZR XP S 4 1000 Sport",
+    "120592": {
+      "title": "2026 Polaris RZR XP S 1000 Sport",
       "store_label": "(5) Reno",
       "category": "UTV",
       "condition": "New",
-      "price": 23299.0
+      "price": 20999.0
     },
-    "203227": {
+    "203261": {
       "title": "2026 Polaris XPedition ADV 5 NorthStar",
       "store_label": "(5) Reno",
       "category": "UTV",
       "condition": "New",
       "price": 45499.0
     },
-    "203261": {
+    "203227": {
       "title": "2026 Polaris XPedition ADV 5 NorthStar",
       "store_label": "(5) Reno",
       "category": "UTV",
@@ -4999,13 +5881,6 @@
       "condition": "New",
       "price": 26499.0
     },
-    "119121": {
-      "title": "2026 Polaris RZR XP S 1000 Ultimate",
-      "store_label": "(5) Reno",
-      "category": "UTV",
-      "condition": "New",
-      "price": 26499.0
-    },
     "120458": {
       "title": "2026 Polaris RZR XP S 4 1000 Ultimate",
       "store_label": "(5) Reno",
@@ -5014,6 +5889,13 @@
       "price": 29499.0
     },
     "120355": {
+      "title": "2026 Polaris RZR XP S 1000 Ultimate",
+      "store_label": "(5) Reno",
+      "category": "UTV",
+      "condition": "New",
+      "price": 26499.0
+    },
+    "119121": {
       "title": "2026 Polaris RZR XP S 1000 Ultimate",
       "store_label": "(5) Reno",
       "category": "UTV",
@@ -5041,13 +5923,6 @@
       "condition": "New",
       "price": 40999.0
     },
-    "000692": {
-      "title": "2026 CFMOTO ZFORCE 950 Sport 4",
-      "store_label": "(5) Reno",
-      "category": "UTV",
-      "condition": "New",
-      "price": 18999.0
-    },
     "000845": {
       "title": "2026 CFMOTO ZFORCE 950 Sport 4",
       "store_label": "(5) Reno",
@@ -5062,6 +5937,13 @@
       "condition": "New",
       "price": 18999.0
     },
+    "000692": {
+      "title": "2026 CFMOTO ZFORCE 950 Sport 4",
+      "store_label": "(5) Reno",
+      "category": "UTV",
+      "condition": "New",
+      "price": 18999.0
+    },
     "147561": {
       "title": "2026 Polaris RZR Pro R Ultimate",
       "store_label": "(5) Reno",
@@ -5069,19 +5951,19 @@
       "condition": "New",
       "price": 43999.0
     },
-    "071972": {
-      "title": "2025 Polaris RZR Pro XP 4 Premium",
-      "store_label": "(5) Reno",
-      "category": "UTV",
-      "condition": "New",
-      "price": 27999.0
-    },
     "206087": {
       "title": "2026 Polaris RZR XP 1000 Ultimate",
       "store_label": "(5) Reno",
       "category": "UTV",
       "condition": "New",
       "price": 23999.0
+    },
+    "071972": {
+      "title": "2025 Polaris RZR Pro XP 4 Premium",
+      "store_label": "(5) Reno",
+      "category": "UTV",
+      "condition": "New",
+      "price": 27999.0
     },
     "001162": {
       "title": "2021 Can-Am Maverick X3 X rs Turbo RR With Smart-Shox Desert T",
@@ -5096,251 +5978,6 @@
       "category": "UTV",
       "condition": "New",
       "price": 47999.0
-    },
-    "A2713J": {
-      "title": "2023 Speed UTV EL JEFE",
-      "store_label": "(4) South Lake Havasu",
-      "category": "Other",
-      "condition": "Used",
-      "price": 31999.0
-    },
-    "H1888A": {
-      "title": "2022 Can-Am Defender MAX Limited HD10",
-      "store_label": "(1) North Lake Havasu",
-      "category": "UTV",
-      "condition": "Used",
-      "price": 0
-    },
-    "H3641": {
-      "title": "2026 Can-Am Defender DPS CAB HD9 Compass Green",
-      "store_label": "(1) North Lake Havasu",
-      "category": "UTV",
-      "condition": "New",
-      "price": 20999.0
-    },
-    "H3693": {
-      "title": "2026 Can-Am Maverick X3 Max X RS Turbo RR Dusty Navy_4.5 in",
-      "store_label": "(1) North Lake Havasu",
-      "category": "UTV",
-      "condition": "New",
-      "price": 36199.0
-    },
-    "H3692": {
-      "title": "2026 Can-Am Defender MAX X mr HD11 with half-doors",
-      "store_label": "(1) North Lake Havasu",
-      "category": "UTV",
-      "condition": "New",
-      "price": 29199.0
-    },
-    "H3711": {
-      "title": "2026 Can-Am Maverick X3 Max X RS Turbo RR Dusty Navy_4.5 in",
-      "store_label": "(1) North Lake Havasu",
-      "category": "UTV",
-      "condition": "New",
-      "price": 36199.0
-    },
-    "H3712": {
-      "title": "2026 Can-Am Maverick X3 Max X RS Turbo RR Triple Black_4.5 in",
-      "store_label": "(1) North Lake Havasu",
-      "category": "UTV",
-      "condition": "New",
-      "price": 36199.0
-    },
-    "H3736": {
-      "title": "2026 Can-Am Maverick R Max X",
-      "store_label": "(1) North Lake Havasu",
-      "category": "UTV",
-      "condition": "New",
-      "price": 43299.0
-    },
-    "H3735": {
-      "title": "2026 Can-Am Maverick R Max X",
-      "store_label": "(1) North Lake Havasu",
-      "category": "UTV",
-      "condition": "New",
-      "price": 43299.0
-    },
-    "H3756": {
-      "title": "2026 Can-Am Maverick X3 DS Turbo Scandi Blue & Orange Crush",
-      "store_label": "(1) North Lake Havasu",
-      "category": "UTV",
-      "condition": "New",
-      "price": 19999.0
-    },
-    "H3786": {
-      "title": "2026 Can-Am Commander MAX XT 1000R",
-      "store_label": "(1) North Lake Havasu",
-      "category": "UTV",
-      "condition": "New",
-      "price": 24999.0
-    },
-    "H3775B": {
-      "title": "2018 Polaris RZR XP Turbo EPS Velocity Blue",
-      "store_label": "(1) North Lake Havasu",
-      "category": "UTV",
-      "condition": "Used",
-      "price": 10998.0
-    },
-    "H3817": {
-      "title": "2026 Can-Am Maverick R Max X",
-      "store_label": "(1) North Lake Havasu",
-      "category": "UTV",
-      "condition": "New",
-      "price": 43299.0
-    },
-    "H3811": {
-      "title": "2026 Can-Am Maverick X3 MAX X Turbo",
-      "store_label": "(1) North Lake Havasu",
-      "category": "UTV",
-      "condition": "New",
-      "price": 26499.0
-    },
-    "H3808": {
-      "title": "2026 Can-Am Maverick R MAX X rc",
-      "store_label": "(1) North Lake Havasu",
-      "category": "UTV",
-      "condition": "New",
-      "price": 51499.0
-    },
-    "H3810": {
-      "title": "2026 Can-Am Maverick R MAX X rc",
-      "store_label": "(1) North Lake Havasu",
-      "category": "UTV",
-      "condition": "New",
-      "price": 51499.0
-    },
-    "H3807": {
-      "title": "2026 Can-Am Maverick R MAX X rc",
-      "store_label": "(1) North Lake Havasu",
-      "category": "UTV",
-      "condition": "New",
-      "price": 51499.0
-    },
-    "H3821": {
-      "title": "2026 Can-Am Maverick R Max X",
-      "store_label": "(1) North Lake Havasu",
-      "category": "UTV",
-      "condition": "New",
-      "price": 43299.0
-    },
-    "H3818": {
-      "title": "2026 Can-Am Maverick X3 MAX DS Turbo Dusty Navy",
-      "store_label": "(1) North Lake Havasu",
-      "category": "UTV",
-      "condition": "New",
-      "price": 24299.0
-    },
-    "H3819": {
-      "title": "2026 Can-Am Maverick R Max X RS",
-      "store_label": "(1) North Lake Havasu",
-      "category": "UTV",
-      "condition": "New",
-      "price": 47499.0
-    },
-    "H3827": {
-      "title": "2026 Can-Am Maverick R Max X RS Dusty Navy",
-      "store_label": "(1) North Lake Havasu",
-      "category": "UTV",
-      "condition": "New",
-      "price": 47499.0
-    },
-    "H3864": {
-      "title": "2026 Can-Am Maverick X3 DS Turbo Scandi Blue & Orange Crush",
-      "store_label": "(1) North Lake Havasu",
-      "category": "UTV",
-      "condition": "New",
-      "price": 19999.0
-    },
-    "H3859": {
-      "title": "2026 Can-Am Defender XT HD9",
-      "store_label": "(1) North Lake Havasu",
-      "category": "UTV",
-      "condition": "New",
-      "price": 17799.0
-    },
-    "HP3884A": {
-      "title": "2023 Yamaha YXZ 1000R SS XT-R",
-      "store_label": "(1) North Lake Havasu",
-      "category": "Other",
-      "condition": "Used",
-      "price": 18499.0
-    },
-    "H3881": {
-      "title": "2026 Can-Am Defender MAX XT CAB HD11",
-      "store_label": "(1) North Lake Havasu",
-      "category": "UTV",
-      "condition": "New",
-      "price": 33099.0
-    },
-    "H3882": {
-      "title": "2026 Can-Am Defender MAX XT CAB HD11 With 10.25 In.Display",
-      "store_label": "(1) North Lake Havasu",
-      "category": "UTV",
-      "condition": "New",
-      "price": 34599.0
-    },
-    "H3890": {
-      "title": "2025 Can-Am Defender MAX DPS HD9 Compass Green",
-      "store_label": "(1) North Lake Havasu",
-      "category": "UTV",
-      "condition": "New",
-      "price": 15999.0
-    },
-    "H3891": {
-      "title": "2025 Can-Am Defender MAX DPS HD9 Compass Green",
-      "store_label": "(1) North Lake Havasu",
-      "category": "UTV",
-      "condition": "New",
-      "price": 15999.0
-    },
-    "H3901": {
-      "title": "2026 Can-Am Commander MAX XT-P",
-      "store_label": "(1) North Lake Havasu",
-      "category": "UTV",
-      "condition": "New",
-      "price": 28099.0
-    },
-    "H3912": {
-      "title": "2026 Can-Am Defender MAX Limited HD11 Desert Tan & Carbon Blac",
-      "store_label": "(1) North Lake Havasu",
-      "category": "UTV",
-      "condition": "New",
-      "price": 37899.0
-    },
-    "H3924": {
-      "title": "2026 Can-Am Maverick X3 DS Turbo Dusty Navy",
-      "store_label": "(1) North Lake Havasu",
-      "category": "UTV",
-      "condition": "New",
-      "price": 21299.0
-    },
-    "H3921": {
-      "title": "2026 Can-Am Maverick R MAX X Rc",
-      "store_label": "(1) North Lake Havasu",
-      "category": "UTV",
-      "condition": "New",
-      "price": 51499.0
-    },
-    "H3922": {
-      "title": "2026 Can-Am Maverick X3 MAX DS Turbo Dusty Navy",
-      "store_label": "(1) North Lake Havasu",
-      "category": "UTV",
-      "condition": "New",
-      "price": 24299.0
-    },
-    "H3929": {
-      "title": "2026 Can-Am Defender MAX Limited HD11 Desert Tan & Carbon Blac",
-      "store_label": "(1) North Lake Havasu",
-      "category": "UTV",
-      "condition": "New",
-      "price": 37899.0
-    },
-    "U1106": {
-      "title": "2024 Polaris Ranger Crew XD 1500 NorthStar Edition Ultimate",
-      "store_label": "(4) South Lake Havasu",
-      "category": "UTV",
-      "condition": "Used",
-      "price": 0
     },
     "P2694": {
       "title": "2024 Yamaha Viking EPS Ranch Edition",
@@ -5538,14 +6175,14 @@
       "condition": "New",
       "price": 12899.0
     },
-    "P3280": {
+    "P3281": {
       "title": "2026 Polaris RZR Pro S 4 Sport",
       "store_label": "(3) Parker",
       "category": "UTV",
       "condition": "New",
       "price": 27499.0
     },
-    "P3281": {
+    "P3280": {
       "title": "2026 Polaris RZR Pro S 4 Sport",
       "store_label": "(3) Parker",
       "category": "UTV",
@@ -5587,13 +6224,6 @@
       "condition": "New",
       "price": 17399.0
     },
-    "P3317": {
-      "title": "2026 Kawasaki Mule PRO-FXT 1000 LE",
-      "store_label": "(3) Parker",
-      "category": "UTV",
-      "condition": "New",
-      "price": 17399.0
-    },
     "P3316": {
       "title": "2026 Kawasaki Teryx KRX4 1000 eS",
       "store_label": "(3) Parker",
@@ -5601,12 +6231,12 @@
       "condition": "New",
       "price": 26999.0
     },
-    "P3312": {
-      "title": "2026 Polaris RZR Pro S 4 Ultimate",
+    "P3317": {
+      "title": "2026 Kawasaki Mule PRO-FXT 1000 LE",
       "store_label": "(3) Parker",
       "category": "UTV",
       "condition": "New",
-      "price": 38999.0
+      "price": 17399.0
     },
     "P3314": {
       "title": "2026 Polaris RZR Pro S 4 Sport",
@@ -5614,6 +6244,13 @@
       "category": "UTV",
       "condition": "New",
       "price": 27499.0
+    },
+    "P3312": {
+      "title": "2026 Polaris RZR Pro S 4 Ultimate",
+      "store_label": "(3) Parker",
+      "category": "UTV",
+      "condition": "New",
+      "price": 38999.0
     },
     "P3311": {
       "title": "2026 Polaris Ranger 500",
@@ -5636,13 +6273,6 @@
       "condition": "New",
       "price": 6999.0
     },
-    "P3326": {
-      "title": "2026 Kawasaki Teryx5 H2 Deluxe eS",
-      "store_label": "(3) Parker",
-      "category": "UTV",
-      "condition": "New",
-      "price": 43699.0
-    },
     "P3325": {
       "title": "2026 Kawasaki Teryx5 H2 Deluxe eS",
       "store_label": "(3) Parker",
@@ -5650,12 +6280,12 @@
       "condition": "New",
       "price": 43699.0
     },
-    "P3323": {
-      "title": "2026 Kawasaki Mule PRO-FX 1000 HD Edition",
+    "P3326": {
+      "title": "2026 Kawasaki Teryx5 H2 Deluxe eS",
       "store_label": "(3) Parker",
       "category": "UTV",
       "condition": "New",
-      "price": 16699.0
+      "price": 43699.0
     },
     "P3324": {
       "title": "2026 Kawasaki Mule PRO-FXR 1000 LE",
@@ -5663,6 +6293,13 @@
       "category": "UTV",
       "condition": "New",
       "price": 15599.0
+    },
+    "P3323": {
+      "title": "2026 Kawasaki Mule PRO-FX 1000 HD Edition",
+      "store_label": "(3) Parker",
+      "category": "UTV",
+      "condition": "New",
+      "price": 16699.0
     },
     "P3084A": {
       "title": "2017 Polaris RZR 900 EPS XC Edition Black Pearl",
@@ -5748,13 +6385,6 @@
       "condition": "Used",
       "price": 0
     },
-    "P3341A": {
-      "title": "2024 Polaris RZR XP 1000 Sport",
-      "store_label": "(3) Parker",
-      "category": "UTV",
-      "condition": "Used",
-      "price": 0
-    },
     "P3359": {
       "title": "2026 Honda Pioneer 520",
       "store_label": "(3) Parker",
@@ -5790,12 +6420,12 @@
       "condition": "Used",
       "price": 0
     },
-    "P3370": {
-      "title": "2026 Can-Am Maverick X3 MAX DS Turbo Scandi Blue & Orange Crus",
+    "P3367": {
+      "title": "2026 Polaris RZR XP 1000 Ultimate",
       "store_label": "(3) Parker",
       "category": "UTV",
       "condition": "New",
-      "price": 22999.0
+      "price": 23999.0
     },
     "P3371": {
       "title": "2026 Polaris Ranger SP 570 Premium",
@@ -5804,12 +6434,12 @@
       "condition": "New",
       "price": 14299.0
     },
-    "P3367": {
-      "title": "2026 Polaris RZR XP 1000 Ultimate",
+    "P3370": {
+      "title": "2026 Can-Am Maverick X3 MAX DS Turbo Scandi Blue & Orange Crus",
       "store_label": "(3) Parker",
       "category": "UTV",
       "condition": "New",
-      "price": 23999.0
+      "price": 22999.0
     },
     "P3369": {
       "title": "2026 Can-Am Maverick X3 Max X RS Turbo RR Triple Black_4.5 in",
@@ -5874,14 +6504,14 @@
       "condition": "New",
       "price": 19299.0
     },
-    "P3400": {
+    "P3401": {
       "title": "2026 Honda Pioneer 700-4 Deluxe",
       "store_label": "(3) Parker",
       "category": "UTV",
       "condition": "New",
       "price": 15999.0
     },
-    "P3401": {
+    "P3400": {
       "title": "2026 Honda Pioneer 700-4 Deluxe",
       "store_label": "(3) Parker",
       "category": "UTV",
@@ -5923,13 +6553,6 @@
       "condition": "Used",
       "price": 0
     },
-    "P3415": {
-      "title": "2026 Kawasaki Mule PRO-FXT 1000 LE",
-      "store_label": "(3) Parker",
-      "category": "UTV",
-      "condition": "New",
-      "price": 18899.0
-    },
     "P3240A": {
       "title": "2019 Polaris RZR XP 4 1000",
       "store_label": "(3) Parker",
@@ -5943,6 +6566,13 @@
       "category": "UTV",
       "condition": "New",
       "price": 43699.0
+    },
+    "P3415": {
+      "title": "2026 Kawasaki Mule PRO-FXT 1000 LE",
+      "store_label": "(3) Parker",
+      "category": "UTV",
+      "condition": "New",
+      "price": 18899.0
     },
     "P3413": {
       "title": "2026 Polaris RZR XP S 4 1000 Sport",
@@ -5972,13 +6602,6 @@
       "condition": "Used",
       "price": 0
     },
-    "P3423": {
-      "title": "2026 Honda Pioneer 520",
-      "store_label": "(3) Parker",
-      "category": "UTV",
-      "condition": "New",
-      "price": 10999.0
-    },
     "P3424": {
       "title": "2026 Polaris Ranger 500",
       "store_label": "(3) Parker",
@@ -5986,15 +6609,15 @@
       "condition": "New",
       "price": 9999.0
     },
-    "P3421A": {
-      "title": "2018 Polaris RZR S 900 EPS Black Pearl",
+    "P3423": {
+      "title": "2026 Honda Pioneer 520",
       "store_label": "(3) Parker",
       "category": "UTV",
-      "condition": "Used",
-      "price": 0
+      "condition": "New",
+      "price": 10999.0
     },
-    "P3121A": {
-      "title": "2024 Honda Pioneer 700-4",
+    "P3421A": {
+      "title": "2018 Polaris RZR S 900 EPS Black Pearl",
       "store_label": "(3) Parker",
       "category": "UTV",
       "condition": "Used",
@@ -6007,14 +6630,14 @@
       "condition": "Used",
       "price": 0
     },
-    "P3439": {
+    "P3440": {
       "title": "2026 Polaris XPedition ADV 5 NorthStar",
       "store_label": "(3) Parker",
       "category": "UTV",
       "condition": "New",
       "price": 45499.0
     },
-    "P3440": {
+    "P3439": {
       "title": "2026 Polaris XPedition ADV 5 NorthStar",
       "store_label": "(3) Parker",
       "category": "UTV",
@@ -6028,12 +6651,12 @@
       "condition": "New",
       "price": 36199.0
     },
-    "P3435": {
-      "title": "2026 Polaris RZR XP 4 1000 Ultimate",
+    "P3434": {
+      "title": "2026 Polaris Ranger 500",
       "store_label": "(3) Parker",
       "category": "UTV",
       "condition": "New",
-      "price": 26999.0
+      "price": 9999.0
     },
     "P3436": {
       "title": "2026 Can-Am 6KTJ-NC",
@@ -6042,12 +6665,12 @@
       "condition": "New",
       "price": 19799.0
     },
-    "P3434": {
-      "title": "2026 Polaris Ranger 500",
+    "P3435": {
+      "title": "2026 Polaris RZR XP 4 1000 Ultimate",
       "store_label": "(3) Parker",
       "category": "UTV",
       "condition": "New",
-      "price": 9999.0
+      "price": 26999.0
     },
     "P3444": {
       "title": "2026 Polaris RZR XP S 1000 Sport",
@@ -6056,12 +6679,12 @@
       "condition": "New",
       "price": 19999.0
     },
-    "P3441": {
-      "title": "2025 Honda Talon 1000X-4 FOX Live Valve",
+    "P3443": {
+      "title": "2025 Kawasaki Ridge Crew Hvac",
       "store_label": "(3) Parker",
-      "category": "UTV",
+      "category": "Other",
       "condition": "New",
-      "price": 24899.0
+      "price": 30999.0
     },
     "P3442": {
       "title": "2026 Kawasaki Teryx4 H2",
@@ -6070,19 +6693,12 @@
       "condition": "New",
       "price": 37199.0
     },
-    "P3443": {
-      "title": "2025 Kawasaki Ridge Crew Hvac",
-      "store_label": "(3) Parker",
-      "category": "Other",
-      "condition": "New",
-      "price": 30999.0
-    },
-    "P3447": {
-      "title": "2026 Can-Am Maverick X3 MAX X Turbo",
+    "P3441": {
+      "title": "2025 Honda Talon 1000X-4 FOX Live Valve",
       "store_label": "(3) Parker",
       "category": "UTV",
       "condition": "New",
-      "price": 26499.0
+      "price": 24899.0
     },
     "P3448": {
       "title": "2026 Can-Am Maverick Trail DPS 700",
@@ -6090,6 +6706,13 @@
       "category": "UTV",
       "condition": "New",
       "price": 14999.0
+    },
+    "P3447": {
+      "title": "2026 Can-Am Maverick X3 MAX X Turbo",
+      "store_label": "(3) Parker",
+      "category": "UTV",
+      "condition": "New",
+      "price": 26499.0
     },
     "P3449": {
       "title": "2026 Polaris XPedition ADV 5 NorthStar",
@@ -6126,530 +6749,19 @@
       "condition": "Used",
       "price": 0
     },
-    "B2879": {
-      "title": "2025 Polaris Ranger Crew 1000 Premium",
-      "store_label": "(2) Bullhead City",
-      "category": "UTV",
-      "condition": "New",
-      "price": 16999.0
-    },
-    "B3180": {
-      "title": "2025 Polaris Ranger Crew XD 1500 NorthStar Edition Ultimate",
-      "store_label": "(2) Bullhead City",
-      "category": "UTV",
-      "condition": "New",
-      "price": 42449.0
-    },
-    "B3203": {
-      "title": "2026 Polaris Ranger 1000 EPS",
-      "store_label": "(2) Bullhead City",
-      "category": "UTV",
-      "condition": "New",
-      "price": 15799.0
-    },
-    "B3202": {
-      "title": "2026 Polaris RZR Pro XP 4 Sport",
-      "store_label": "(2) Bullhead City",
-      "category": "UTV",
-      "condition": "New",
-      "price": 25499.0
-    },
-    "B3205": {
-      "title": "2026 Polaris RZR Pro S 4 Sport",
-      "store_label": "(2) Bullhead City",
-      "category": "UTV",
-      "condition": "New",
-      "price": 27499.0
-    },
-    "B3215": {
-      "title": "2026 Can-Am Maverick Trail DPS 1000R",
-      "store_label": "(2) Bullhead City",
-      "category": "UTV",
-      "condition": "New",
-      "price": 13999.0
-    },
-    "B3217": {
-      "title": "2026 Polaris Ranger Crew SP 570 NorthStar Edition",
-      "store_label": "(2) Bullhead City",
-      "category": "UTV",
-      "condition": "New",
-      "price": 22899.0
-    },
-    "B3218": {
-      "title": "2026 Polaris RZR 200 EFI",
-      "store_label": "(2) Bullhead City",
-      "category": "UTV",
-      "condition": "New",
-      "price": 6999.0
-    },
-    "B3236": {
-      "title": "2026 Polaris RZR Pro XP Sport",
-      "store_label": "(2) Bullhead City",
-      "category": "UTV",
-      "condition": "New",
-      "price": 22999.0
-    },
-    "B3234": {
-      "title": "2026 Polaris RZR Pro S 4 Ultimate",
-      "store_label": "(2) Bullhead City",
-      "category": "UTV",
-      "condition": "New",
-      "price": 38999.0
-    },
-    "B3235": {
-      "title": "2026 Polaris RZR Pro XP Ultimate",
-      "store_label": "(2) Bullhead City",
-      "category": "UTV",
-      "condition": "New",
-      "price": 33499.0
-    },
-    "B3245": {
-      "title": "2026 Polaris RZR Pro XP 4 Sport",
-      "store_label": "(2) Bullhead City",
-      "category": "UTV",
-      "condition": "New",
-      "price": 25999.0
-    },
-    "B3262": {
-      "title": "2026 Polaris Ranger Crew XP 1000 Premium",
-      "store_label": "(2) Bullhead City",
-      "category": "UTV",
-      "condition": "New",
-      "price": 22499.0
-    },
-    "B3276": {
-      "title": "2026 Polaris RZR 200 EFI",
-      "store_label": "(2) Bullhead City",
-      "category": "UTV",
-      "condition": "New",
-      "price": 6999.0
-    },
-    "B3282": {
-      "title": "2026 Polaris RZR Pro XP 4 Sport",
-      "store_label": "(2) Bullhead City",
-      "category": "UTV",
-      "condition": "New",
-      "price": 25999.0
-    },
-    "B3284": {
-      "title": "2026 Polaris RZR Pro S Sport",
-      "store_label": "(2) Bullhead City",
-      "category": "UTV",
-      "condition": "New",
-      "price": 25499.0
-    },
-    "B3304": {
-      "title": "2026 Polaris RZR Trail S",
-      "store_label": "(2) Bullhead City",
-      "category": "UTV",
-      "condition": "New",
-      "price": 21999.0
-    },
-    "B3311": {
-      "title": "2026 Polaris RZR Pro S 4 Ultimate",
-      "store_label": "(2) Bullhead City",
-      "category": "UTV",
-      "condition": "New",
-      "price": 38999.0
-    },
-    "B3317": {
-      "title": "2026 Polaris Ranger Crew XP 1000 NorthStar Edition Ultimate Premium",
-      "store_label": "(2) Bullhead City",
-      "category": "UTV",
-      "condition": "New",
-      "price": 34999.0
-    },
-    "B3316": {
-      "title": "2026 Polaris Ranger XP 1000 Northstar Premium Blue Labyrinth",
-      "store_label": "(2) Bullhead City",
-      "category": "UTV",
-      "condition": "New",
-      "price": 29199.0
-    },
-    "B3320": {
-      "title": "2026 Polaris Ranger XD 1500 Northstar Mountaineer Edition",
-      "store_label": "(2) Bullhead City",
-      "category": "UTV",
-      "condition": "New",
-      "price": 45999.0
-    },
-    "B3323": {
-      "title": "2026 Polaris RZR Pro XP 4 Ultimate",
-      "store_label": "(2) Bullhead City",
-      "category": "UTV",
-      "condition": "New",
-      "price": 36499.0
-    },
-    "B3322": {
-      "title": "2026 Polaris RZR Pro XP Sport",
-      "store_label": "(2) Bullhead City",
-      "category": "UTV",
-      "condition": "New",
-      "price": 22999.0
-    },
-    "B3331": {
-      "title": "2025 Can-Am Maverick X3 X Rs Turbo RR Fiery Red & Hyper Silver",
-      "store_label": "(2) Bullhead City",
-      "category": "UTV",
-      "condition": "New",
-      "price": 26799.0
-    },
-    "B3328": {
-      "title": "2026 Can-Am Commander MAX XT-P",
-      "store_label": "(2) Bullhead City",
-      "category": "UTV",
-      "condition": "New",
-      "price": 28099.0
-    },
-    "B3342": {
-      "title": "2026 Polaris RZR 200 EFI",
-      "store_label": "(2) Bullhead City",
-      "category": "UTV",
-      "condition": "New",
-      "price": 6999.0
-    },
-    "B3348": {
-      "title": "2026 Polaris RZR Pro XP 4 Sport",
-      "store_label": "(2) Bullhead City",
-      "category": "UTV",
-      "condition": "New",
-      "price": 25999.0
-    },
-    "B3347": {
-      "title": "2026 Polaris GENERAL XP 1000 Ultimate",
-      "store_label": "(2) Bullhead City",
-      "category": "UTV",
-      "condition": "New",
-      "price": 26999.0
-    },
-    "B3344": {
-      "title": "2026 Polaris RZR Pro R 4 Ultimate",
-      "store_label": "(2) Bullhead City",
-      "category": "UTV",
-      "condition": "New",
-      "price": 47999.0
-    },
-    "B3345": {
-      "title": "2026 Polaris RZR Pro R 4 Ultimate",
-      "store_label": "(2) Bullhead City",
-      "category": "UTV",
-      "condition": "New",
-      "price": 47999.0
-    },
-    "B3358": {
-      "title": "2026 Can-Am Maverick X3 MAX RS Turbo Dusty Navy",
-      "store_label": "(2) Bullhead City",
-      "category": "UTV",
-      "condition": "New",
-      "price": 26699.0
-    },
-    "B3354": {
-      "title": "2025 Can-Am Maverick X3 X rc TURBO RR 64",
-      "store_label": "(2) Bullhead City",
-      "category": "UTV",
-      "condition": "New",
-      "price": 24499.0
-    },
-    "B3356": {
-      "title": "2025 Can-Am Maverick X3 X Rs Turbo RR With Smart-Shox Fiery Re",
-      "store_label": "(2) Bullhead City",
-      "category": "UTV",
-      "condition": "New",
-      "price": 28499.0
-    },
-    "B3353": {
-      "title": "2026 Polaris Xpedition ADV 5 Northstar",
-      "store_label": "(2) Bullhead City",
-      "category": "UTV",
-      "condition": "New",
-      "price": 45499.0
-    },
-    "B3352": {
-      "title": "2026 Polaris RZR XP S 4 1000 Sport",
-      "store_label": "(2) Bullhead City",
-      "category": "UTV",
-      "condition": "New",
-      "price": 22999.0
-    },
-    "B3181A": {
-      "title": "2024 Polaris Xpedition ADV Northstar",
-      "store_label": "(2) Bullhead City",
-      "category": "UTV",
-      "condition": "Used",
-      "price": 29995.0
-    },
-    "B3361": {
-      "title": "2026 Polaris Ranger Crew XD 1500 Northstar Mountaineer Edition",
-      "store_label": "(2) Bullhead City",
-      "category": "UTV",
-      "condition": "New",
-      "price": 49999.0
-    },
-    "B3362": {
-      "title": "2026 Can-Am Defender DPS HD7 Compass Green",
-      "store_label": "(2) Bullhead City",
-      "category": "UTV",
-      "condition": "New",
-      "price": 14899.0
-    },
-    "BP1139": {
-      "title": "2022 Polaris RZR Pro XP 4 Ultimate",
-      "store_label": "(2) Bullhead City",
-      "category": "UTV",
-      "condition": "Used",
-      "price": 27500.0
-    },
-    "B3392": {
-      "title": "2026 Polaris RZR Pro R Ultimate",
-      "store_label": "(2) Bullhead City",
-      "category": "UTV",
-      "condition": "New",
-      "price": 43999.0
-    },
-    "B3391": {
-      "title": "2026 Polaris Ranger 500",
-      "store_label": "(2) Bullhead City",
-      "category": "UTV",
-      "condition": "New",
-      "price": 9999.0
-    },
-    "B3389": {
-      "title": "2026 Polaris RZR XP 1000 Sport",
-      "store_label": "(2) Bullhead City",
-      "category": "UTV",
-      "condition": "New",
-      "price": 17999.0
-    },
-    "B3388": {
-      "title": "2026 Polaris Ranger SP 570",
-      "store_label": "(2) Bullhead City",
-      "category": "UTV",
-      "condition": "New",
-      "price": 11999.0
-    },
-    "B3390": {
-      "title": "2026 Polaris RZR XP S 4 1000 Sport",
-      "store_label": "(2) Bullhead City",
-      "category": "UTV",
-      "condition": "New",
-      "price": 22999.0
-    },
-    "B3394": {
-      "title": "2026 Can-Am Maverick X3 MAX DS Turbo Dusty Navy",
-      "store_label": "(2) Bullhead City",
-      "category": "UTV",
-      "condition": "New",
-      "price": 24299.0
-    },
-    "B3395": {
-      "title": "2026 Can-Am Maverick X3 Max X RS Turbo RR With Smart-Shox",
-      "store_label": "(2) Bullhead City",
-      "category": "UTV",
-      "condition": "New",
-      "price": 37899.0
-    },
-    "B3400": {
-      "title": "2026 Polaris RZR XP S 4 1000 Ultimate",
-      "store_label": "(2) Bullhead City",
-      "category": "UTV",
-      "condition": "New",
-      "price": 29499.0
-    },
-    "B3403": {
-      "title": "2026 Polaris RZR Pro R 4 Ultimate",
-      "store_label": "(2) Bullhead City",
-      "category": "UTV",
-      "condition": "New",
-      "price": 47999.0
-    },
-    "B3406": {
-      "title": "2026 Can-Am Maverick X3 Max X RS Turbo RR With Smart-Shox",
-      "store_label": "(2) Bullhead City",
-      "category": "UTV",
-      "condition": "New",
-      "price": 37899.0
-    },
-    "B3414": {
-      "title": "2026 Polaris Ranger XD 1500 Northstar Ultimate",
-      "store_label": "(2) Bullhead City",
-      "category": "UTV",
-      "condition": "New",
-      "price": 45999.0
-    },
-    "B3415": {
-      "title": "2026 Polaris RZR XP 4 1000 Sport",
-      "store_label": "(2) Bullhead City",
-      "category": "UTV",
-      "condition": "New",
-      "price": 20999.0
-    },
-    "B3418": {
-      "title": "2026 Polaris Ranger 500",
-      "store_label": "(2) Bullhead City",
-      "category": "UTV",
-      "condition": "New",
-      "price": 9999.0
-    },
-    "B3419": {
-      "title": "2026 Polaris RZR XP S 1000 Ultimate",
-      "store_label": "(2) Bullhead City",
-      "category": "UTV",
-      "condition": "New",
-      "price": 26499.0
-    },
-    "B3427": {
-      "title": "2026 Polaris RZR Pro XP 4 Ultimate",
-      "store_label": "(2) Bullhead City",
-      "category": "UTV",
-      "condition": "New",
-      "price": 36499.0
-    },
-    "B3426": {
-      "title": "2026 Polaris RZR Pro S Ultimate",
-      "store_label": "(2) Bullhead City",
-      "category": "UTV",
-      "condition": "New",
-      "price": 35999.0
-    },
-    "B3423": {
-      "title": "2026 Polaris RZR XP S 1000 Ultimate",
-      "store_label": "(2) Bullhead City",
-      "category": "UTV",
-      "condition": "New",
-      "price": 26499.0
-    },
-    "B3442": {
-      "title": "2026 Can-Am Maverick X3 MAX X Turbo",
-      "store_label": "(2) Bullhead City",
-      "category": "UTV",
-      "condition": "New",
-      "price": 26499.0
-    },
-    "B3440": {
-      "title": "2026 Can-Am Maverick R Max X RS With Smart-Shox",
-      "store_label": "(2) Bullhead City",
-      "category": "UTV",
-      "condition": "New",
-      "price": 49199.0
-    },
-    "B3444": {
-      "title": "2026 Polaris Xpedition ADV 5 Northstar",
-      "store_label": "(2) Bullhead City",
-      "category": "UTV",
-      "condition": "New",
-      "price": 45499.0
-    },
-    "B3443": {
-      "title": "2026 Polaris Xpedition ADV 5 Northstar",
-      "store_label": "(2) Bullhead City",
-      "category": "UTV",
-      "condition": "New",
-      "price": 45499.0
-    },
-    "B3441A": {
-      "title": "2023 Can-Am Maverick X3 MAX DS Turbo",
-      "store_label": "(2) Bullhead City",
-      "category": "UTV",
-      "condition": "Used",
-      "price": 16250.0
-    },
-    "B3445": {
-      "title": "2026 Polaris Xpedition ADV 5 Northstar",
-      "store_label": "(2) Bullhead City",
-      "category": "UTV",
-      "condition": "New",
-      "price": 45499.0
-    },
-    "B3446": {
-      "title": "2026 Polaris Xpedition ADV 5 Northstar",
-      "store_label": "(2) Bullhead City",
-      "category": "UTV",
-      "condition": "New",
-      "price": 45499.0
-    },
-    "B3450": {
-      "title": "2026 Polaris RZR Pro R Ultimate",
-      "store_label": "(2) Bullhead City",
-      "category": "UTV",
-      "condition": "New",
-      "price": 43999.0
-    },
-    "B3451": {
-      "title": "2026 Polaris RZR Pro R 4 Ultimate",
-      "store_label": "(2) Bullhead City",
-      "category": "UTV",
-      "condition": "New",
-      "price": 47999.0
-    },
-    "B3453": {
-      "title": "2026 Can-Am Maverick R MAX X Rc With Smart-Shox",
-      "store_label": "(2) Bullhead City",
-      "category": "UTV",
-      "condition": "New",
-      "price": 53199.0
-    },
-    "B3448": {
-      "title": "2026 Polaris RZR Pro R Ultimate",
-      "store_label": "(2) Bullhead City",
-      "category": "UTV",
-      "condition": "New",
-      "price": 43999.0
-    },
-    "B3452": {
-      "title": "2026 Can-Am Maverick R X Rc",
-      "store_label": "(2) Bullhead City",
-      "category": "UTV",
-      "condition": "New",
-      "price": 47999.0
-    },
-    "B3449": {
-      "title": "2026 Polaris RZR Pro R Ultimate",
-      "store_label": "(2) Bullhead City",
-      "category": "UTV",
-      "condition": "New",
-      "price": 43999.0
-    },
-    "B3461": {
-      "title": "2026 Can-Am Defender Limited HD11",
-      "store_label": "(2) Bullhead City",
-      "category": "UTV",
-      "condition": "New",
-      "price": 34699.0
-    },
-    "B3464": {
-      "title": "2026 Polaris RZR Pro R 4 Ultimate",
-      "store_label": "(2) Bullhead City",
-      "category": "UTV",
-      "condition": "New",
-      "price": 47999.0
-    },
-    "B3492": {
-      "title": "2026 Can-Am 0009Tk00",
-      "store_label": "(2) Bullhead City",
+    "A2713J": {
+      "title": "2023 Speed UTV EL JEFE",
+      "store_label": "(4) South Lake Havasu",
       "category": "Other",
-      "condition": "New",
-      "price": 49199.0
+      "condition": "Used",
+      "price": 31999.0
     },
-    "B3491": {
-      "title": "2026 Can-Am Maverick R MAX X Rc",
-      "store_label": "(2) Bullhead City",
+    "P3121A": {
+      "title": "2024 Honda Pioneer 700-4",
+      "store_label": "(3) Parker",
       "category": "UTV",
-      "condition": "New",
-      "price": 51499.0
-    },
-    "B3490": {
-      "title": "2026 Polaris Xpedition XP 5 Northstar",
-      "store_label": "(2) Bullhead City",
-      "category": "UTV",
-      "condition": "New",
-      "price": 44499.0
-    },
-    "B3489": {
-      "title": "2026 Polaris Xpedition ADV 5 Northstar",
-      "store_label": "(2) Bullhead City",
-      "category": "UTV",
-      "condition": "New",
-      "price": 45499.0
+      "condition": "Used",
+      "price": 0
     },
     "A2336A": {
       "title": "2023 Kawasaki Ninja 400 KRT Edition",
@@ -6672,6 +6784,27 @@
       "condition": "Used",
       "price": 0
     },
+    "H3795J": {
+      "title": "2021 Can-Am Ryker 900 ACE",
+      "store_label": "(1) North Lake Havasu",
+      "category": "Motorcycle",
+      "condition": "Used",
+      "price": 7498.0
+    },
+    "HP3883A": {
+      "title": "2021 Honda Rebel 300 ABS",
+      "store_label": "(1) North Lake Havasu",
+      "category": "Motorcycle",
+      "condition": "Used",
+      "price": 4899.0
+    },
+    "HP3925": {
+      "title": "2017 Harley-Davidson FLHXS - Street Glide Special",
+      "store_label": "(1) North Lake Havasu",
+      "category": "Motorcycle",
+      "condition": "Used",
+      "price": 16499.0
+    },
     "204940": {
       "title": "2025 Indian Sport Scout Limited Black Smoke",
       "store_label": "(5) Reno",
@@ -6693,7 +6826,7 @@
       "condition": "New",
       "price": 10295.0
     },
-    "003770": {
+    "001937": {
       "title": "2025 CFMOTO SS 450",
       "store_label": "(5) Reno",
       "category": "Motorcycle",
@@ -6707,21 +6840,14 @@
       "condition": "New",
       "price": 4499.0
     },
-    "001937": {
+    "003770": {
       "title": "2025 CFMOTO SS 450",
       "store_label": "(5) Reno",
       "category": "Motorcycle",
       "condition": "New",
       "price": 4499.0
     },
-    "003451": {
-      "title": "2025 CFMOTO SS 450",
-      "store_label": "(5) Reno",
-      "category": "Motorcycle",
-      "condition": "New",
-      "price": 4299.0
-    },
-    "001514": {
+    "001531": {
       "title": "2025 CFMOTO 675SS",
       "store_label": "(5) Reno",
       "category": "Motorcycle",
@@ -6735,19 +6861,19 @@
       "condition": "New",
       "price": 4299.0
     },
-    "001531": {
+    "001514": {
       "title": "2025 CFMOTO 675SS",
       "store_label": "(5) Reno",
       "category": "Motorcycle",
       "condition": "New",
       "price": 6499.0
     },
-    "434936": {
-      "title": "2025 Indian Roadmaster PowerPlus Dark Horse 112 Nara Bronze",
+    "003451": {
+      "title": "2025 CFMOTO SS 450",
       "store_label": "(5) Reno",
       "category": "Motorcycle",
       "condition": "New",
-      "price": 33498.0
+      "price": 4299.0
     },
     "024056": {
       "title": "2025 Indian Scout Sixty Bobber Limited Black Smoke",
@@ -6755,6 +6881,13 @@
       "category": "Motorcycle",
       "condition": "New",
       "price": 10995.0
+    },
+    "434936": {
+      "title": "2025 Indian Roadmaster PowerPlus Dark Horse 112 Nara Bronze",
+      "store_label": "(5) Reno",
+      "category": "Motorcycle",
+      "condition": "New",
+      "price": 33498.0
     },
     "208069": {
       "title": "2025 Indian Sport Scout Sixty Limited Sunset Red Smoke",
@@ -6791,13 +6924,6 @@
       "condition": "New",
       "price": 34498.0
     },
-    "438196": {
-      "title": "2025 Indian Springfield Dark Horse Moss Green Smoke",
-      "store_label": "(5) Reno",
-      "category": "Motorcycle",
-      "condition": "New",
-      "price": 22298.0
-    },
     "024203": {
       "title": "2025 Indian Scout Bobber Black Metallic",
       "store_label": "(5) Reno",
@@ -6805,14 +6931,21 @@
       "condition": "New",
       "price": 11495.0
     },
-    "000623": {
+    "438196": {
+      "title": "2025 Indian Springfield Dark Horse Moss Green Smoke",
+      "store_label": "(5) Reno",
+      "category": "Motorcycle",
+      "condition": "New",
+      "price": 22298.0
+    },
+    "000651": {
       "title": "2025 CFMOTO 675SS",
       "store_label": "(5) Reno",
       "category": "Motorcycle",
       "condition": "New",
       "price": 6699.0
     },
-    "000651": {
+    "000623": {
       "title": "2025 CFMOTO 675SS",
       "store_label": "(5) Reno",
       "category": "Motorcycle",
@@ -6832,13 +6965,6 @@
       "category": "Motorcycle",
       "condition": "New",
       "price": 6699.0
-    },
-    "004491": {
-      "title": "2025 CFMOTO IBEX 800 E",
-      "store_label": "(5) Reno",
-      "category": "Motorcycle",
-      "condition": "New",
-      "price": 7999.0
     },
     "026011": {
       "title": "2025 Indian Scout Sixty Bobber Black Metallic",
@@ -6861,13 +6987,6 @@
       "condition": "New",
       "price": 15999.0
     },
-    "440027": {
-      "title": "2025 Indian Pursuit Dark Horse w/PowerBand Audio Springfield",
-      "store_label": "(5) Reno",
-      "category": "Motorcycle",
-      "condition": "New",
-      "price": 34499.0
-    },
     "440178": {
       "title": "2025 Indian Roadmaster PowerPlus Dark Horse w/PowerBand Suns",
       "store_label": "(5) Reno",
@@ -6875,12 +6994,12 @@
       "condition": "New",
       "price": 31998.0
     },
-    "438960": {
-      "title": "2025 Indian Challenger Dark Horse 112 w/PowerBand Audio Spri",
+    "440027": {
+      "title": "2025 Indian Pursuit Dark Horse w/PowerBand Audio Springfield",
       "store_label": "(5) Reno",
       "category": "Motorcycle",
       "condition": "New",
-      "price": 30799.0
+      "price": 34499.0
     },
     "437527": {
       "title": "2025 Indian Chieftain PowerPlus Dark Horse Black Smoke",
@@ -6889,12 +7008,19 @@
       "condition": "New",
       "price": 25699.0
     },
-    "001155": {
-      "title": "2026 CFMOTO 450NK",
+    "438960": {
+      "title": "2025 Indian Challenger Dark Horse 112 w/PowerBand Audio Spri",
       "store_label": "(5) Reno",
       "category": "Motorcycle",
       "condition": "New",
-      "price": 5399.0
+      "price": 30799.0
+    },
+    "001141": {
+      "title": "2026 CFMOTO 675NK",
+      "store_label": "(5) Reno",
+      "category": "Motorcycle",
+      "condition": "New",
+      "price": 7499.0
     },
     "001069": {
       "title": "2026 CFMOTO 675NK",
@@ -6903,14 +7029,14 @@
       "condition": "New",
       "price": 7499.0
     },
-    "000893": {
-      "title": "2026 CFMOTO 675NK",
+    "001155": {
+      "title": "2026 CFMOTO 450NK",
       "store_label": "(5) Reno",
       "category": "Motorcycle",
       "condition": "New",
-      "price": 7499.0
+      "price": 5399.0
     },
-    "001141": {
+    "000893": {
       "title": "2026 CFMOTO 675NK",
       "store_label": "(5) Reno",
       "category": "Motorcycle",
@@ -6938,19 +7064,19 @@
       "condition": "New",
       "price": 20998.0
     },
-    "002019": {
-      "title": "2026 CFMOTO Ibex 450 400",
-      "store_label": "(5) Reno",
-      "category": "Motorcycle",
-      "condition": "New",
-      "price": 6499.0
-    },
     "001079": {
       "title": "2026 CFMOTO 675NK",
       "store_label": "(5) Reno",
       "category": "Motorcycle",
       "condition": "New",
       "price": 7499.0
+    },
+    "002019": {
+      "title": "2026 CFMOTO Ibex 450 400",
+      "store_label": "(5) Reno",
+      "category": "Motorcycle",
+      "condition": "New",
+      "price": 6499.0
     },
     "015433": {
       "title": "2024 Indian Chief Dark Horse Black Smoke",
@@ -6980,12 +7106,12 @@
       "condition": "New",
       "price": 15949.0
     },
-    "019098": {
-      "title": "2025 Indian Chief Bobber Nara Bronze Smoke",
+    "020795": {
+      "title": "2025 Indian Super Scout Black Metallic",
       "store_label": "(5) Reno",
       "category": "Motorcycle",
       "condition": "New",
-      "price": 16199.0
+      "price": 14299.0
     },
     "026678": {
       "title": "2026 Indian Scout Bobber Limited +Tech Maroon Metallic Smoke",
@@ -6994,12 +7120,12 @@
       "condition": "New",
       "price": 15449.0
     },
-    "020795": {
-      "title": "2025 Indian Super Scout Black Metallic",
+    "019098": {
+      "title": "2025 Indian Chief Bobber Nara Bronze Smoke",
       "store_label": "(5) Reno",
       "category": "Motorcycle",
       "condition": "New",
-      "price": 14299.0
+      "price": 16199.0
     },
     "002233": {
       "title": "2026 CFMOTO Ibex 450 400",
@@ -7007,20 +7133,6 @@
       "category": "Motorcycle",
       "condition": "New",
       "price": 6499.0
-    },
-    "000974": {
-      "title": "2026 CFMOTO NK 675",
-      "store_label": "(5) Reno",
-      "category": "Motorcycle",
-      "condition": "New",
-      "price": 7499.0
-    },
-    "001292": {
-      "title": "2026 CFMOTO NK 675",
-      "store_label": "(5) Reno",
-      "category": "Motorcycle",
-      "condition": "New",
-      "price": 7499.0
     },
     "002163": {
       "title": "2026 CFMOTO Ibex 450 400",
@@ -7035,6 +7147,20 @@
       "category": "Motorcycle",
       "condition": "New",
       "price": 6499.0
+    },
+    "001292": {
+      "title": "2026 CFMOTO NK 675",
+      "store_label": "(5) Reno",
+      "category": "Motorcycle",
+      "condition": "New",
+      "price": 7499.0
+    },
+    "000974": {
+      "title": "2026 CFMOTO NK 675",
+      "store_label": "(5) Reno",
+      "category": "Motorcycle",
+      "condition": "New",
+      "price": 7499.0
     },
     "441995": {
       "title": "2026 Indian Challenger Dark Horse Black Smoke",
@@ -7085,33 +7211,12 @@
       "condition": "Used",
       "price": 3699.0
     },
-    "H3795J": {
-      "title": "2021 Can-Am Ryker 900 ACE",
-      "store_label": "(1) North Lake Havasu",
-      "category": "Motorcycle",
-      "condition": "Used",
-      "price": 7498.0
-    },
-    "HP3883A": {
-      "title": "2021 Honda Rebel 300 ABS",
-      "store_label": "(1) North Lake Havasu",
-      "category": "Motorcycle",
-      "condition": "Used",
-      "price": 4899.0
-    },
     "P2329": {
       "title": "2024 Honda Shadow Phantom",
       "store_label": "(3) Parker",
       "category": "Motorcycle",
       "condition": "New",
       "price": 7199.0
-    },
-    "P2716": {
-      "title": "2025 Yamaha TT-R 110E",
-      "store_label": "(3) Parker",
-      "category": "Motorcycle",
-      "condition": "New",
-      "price": 1999.0
     },
     "P2892": {
       "title": "2025 Honda CRF450X 450RX",
@@ -7204,14 +7309,14 @@
       "condition": "New",
       "price": 8799.0
     },
-    "P3044": {
+    "P3046": {
       "title": "2025 Kawasaki KX250X",
       "store_label": "(3) Parker",
       "category": "Motorcycle",
       "condition": "New",
       "price": 7099.0
     },
-    "P3046": {
+    "P3044": {
       "title": "2025 Kawasaki KX250X",
       "store_label": "(3) Parker",
       "category": "Motorcycle",
@@ -7225,19 +7330,19 @@
       "condition": "New",
       "price": 8199.0
     },
-    "P3043": {
-      "title": "2025 Kawasaki KLX140R L",
-      "store_label": "(3) Parker",
-      "category": "Motorcycle",
-      "condition": "New",
-      "price": 3499.0
-    },
     "P3042": {
       "title": "2025 Kawasaki Ninja 650 ABS",
       "store_label": "(3) Parker",
       "category": "Motorcycle",
       "condition": "New",
       "price": 6999.0
+    },
+    "P3043": {
+      "title": "2025 Kawasaki KLX140R L",
+      "store_label": "(3) Parker",
+      "category": "Motorcycle",
+      "condition": "New",
+      "price": 3499.0
     },
     "P2356A": {
       "title": "2023 Yamaha YZ85",
@@ -7351,12 +7456,12 @@
       "condition": "New",
       "price": 5649.0
     },
-    "P3304": {
-      "title": "2026 Kawasaki Ninja 650 ABS",
+    "P3306": {
+      "title": "2026 Kawasaki KLR650 S",
       "store_label": "(3) Parker",
       "category": "Motorcycle",
       "condition": "New",
-      "price": 8199.0
+      "price": 6999.0
     },
     "P3305": {
       "title": "2026 Kawasaki KLR650",
@@ -7365,12 +7470,12 @@
       "condition": "New",
       "price": 6999.0
     },
-    "P3306": {
-      "title": "2026 Kawasaki KLR650 S",
+    "P3304": {
+      "title": "2026 Kawasaki Ninja 650 ABS",
       "store_label": "(3) Parker",
       "category": "Motorcycle",
       "condition": "New",
-      "price": 6999.0
+      "price": 8199.0
     },
     "P3302": {
       "title": "2026 Kawasaki Z500 ABS",
@@ -7386,19 +7491,19 @@
       "condition": "Used",
       "price": 7899.0
     },
-    "P3343": {
-      "title": "2025 Honda CB300R",
-      "store_label": "(3) Parker",
-      "category": "Motorcycle",
-      "condition": "New",
-      "price": 3588.0
-    },
     "P3344": {
       "title": "2025 Honda Trail125",
       "store_label": "(3) Parker",
       "category": "Motorcycle",
       "condition": "New",
       "price": 4099.0
+    },
+    "P3343": {
+      "title": "2025 Honda CB300R",
+      "store_label": "(3) Parker",
+      "category": "Motorcycle",
+      "condition": "New",
+      "price": 3588.0
     },
     "P3345": {
       "title": "2025 Honda Trail125",
@@ -7512,27 +7617,6 @@
       "condition": "New",
       "price": 4199.0
     },
-    "P3459": {
-      "title": "2024 Honda Navi Pearl Red",
-      "store_label": "(3) Parker",
-      "category": "Motorcycle",
-      "condition": "New",
-      "price": 2099.0
-    },
-    "P3461": {
-      "title": "2024 Honda Navi Pearl Red",
-      "store_label": "(3) Parker",
-      "category": "Motorcycle",
-      "condition": "New",
-      "price": 2099.0
-    },
-    "P3460": {
-      "title": "2024 Honda Navi Pearl Red",
-      "store_label": "(3) Parker",
-      "category": "Motorcycle",
-      "condition": "New",
-      "price": 2099.0
-    },
     "A2103A": {
       "title": "2023 Yamaha UMAX Rally 2+2",
       "store_label": "(4) South Lake Havasu",
@@ -7554,19 +7638,19 @@
       "condition": "New",
       "price": 17999.0
     },
-    "642558": {
-      "title": "2025 Polaris 9R RMK KHAOS 146 Shadow Gray / Gloss Black 9R Shadow Gray Gloss Black",
-      "store_label": "(5) Reno",
-      "category": "Snowmobile",
-      "condition": "New",
-      "price": 18999.0
-    },
     "639501": {
       "title": "2025 Polaris 9R PRO RMK 155 Shadow Gray / Gloss Black 9R Storm Gray Indy Red",
       "store_label": "(5) Reno",
       "category": "Snowmobile",
       "condition": "New",
       "price": 17999.0
+    },
+    "642558": {
+      "title": "2025 Polaris 9R RMK KHAOS 146 Shadow Gray / Gloss Black 9R Shadow Gray Gloss Black",
+      "store_label": "(5) Reno",
+      "category": "Snowmobile",
+      "condition": "New",
+      "price": 18999.0
     },
     "635797": {
       "title": "2025 Polaris Boost RMK KHAOS 155 Shadow Gray / Gloss Black Boost Storm Gray Indy Red",
@@ -7575,13 +7659,6 @@
       "condition": "New",
       "price": 20499.0
     },
-    "631419": {
-      "title": "2025 Polaris 850 PRO RMK 155 Shadow Gray / Gloss Black 850 Storm Gray Indy Red",
-      "store_label": "(5) Reno",
-      "category": "Snowmobile",
-      "condition": "New",
-      "price": 15999.0
-    },
     "631418": {
       "title": "2025 Polaris 850 PRO RMK 155 Shadow Gray / Gloss Black 850 Storm Gray Indy Red",
       "store_label": "(5) Reno",
@@ -7589,14 +7666,21 @@
       "condition": "New",
       "price": 15999.0
     },
-    "061714": {
+    "631419": {
+      "title": "2025 Polaris 850 PRO RMK 155 Shadow Gray / Gloss Black 850 Storm Gray Indy Red",
+      "store_label": "(5) Reno",
+      "category": "Snowmobile",
+      "condition": "New",
+      "price": 15999.0
+    },
+    "061713": {
       "title": "2026 Polaris Patriot Boost PRO RMK 155 Indy Red / Gloss Black Patriot Boost Gloss Black Blue Dusk",
       "store_label": "(5) Reno",
       "category": "Snowmobile",
       "condition": "New",
       "price": 23116.0
     },
-    "061713": {
+    "061714": {
       "title": "2026 Polaris Patriot Boost PRO RMK 155 Indy Red / Gloss Black Patriot Boost Gloss Black Blue Dusk",
       "store_label": "(5) Reno",
       "category": "Snowmobile",
@@ -7645,14 +7729,14 @@
       "condition": "Used",
       "price": 0
     },
-    "000557": {
+    "000556": {
       "title": "2025 CFMOTO CForce 600 Camo 600",
       "store_label": "(5) Reno",
       "category": "ATV",
       "condition": "New",
       "price": 6499.0
     },
-    "000556": {
+    "000557": {
       "title": "2025 CFMOTO CForce 600 Camo 600",
       "store_label": "(5) Reno",
       "category": "ATV",
@@ -7665,6 +7749,20 @@
       "category": "ATV",
       "condition": "New",
       "price": 8099.0
+    },
+    "H3751A": {
+      "title": "2024 Polaris RZR Pro R 4 Ultimate Ultimate",
+      "store_label": "(1) North Lake Havasu",
+      "category": "UTV",
+      "condition": "Used",
+      "price": 33998.0
+    },
+    "H3930": {
+      "title": "2025 Can-Am Maverick X3 X rs Turbo RR Fiery Red & Hyper Silver X Rs Turbo RR Triple Black",
+      "store_label": "(1) North Lake Havasu",
+      "category": "UTV",
+      "condition": "New",
+      "price": 33499.0
     },
     "171940": {
       "title": "2026 Polaris Ranger Crew 1000 Premium Polaris Pursuit Camo",
@@ -7701,20 +7799,6 @@
       "condition": "New",
       "price": 23899.0
     },
-    "H3751A": {
-      "title": "2024 Polaris RZR Pro R 4 Ultimate Ultimate",
-      "store_label": "(1) North Lake Havasu",
-      "category": "UTV",
-      "condition": "Used",
-      "price": 33998.0
-    },
-    "H3930": {
-      "title": "2025 Can-Am Maverick X3 X rs Turbo RR Fiery Red & Hyper Silver X Rs Turbo RR Triple Black",
-      "store_label": "(1) North Lake Havasu",
-      "category": "UTV",
-      "condition": "New",
-      "price": 33499.0
-    },
     "A1989": {
       "title": "2024 Polaris Slingshot Slingshot SL Volt Orange",
       "store_label": "(4) South Lake Havasu",
@@ -7743,14 +7827,14 @@
       "condition": "New",
       "price": 10299.0
     },
-    "001015": {
+    "001017": {
       "title": "2026 CFMOTO Ibex 800 E 800 Touring",
       "store_label": "(5) Reno",
       "category": "Motorcycle",
       "condition": "New",
       "price": 10299.0
     },
-    "001017": {
+    "001015": {
       "title": "2026 CFMOTO Ibex 800 E 800 Touring",
       "store_label": "(5) Reno",
       "category": "Motorcycle",
