@@ -1,6 +1,48 @@
 {
-  "date": "2026-02-19 14:04",
+  "date": "2026-02-20 13:55",
   "units": {
+    "081096": {
+      "title": "2026 Echo Trailers Advantage ERA-14-15T",
+      "store_label": "(5) Reno",
+      "category": "Trailer",
+      "condition": "New",
+      "price": 4795.0
+    },
+    "081095": {
+      "title": "2026 Echo Trailers Advantage ERA-17-15T",
+      "store_label": "(5) Reno",
+      "category": "Trailer",
+      "condition": "New",
+      "price": 5495.0
+    },
+    "081098": {
+      "title": "2026 Echo Trailers Advantage ERA-14-15T",
+      "store_label": "(5) Reno",
+      "category": "Trailer",
+      "condition": "New",
+      "price": 4795.0
+    },
+    "081094": {
+      "title": "2026 Echo Trailers Advantage ERA-17-15T",
+      "store_label": "(5) Reno",
+      "category": "Trailer",
+      "condition": "New",
+      "price": 5495.0
+    },
+    "081099": {
+      "title": "2026 Echo Trailers Advantage ERA-14-15T",
+      "store_label": "(5) Reno",
+      "category": "Trailer",
+      "condition": "New",
+      "price": 4795.0
+    },
+    "081097": {
+      "title": "2026 Echo Trailers Advantage ERA-14-15T",
+      "store_label": "(5) Reno",
+      "category": "Trailer",
+      "condition": "New",
+      "price": 4795.0
+    },
     "BT1276": {
       "title": "2025 Built WC217",
       "store_label": "(2) Bullhead City",
@@ -78,48 +120,6 @@
       "condition": "New",
       "price": 3695.0
     },
-    "081097": {
-      "title": "2026 Echo Trailers Advantage ERA-14-15T",
-      "store_label": "(5) Reno",
-      "category": "Trailer",
-      "condition": "New",
-      "price": 4795.0
-    },
-    "081098": {
-      "title": "2026 Echo Trailers Advantage ERA-14-15T",
-      "store_label": "(5) Reno",
-      "category": "Trailer",
-      "condition": "New",
-      "price": 4795.0
-    },
-    "081096": {
-      "title": "2026 Echo Trailers Advantage ERA-14-15T",
-      "store_label": "(5) Reno",
-      "category": "Trailer",
-      "condition": "New",
-      "price": 4795.0
-    },
-    "081099": {
-      "title": "2026 Echo Trailers Advantage ERA-14-15T",
-      "store_label": "(5) Reno",
-      "category": "Trailer",
-      "condition": "New",
-      "price": 4795.0
-    },
-    "081094": {
-      "title": "2026 Echo Trailers Advantage ERA-17-15T",
-      "store_label": "(5) Reno",
-      "category": "Trailer",
-      "condition": "New",
-      "price": 5495.0
-    },
-    "081095": {
-      "title": "2026 Echo Trailers Advantage ERA-17-15T",
-      "store_label": "(5) Reno",
-      "category": "Trailer",
-      "condition": "New",
-      "price": 5495.0
-    },
     "A1598": {
       "title": "2024 Godfrey Pontoons AP275SDE",
       "store_label": "(4) South Lake Havasu",
@@ -155,13 +155,6 @@
       "condition": "New",
       "price": 59999.0
     },
-    "A2438": {
-      "title": "2026 Godfrey Pontoons EX2086SFLX",
-      "store_label": "(4) South Lake Havasu",
-      "category": "Boat",
-      "condition": "New",
-      "price": 59999.0
-    },
     "A2440": {
       "title": "2026 Godfrey Pontoons Xperience 2086 SBX Sport Tube 27 in. Package",
       "store_label": "(4) South Lake Havasu",
@@ -169,14 +162,21 @@
       "condition": "New",
       "price": 54985.0
     },
-    "A2481": {
+    "A2438": {
+      "title": "2026 Godfrey Pontoons EX2086SFLX",
+      "store_label": "(4) South Lake Havasu",
+      "category": "Boat",
+      "condition": "New",
+      "price": 59999.0
+    },
+    "A2482": {
       "title": "2026 Godfrey Pontoons Sweetwater 2286 C 27\" iMPACT Center Tube Package",
       "store_label": "(4) South Lake Havasu",
       "category": "Boat",
       "condition": "New",
       "price": 69990.0
     },
-    "A2482": {
+    "A2481": {
       "title": "2026 Godfrey Pontoons Sweetwater 2286 C 27\" iMPACT Center Tube Package",
       "store_label": "(4) South Lake Havasu",
       "category": "Boat",
@@ -190,19 +190,19 @@
       "condition": "New",
       "price": 59990.0
     },
-    "A2498": {
-      "title": "2026 Bennington M Swingback 22 MSB",
-      "store_label": "(4) South Lake Havasu",
-      "category": "Boat",
-      "condition": "New",
-      "price": 111999.0
-    },
     "A2497": {
       "title": "2026 Bennington M Swingback 22 MSB",
       "store_label": "(4) South Lake Havasu",
       "category": "Boat",
       "condition": "New",
       "price": 122999.0
+    },
+    "A2498": {
+      "title": "2026 Bennington M Swingback 22 MSB",
+      "store_label": "(4) South Lake Havasu",
+      "category": "Boat",
+      "condition": "New",
+      "price": 111999.0
     },
     "A2508": {
       "title": "2026 Godfrey Pontoons Sweetwater 2286 SB 27\" iMPACT Center Tube Package",
@@ -253,19 +253,19 @@
       "condition": "New",
       "price": 121999.0
     },
-    "U1105A": {
-      "title": "2013 Bennington 2575QCW SPORT TOWER-I/O",
-      "store_label": "(4) South Lake Havasu",
-      "category": "Boat",
-      "condition": "Used",
-      "price": 65999.0
-    },
     "A2666": {
       "title": "2026 Godfrey Pontoons Monaco 235 SFL 27\" iMPACT Center Tube Package",
       "store_label": "(4) South Lake Havasu",
       "category": "Boat",
       "condition": "New",
       "price": 0
+    },
+    "U1105A": {
+      "title": "2013 Bennington 2575QCW SPORT TOWER-I/O",
+      "store_label": "(4) South Lake Havasu",
+      "category": "Boat",
+      "condition": "Used",
+      "price": 65999.0
     },
     "A2665": {
       "title": "2026 Godfrey Pontoons Sweetwater 2286 SB 27\" iMPACT Center Tube Package",
@@ -365,19 +365,19 @@
       "condition": "New",
       "price": 60999.0
     },
-    "H3702": {
-      "title": "2026 Yamaha Boats AR250",
-      "store_label": "(1) North Lake Havasu",
-      "category": "Boat",
-      "condition": "New",
-      "price": 78499.0
-    },
     "H3704": {
       "title": "2026 Yamaha Boats SX195",
       "store_label": "(1) North Lake Havasu",
       "category": "Boat",
       "condition": "New",
       "price": 47499.0
+    },
+    "H3702": {
+      "title": "2026 Yamaha Boats AR250",
+      "store_label": "(1) North Lake Havasu",
+      "category": "Boat",
+      "condition": "New",
+      "price": 78499.0
     },
     "H3722": {
       "title": "2026 Yamaha Boats SX195",
@@ -414,19 +414,19 @@
       "condition": "New",
       "price": 126999.0
     },
-    "H3770": {
-      "title": "2026 Yamaha Boats 255XE",
-      "store_label": "(1) North Lake Havasu",
-      "category": "Boat",
-      "condition": "New",
-      "price": 114999.0
-    },
     "H3769": {
       "title": "2026 Yamaha Boats 195S",
       "store_label": "(1) North Lake Havasu",
       "category": "Boat",
       "condition": "New",
       "price": 52499.0
+    },
+    "H3770": {
+      "title": "2026 Yamaha Boats 255XE",
+      "store_label": "(1) North Lake Havasu",
+      "category": "Boat",
+      "condition": "New",
+      "price": 114999.0
     },
     "H3830": {
       "title": "2026 Yamaha Marine BXT1900E-CAP",
@@ -435,19 +435,19 @@
       "condition": "New",
       "price": 78499.0
     },
-    "H3831": {
-      "title": "2026 Yamaha Marine TP1800A-CBP",
-      "store_label": "(1) North Lake Havasu",
-      "category": "Boat",
-      "condition": "New",
-      "price": 49999.0
-    },
     "H3829": {
       "title": "2026 Yamaha Marine BPT1800G-CAP",
       "store_label": "(1) North Lake Havasu",
       "category": "Boat",
       "condition": "New",
       "price": 126999.0
+    },
+    "H3831": {
+      "title": "2026 Yamaha Marine TP1800A-CBP",
+      "store_label": "(1) North Lake Havasu",
+      "category": "Boat",
+      "condition": "New",
+      "price": 49999.0
     },
     "H3855": {
       "title": "2026 Yamaha Marine TP1800A-CBP",
@@ -498,8 +498,8 @@
       "condition": "New",
       "price": 52499.0
     },
-    "H3910": {
-      "title": "2026 Yamaha Marine BPT1800G-CBP",
+    "H3908": {
+      "title": "2026 Yamaha Marine BPT1800G-CAP",
       "store_label": "(1) North Lake Havasu",
       "category": "Boat",
       "condition": "New",
@@ -615,21 +615,21 @@
       "store_label": "(5) Reno",
       "category": "Snowmobile",
       "condition": "New",
-      "price": 10247.0
+      "price": 10199.0
     },
     "633360": {
       "title": "2025 Polaris RMK KHAOS 146 850 Shadow Gray Gloss Black",
       "store_label": "(5) Reno",
       "category": "Snowmobile",
       "condition": "New",
-      "price": 13999.0
+      "price": 13499.0
     },
     "633371": {
       "title": "2025 Polaris RMK KHAOS 146 850 Shadow Gray Gloss Black",
       "store_label": "(5) Reno",
       "category": "Snowmobile",
       "condition": "New",
-      "price": 13999.0
+      "price": 13499.0
     },
     "632993": {
       "title": "2025 Polaris RMK KHAOS 165 850 Storm Gray Indy Red",
@@ -645,7 +645,21 @@
       "condition": "New",
       "price": 0
     },
+    "291198": {
+      "title": "2023 Timbersled RIOT 120 SPORT - BLACK",
+      "store_label": "(5) Reno",
+      "category": "Snowmobile",
+      "condition": "New",
+      "price": 0
+    },
     "292647": {
+      "title": "2023 Timbersled ARO 3 S PREMIUM - BLACK",
+      "store_label": "(5) Reno",
+      "category": "Snowmobile",
+      "condition": "New",
+      "price": 3999.0
+    },
+    "292646": {
       "title": "2023 Timbersled ARO 3 S PREMIUM - BLACK",
       "store_label": "(5) Reno",
       "category": "Snowmobile",
@@ -654,20 +668,6 @@
     },
     "246715": {
       "title": "2024 Timbersled RIOT 3 S PREMIUM - BLACK",
-      "store_label": "(5) Reno",
-      "category": "Snowmobile",
-      "condition": "New",
-      "price": 3999.0
-    },
-    "291198": {
-      "title": "2023 Timbersled RIOT 120 SPORT - BLACK",
-      "store_label": "(5) Reno",
-      "category": "Snowmobile",
-      "condition": "New",
-      "price": 0
-    },
-    "292646": {
-      "title": "2023 Timbersled ARO 3 S PREMIUM - BLACK",
       "store_label": "(5) Reno",
       "category": "Snowmobile",
       "condition": "New",
@@ -687,19 +687,19 @@
       "condition": "New",
       "price": 23396.0
     },
-    "059614": {
-      "title": "2026 Polaris Patriot 9R RMK Khaos 146 Premium Matte Casecade Gr",
-      "store_label": "(5) Reno",
-      "category": "Snowmobile",
-      "condition": "New",
-      "price": 22216.0
-    },
     "054619": {
       "title": "2026 Polaris PRO-RMK 165 850 Gloss Black Blue Dusk",
       "store_label": "(5) Reno",
       "category": "Snowmobile",
       "condition": "New",
       "price": 18596.0
+    },
+    "059614": {
+      "title": "2026 Polaris Patriot 9R RMK Khaos 146 Premium Matte Casecade Gr",
+      "store_label": "(5) Reno",
+      "category": "Snowmobile",
+      "condition": "New",
+      "price": 22216.0
     },
     "054618": {
       "title": "2026 Polaris PRO-RMK 165 850 Gloss Black Blue Dusk",
@@ -742,6 +742,27 @@
       "category": "PWC",
       "condition": "Used",
       "price": 13299.0
+    },
+    "P2491": {
+      "title": "2024 Kawasaki STX 160X",
+      "store_label": "(3) Parker",
+      "category": "PWC",
+      "condition": "New",
+      "price": 9599.0
+    },
+    "P3434": {
+      "title": "2026 Polaris Ranger 500",
+      "store_label": "(3) Parker",
+      "category": "UTV",
+      "condition": "New",
+      "price": 9999.0
+    },
+    "P3473": {
+      "title": "2026 Yamaha VX1900B-CA",
+      "store_label": "(3) Parker",
+      "category": "PWC",
+      "condition": "New",
+      "price": 15599.0
     },
     "H3066": {
       "title": "2025 Yamaha Waverunners VX Limited",
@@ -848,14 +869,14 @@
       "condition": "New",
       "price": 12499.0
     },
-    "H3321": {
+    "H3320": {
       "title": "2025 Yamaha Waverunners FX SVHO",
       "store_label": "(1) North Lake Havasu",
       "category": "PWC",
       "condition": "New",
       "price": 17499.0
     },
-    "H3320": {
+    "H3321": {
       "title": "2025 Yamaha Waverunners FX SVHO",
       "store_label": "(1) North Lake Havasu",
       "category": "PWC",
@@ -911,14 +932,14 @@
       "condition": "New",
       "price": 15199.0
     },
-    "H3502": {
+    "H3500": {
       "title": "2025 Sea-Doo GTX 230 Tech, Audio, iDF, iBR",
       "store_label": "(1) North Lake Havasu",
       "category": "PWC",
       "condition": "New",
       "price": 15199.0
     },
-    "H3500": {
+    "H3502": {
       "title": "2025 Sea-Doo GTX 230 Tech, Audio, iDF, iBR",
       "store_label": "(1) North Lake Havasu",
       "category": "PWC",
@@ -939,19 +960,19 @@
       "condition": "New",
       "price": 7999.0
     },
-    "H3510": {
-      "title": "2025 Yamaha Waverunners Jetblaster PRO 2-Up",
-      "store_label": "(1) North Lake Havasu",
-      "category": "PWC",
-      "condition": "New",
-      "price": 9999.0
-    },
     "H3517": {
       "title": "2025 Yamaha Waverunners Jetblaster DLX 2-Up",
       "store_label": "(1) North Lake Havasu",
       "category": "PWC",
       "condition": "New",
       "price": 7999.0
+    },
+    "H3510": {
+      "title": "2025 Yamaha Waverunners Jetblaster PRO 2-Up",
+      "store_label": "(1) North Lake Havasu",
+      "category": "PWC",
+      "condition": "New",
+      "price": 9999.0
     },
     "H3509": {
       "title": "2025 Yamaha Waverunners Jetblaster PRO 2-Up",
@@ -960,14 +981,14 @@
       "condition": "New",
       "price": 9999.0
     },
-    "H3512": {
+    "H3511": {
       "title": "2025 Yamaha Waverunners Jetblaster PRO 3-Up",
       "store_label": "(1) North Lake Havasu",
       "category": "PWC",
       "condition": "New",
       "price": 10999.0
     },
-    "H3511": {
+    "H3512": {
       "title": "2025 Yamaha Waverunners Jetblaster PRO 3-Up",
       "store_label": "(1) North Lake Havasu",
       "category": "PWC",
@@ -988,19 +1009,19 @@
       "condition": "New",
       "price": 16199.0
     },
-    "H3540": {
-      "title": "2025 Sea-Doo Wake Pro 230",
-      "store_label": "(1) North Lake Havasu",
-      "category": "PWC",
-      "condition": "New",
-      "price": 15699.0
-    },
     "H3537": {
       "title": "2025 Sea-Doo Wake Pro 230",
       "store_label": "(1) North Lake Havasu",
       "category": "PWC",
       "condition": "New",
       "price": 16199.0
+    },
+    "H3540": {
+      "title": "2025 Sea-Doo Wake Pro 230",
+      "store_label": "(1) North Lake Havasu",
+      "category": "PWC",
+      "condition": "New",
+      "price": 15699.0
     },
     "H3536": {
       "title": "2025 Sea-Doo GTX 170 iBR and iDF",
@@ -1051,7 +1072,7 @@
       "condition": "New",
       "price": 11499.0
     },
-    "H3632": {
+    "H3628": {
       "title": "2026 Yamaha Waverunners SuperJet",
       "store_label": "(1) North Lake Havasu",
       "category": "PWC",
@@ -1065,7 +1086,7 @@
       "condition": "New",
       "price": 11499.0
     },
-    "H3628": {
+    "H3632": {
       "title": "2026 Yamaha Waverunners SuperJet",
       "store_label": "(1) North Lake Havasu",
       "category": "PWC",
@@ -1078,6 +1099,13 @@
       "category": "PWC",
       "condition": "Used",
       "price": 9498.0
+    },
+    "H3683": {
+      "title": "2026 Sea-Doo RXP-X 325 Ibr Ice Metal Manta Green",
+      "store_label": "(1) North Lake Havasu",
+      "category": "PWC",
+      "condition": "New",
+      "price": 20099.0
     },
     "H3687": {
       "title": "2026 Sea-Doo GTX Limited 325 Teal Metallic",
@@ -1093,13 +1121,6 @@
       "condition": "New",
       "price": 22949.0
     },
-    "H3683": {
-      "title": "2026 Sea-Doo RXP-X 325 Ibr Ice Metal Manta Green",
-      "store_label": "(1) North Lake Havasu",
-      "category": "PWC",
-      "condition": "New",
-      "price": 20099.0
-    },
     "H3686": {
       "title": "2026 Sea-Doo SparkTrixx For 3 Rotax 900 ACE - 90 Ibr",
       "store_label": "(1) North Lake Havasu",
@@ -1113,6 +1134,13 @@
       "category": "PWC",
       "condition": "New",
       "price": 9399.0
+    },
+    "H3684": {
+      "title": "2026 Sea-Doo GTX Limited 325 Teal Metallic",
+      "store_label": "(1) North Lake Havasu",
+      "category": "PWC",
+      "condition": "New",
+      "price": 22549.0
     },
     "H3685": {
       "title": "2026 Sea-Doo GTX Limited 325 White Pearl Premium",
@@ -1128,19 +1156,19 @@
       "condition": "New",
       "price": 22949.0
     },
-    "H3684": {
-      "title": "2026 Sea-Doo GTX Limited 325 Teal Metallic",
-      "store_label": "(1) North Lake Havasu",
-      "category": "PWC",
-      "condition": "New",
-      "price": 22549.0
-    },
     "H3283A": {
       "title": "2020 Sea-Doo RXP-X 300 California Green Metallic And Black",
       "store_label": "(1) North Lake Havasu",
       "category": "PWC",
       "condition": "Used",
       "price": 9448.0
+    },
+    "H3697": {
+      "title": "2026 Sea-Doo GTR X 300 iBR",
+      "store_label": "(1) North Lake Havasu",
+      "category": "PWC",
+      "condition": "New",
+      "price": 17899.0
     },
     "H3696": {
       "title": "2026 Sea-Doo GTR-X 300 Tech, BRP Premium Audio, Ibr",
@@ -1156,26 +1184,12 @@
       "condition": "New",
       "price": 12099.0
     },
-    "H3697": {
-      "title": "2026 Sea-Doo GTR X 300 iBR",
-      "store_label": "(1) North Lake Havasu",
-      "category": "PWC",
-      "condition": "New",
-      "price": 17899.0
-    },
     "H3715": {
       "title": "2026 Sea-Doo RXT-X 325 Gulfstream Blue Premium",
       "store_label": "(1) North Lake Havasu",
       "category": "PWC",
       "condition": "New",
       "price": 22299.0
-    },
-    "H3718": {
-      "title": "2026 Sea-Doo Spark For 3 Rotax 900 ACE - 90 CONV With I",
-      "store_label": "(1) North Lake Havasu",
-      "category": "PWC",
-      "condition": "New",
-      "price": 9399.0
     },
     "H3717": {
       "title": "2026 Sea-Doo RXT-X 325 Ice Metal Manta Green",
@@ -1184,19 +1198,26 @@
       "condition": "New",
       "price": 21899.0
     },
-    "H3713": {
-      "title": "2005 Yamaha Waverunners JetBlaster PRO 3-Up",
-      "store_label": "(1) North Lake Havasu",
-      "category": "PWC",
-      "condition": "New",
-      "price": 0
-    },
     "H3716": {
       "title": "2026 Sea-Doo RXT-X 325 Ice Metal Manta Green",
       "store_label": "(1) North Lake Havasu",
       "category": "PWC",
       "condition": "New",
       "price": 21899.0
+    },
+    "H3718": {
+      "title": "2026 Sea-Doo Spark For 3 Rotax 900 ACE - 90 CONV With I",
+      "store_label": "(1) North Lake Havasu",
+      "category": "PWC",
+      "condition": "New",
+      "price": 9399.0
+    },
+    "H3713": {
+      "title": "2005 Yamaha Waverunners JetBlaster PRO 3-Up",
+      "store_label": "(1) North Lake Havasu",
+      "category": "PWC",
+      "condition": "New",
+      "price": 0
     },
     "H3730": {
       "title": "2026 Yamaha Waverunners SuperJet",
@@ -1212,14 +1233,7 @@
       "condition": "New",
       "price": 11499.0
     },
-    "H3724": {
-      "title": "2026 Sea-Doo RXT-X 325 Ice Metal / Manta Green",
-      "store_label": "(1) North Lake Havasu",
-      "category": "PWC",
-      "condition": "New",
-      "price": 21899.0
-    },
-    "H3726": {
+    "H3725": {
       "title": "2026 Sea-Doo RXP-X 325 iBR Gulfstream Blue Premium",
       "store_label": "(1) North Lake Havasu",
       "category": "PWC",
@@ -1233,7 +1247,7 @@
       "condition": "New",
       "price": 22949.0
     },
-    "H3725": {
+    "H3726": {
       "title": "2026 Sea-Doo RXP-X 325 iBR Gulfstream Blue Premium",
       "store_label": "(1) North Lake Havasu",
       "category": "PWC",
@@ -1254,12 +1268,12 @@
       "condition": "New",
       "price": 10099.0
     },
-    "H3748": {
-      "title": "2026 Yamaha Waverunners FX Cruiser SVHO",
+    "H3724": {
+      "title": "2026 Sea-Doo RXT-X 325 Ice Metal / Manta Green",
       "store_label": "(1) North Lake Havasu",
       "category": "PWC",
       "condition": "New",
-      "price": 21599.0
+      "price": 21899.0
     },
     "H3749": {
       "title": "2026 Yamaha Waverunners JB1050B-CB",
@@ -1268,19 +1282,19 @@
       "condition": "New",
       "price": 11699.0
     },
-    "H3747": {
+    "H3748": {
       "title": "2026 Yamaha Waverunners FX Cruiser SVHO",
       "store_label": "(1) North Lake Havasu",
       "category": "PWC",
       "condition": "New",
       "price": 21599.0
     },
-    "H3760": {
-      "title": "2026 Yamaha Waverunners SuperJet",
+    "H3747": {
+      "title": "2026 Yamaha Waverunners FX Cruiser SVHO",
       "store_label": "(1) North Lake Havasu",
       "category": "PWC",
       "condition": "New",
-      "price": 11499.0
+      "price": 21599.0
     },
     "H3759": {
       "title": "2026 Yamaha Waverunners SuperJet",
@@ -1289,12 +1303,12 @@
       "condition": "New",
       "price": 11499.0
     },
-    "H3766": {
-      "title": "2026 Sea-Doo GTR 230 iBR",
+    "H3760": {
+      "title": "2026 Yamaha Waverunners SuperJet",
       "store_label": "(1) North Lake Havasu",
       "category": "PWC",
       "condition": "New",
-      "price": 14899.0
+      "price": 11499.0
     },
     "H3768": {
       "title": "2026 Sea-Doo SparkTrixx For 3 Rotax 900 ACE - 90 Ibr",
@@ -1317,6 +1331,13 @@
       "condition": "New",
       "price": 15699.0
     },
+    "H3766": {
+      "title": "2026 Sea-Doo GTR 230 iBR",
+      "store_label": "(1) North Lake Havasu",
+      "category": "PWC",
+      "condition": "New",
+      "price": 14899.0
+    },
     "H3764": {
       "title": "2026 Sea-Doo RXT-X 325 Gulfstream Blue Premium",
       "store_label": "(1) North Lake Havasu",
@@ -1338,15 +1359,15 @@
       "condition": "Used",
       "price": 6498.0
     },
-    "H3845": {
-      "title": "2026 Yamaha VX1050C-CB",
+    "H3844": {
+      "title": "2026 Yamaha Waverunners VX1050C-CB",
       "store_label": "(1) North Lake Havasu",
       "category": "PWC",
       "condition": "New",
       "price": 13999.0
     },
-    "H3844": {
-      "title": "2026 Yamaha Waverunners VX1050C-CB",
+    "H3845": {
+      "title": "2026 Yamaha VX1050C-CB",
       "store_label": "(1) North Lake Havasu",
       "category": "PWC",
       "condition": "New",
@@ -1366,13 +1387,6 @@
       "condition": "New",
       "price": 14899.0
     },
-    "H3838": {
-      "title": "2026 Yamaha Waverunners VX",
-      "store_label": "(1) North Lake Havasu",
-      "category": "PWC",
-      "condition": "New",
-      "price": 12399.0
-    },
     "H3847": {
       "title": "2026 Yamaha Waverunners GP1900B-CA",
       "store_label": "(1) North Lake Havasu",
@@ -1380,7 +1394,21 @@
       "condition": "New",
       "price": 15699.0
     },
+    "H3838": {
+      "title": "2026 Yamaha Waverunners VX",
+      "store_label": "(1) North Lake Havasu",
+      "category": "PWC",
+      "condition": "New",
+      "price": 12399.0
+    },
     "H3839": {
+      "title": "2026 Yamaha Waverunners VX",
+      "store_label": "(1) North Lake Havasu",
+      "category": "PWC",
+      "condition": "New",
+      "price": 12399.0
+    },
+    "H3840": {
       "title": "2026 Yamaha Waverunners VX",
       "store_label": "(1) North Lake Havasu",
       "category": "PWC",
@@ -1393,13 +1421,6 @@
       "category": "PWC",
       "condition": "New",
       "price": 15699.0
-    },
-    "H3840": {
-      "title": "2026 Yamaha Waverunners VX",
-      "store_label": "(1) North Lake Havasu",
-      "category": "PWC",
-      "condition": "New",
-      "price": 12399.0
     },
     "H3841": {
       "title": "2026 Yamaha Waverunners VX",
@@ -1436,19 +1457,19 @@
       "condition": "Used",
       "price": 6998.0
     },
-    "H3878": {
-      "title": "2026 Sea-Doo SparkTrixx For 3 Rotax 900 ACE - 90 Ibr",
-      "store_label": "(1) North Lake Havasu",
-      "category": "PWC",
-      "condition": "New",
-      "price": 10099.0
-    },
     "H3873": {
       "title": "2026 Sea-Doo RXT-X 325 Gulfstream Blue Premium",
       "store_label": "(1) North Lake Havasu",
       "category": "PWC",
       "condition": "New",
       "price": 22299.0
+    },
+    "H3878": {
+      "title": "2026 Sea-Doo SparkTrixx For 3 Rotax 900 ACE - 90 Ibr",
+      "store_label": "(1) North Lake Havasu",
+      "category": "PWC",
+      "condition": "New",
+      "price": 10099.0
     },
     "H3874": {
       "title": "2026 Sea-Doo GTR-X 300 Tech, BRP Premium Audio, Ibr",
@@ -1464,19 +1485,19 @@
       "condition": "New",
       "price": 15699.0
     },
+    "H3872": {
+      "title": "2026 Sea-Doo RXT-X 325 Gulfstream Blue Premium",
+      "store_label": "(1) North Lake Havasu",
+      "category": "PWC",
+      "condition": "New",
+      "price": 22299.0
+    },
     "H3868": {
       "title": "2026 Sea-Doo 00011TA00",
       "store_label": "(1) North Lake Havasu",
       "category": "PWC",
       "condition": "New",
       "price": 17149.0
-    },
-    "H3869": {
-      "title": "2026 Sea-Doo 00011TD00",
-      "store_label": "(1) North Lake Havasu",
-      "category": "PWC",
-      "condition": "New",
-      "price": 15949.0
     },
     "H3870": {
       "title": "2026 Sea-Doo GTX 300 Tech, Audio, Idf, Ibr",
@@ -1485,21 +1506,21 @@
       "condition": "New",
       "price": 19849.0
     },
-    "H3872": {
-      "title": "2026 Sea-Doo RXT-X 325 Gulfstream Blue Premium",
+    "H3869": {
+      "title": "2026 Sea-Doo 00011TD00",
       "store_label": "(1) North Lake Havasu",
       "category": "PWC",
       "condition": "New",
-      "price": 22299.0
+      "price": 15949.0
     },
-    "H3371": {
+    "H3362": {
       "title": "2025 Yamaha Waverunners FX Cruiser SVHO",
       "store_label": "(1) North Lake Havasu",
       "category": "PWC",
       "condition": "New",
       "price": 20599.0
     },
-    "H3362": {
+    "H3371": {
       "title": "2025 Yamaha Waverunners FX Cruiser SVHO",
       "store_label": "(1) North Lake Havasu",
       "category": "PWC",
@@ -1512,6 +1533,13 @@
       "category": "PWC",
       "condition": "New",
       "price": 22299.0
+    },
+    "H3935": {
+      "title": "2025 Yamaha Waverunners GP HO",
+      "store_label": "(1) North Lake Havasu",
+      "category": "PWC",
+      "condition": "New",
+      "price": 14999.0
     },
     "B2749": {
       "title": "2025 Yamaha Waverunners VX Deluxe",
@@ -2780,13 +2808,6 @@
       "condition": "New",
       "price": 12599.0
     },
-    "P2491": {
-      "title": "2024 Kawasaki STX 160X",
-      "store_label": "(3) Parker",
-      "category": "PWC",
-      "condition": "New",
-      "price": 9599.0
-    },
     "P2684A": {
       "title": "2022 Yamaha Waverunners FX Cruiser SVHO with Audio System",
       "store_label": "(3) Parker",
@@ -2892,6 +2913,13 @@
       "condition": "New",
       "price": 14399.0
     },
+    "P2945": {
+      "title": "2025 Kawasaki Ultra 310X",
+      "store_label": "(3) Parker",
+      "category": "PWC",
+      "condition": "New",
+      "price": 17699.0
+    },
     "P2941": {
       "title": "2025 Kawasaki Ultra 310LX-S",
       "store_label": "(3) Parker",
@@ -2905,13 +2933,6 @@
       "category": "PWC",
       "condition": "New",
       "price": 14399.0
-    },
-    "P2945": {
-      "title": "2025 Kawasaki Ultra 310X",
-      "store_label": "(3) Parker",
-      "category": "PWC",
-      "condition": "New",
-      "price": 17699.0
     },
     "P2940": {
       "title": "2025 Kawasaki Ultra 310LX-S",
@@ -2962,12 +2983,12 @@
       "condition": "Used",
       "price": 10599.0
     },
-    "P3106": {
-      "title": "2025 Sea-Doo FishPro Trophy 170",
+    "P3111": {
+      "title": "2025 Sea-Doo Wake 170 BRP Premium Audio, iDF, iBR",
       "store_label": "(3) Parker",
       "category": "PWC",
       "condition": "New",
-      "price": 18999.0
+      "price": 12899.0
     },
     "P3109": {
       "title": "2025 Sea-Doo RXT-X 325 Metallic Tan / Lava Red Premium",
@@ -2976,19 +2997,12 @@
       "condition": "New",
       "price": 17899.0
     },
-    "P3111": {
-      "title": "2025 Sea-Doo Wake 170 BRP Premium Audio, iDF, iBR",
+    "P3106": {
+      "title": "2025 Sea-Doo FishPro Trophy 170",
       "store_label": "(3) Parker",
       "category": "PWC",
       "condition": "New",
-      "price": 12899.0
-    },
-    "P3115": {
-      "title": "2025 Kawasaki STX 160X",
-      "store_label": "(3) Parker",
-      "category": "PWC",
-      "condition": "New",
-      "price": 11059.0
+      "price": 18999.0
     },
     "P3114": {
       "title": "2025 Yamaha Waverunners Jetblaster PRO 2-Up",
@@ -2997,19 +3011,19 @@
       "condition": "New",
       "price": 9499.0
     },
+    "P3115": {
+      "title": "2025 Kawasaki STX 160X",
+      "store_label": "(3) Parker",
+      "category": "PWC",
+      "condition": "New",
+      "price": 11059.0
+    },
     "P2900A": {
       "title": "2016 Sea-Doo GTX Limited 300",
       "store_label": "(3) Parker",
       "category": "PWC",
       "condition": "Used",
       "price": 9425.0
-    },
-    "P3171": {
-      "title": "2025 Sea-Doo Spark Trixx for 3 Rotax 900 ACE - 90 iBR",
-      "store_label": "(3) Parker",
-      "category": "PWC",
-      "condition": "New",
-      "price": 8799.0
     },
     "P3172": {
       "title": "2025 Sea-Doo RXT-X 325 Metallic Tan / Lava Red Premium",
@@ -3018,12 +3032,12 @@
       "condition": "New",
       "price": 17899.0
     },
-    "P3170": {
-      "title": "2025 Sea-Doo Wake 170 BRP Premium Audio, iDF, iBR",
+    "P3171": {
+      "title": "2025 Sea-Doo Spark Trixx for 3 Rotax 900 ACE - 90 iBR",
       "store_label": "(3) Parker",
       "category": "PWC",
       "condition": "New",
-      "price": 12899.0
+      "price": 8799.0
     },
     "P3168": {
       "title": "2025 Sea-Doo GTI SE 130 iBR",
@@ -3031,6 +3045,13 @@
       "category": "PWC",
       "condition": "New",
       "price": 10149.0
+    },
+    "P3170": {
+      "title": "2025 Sea-Doo Wake 170 BRP Premium Audio, iDF, iBR",
+      "store_label": "(3) Parker",
+      "category": "PWC",
+      "condition": "New",
+      "price": 12899.0
     },
     "P3169": {
       "title": "2025 Sea-Doo RXT-X 325 Metallic Tan / Lava Red Premium",
@@ -3116,14 +3137,14 @@
       "condition": "New",
       "price": 17199.0
     },
-    "P3238B": {
+    "P3238A": {
       "title": "2020 Kawasaki Jet Ski SX-R",
       "store_label": "(3) Parker",
       "category": "PWC",
       "condition": "Used",
       "price": 7296.0
     },
-    "P3238A": {
+    "P3238B": {
       "title": "2020 Kawasaki Jet Ski SX-R",
       "store_label": "(3) Parker",
       "category": "PWC",
@@ -3144,19 +3165,19 @@
       "condition": "New",
       "price": 14849.0
     },
-    "P3289": {
-      "title": "2026 Sea-Doo GTX Limited 325 Teal Metallic",
-      "store_label": "(3) Parker",
-      "category": "PWC",
-      "condition": "New",
-      "price": 22549.0
-    },
     "P3292": {
       "title": "2026 Sea-Doo SparkTrixx for 3 Rotax 900 ACE - 90 iBR",
       "store_label": "(3) Parker",
       "category": "PWC",
       "condition": "New",
       "price": 10099.0
+    },
+    "P3289": {
+      "title": "2026 Sea-Doo GTX Limited 325 Teal Metallic",
+      "store_label": "(3) Parker",
+      "category": "PWC",
+      "condition": "New",
+      "price": 22549.0
     },
     "P3328": {
       "title": "2026 Sea-Doo GTI SE 170 Tech, Audio, Idf, Ibr",
@@ -3186,6 +3207,13 @@
       "condition": "New",
       "price": 22549.0
     },
+    "P3388": {
+      "title": "2026 Yamaha Waverunners VX Cruiser",
+      "store_label": "(3) Parker",
+      "category": "PWC",
+      "condition": "New",
+      "price": 13999.0
+    },
     "P3386": {
       "title": "2026 Yamaha Waverunners VX Cruiser HO",
       "store_label": "(3) Parker",
@@ -3199,20 +3227,6 @@
       "category": "PWC",
       "condition": "New",
       "price": 16699.0
-    },
-    "P3388": {
-      "title": "2026 Yamaha Waverunners VX Cruiser",
-      "store_label": "(3) Parker",
-      "category": "PWC",
-      "condition": "New",
-      "price": 13999.0
-    },
-    "P3383": {
-      "title": "2026 Yamaha Waverunners VX Cruiser HO",
-      "store_label": "(3) Parker",
-      "category": "PWC",
-      "condition": "New",
-      "price": 14899.0
     },
     "P3384": {
       "title": "2026 Yamaha Waverunners JetBlaster",
@@ -3228,7 +3242,7 @@
       "condition": "New",
       "price": 14899.0
     },
-    "P3381": {
+    "P3383": {
       "title": "2026 Yamaha Waverunners VX Cruiser HO",
       "store_label": "(3) Parker",
       "category": "PWC",
@@ -3243,6 +3257,13 @@
       "price": 10399.0
     },
     "P3382": {
+      "title": "2026 Yamaha Waverunners VX Cruiser HO",
+      "store_label": "(3) Parker",
+      "category": "PWC",
+      "condition": "New",
+      "price": 14899.0
+    },
+    "P3381": {
       "title": "2026 Yamaha Waverunners VX Cruiser HO",
       "store_label": "(3) Parker",
       "category": "PWC",
@@ -3284,13 +3305,6 @@
       "condition": "New",
       "price": 21799.0
     },
-    "P3426": {
-      "title": "2026 Yamaha Waverunners VX Limited HO",
-      "store_label": "(3) Parker",
-      "category": "PWC",
-      "condition": "New",
-      "price": 16699.0
-    },
     "P3425": {
       "title": "2026 Yamaha Waverunners VX Limited HO",
       "store_label": "(3) Parker",
@@ -3304,6 +3318,13 @@
       "category": "PWC",
       "condition": "New",
       "price": 15199.0
+    },
+    "P3426": {
+      "title": "2026 Yamaha Waverunners VX Limited HO",
+      "store_label": "(3) Parker",
+      "category": "PWC",
+      "condition": "New",
+      "price": 16699.0
     },
     "P3433": {
       "title": "2026 Yamaha Waverunners SuperJet",
@@ -3319,14 +3340,14 @@
       "condition": "New",
       "price": 11499.0
     },
-    "P3432": {
+    "P3430": {
       "title": "2026 Yamaha Waverunners SuperJet",
       "store_label": "(3) Parker",
       "category": "PWC",
       "condition": "New",
       "price": 11499.0
     },
-    "P3430": {
+    "P3432": {
       "title": "2026 Yamaha Waverunners SuperJet",
       "store_label": "(3) Parker",
       "category": "PWC",
@@ -3347,14 +3368,14 @@
       "condition": "New",
       "price": 22299.0
     },
-    "P3468": {
+    "P3467": {
       "title": "2026 Yamaha Waverunners FX Cruiser HO",
       "store_label": "(3) Parker",
       "category": "PWC",
       "condition": "New",
       "price": 18599.0
     },
-    "P3467": {
+    "P3468": {
       "title": "2026 Yamaha Waverunners FX Cruiser HO",
       "store_label": "(3) Parker",
       "category": "PWC",
@@ -3431,48 +3452,6 @@
       "condition": "New",
       "price": 15999.0
     },
-    "J000011": {
-      "title": "2022 Can-Am Outlander MAX XT-P 1000R",
-      "store_label": "(5) Reno",
-      "category": "ATV",
-      "condition": "Used",
-      "price": 11145.0
-    },
-    "B2742": {
-      "title": "2025 Polaris Sportsman 450 H.O. EPS",
-      "store_label": "(2) Bullhead City",
-      "category": "ATV",
-      "condition": "New",
-      "price": 7049.0
-    },
-    "B2982": {
-      "title": "2025 Polaris Sportsman 570 Utility HD",
-      "store_label": "(2) Bullhead City",
-      "category": "ATV",
-      "condition": "New",
-      "price": 8849.0
-    },
-    "B3012": {
-      "title": "2025 Polaris Sportsman 450 H.O. EPS",
-      "store_label": "(2) Bullhead City",
-      "category": "ATV",
-      "condition": "New",
-      "price": 7049.0
-    },
-    "B3140": {
-      "title": "2025 Polaris Phoenix 200",
-      "store_label": "(2) Bullhead City",
-      "category": "ATV",
-      "condition": "New",
-      "price": 4299.0
-    },
-    "B3151": {
-      "title": "2025 Polaris Sportsman 450 H.O. EPS",
-      "store_label": "(2) Bullhead City",
-      "category": "ATV",
-      "condition": "New",
-      "price": 7049.0
-    },
     "000857": {
       "title": "2025 CFMOTO CForce 1000 Touring Camo",
       "store_label": "(5) Reno",
@@ -3494,6 +3473,13 @@
       "condition": "New",
       "price": 7199.0
     },
+    "000841": {
+      "title": "2025 CFMOTO CForce 800 Touring Camo",
+      "store_label": "(5) Reno",
+      "category": "ATV",
+      "condition": "New",
+      "price": 8699.0
+    },
     "000846": {
       "title": "2025 CFMOTO CForce 800 Touring Camo",
       "store_label": "(5) Reno",
@@ -3502,13 +3488,6 @@
       "price": 8699.0
     },
     "000862": {
-      "title": "2025 CFMOTO CForce 800 Touring Camo",
-      "store_label": "(5) Reno",
-      "category": "ATV",
-      "condition": "New",
-      "price": 8699.0
-    },
-    "000841": {
       "title": "2025 CFMOTO CForce 800 Touring Camo",
       "store_label": "(5) Reno",
       "category": "ATV",
@@ -3529,19 +3508,19 @@
       "condition": "New",
       "price": 8699.0
     },
-    "012716": {
-      "title": "2025 Polaris Sportsman 450 H.O. Utility",
-      "store_label": "(5) Reno",
-      "category": "ATV",
-      "condition": "New",
-      "price": 6299.0
-    },
     "014224": {
       "title": "2025 Polaris Sportsman 570 Utility HD",
       "store_label": "(5) Reno",
       "category": "ATV",
       "condition": "New",
       "price": 8299.0
+    },
+    "012716": {
+      "title": "2025 Polaris Sportsman 450 H.O. Utility",
+      "store_label": "(5) Reno",
+      "category": "ATV",
+      "condition": "New",
+      "price": 6299.0
     },
     "037016": {
       "title": "2026 Polaris Sportsman 850",
@@ -3564,19 +3543,19 @@
       "condition": "New",
       "price": 8899.0
     },
-    "000146": {
-      "title": "2026 CFMOTO CFORCE 600",
-      "store_label": "(5) Reno",
-      "category": "ATV",
-      "condition": "New",
-      "price": 7799.0
-    },
     "000125": {
       "title": "2026 CFMOTO CFORCE 1000 Touring",
       "store_label": "(5) Reno",
       "category": "ATV",
       "condition": "New",
       "price": 10499.0
+    },
+    "000146": {
+      "title": "2026 CFMOTO CFORCE 600",
+      "store_label": "(5) Reno",
+      "category": "ATV",
+      "condition": "New",
+      "price": 7799.0
     },
     "000037": {
       "title": "2026 CFMOTO CFORCE 600",
@@ -3592,14 +3571,14 @@
       "condition": "New",
       "price": 6999.0
     },
-    "000507": {
+    "000585": {
       "title": "2026 CFMOTO CFORCE 800 Touring",
       "store_label": "(5) Reno",
       "category": "ATV",
       "condition": "New",
       "price": 9499.0
     },
-    "000585": {
+    "000507": {
       "title": "2026 CFMOTO CFORCE 800 Touring",
       "store_label": "(5) Reno",
       "category": "ATV",
@@ -3655,6 +3634,13 @@
       "condition": "New",
       "price": 7999.0
     },
+    "001056": {
+      "title": "2026 CFMOTO CFORCE 600",
+      "store_label": "(5) Reno",
+      "category": "ATV",
+      "condition": "New",
+      "price": 7799.0
+    },
     "001774": {
       "title": "2026 CFMOTO CFORCE 500",
       "store_label": "(5) Reno",
@@ -3663,13 +3649,6 @@
       "price": 6499.0
     },
     "000991": {
-      "title": "2026 CFMOTO CFORCE 600",
-      "store_label": "(5) Reno",
-      "category": "ATV",
-      "condition": "New",
-      "price": 7799.0
-    },
-    "001056": {
       "title": "2026 CFMOTO CFORCE 600",
       "store_label": "(5) Reno",
       "category": "ATV",
@@ -3689,6 +3668,55 @@
       "category": "ATV",
       "condition": "New",
       "price": 9699.0
+    },
+    "045912": {
+      "title": "2026 Polaris Sportsman 850 Trail",
+      "store_label": "(5) Reno",
+      "category": "ATV",
+      "condition": "New",
+      "price": 12899.0
+    },
+    "096822": {
+      "title": "2026 Polaris Sportsman 570 Trail",
+      "store_label": "(5) Reno",
+      "category": "ATV",
+      "condition": "New",
+      "price": 10499.0
+    },
+    "B2742": {
+      "title": "2025 Polaris Sportsman 450 H.O. EPS",
+      "store_label": "(2) Bullhead City",
+      "category": "ATV",
+      "condition": "New",
+      "price": 7049.0
+    },
+    "B2982": {
+      "title": "2025 Polaris Sportsman 570 Utility HD",
+      "store_label": "(2) Bullhead City",
+      "category": "ATV",
+      "condition": "New",
+      "price": 8849.0
+    },
+    "B3012": {
+      "title": "2025 Polaris Sportsman 450 H.O. EPS",
+      "store_label": "(2) Bullhead City",
+      "category": "ATV",
+      "condition": "New",
+      "price": 7049.0
+    },
+    "B3140": {
+      "title": "2025 Polaris Phoenix 200",
+      "store_label": "(2) Bullhead City",
+      "category": "ATV",
+      "condition": "New",
+      "price": 4299.0
+    },
+    "B3151": {
+      "title": "2025 Polaris Sportsman 450 H.O. EPS",
+      "store_label": "(2) Bullhead City",
+      "category": "ATV",
+      "condition": "New",
+      "price": 7049.0
     },
     "P2698": {
       "title": "2025 Kawasaki KFX50",
@@ -3753,6 +3781,13 @@
       "condition": "New",
       "price": 7049.0
     },
+    "J000011": {
+      "title": "2022 Can-Am Outlander MAX XT-P 1000R",
+      "store_label": "(5) Reno",
+      "category": "ATV",
+      "condition": "Used",
+      "price": 11145.0
+    },
     "P3116": {
       "title": "2025 Honda FourTrax Rancher 4x4 Automatic DCT EPS",
       "store_label": "(3) Parker",
@@ -3774,12 +3809,12 @@
       "condition": "New",
       "price": 7349.0
     },
-    "P3297": {
-      "title": "2026 Yamaha YFZ50",
+    "P3296": {
+      "title": "2026 Yamaha Raptor 110",
       "store_label": "(3) Parker",
       "category": "ATV",
       "condition": "New",
-      "price": 2499.0
+      "price": 3599.0
     },
     "P3298": {
       "title": "2026 Yamaha YFZ50",
@@ -3788,12 +3823,12 @@
       "condition": "New",
       "price": 2499.0
     },
-    "P3296": {
-      "title": "2026 Yamaha Raptor 110",
+    "P3297": {
+      "title": "2026 Yamaha YFZ50",
       "store_label": "(3) Parker",
       "category": "ATV",
       "condition": "New",
-      "price": 3599.0
+      "price": 2499.0
     },
     "P3337": {
       "title": "2025 Kawasaki Brute Force 450 4x4",
@@ -3942,14 +3977,14 @@
       "condition": "Used",
       "price": 19999.0
     },
-    "A2540": {
+    "A2541": {
       "title": "2026 Polaris RZR Pro S 4 Sport",
       "store_label": "(4) South Lake Havasu",
       "category": "UTV",
       "condition": "New",
       "price": 27499.0
     },
-    "A2541": {
+    "A2540": {
       "title": "2026 Polaris RZR Pro S 4 Sport",
       "store_label": "(4) South Lake Havasu",
       "category": "UTV",
@@ -3970,13 +4005,6 @@
       "condition": "New",
       "price": 27499.0
     },
-    "A2555": {
-      "title": "2026 Polaris RZR Pro S 4 Ultimate",
-      "store_label": "(4) South Lake Havasu",
-      "category": "UTV",
-      "condition": "New",
-      "price": 38999.0
-    },
     "A2556": {
       "title": "2026 Polaris RZR Pro S 4 Sport",
       "store_label": "(4) South Lake Havasu",
@@ -3990,6 +4018,13 @@
       "category": "UTV",
       "condition": "New",
       "price": 27499.0
+    },
+    "A2555": {
+      "title": "2026 Polaris RZR Pro S 4 Ultimate",
+      "store_label": "(4) South Lake Havasu",
+      "category": "UTV",
+      "condition": "New",
+      "price": 38999.0
     },
     "A2554": {
       "title": "2026 Polaris RZR Pro S 4 Ultimate",
@@ -4026,6 +4061,13 @@
       "condition": "New",
       "price": 6999.0
     },
+    "A2573": {
+      "title": "2026 Polaris RZR Pro S 4 Ultimate",
+      "store_label": "(4) South Lake Havasu",
+      "category": "UTV",
+      "condition": "New",
+      "price": 38999.0
+    },
     "A2571": {
       "title": "2026 Polaris RZR Pro S Ultimate",
       "store_label": "(4) South Lake Havasu",
@@ -4040,13 +4082,6 @@
       "condition": "New",
       "price": 38999.0
     },
-    "A2573": {
-      "title": "2026 Polaris RZR Pro S 4 Ultimate",
-      "store_label": "(4) South Lake Havasu",
-      "category": "UTV",
-      "condition": "New",
-      "price": 38999.0
-    },
     "A2575": {
       "title": "2026 Polaris GENERAL XP 4 1000 Sport",
       "store_label": "(4) South Lake Havasu",
@@ -4054,19 +4089,19 @@
       "condition": "New",
       "price": 24999.0
     },
-    "A2576": {
-      "title": "2026 Polaris RZR Pro S 4 Ultimate",
-      "store_label": "(4) South Lake Havasu",
-      "category": "UTV",
-      "condition": "New",
-      "price": 39499.0
-    },
     "A2584": {
       "title": "2025 Polaris RZR Pro R 4 Ultimate",
       "store_label": "(4) South Lake Havasu",
       "category": "UTV",
       "condition": "New",
       "price": 45099.0
+    },
+    "A2576": {
+      "title": "2026 Polaris RZR Pro S 4 Ultimate",
+      "store_label": "(4) South Lake Havasu",
+      "category": "UTV",
+      "condition": "New",
+      "price": 39499.0
     },
     "A2611": {
       "title": "2026 Polaris Ranger XP 1000 Northstar Ultimate",
@@ -4103,14 +4138,14 @@
       "condition": "New",
       "price": 6999.0
     },
-    "A2637": {
+    "A2638": {
       "title": "2026 Polaris RZR Pro S 4 Sport",
       "store_label": "(4) South Lake Havasu",
       "category": "UTV",
       "condition": "New",
       "price": 27499.0
     },
-    "A2638": {
+    "A2637": {
       "title": "2026 Polaris RZR Pro S 4 Sport",
       "store_label": "(4) South Lake Havasu",
       "category": "UTV",
@@ -4152,13 +4187,6 @@
       "condition": "New",
       "price": 45099.0
     },
-    "A2647": {
-      "title": "2026 Polaris RZR Pro S 4 Ultimate",
-      "store_label": "(4) South Lake Havasu",
-      "category": "UTV",
-      "condition": "New",
-      "price": 38999.0
-    },
     "A2648": {
       "title": "2026 Polaris RZR Pro S 4 Ultimate",
       "store_label": "(4) South Lake Havasu",
@@ -4173,19 +4201,19 @@
       "condition": "New",
       "price": 45499.0
     },
+    "A2647": {
+      "title": "2026 Polaris RZR Pro S 4 Ultimate",
+      "store_label": "(4) South Lake Havasu",
+      "category": "UTV",
+      "condition": "New",
+      "price": 38999.0
+    },
     "U1077B": {
       "title": "2020 Polaris RZR XP 4 1000 Premium",
       "store_label": "(4) South Lake Havasu",
       "category": "UTV",
       "condition": "Used",
       "price": 13999.0
-    },
-    "A2613A": {
-      "title": "2018 Polaris RZR XP 4 1000 EPS Black Pearl",
-      "store_label": "(4) South Lake Havasu",
-      "category": "UTV",
-      "condition": "Used",
-      "price": 14999.0
     },
     "A2655": {
       "title": "2026 Polaris Ranger 500",
@@ -4194,14 +4222,14 @@
       "condition": "New",
       "price": 9999.0
     },
-    "A2661": {
+    "A2662": {
       "title": "2026 Polaris RZR 200 EFI",
       "store_label": "(4) South Lake Havasu",
       "category": "UTV",
       "condition": "New",
       "price": 6999.0
     },
-    "A2662": {
+    "A2661": {
       "title": "2026 Polaris RZR 200 EFI",
       "store_label": "(4) South Lake Havasu",
       "category": "UTV",
@@ -4243,19 +4271,19 @@
       "condition": "New",
       "price": 37999.0
     },
-    "A2680": {
-      "title": "2026 Polaris Ranger Crew XD 1500 Northstar Ultimate",
-      "store_label": "(4) South Lake Havasu",
-      "category": "UTV",
-      "condition": "New",
-      "price": 49999.0
-    },
     "A2677": {
       "title": "2026 Polaris RZR XP S 4 1000 Ultimate",
       "store_label": "(4) South Lake Havasu",
       "category": "UTV",
       "condition": "New",
       "price": 29499.0
+    },
+    "A2680": {
+      "title": "2026 Polaris Ranger Crew XD 1500 Northstar Ultimate",
+      "store_label": "(4) South Lake Havasu",
+      "category": "UTV",
+      "condition": "New",
+      "price": 49999.0
     },
     "A2676": {
       "title": "2026 Polaris RZR XP S 4 1000 Ultimate",
@@ -4334,6 +4362,13 @@
       "condition": "New",
       "price": 9999.0
     },
+    "A2696": {
+      "title": "2026 Polaris RZR XP S 4 1000 Sport",
+      "store_label": "(4) South Lake Havasu",
+      "category": "UTV",
+      "condition": "New",
+      "price": 22999.0
+    },
     "A2693": {
       "title": "2026 Polaris RZR XP S 1000 Sport",
       "store_label": "(4) South Lake Havasu",
@@ -4348,13 +4383,6 @@
       "condition": "New",
       "price": 26499.0
     },
-    "A2696": {
-      "title": "2026 Polaris RZR XP S 4 1000 Sport",
-      "store_label": "(4) South Lake Havasu",
-      "category": "UTV",
-      "condition": "New",
-      "price": 22999.0
-    },
     "A2071A": {
       "title": "2022 Honda Talon 1000X",
       "store_label": "(4) South Lake Havasu",
@@ -4368,13 +4396,6 @@
       "category": "UTV",
       "condition": "New",
       "price": 43999.0
-    },
-    "A2697": {
-      "title": "2026 Polaris Xpedition ADV 5 Northstar",
-      "store_label": "(4) South Lake Havasu",
-      "category": "UTV",
-      "condition": "New",
-      "price": 45499.0
     },
     "A2700": {
       "title": "2026 Polaris Ranger XD 1500 Northstar Premiun",
@@ -4397,13 +4418,6 @@
       "condition": "New",
       "price": 26999.0
     },
-    "A2704": {
-      "title": "2026 Polaris RZR XP S 1000 Sport",
-      "store_label": "(4) South Lake Havasu",
-      "category": "UTV",
-      "condition": "New",
-      "price": 19999.0
-    },
     "A2705": {
       "title": "2026 Polaris RZR XP 4 1000 Ultimate",
       "store_label": "(4) South Lake Havasu",
@@ -4411,26 +4425,19 @@
       "condition": "New",
       "price": 26999.0
     },
+    "A2704": {
+      "title": "2026 Polaris RZR XP S 1000 Sport",
+      "store_label": "(4) South Lake Havasu",
+      "category": "UTV",
+      "condition": "New",
+      "price": 19999.0
+    },
     "A2703": {
       "title": "2026 Polaris GENERAL XP 4 1000 Ultimate",
       "store_label": "(4) South Lake Havasu",
       "category": "UTV",
       "condition": "New",
       "price": 29999.0
-    },
-    "A2707": {
-      "title": "2026 Polaris Xpedition ADV 5 Northstar",
-      "store_label": "(4) South Lake Havasu",
-      "category": "UTV",
-      "condition": "New",
-      "price": 45499.0
-    },
-    "A2712": {
-      "title": "2026 Polaris Xpedition ADV 5 Northstar",
-      "store_label": "(4) South Lake Havasu",
-      "category": "UTV",
-      "condition": "New",
-      "price": 45499.0
     },
     "A2708": {
       "title": "2026 Polaris Xpedition ADV 5 Northstar",
@@ -4446,7 +4453,14 @@
       "condition": "New",
       "price": 45499.0
     },
-    "A2711": {
+    "A2712": {
+      "title": "2026 Polaris Xpedition ADV 5 Northstar",
+      "store_label": "(4) South Lake Havasu",
+      "category": "UTV",
+      "condition": "New",
+      "price": 45499.0
+    },
+    "A2707": {
       "title": "2026 Polaris Xpedition ADV 5 Northstar",
       "store_label": "(4) South Lake Havasu",
       "category": "UTV",
@@ -4454,6 +4468,13 @@
       "price": 45499.0
     },
     "A2710": {
+      "title": "2026 Polaris Xpedition ADV 5 Northstar",
+      "store_label": "(4) South Lake Havasu",
+      "category": "UTV",
+      "condition": "New",
+      "price": 45499.0
+    },
+    "A2711": {
       "title": "2026 Polaris Xpedition ADV 5 Northstar",
       "store_label": "(4) South Lake Havasu",
       "category": "UTV",
@@ -4481,19 +4502,19 @@
       "condition": "Used",
       "price": 0
     },
-    "A2720": {
-      "title": "2026 Polaris Xpedition ADV 5 Northstar",
-      "store_label": "(4) South Lake Havasu",
-      "category": "UTV",
-      "condition": "New",
-      "price": 45499.0
-    },
     "A2721": {
       "title": "2026 Polaris RZR Pro R Ultimate",
       "store_label": "(4) South Lake Havasu",
       "category": "UTV",
       "condition": "New",
       "price": 43999.0
+    },
+    "A2720": {
+      "title": "2026 Polaris Xpedition ADV 5 Northstar",
+      "store_label": "(4) South Lake Havasu",
+      "category": "UTV",
+      "condition": "New",
+      "price": 45499.0
     },
     "A2718": {
       "title": "2026 Polaris Xpedition ADV 5 Northstar",
@@ -4515,13 +4536,6 @@
       "category": "UTV",
       "condition": "New",
       "price": 47999.0
-    },
-    "A2725": {
-      "title": "2025 Polaris RZR Pro R 4 Ultimate",
-      "store_label": "(4) South Lake Havasu",
-      "category": "UTV",
-      "condition": "New",
-      "price": 37999.0
     },
     "A2726": {
       "title": "2025 Polaris RZR Pro R 4 Ultimate",
@@ -4586,6 +4600,27 @@
       "condition": "Used",
       "price": 0
     },
+    "A2737": {
+      "title": "2026 Polaris Ranger Crew XD 1500 Northstar Ultimate",
+      "store_label": "(4) South Lake Havasu",
+      "category": "UTV",
+      "condition": "New",
+      "price": 49999.0
+    },
+    "A2738": {
+      "title": "2026 Polaris Ranger Crew XD 1500 Northstar Ultimate",
+      "store_label": "(4) South Lake Havasu",
+      "category": "UTV",
+      "condition": "New",
+      "price": 49999.0
+    },
+    "A2713J": {
+      "title": "2023 Speed UTV EL JEFE",
+      "store_label": "(4) South Lake Havasu",
+      "category": "Other",
+      "condition": "Used",
+      "price": 31999.0
+    },
     "H1888A": {
       "title": "2022 Can-Am Defender MAX Limited HD10",
       "store_label": "(1) North Lake Havasu",
@@ -4628,14 +4663,14 @@
       "condition": "New",
       "price": 36199.0
     },
-    "H3735": {
+    "H3736": {
       "title": "2026 Can-Am Maverick R Max X",
       "store_label": "(1) North Lake Havasu",
       "category": "UTV",
       "condition": "New",
       "price": 43299.0
     },
-    "H3736": {
+    "H3735": {
       "title": "2026 Can-Am Maverick R Max X",
       "store_label": "(1) North Lake Havasu",
       "category": "UTV",
@@ -4670,6 +4705,13 @@
       "condition": "New",
       "price": 43299.0
     },
+    "H3808": {
+      "title": "2026 Can-Am Maverick R MAX X rc",
+      "store_label": "(1) North Lake Havasu",
+      "category": "UTV",
+      "condition": "New",
+      "price": 51499.0
+    },
     "H3810": {
       "title": "2026 Can-Am Maverick R MAX X rc",
       "store_label": "(1) North Lake Havasu",
@@ -4683,13 +4725,6 @@
       "category": "UTV",
       "condition": "New",
       "price": 26499.0
-    },
-    "H3808": {
-      "title": "2026 Can-Am Maverick R MAX X rc",
-      "store_label": "(1) North Lake Havasu",
-      "category": "UTV",
-      "condition": "New",
-      "price": 51499.0
     },
     "H3807": {
       "title": "2026 Can-Am Maverick R MAX X rc",
@@ -4705,6 +4740,13 @@
       "condition": "New",
       "price": 43299.0
     },
+    "H3819": {
+      "title": "2026 Can-Am Maverick R Max X RS",
+      "store_label": "(1) North Lake Havasu",
+      "category": "UTV",
+      "condition": "New",
+      "price": 47499.0
+    },
     "H3827": {
       "title": "2026 Can-Am Maverick R Max X RS Dusty Navy",
       "store_label": "(1) North Lake Havasu",
@@ -4719,12 +4761,12 @@
       "condition": "New",
       "price": 24299.0
     },
-    "H3819": {
-      "title": "2026 Can-Am Maverick R Max X RS",
+    "H3864": {
+      "title": "2026 Can-Am Maverick X3 DS Turbo Scandi Blue & Orange Crush",
       "store_label": "(1) North Lake Havasu",
       "category": "UTV",
       "condition": "New",
-      "price": 47499.0
+      "price": 19999.0
     },
     "H3859": {
       "title": "2026 Can-Am Defender XT HD9",
@@ -4732,13 +4774,6 @@
       "category": "UTV",
       "condition": "New",
       "price": 17799.0
-    },
-    "H3864": {
-      "title": "2026 Can-Am Maverick X3 DS Turbo Scandi Blue & Orange Crush",
-      "store_label": "(1) North Lake Havasu",
-      "category": "UTV",
-      "condition": "New",
-      "price": 19999.0
     },
     "HP3884A": {
       "title": "2023 Yamaha YXZ 1000R SS XT-R",
@@ -4796,13 +4831,6 @@
       "condition": "New",
       "price": 21299.0
     },
-    "H3921": {
-      "title": "2026 Can-Am Maverick R MAX X Rc",
-      "store_label": "(1) North Lake Havasu",
-      "category": "UTV",
-      "condition": "New",
-      "price": 51499.0
-    },
     "H3922": {
       "title": "2026 Can-Am Maverick X3 MAX DS Turbo Dusty Navy",
       "store_label": "(1) North Lake Havasu",
@@ -4810,12 +4838,19 @@
       "condition": "New",
       "price": 24299.0
     },
-    "H3929": {
-      "title": "2026 Can-Am Defender MAX Limited HD11 Desert Tan & Carbon Blac",
+    "H3921": {
+      "title": "2026 Can-Am Maverick R MAX X Rc",
       "store_label": "(1) North Lake Havasu",
       "category": "UTV",
       "condition": "New",
-      "price": 37899.0
+      "price": 51499.0
+    },
+    "H3929A": {
+      "title": "2021 Honda Talon 1000R",
+      "store_label": "(1) North Lake Havasu",
+      "category": "UTV",
+      "condition": "Used",
+      "price": 0
     },
     "H3931": {
       "title": "2026 Can-Am Defender MAX Limited HD11",
@@ -4830,6 +4865,622 @@
       "category": "UTV",
       "condition": "Used",
       "price": 22999.0
+    },
+    "117005": {
+      "title": "2025 Polaris RZR XP 1000 Sport",
+      "store_label": "(5) Reno",
+      "category": "UTV",
+      "condition": "New",
+      "price": 15499.0
+    },
+    "278865": {
+      "title": "2026 Polaris Ranger XP 1000 Northstar Ultimate Blue Labyrinth",
+      "store_label": "(5) Reno",
+      "category": "UTV",
+      "condition": "New",
+      "price": 32199.0
+    },
+    "283454": {
+      "title": "2026 Polaris Ranger Crew XP 1000 NorthStar Edition Ultimate Blu",
+      "store_label": "(5) Reno",
+      "category": "UTV",
+      "condition": "New",
+      "price": 35199.0
+    },
+    "113288": {
+      "title": "2025 Polaris RZR XP 1000 Sport",
+      "store_label": "(5) Reno",
+      "category": "UTV",
+      "condition": "New",
+      "price": 15499.0
+    },
+    "289168": {
+      "title": "2026 Polaris Ranger Crew XP 1000 NorthStar Edition Ultimate Ora",
+      "store_label": "(5) Reno",
+      "category": "UTV",
+      "condition": "New",
+      "price": 35199.0
+    },
+    "288677": {
+      "title": "2026 Polaris Ranger Crew XP 1000 NorthStar Edition Ultimate",
+      "store_label": "(5) Reno",
+      "category": "UTV",
+      "condition": "New",
+      "price": 34999.0
+    },
+    "288981": {
+      "title": "2026 Polaris Ranger Crew XP 1000 NorthStar Edition Premium Blue",
+      "store_label": "(5) Reno",
+      "category": "UTV",
+      "condition": "New",
+      "price": 31699.0
+    },
+    "049888": {
+      "title": "2025 Polaris RZR XP 4 1000 Ultimate",
+      "store_label": "(5) Reno",
+      "category": "UTV",
+      "condition": "New",
+      "price": 23499.0
+    },
+    "142165": {
+      "title": "2026 Polaris RZR Pro S 4 Sport",
+      "store_label": "(5) Reno",
+      "category": "UTV",
+      "condition": "New",
+      "price": 27499.0
+    },
+    "000234": {
+      "title": "2026 CFMOTO ZFORCE 950 Sport 4",
+      "store_label": "(5) Reno",
+      "category": "UTV",
+      "condition": "New",
+      "price": 18999.0
+    },
+    "000062": {
+      "title": "2026 CFMOTO ZFORCE 950 Sport 4",
+      "store_label": "(5) Reno",
+      "category": "UTV",
+      "condition": "New",
+      "price": 18999.0
+    },
+    "000073": {
+      "title": "2026 CFMOTO ZFORCE 950 Sport",
+      "store_label": "(5) Reno",
+      "category": "UTV",
+      "condition": "New",
+      "price": 15999.0
+    },
+    "000328": {
+      "title": "2026 CFMOTO ZFORCE 950 Sport",
+      "store_label": "(5) Reno",
+      "category": "UTV",
+      "condition": "New",
+      "price": 15999.0
+    },
+    "288661": {
+      "title": "2026 Polaris Ranger Crew XP 1000 NorthStar Edition Ultimate",
+      "store_label": "(5) Reno",
+      "category": "UTV",
+      "condition": "New",
+      "price": 34999.0
+    },
+    "168969": {
+      "title": "2026 Polaris Ranger 1000 Premium",
+      "store_label": "(5) Reno",
+      "category": "UTV",
+      "condition": "New",
+      "price": 17299.0
+    },
+    "198359": {
+      "title": "2025 Polaris Ranger Crew XD 1500 NorthStar Edition Ultimate",
+      "store_label": "(5) Reno",
+      "category": "UTV",
+      "condition": "New",
+      "price": 44999.0
+    },
+    "000922": {
+      "title": "2025 CFMOTO ZFORCE 950 Sport",
+      "store_label": "(5) Reno",
+      "category": "UTV",
+      "condition": "New",
+      "price": 12999.0
+    },
+    "199124": {
+      "title": "2026 Polaris Xpedition ADV Northstar",
+      "store_label": "(5) Reno",
+      "category": "UTV",
+      "condition": "New",
+      "price": 40499.0
+    },
+    "170995": {
+      "title": "2026 Polaris Ranger 1000 Premium",
+      "store_label": "(5) Reno",
+      "category": "UTV",
+      "condition": "New",
+      "price": 18299.0
+    },
+    "170875": {
+      "title": "2026 Polaris Ranger 1000 Premium",
+      "store_label": "(5) Reno",
+      "category": "UTV",
+      "condition": "New",
+      "price": 17799.0
+    },
+    "170985": {
+      "title": "2026 Polaris Ranger 1000 Premium",
+      "store_label": "(5) Reno",
+      "category": "UTV",
+      "condition": "New",
+      "price": 17299.0
+    },
+    "328087": {
+      "title": "2026 Polaris RZR 200 EFI",
+      "store_label": "(5) Reno",
+      "category": "UTV",
+      "condition": "New",
+      "price": 6999.0
+    },
+    "199326": {
+      "title": "2025 Polaris Ranger XD 1500 Northstar Ultimate",
+      "store_label": "(5) Reno",
+      "category": "UTV",
+      "condition": "New",
+      "price": 41899.0
+    },
+    "098729": {
+      "title": "2026 Polaris Ranger SP 570 Premium",
+      "store_label": "(5) Reno",
+      "category": "UTV",
+      "condition": "New",
+      "price": 14299.0
+    },
+    "001499": {
+      "title": "2026 CFMOTO UFORCE U10 Pro Camo",
+      "store_label": "(5) Reno",
+      "category": "UTV",
+      "condition": "New",
+      "price": 17949.0
+    },
+    "199757": {
+      "title": "2026 Polaris Xpedition ADV 5 Northstar",
+      "store_label": "(5) Reno",
+      "category": "UTV",
+      "condition": "New",
+      "price": 45499.0
+    },
+    "144838": {
+      "title": "2025 Polaris RZR Pro R Ultimate",
+      "store_label": "(5) Reno",
+      "category": "UTV",
+      "condition": "New",
+      "price": 36999.0
+    },
+    "171680": {
+      "title": "2026 Polaris RZR Trail S",
+      "store_label": "(5) Reno",
+      "category": "UTV",
+      "condition": "New",
+      "price": 21999.0
+    },
+    "172880": {
+      "title": "2026 Polaris GENERAL XP 4 1000 Ultimate",
+      "store_label": "(5) Reno",
+      "category": "UTV",
+      "condition": "New",
+      "price": 29999.0
+    },
+    "172965": {
+      "title": "2026 Polaris GENERAL XP 4 1000 Sport",
+      "store_label": "(5) Reno",
+      "category": "UTV",
+      "condition": "New",
+      "price": 24999.0
+    },
+    "000838": {
+      "title": "2026 CFMOTO UFORCE U10 Pro Camo",
+      "store_label": "(5) Reno",
+      "category": "UTV",
+      "condition": "New",
+      "price": 17949.0
+    },
+    "201600": {
+      "title": "2026 Polaris Xpedition ADV 5 Northstar",
+      "store_label": "(5) Reno",
+      "category": "UTV",
+      "condition": "New",
+      "price": 45499.0
+    },
+    "201614": {
+      "title": "2026 Polaris Xpedition ADV 5 Northstar",
+      "store_label": "(5) Reno",
+      "category": "UTV",
+      "condition": "New",
+      "price": 45499.0
+    },
+    "201605": {
+      "title": "2026 Polaris Xpedition ADV 5 Northstar",
+      "store_label": "(5) Reno",
+      "category": "UTV",
+      "condition": "New",
+      "price": 45499.0
+    },
+    "172282": {
+      "title": "2026 Polaris GENERAL XP 1000 Ultimate",
+      "store_label": "(5) Reno",
+      "category": "UTV",
+      "condition": "New",
+      "price": 26999.0
+    },
+    "189179": {
+      "title": "2025 Polaris Xpedition ADV Northstar",
+      "store_label": "(5) Reno",
+      "category": "UTV",
+      "condition": "New",
+      "price": 37749.0
+    },
+    "000691": {
+      "title": "2026 CFMOTO ZFORCE 950 Sport",
+      "store_label": "(5) Reno",
+      "category": "UTV",
+      "condition": "New",
+      "price": 15999.0
+    },
+    "328953": {
+      "title": "2026 Polaris RZR 200 EFI",
+      "store_label": "(5) Reno",
+      "category": "UTV",
+      "condition": "New",
+      "price": 6999.0
+    },
+    "186124": {
+      "title": "2025 Polaris Xpedition XP Northstar",
+      "store_label": "(5) Reno",
+      "category": "UTV",
+      "condition": "New",
+      "price": 35999.0
+    },
+    "202185": {
+      "title": "2026 Polaris Ranger Crew XD 1500 Northstar Mountaineer Edition",
+      "store_label": "(5) Reno",
+      "category": "UTV",
+      "condition": "New",
+      "price": 49999.0
+    },
+    "119540": {
+      "title": "2026 Polaris RZR XP S 4 1000 Sport",
+      "store_label": "(5) Reno",
+      "category": "UTV",
+      "condition": "New",
+      "price": 23299.0
+    },
+    "202736": {
+      "title": "2026 Polaris Ranger XD 1500 Northstar Mountaineer Edition",
+      "store_label": "(5) Reno",
+      "category": "UTV",
+      "condition": "New",
+      "price": 45999.0
+    },
+    "202426": {
+      "title": "2026 Polaris Xpedition XP 5 Northstar",
+      "store_label": "(5) Reno",
+      "category": "UTV",
+      "condition": "New",
+      "price": 44499.0
+    },
+    "299410": {
+      "title": "2026 Polaris Ranger XP 1000 Northstar Trail Boss Edition",
+      "store_label": "(5) Reno",
+      "category": "UTV",
+      "condition": "New",
+      "price": 33499.0
+    },
+    "202137": {
+      "title": "2026 Polaris Ranger XD 1500 Northstar Mountaineer Edition",
+      "store_label": "(5) Reno",
+      "category": "UTV",
+      "condition": "New",
+      "price": 45999.0
+    },
+    "299367": {
+      "title": "2026 Polaris Ranger Crew XP 1000 Northstar Edition Ultimate Pol",
+      "store_label": "(5) Reno",
+      "category": "UTV",
+      "condition": "New",
+      "price": 35599.0
+    },
+    "202738": {
+      "title": "2026 Polaris Ranger XD 1500 Northstar Mountaineer Edition",
+      "store_label": "(5) Reno",
+      "category": "UTV",
+      "condition": "New",
+      "price": 63535.0
+    },
+    "120475": {
+      "title": "2026 Polaris RZR XP S 4 1000 Ultimate",
+      "store_label": "(5) Reno",
+      "category": "UTV",
+      "condition": "New",
+      "price": 29499.0
+    },
+    "120154": {
+      "title": "2026 Polaris RZR XP S 4 1000 Ultimate",
+      "store_label": "(5) Reno",
+      "category": "UTV",
+      "condition": "New",
+      "price": 29499.0
+    },
+    "104201": {
+      "title": "2026 Polaris Ranger 500",
+      "store_label": "(5) Reno",
+      "category": "UTV",
+      "condition": "New",
+      "price": 9999.0
+    },
+    "119299": {
+      "title": "2026 Polaris RZR XP S 1000 Sport",
+      "store_label": "(5) Reno",
+      "category": "UTV",
+      "condition": "New",
+      "price": 20999.0
+    },
+    "119965": {
+      "title": "2026 Polaris RZR XP S 4 1000 Ultimate",
+      "store_label": "(5) Reno",
+      "category": "UTV",
+      "condition": "New",
+      "price": 29499.0
+    },
+    "002669": {
+      "title": "2026 CFMOTO UFORCE U10 Pro Highland Camo",
+      "store_label": "(5) Reno",
+      "category": "UTV",
+      "condition": "New",
+      "price": 24949.0
+    },
+    "002388": {
+      "title": "2026 CFMOTO UFORCE U10 Pro Highland",
+      "store_label": "(5) Reno",
+      "category": "UTV",
+      "condition": "New",
+      "price": 24499.0
+    },
+    "000736": {
+      "title": "2022 Can-Am Defender MAX XT HD10",
+      "store_label": "(5) Reno",
+      "category": "UTV",
+      "condition": "Used",
+      "price": 15999.0
+    },
+    "002228": {
+      "title": "2026 CFMOTO UFORCE U10 Pro Highland",
+      "store_label": "(5) Reno",
+      "category": "UTV",
+      "condition": "New",
+      "price": 24499.0
+    },
+    "172353": {
+      "title": "2026 Polaris GENERAL XP 4 1000 Sport",
+      "store_label": "(5) Reno",
+      "category": "UTV",
+      "condition": "New",
+      "price": 24999.0
+    },
+    "120419": {
+      "title": "2026 Polaris RZR XP S 4 1000 Ultimate",
+      "store_label": "(5) Reno",
+      "category": "UTV",
+      "condition": "New",
+      "price": 29499.0
+    },
+    "234665": {
+      "title": "2026 Polaris Ranger Crew XP 1000 Premium Blue Labyrinth",
+      "store_label": "(5) Reno",
+      "category": "UTV",
+      "condition": "New",
+      "price": 22699.0
+    },
+    "234381": {
+      "title": "2026 Polaris Ranger XP 1000 Premium Blue Labyrinth",
+      "store_label": "(5) Reno",
+      "category": "UTV",
+      "condition": "New",
+      "price": 20699.0
+    },
+    "093369": {
+      "title": "2026 Polaris Ranger Crew SP 570 NorthStar Edition",
+      "store_label": "(5) Reno",
+      "category": "UTV",
+      "condition": "New",
+      "price": 22899.0
+    },
+    "203098": {
+      "title": "2026 Polaris Ranger Crew XD 1500 Northstar Mountaineer Edition",
+      "store_label": "(5) Reno",
+      "category": "UTV",
+      "condition": "New",
+      "price": 49999.0
+    },
+    "120478": {
+      "title": "2026 Polaris RZR XP S 4 1000 Ultimate",
+      "store_label": "(5) Reno",
+      "category": "UTV",
+      "condition": "New",
+      "price": 29499.0
+    },
+    "118810": {
+      "title": "2026 Polaris RZR XP S 4 1000 Sport",
+      "store_label": "(5) Reno",
+      "category": "UTV",
+      "condition": "New",
+      "price": 23299.0
+    },
+    "103656": {
+      "title": "2026 Polaris Ranger 500",
+      "store_label": "(5) Reno",
+      "category": "UTV",
+      "condition": "New",
+      "price": 9999.0
+    },
+    "120592": {
+      "title": "2026 Polaris RZR XP S 1000 Sport",
+      "store_label": "(5) Reno",
+      "category": "UTV",
+      "condition": "New",
+      "price": 20999.0
+    },
+    "203227": {
+      "title": "2026 Polaris XPedition ADV 5 NorthStar",
+      "store_label": "(5) Reno",
+      "category": "UTV",
+      "condition": "New",
+      "price": 45499.0
+    },
+    "203261": {
+      "title": "2026 Polaris XPedition ADV 5 NorthStar",
+      "store_label": "(5) Reno",
+      "category": "UTV",
+      "condition": "New",
+      "price": 45499.0
+    },
+    "174726": {
+      "title": "2026 Polaris GENERAL XP 1000 Ultimate",
+      "store_label": "(5) Reno",
+      "category": "UTV",
+      "condition": "New",
+      "price": 26999.0
+    },
+    "118975": {
+      "title": "2026 Polaris RZR XP S 1000 Ultimate",
+      "store_label": "(5) Reno",
+      "category": "UTV",
+      "condition": "New",
+      "price": 26499.0
+    },
+    "118988": {
+      "title": "2026 Polaris RZR XP S 1000 Ultimate",
+      "store_label": "(5) Reno",
+      "category": "UTV",
+      "condition": "New",
+      "price": 26499.0
+    },
+    "121114": {
+      "title": "2026 Polaris RZR XP S 1000 Ultimate",
+      "store_label": "(5) Reno",
+      "category": "UTV",
+      "condition": "New",
+      "price": 26499.0
+    },
+    "121084": {
+      "title": "2026 Polaris RZR XP S 1000 Ultimate",
+      "store_label": "(5) Reno",
+      "category": "UTV",
+      "condition": "New",
+      "price": 26499.0
+    },
+    "120716": {
+      "title": "2026 Polaris RZR XP S 1000 Ultimate",
+      "store_label": "(5) Reno",
+      "category": "UTV",
+      "condition": "New",
+      "price": 26499.0
+    },
+    "120458": {
+      "title": "2026 Polaris RZR XP S 4 1000 Ultimate",
+      "store_label": "(5) Reno",
+      "category": "UTV",
+      "condition": "New",
+      "price": 29499.0
+    },
+    "120355": {
+      "title": "2026 Polaris RZR XP S 1000 Ultimate",
+      "store_label": "(5) Reno",
+      "category": "UTV",
+      "condition": "New",
+      "price": 26499.0
+    },
+    "119121": {
+      "title": "2026 Polaris RZR XP S 1000 Ultimate",
+      "store_label": "(5) Reno",
+      "category": "UTV",
+      "condition": "New",
+      "price": 26499.0
+    },
+    "119283": {
+      "title": "2026 Polaris RZR XP S 1000 Ultimate",
+      "store_label": "(5) Reno",
+      "category": "UTV",
+      "condition": "New",
+      "price": 26499.0
+    },
+    "025708": {
+      "title": "2026 Polaris Ranger Crew XP 1000 NorthStar Edition Premium Pola",
+      "store_label": "(5) Reno",
+      "category": "UTV",
+      "condition": "New",
+      "price": 32599.0
+    },
+    "286517": {
+      "title": "2026 Polaris Ranger XD 1500 NorthStar Premiun",
+      "store_label": "(5) Reno",
+      "category": "UTV",
+      "condition": "New",
+      "price": 40999.0
+    },
+    "000692": {
+      "title": "2026 CFMOTO ZFORCE 950 Sport 4",
+      "store_label": "(5) Reno",
+      "category": "UTV",
+      "condition": "New",
+      "price": 18999.0
+    },
+    "000845": {
+      "title": "2026 CFMOTO ZFORCE 950 Sport 4",
+      "store_label": "(5) Reno",
+      "category": "UTV",
+      "condition": "New",
+      "price": 18999.0
+    },
+    "000875": {
+      "title": "2026 CFMOTO ZFORCE 950 Sport-4",
+      "store_label": "(5) Reno",
+      "category": "UTV",
+      "condition": "New",
+      "price": 18999.0
+    },
+    "147561": {
+      "title": "2026 Polaris RZR Pro R Ultimate",
+      "store_label": "(5) Reno",
+      "category": "UTV",
+      "condition": "New",
+      "price": 43999.0
+    },
+    "206087": {
+      "title": "2026 Polaris RZR XP 1000 Ultimate",
+      "store_label": "(5) Reno",
+      "category": "UTV",
+      "condition": "New",
+      "price": 23999.0
+    },
+    "071972": {
+      "title": "2025 Polaris RZR Pro XP 4 Premium",
+      "store_label": "(5) Reno",
+      "category": "UTV",
+      "condition": "New",
+      "price": 27999.0
+    },
+    "001162": {
+      "title": "2021 Can-Am Maverick X3 X rs Turbo RR With Smart-Shox Desert T",
+      "store_label": "(5) Reno",
+      "category": "UTV",
+      "condition": "Used",
+      "price": 21999.0
+    },
+    "227211": {
+      "title": "2026 Polaris RZR Pro R 4 Ultimate",
+      "store_label": "(5) Reno",
+      "category": "UTV",
+      "condition": "New",
+      "price": 47999.0
     },
     "B2879": {
       "title": "2025 Polaris Ranger Crew 1000 Premium",
@@ -5363,622 +6014,6 @@
       "condition": "New",
       "price": 31999.0
     },
-    "117005": {
-      "title": "2025 Polaris RZR XP 1000 Sport",
-      "store_label": "(5) Reno",
-      "category": "UTV",
-      "condition": "New",
-      "price": 15499.0
-    },
-    "278865": {
-      "title": "2026 Polaris Ranger XP 1000 Northstar Ultimate Blue Labyrinth",
-      "store_label": "(5) Reno",
-      "category": "UTV",
-      "condition": "New",
-      "price": 32199.0
-    },
-    "283454": {
-      "title": "2026 Polaris Ranger Crew XP 1000 NorthStar Edition Ultimate Blu",
-      "store_label": "(5) Reno",
-      "category": "UTV",
-      "condition": "New",
-      "price": 35199.0
-    },
-    "113288": {
-      "title": "2025 Polaris RZR XP 1000 Sport",
-      "store_label": "(5) Reno",
-      "category": "UTV",
-      "condition": "New",
-      "price": 15499.0
-    },
-    "289168": {
-      "title": "2026 Polaris Ranger Crew XP 1000 NorthStar Edition Ultimate Ora",
-      "store_label": "(5) Reno",
-      "category": "UTV",
-      "condition": "New",
-      "price": 35199.0
-    },
-    "288677": {
-      "title": "2026 Polaris Ranger Crew XP 1000 NorthStar Edition Ultimate",
-      "store_label": "(5) Reno",
-      "category": "UTV",
-      "condition": "New",
-      "price": 34999.0
-    },
-    "288981": {
-      "title": "2026 Polaris Ranger Crew XP 1000 NorthStar Edition Premium Blue",
-      "store_label": "(5) Reno",
-      "category": "UTV",
-      "condition": "New",
-      "price": 31699.0
-    },
-    "049888": {
-      "title": "2025 Polaris RZR XP 4 1000 Ultimate",
-      "store_label": "(5) Reno",
-      "category": "UTV",
-      "condition": "New",
-      "price": 23499.0
-    },
-    "142165": {
-      "title": "2026 Polaris RZR Pro S 4 Sport",
-      "store_label": "(5) Reno",
-      "category": "UTV",
-      "condition": "New",
-      "price": 27499.0
-    },
-    "000234": {
-      "title": "2026 CFMOTO ZFORCE 950 Sport 4",
-      "store_label": "(5) Reno",
-      "category": "UTV",
-      "condition": "New",
-      "price": 18999.0
-    },
-    "000062": {
-      "title": "2026 CFMOTO ZFORCE 950 Sport 4",
-      "store_label": "(5) Reno",
-      "category": "UTV",
-      "condition": "New",
-      "price": 18999.0
-    },
-    "000328": {
-      "title": "2026 CFMOTO ZFORCE 950 Sport",
-      "store_label": "(5) Reno",
-      "category": "UTV",
-      "condition": "New",
-      "price": 15999.0
-    },
-    "000073": {
-      "title": "2026 CFMOTO ZFORCE 950 Sport",
-      "store_label": "(5) Reno",
-      "category": "UTV",
-      "condition": "New",
-      "price": 15999.0
-    },
-    "288661": {
-      "title": "2026 Polaris Ranger Crew XP 1000 NorthStar Edition Ultimate",
-      "store_label": "(5) Reno",
-      "category": "UTV",
-      "condition": "New",
-      "price": 34999.0
-    },
-    "168969": {
-      "title": "2026 Polaris Ranger 1000 Premium",
-      "store_label": "(5) Reno",
-      "category": "UTV",
-      "condition": "New",
-      "price": 17299.0
-    },
-    "198359": {
-      "title": "2025 Polaris Ranger Crew XD 1500 NorthStar Edition Ultimate",
-      "store_label": "(5) Reno",
-      "category": "UTV",
-      "condition": "New",
-      "price": 44999.0
-    },
-    "000922": {
-      "title": "2025 CFMOTO ZFORCE 950 Sport",
-      "store_label": "(5) Reno",
-      "category": "UTV",
-      "condition": "New",
-      "price": 12999.0
-    },
-    "199124": {
-      "title": "2026 Polaris Xpedition ADV Northstar",
-      "store_label": "(5) Reno",
-      "category": "UTV",
-      "condition": "New",
-      "price": 40499.0
-    },
-    "170995": {
-      "title": "2026 Polaris Ranger 1000 Premium",
-      "store_label": "(5) Reno",
-      "category": "UTV",
-      "condition": "New",
-      "price": 18299.0
-    },
-    "170875": {
-      "title": "2026 Polaris Ranger 1000 Premium",
-      "store_label": "(5) Reno",
-      "category": "UTV",
-      "condition": "New",
-      "price": 17799.0
-    },
-    "170985": {
-      "title": "2026 Polaris Ranger 1000 Premium",
-      "store_label": "(5) Reno",
-      "category": "UTV",
-      "condition": "New",
-      "price": 17299.0
-    },
-    "328087": {
-      "title": "2026 Polaris RZR 200 EFI",
-      "store_label": "(5) Reno",
-      "category": "UTV",
-      "condition": "New",
-      "price": 6999.0
-    },
-    "199326": {
-      "title": "2025 Polaris Ranger XD 1500 Northstar Ultimate",
-      "store_label": "(5) Reno",
-      "category": "UTV",
-      "condition": "New",
-      "price": 41899.0
-    },
-    "098729": {
-      "title": "2026 Polaris Ranger SP 570 Premium",
-      "store_label": "(5) Reno",
-      "category": "UTV",
-      "condition": "New",
-      "price": 14299.0
-    },
-    "001499": {
-      "title": "2026 CFMOTO UFORCE U10 Pro Camo",
-      "store_label": "(5) Reno",
-      "category": "UTV",
-      "condition": "New",
-      "price": 17949.0
-    },
-    "199757": {
-      "title": "2026 Polaris Xpedition ADV 5 Northstar",
-      "store_label": "(5) Reno",
-      "category": "UTV",
-      "condition": "New",
-      "price": 45499.0
-    },
-    "144838": {
-      "title": "2025 Polaris RZR Pro R Ultimate",
-      "store_label": "(5) Reno",
-      "category": "UTV",
-      "condition": "New",
-      "price": 36999.0
-    },
-    "172880": {
-      "title": "2026 Polaris GENERAL XP 4 1000 Ultimate",
-      "store_label": "(5) Reno",
-      "category": "UTV",
-      "condition": "New",
-      "price": 29999.0
-    },
-    "171680": {
-      "title": "2026 Polaris RZR Trail S",
-      "store_label": "(5) Reno",
-      "category": "UTV",
-      "condition": "New",
-      "price": 21999.0
-    },
-    "172965": {
-      "title": "2026 Polaris GENERAL XP 4 1000 Sport",
-      "store_label": "(5) Reno",
-      "category": "UTV",
-      "condition": "New",
-      "price": 24999.0
-    },
-    "000838": {
-      "title": "2026 CFMOTO UFORCE U10 Pro Camo",
-      "store_label": "(5) Reno",
-      "category": "UTV",
-      "condition": "New",
-      "price": 17949.0
-    },
-    "201600": {
-      "title": "2026 Polaris Xpedition ADV 5 Northstar",
-      "store_label": "(5) Reno",
-      "category": "UTV",
-      "condition": "New",
-      "price": 45499.0
-    },
-    "201614": {
-      "title": "2026 Polaris Xpedition ADV 5 Northstar",
-      "store_label": "(5) Reno",
-      "category": "UTV",
-      "condition": "New",
-      "price": 45499.0
-    },
-    "201605": {
-      "title": "2026 Polaris Xpedition ADV 5 Northstar",
-      "store_label": "(5) Reno",
-      "category": "UTV",
-      "condition": "New",
-      "price": 45499.0
-    },
-    "172282": {
-      "title": "2026 Polaris GENERAL XP 1000 Ultimate",
-      "store_label": "(5) Reno",
-      "category": "UTV",
-      "condition": "New",
-      "price": 26999.0
-    },
-    "189179": {
-      "title": "2025 Polaris Xpedition ADV Northstar",
-      "store_label": "(5) Reno",
-      "category": "UTV",
-      "condition": "New",
-      "price": 37749.0
-    },
-    "000691": {
-      "title": "2026 CFMOTO ZFORCE 950 Sport",
-      "store_label": "(5) Reno",
-      "category": "UTV",
-      "condition": "New",
-      "price": 15999.0
-    },
-    "328953": {
-      "title": "2026 Polaris RZR 200 EFI",
-      "store_label": "(5) Reno",
-      "category": "UTV",
-      "condition": "New",
-      "price": 6999.0
-    },
-    "186124": {
-      "title": "2025 Polaris Xpedition XP Northstar",
-      "store_label": "(5) Reno",
-      "category": "UTV",
-      "condition": "New",
-      "price": 35999.0
-    },
-    "202185": {
-      "title": "2026 Polaris Ranger Crew XD 1500 Northstar Mountaineer Edition",
-      "store_label": "(5) Reno",
-      "category": "UTV",
-      "condition": "New",
-      "price": 49999.0
-    },
-    "119540": {
-      "title": "2026 Polaris RZR XP S 4 1000 Sport",
-      "store_label": "(5) Reno",
-      "category": "UTV",
-      "condition": "New",
-      "price": 23299.0
-    },
-    "202736": {
-      "title": "2026 Polaris Ranger XD 1500 Northstar Mountaineer Edition",
-      "store_label": "(5) Reno",
-      "category": "UTV",
-      "condition": "New",
-      "price": 45999.0
-    },
-    "202426": {
-      "title": "2026 Polaris Xpedition XP 5 Northstar",
-      "store_label": "(5) Reno",
-      "category": "UTV",
-      "condition": "New",
-      "price": 44499.0
-    },
-    "299410": {
-      "title": "2026 Polaris Ranger XP 1000 Northstar Trail Boss Edition",
-      "store_label": "(5) Reno",
-      "category": "UTV",
-      "condition": "New",
-      "price": 33499.0
-    },
-    "299367": {
-      "title": "2026 Polaris Ranger Crew XP 1000 Northstar Edition Ultimate Pol",
-      "store_label": "(5) Reno",
-      "category": "UTV",
-      "condition": "New",
-      "price": 35599.0
-    },
-    "202738": {
-      "title": "2026 Polaris Ranger XD 1500 Northstar Mountaineer Edition",
-      "store_label": "(5) Reno",
-      "category": "UTV",
-      "condition": "New",
-      "price": 63535.0
-    },
-    "202137": {
-      "title": "2026 Polaris Ranger XD 1500 Northstar Mountaineer Edition",
-      "store_label": "(5) Reno",
-      "category": "UTV",
-      "condition": "New",
-      "price": 45999.0
-    },
-    "120475": {
-      "title": "2026 Polaris RZR XP S 4 1000 Ultimate",
-      "store_label": "(5) Reno",
-      "category": "UTV",
-      "condition": "New",
-      "price": 29499.0
-    },
-    "120154": {
-      "title": "2026 Polaris RZR XP S 4 1000 Ultimate",
-      "store_label": "(5) Reno",
-      "category": "UTV",
-      "condition": "New",
-      "price": 29499.0
-    },
-    "104201": {
-      "title": "2026 Polaris Ranger 500",
-      "store_label": "(5) Reno",
-      "category": "UTV",
-      "condition": "New",
-      "price": 9999.0
-    },
-    "119299": {
-      "title": "2026 Polaris RZR XP S 1000 Sport",
-      "store_label": "(5) Reno",
-      "category": "UTV",
-      "condition": "New",
-      "price": 20999.0
-    },
-    "119965": {
-      "title": "2026 Polaris RZR XP S 4 1000 Ultimate",
-      "store_label": "(5) Reno",
-      "category": "UTV",
-      "condition": "New",
-      "price": 29499.0
-    },
-    "002228": {
-      "title": "2026 CFMOTO UFORCE U10 Pro Highland",
-      "store_label": "(5) Reno",
-      "category": "UTV",
-      "condition": "New",
-      "price": 24499.0
-    },
-    "002669": {
-      "title": "2026 CFMOTO UFORCE U10 Pro Highland Camo",
-      "store_label": "(5) Reno",
-      "category": "UTV",
-      "condition": "New",
-      "price": 24949.0
-    },
-    "002388": {
-      "title": "2026 CFMOTO UFORCE U10 Pro Highland",
-      "store_label": "(5) Reno",
-      "category": "UTV",
-      "condition": "New",
-      "price": 24499.0
-    },
-    "000736": {
-      "title": "2022 Can-Am Defender MAX XT HD10",
-      "store_label": "(5) Reno",
-      "category": "UTV",
-      "condition": "Used",
-      "price": 15999.0
-    },
-    "120419": {
-      "title": "2026 Polaris RZR XP S 4 1000 Ultimate",
-      "store_label": "(5) Reno",
-      "category": "UTV",
-      "condition": "New",
-      "price": 29499.0
-    },
-    "172353": {
-      "title": "2026 Polaris GENERAL XP 4 1000 Sport",
-      "store_label": "(5) Reno",
-      "category": "UTV",
-      "condition": "New",
-      "price": 24999.0
-    },
-    "234665": {
-      "title": "2026 Polaris Ranger Crew XP 1000 Premium Blue Labyrinth",
-      "store_label": "(5) Reno",
-      "category": "UTV",
-      "condition": "New",
-      "price": 22699.0
-    },
-    "234381": {
-      "title": "2026 Polaris Ranger XP 1000 Premium Blue Labyrinth",
-      "store_label": "(5) Reno",
-      "category": "UTV",
-      "condition": "New",
-      "price": 20699.0
-    },
-    "203098": {
-      "title": "2026 Polaris Ranger Crew XD 1500 Northstar Mountaineer Edition",
-      "store_label": "(5) Reno",
-      "category": "UTV",
-      "condition": "New",
-      "price": 49999.0
-    },
-    "093369": {
-      "title": "2026 Polaris Ranger Crew SP 570 NorthStar Edition",
-      "store_label": "(5) Reno",
-      "category": "UTV",
-      "condition": "New",
-      "price": 22899.0
-    },
-    "120478": {
-      "title": "2026 Polaris RZR XP S 4 1000 Ultimate",
-      "store_label": "(5) Reno",
-      "category": "UTV",
-      "condition": "New",
-      "price": 29499.0
-    },
-    "118810": {
-      "title": "2026 Polaris RZR XP S 4 1000 Sport",
-      "store_label": "(5) Reno",
-      "category": "UTV",
-      "condition": "New",
-      "price": 23299.0
-    },
-    "103656": {
-      "title": "2026 Polaris Ranger 500",
-      "store_label": "(5) Reno",
-      "category": "UTV",
-      "condition": "New",
-      "price": 9999.0
-    },
-    "120592": {
-      "title": "2026 Polaris RZR XP S 1000 Sport",
-      "store_label": "(5) Reno",
-      "category": "UTV",
-      "condition": "New",
-      "price": 20999.0
-    },
-    "203261": {
-      "title": "2026 Polaris XPedition ADV 5 NorthStar",
-      "store_label": "(5) Reno",
-      "category": "UTV",
-      "condition": "New",
-      "price": 45499.0
-    },
-    "203227": {
-      "title": "2026 Polaris XPedition ADV 5 NorthStar",
-      "store_label": "(5) Reno",
-      "category": "UTV",
-      "condition": "New",
-      "price": 45499.0
-    },
-    "174726": {
-      "title": "2026 Polaris GENERAL XP 1000 Ultimate",
-      "store_label": "(5) Reno",
-      "category": "UTV",
-      "condition": "New",
-      "price": 26999.0
-    },
-    "118975": {
-      "title": "2026 Polaris RZR XP S 1000 Ultimate",
-      "store_label": "(5) Reno",
-      "category": "UTV",
-      "condition": "New",
-      "price": 26499.0
-    },
-    "121114": {
-      "title": "2026 Polaris RZR XP S 1000 Ultimate",
-      "store_label": "(5) Reno",
-      "category": "UTV",
-      "condition": "New",
-      "price": 26499.0
-    },
-    "118988": {
-      "title": "2026 Polaris RZR XP S 1000 Ultimate",
-      "store_label": "(5) Reno",
-      "category": "UTV",
-      "condition": "New",
-      "price": 26499.0
-    },
-    "121084": {
-      "title": "2026 Polaris RZR XP S 1000 Ultimate",
-      "store_label": "(5) Reno",
-      "category": "UTV",
-      "condition": "New",
-      "price": 26499.0
-    },
-    "120716": {
-      "title": "2026 Polaris RZR XP S 1000 Ultimate",
-      "store_label": "(5) Reno",
-      "category": "UTV",
-      "condition": "New",
-      "price": 26499.0
-    },
-    "120458": {
-      "title": "2026 Polaris RZR XP S 4 1000 Ultimate",
-      "store_label": "(5) Reno",
-      "category": "UTV",
-      "condition": "New",
-      "price": 29499.0
-    },
-    "120355": {
-      "title": "2026 Polaris RZR XP S 1000 Ultimate",
-      "store_label": "(5) Reno",
-      "category": "UTV",
-      "condition": "New",
-      "price": 26499.0
-    },
-    "119121": {
-      "title": "2026 Polaris RZR XP S 1000 Ultimate",
-      "store_label": "(5) Reno",
-      "category": "UTV",
-      "condition": "New",
-      "price": 26499.0
-    },
-    "025708": {
-      "title": "2026 Polaris Ranger Crew XP 1000 NorthStar Edition Premium Pola",
-      "store_label": "(5) Reno",
-      "category": "UTV",
-      "condition": "New",
-      "price": 32599.0
-    },
-    "119283": {
-      "title": "2026 Polaris RZR XP S 1000 Ultimate",
-      "store_label": "(5) Reno",
-      "category": "UTV",
-      "condition": "New",
-      "price": 26499.0
-    },
-    "286517": {
-      "title": "2026 Polaris Ranger XD 1500 NorthStar Premiun",
-      "store_label": "(5) Reno",
-      "category": "UTV",
-      "condition": "New",
-      "price": 40999.0
-    },
-    "000845": {
-      "title": "2026 CFMOTO ZFORCE 950 Sport 4",
-      "store_label": "(5) Reno",
-      "category": "UTV",
-      "condition": "New",
-      "price": 18999.0
-    },
-    "000875": {
-      "title": "2026 CFMOTO ZFORCE 950 Sport-4",
-      "store_label": "(5) Reno",
-      "category": "UTV",
-      "condition": "New",
-      "price": 18999.0
-    },
-    "000692": {
-      "title": "2026 CFMOTO ZFORCE 950 Sport 4",
-      "store_label": "(5) Reno",
-      "category": "UTV",
-      "condition": "New",
-      "price": 18999.0
-    },
-    "147561": {
-      "title": "2026 Polaris RZR Pro R Ultimate",
-      "store_label": "(5) Reno",
-      "category": "UTV",
-      "condition": "New",
-      "price": 43999.0
-    },
-    "206087": {
-      "title": "2026 Polaris RZR XP 1000 Ultimate",
-      "store_label": "(5) Reno",
-      "category": "UTV",
-      "condition": "New",
-      "price": 23999.0
-    },
-    "071972": {
-      "title": "2025 Polaris RZR Pro XP 4 Premium",
-      "store_label": "(5) Reno",
-      "category": "UTV",
-      "condition": "New",
-      "price": 27999.0
-    },
-    "001162": {
-      "title": "2021 Can-Am Maverick X3 X rs Turbo RR With Smart-Shox Desert T",
-      "store_label": "(5) Reno",
-      "category": "UTV",
-      "condition": "Used",
-      "price": 21999.0
-    },
-    "227211": {
-      "title": "2026 Polaris RZR Pro R 4 Ultimate",
-      "store_label": "(5) Reno",
-      "category": "UTV",
-      "condition": "New",
-      "price": 47999.0
-    },
     "P2694": {
       "title": "2024 Yamaha Viking EPS Ranch Edition",
       "store_label": "(3) Parker",
@@ -6035,13 +6070,6 @@
       "condition": "New",
       "price": 34599.0
     },
-    "P3026": {
-      "title": "2025 Honda Pioneer 1000-5 Deluxe",
-      "store_label": "(3) Parker",
-      "category": "UTV",
-      "condition": "New",
-      "price": 16859.0
-    },
     "P3055": {
       "title": "2025 Yamaha Wolverine RMAX4 1000 Limited",
       "store_label": "(3) Parker",
@@ -6097,13 +6125,6 @@
       "category": "UTV",
       "condition": "New",
       "price": 19999.0
-    },
-    "P3200": {
-      "title": "2025 Honda Talon 1000X 4",
-      "store_label": "(3) Parker",
-      "category": "UTV",
-      "condition": "New",
-      "price": 19799.0
     },
     "P3201": {
       "title": "2026 Polaris RZR Pro XP 4 Sport",
@@ -6245,13 +6266,6 @@
       "condition": "New",
       "price": 27499.0
     },
-    "P3312": {
-      "title": "2026 Polaris RZR Pro S 4 Ultimate",
-      "store_label": "(3) Parker",
-      "category": "UTV",
-      "condition": "New",
-      "price": 38999.0
-    },
     "P3311": {
       "title": "2026 Polaris Ranger 500",
       "store_label": "(3) Parker",
@@ -6336,13 +6350,6 @@
       "condition": "New",
       "price": 26999.0
     },
-    "P3349": {
-      "title": "2026 Polaris RZR 200 EFI",
-      "store_label": "(3) Parker",
-      "category": "UTV",
-      "condition": "New",
-      "price": 6999.0
-    },
     "P3348": {
       "title": "2026 Can-Am Maverick R Max X RS",
       "store_label": "(3) Parker",
@@ -6356,6 +6363,13 @@
       "category": "UTV",
       "condition": "New",
       "price": 47499.0
+    },
+    "P3349": {
+      "title": "2026 Polaris RZR 200 EFI",
+      "store_label": "(3) Parker",
+      "category": "UTV",
+      "condition": "New",
+      "price": 6999.0
     },
     "P3346": {
       "title": "2026 Can-Am Defender MAX LONE STAR HD11",
@@ -6385,12 +6399,12 @@
       "condition": "Used",
       "price": 0
     },
-    "P3359": {
-      "title": "2026 Honda Pioneer 520",
+    "P3358": {
+      "title": "2026 Honda Pioneer 700 Deluxe",
       "store_label": "(3) Parker",
       "category": "UTV",
       "condition": "New",
-      "price": 10999.0
+      "price": 14499.0
     },
     "P3360": {
       "title": "2026 Polaris RZR XP S 4 1000 Sport",
@@ -6399,12 +6413,12 @@
       "condition": "New",
       "price": 22999.0
     },
-    "P3358": {
-      "title": "2026 Honda Pioneer 700 Deluxe",
+    "P3359": {
+      "title": "2026 Honda Pioneer 520",
       "store_label": "(3) Parker",
       "category": "UTV",
       "condition": "New",
-      "price": 14499.0
+      "price": 10999.0
     },
     "P3364": {
       "title": "2026 Polaris Ranger XP 1000 NorthStar Ultimate",
@@ -6420,13 +6434,6 @@
       "condition": "Used",
       "price": 0
     },
-    "P3367": {
-      "title": "2026 Polaris RZR XP 1000 Ultimate",
-      "store_label": "(3) Parker",
-      "category": "UTV",
-      "condition": "New",
-      "price": 23999.0
-    },
     "P3371": {
       "title": "2026 Polaris Ranger SP 570 Premium",
       "store_label": "(3) Parker",
@@ -6440,6 +6447,13 @@
       "category": "UTV",
       "condition": "New",
       "price": 22999.0
+    },
+    "P3367": {
+      "title": "2026 Polaris RZR XP 1000 Ultimate",
+      "store_label": "(3) Parker",
+      "category": "UTV",
+      "condition": "New",
+      "price": 23999.0
     },
     "P3369": {
       "title": "2026 Can-Am Maverick X3 Max X RS Turbo RR Triple Black_4.5 in",
@@ -6504,14 +6518,14 @@
       "condition": "New",
       "price": 19299.0
     },
-    "P3401": {
+    "P3400": {
       "title": "2026 Honda Pioneer 700-4 Deluxe",
       "store_label": "(3) Parker",
       "category": "UTV",
       "condition": "New",
       "price": 15999.0
     },
-    "P3400": {
+    "P3401": {
       "title": "2026 Honda Pioneer 700-4 Deluxe",
       "store_label": "(3) Parker",
       "category": "UTV",
@@ -6553,19 +6567,19 @@
       "condition": "Used",
       "price": 0
     },
-    "P3240A": {
-      "title": "2019 Polaris RZR XP 4 1000",
-      "store_label": "(3) Parker",
-      "category": "UTV",
-      "condition": "Used",
-      "price": 0
-    },
     "P3416": {
       "title": "2026 Kawasaki Teryx5 H2 Deluxe eS",
       "store_label": "(3) Parker",
       "category": "UTV",
       "condition": "New",
       "price": 43699.0
+    },
+    "P3240A": {
+      "title": "2019 Polaris RZR XP 4 1000",
+      "store_label": "(3) Parker",
+      "category": "UTV",
+      "condition": "Used",
+      "price": 0
     },
     "P3415": {
       "title": "2026 Kawasaki Mule PRO-FXT 1000 LE",
@@ -6595,12 +6609,12 @@
       "condition": "Used",
       "price": 0
     },
-    "P3418J": {
-      "title": "2020 Polaris RZR Turbo S 4 Velocity",
+    "P3423": {
+      "title": "2026 Honda Pioneer 520",
       "store_label": "(3) Parker",
       "category": "UTV",
-      "condition": "Used",
-      "price": 0
+      "condition": "New",
+      "price": 10999.0
     },
     "P3424": {
       "title": "2026 Polaris Ranger 500",
@@ -6608,13 +6622,6 @@
       "category": "UTV",
       "condition": "New",
       "price": 9999.0
-    },
-    "P3423": {
-      "title": "2026 Honda Pioneer 520",
-      "store_label": "(3) Parker",
-      "category": "UTV",
-      "condition": "New",
-      "price": 10999.0
     },
     "P3421A": {
       "title": "2018 Polaris RZR S 900 EPS Black Pearl",
@@ -6651,13 +6658,6 @@
       "condition": "New",
       "price": 36199.0
     },
-    "P3434": {
-      "title": "2026 Polaris Ranger 500",
-      "store_label": "(3) Parker",
-      "category": "UTV",
-      "condition": "New",
-      "price": 9999.0
-    },
     "P3436": {
       "title": "2026 Can-Am 6KTJ-NC",
       "store_label": "(3) Parker",
@@ -6679,19 +6679,19 @@
       "condition": "New",
       "price": 19999.0
     },
-    "P3443": {
-      "title": "2025 Kawasaki Ridge Crew Hvac",
-      "store_label": "(3) Parker",
-      "category": "Other",
-      "condition": "New",
-      "price": 30999.0
-    },
     "P3442": {
       "title": "2026 Kawasaki Teryx4 H2",
       "store_label": "(3) Parker",
       "category": "UTV",
       "condition": "New",
       "price": 37199.0
+    },
+    "P3443": {
+      "title": "2025 Kawasaki Ridge Crew Hvac",
+      "store_label": "(3) Parker",
+      "category": "Other",
+      "condition": "New",
+      "price": 30999.0
     },
     "P3441": {
       "title": "2025 Honda Talon 1000X-4 FOX Live Valve",
@@ -6700,13 +6700,6 @@
       "condition": "New",
       "price": 24899.0
     },
-    "P3448": {
-      "title": "2026 Can-Am Maverick Trail DPS 700",
-      "store_label": "(3) Parker",
-      "category": "UTV",
-      "condition": "New",
-      "price": 14999.0
-    },
     "P3447": {
       "title": "2026 Can-Am Maverick X3 MAX X Turbo",
       "store_label": "(3) Parker",
@@ -6714,19 +6707,19 @@
       "condition": "New",
       "price": 26499.0
     },
+    "P3448": {
+      "title": "2026 Can-Am Maverick Trail DPS 700",
+      "store_label": "(3) Parker",
+      "category": "UTV",
+      "condition": "New",
+      "price": 14999.0
+    },
     "P3449": {
       "title": "2026 Polaris XPedition ADV 5 NorthStar",
       "store_label": "(3) Parker",
       "category": "UTV",
       "condition": "New",
       "price": 45499.0
-    },
-    "P2701A": {
-      "title": "2020 Polaris RZR XP Turbo",
-      "store_label": "(3) Parker",
-      "category": "UTV",
-      "condition": "Used",
-      "price": 0
     },
     "P3463": {
       "title": "2025 Honda Talon 1000X FOX Live Valve",
@@ -6749,26 +6742,26 @@
       "condition": "Used",
       "price": 0
     },
-    "A2713J": {
-      "title": "2023 Speed UTV EL JEFE",
-      "store_label": "(4) South Lake Havasu",
-      "category": "Other",
-      "condition": "Used",
-      "price": 31999.0
-    },
-    "P3121A": {
-      "title": "2024 Honda Pioneer 700-4",
+    "P3472": {
+      "title": "2026 Kawasaki Mule SX 4x4",
       "store_label": "(3) Parker",
       "category": "UTV",
-      "condition": "Used",
-      "price": 0
+      "condition": "New",
+      "price": 9999.0
     },
-    "A2336A": {
-      "title": "2023 Kawasaki Ninja 400 KRT Edition",
-      "store_label": "(4) South Lake Havasu",
-      "category": "Motorcycle",
-      "condition": "Used",
-      "price": 5299.0
+    "P3471": {
+      "title": "2026 Polaris Ranger Crew XD 1500 Northstar Ultimate",
+      "store_label": "(3) Parker",
+      "category": "UTV",
+      "condition": "New",
+      "price": 49999.0
+    },
+    "P3470": {
+      "title": "2026 Polaris RZR XP S 4 1000 Ultimate",
+      "store_label": "(3) Parker",
+      "category": "UTV",
+      "condition": "New",
+      "price": 29499.0
     },
     "A2595C": {
       "title": "2023 Kawasaki KLR 650 S ABS",
@@ -6783,6 +6776,20 @@
       "category": "Motorcycle",
       "condition": "Used",
       "price": 0
+    },
+    "A2613B": {
+      "title": "2016 Harley-Davidson FLTRX - Road Glide",
+      "store_label": "(4) South Lake Havasu",
+      "category": "Motorcycle",
+      "condition": "Used",
+      "price": 0
+    },
+    "A2336A": {
+      "title": "2023 Kawasaki Ninja 400 KRT Edition",
+      "store_label": "(4) South Lake Havasu",
+      "category": "Motorcycle",
+      "condition": "Used",
+      "price": 5299.0
     },
     "H3795J": {
       "title": "2021 Can-Am Ryker 900 ACE",
@@ -6826,13 +6833,6 @@
       "condition": "New",
       "price": 10295.0
     },
-    "001937": {
-      "title": "2025 CFMOTO SS 450",
-      "store_label": "(5) Reno",
-      "category": "Motorcycle",
-      "condition": "New",
-      "price": 4499.0
-    },
     "001924": {
       "title": "2025 CFMOTO SS 450",
       "store_label": "(5) Reno",
@@ -6847,14 +6847,21 @@
       "condition": "New",
       "price": 4499.0
     },
-    "001531": {
-      "title": "2025 CFMOTO 675SS",
+    "001937": {
+      "title": "2025 CFMOTO SS 450",
       "store_label": "(5) Reno",
       "category": "Motorcycle",
       "condition": "New",
-      "price": 6499.0
+      "price": 4499.0
     },
     "003452": {
+      "title": "2025 CFMOTO SS 450",
+      "store_label": "(5) Reno",
+      "category": "Motorcycle",
+      "condition": "New",
+      "price": 4299.0
+    },
+    "003451": {
       "title": "2025 CFMOTO SS 450",
       "store_label": "(5) Reno",
       "category": "Motorcycle",
@@ -6867,13 +6874,6 @@
       "category": "Motorcycle",
       "condition": "New",
       "price": 6499.0
-    },
-    "003451": {
-      "title": "2025 CFMOTO SS 450",
-      "store_label": "(5) Reno",
-      "category": "Motorcycle",
-      "condition": "New",
-      "price": 4299.0
     },
     "024056": {
       "title": "2025 Indian Scout Sixty Bobber Limited Black Smoke",
@@ -6903,19 +6903,19 @@
       "condition": "New",
       "price": 19998.0
     },
-    "437415": {
-      "title": "2025 Indian Chieftain PowerPlus Dark Horse 112 w/PowerBand B",
-      "store_label": "(5) Reno",
-      "category": "Motorcycle",
-      "condition": "New",
-      "price": 29998.0
-    },
     "023509": {
       "title": "2025 Indian Sport Chief Maroon Metallic",
       "store_label": "(5) Reno",
       "category": "Motorcycle",
       "condition": "New",
       "price": 18298.0
+    },
+    "437415": {
+      "title": "2025 Indian Chieftain PowerPlus Dark Horse 112 w/PowerBand B",
+      "store_label": "(5) Reno",
+      "category": "Motorcycle",
+      "condition": "New",
+      "price": 29998.0
     },
     "435507": {
       "title": "2025 Indian Roadmaster PowerPlus Dark Horse 112 Storm Gray",
@@ -6924,13 +6924,6 @@
       "condition": "New",
       "price": 34498.0
     },
-    "024203": {
-      "title": "2025 Indian Scout Bobber Black Metallic",
-      "store_label": "(5) Reno",
-      "category": "Motorcycle",
-      "condition": "New",
-      "price": 11495.0
-    },
     "438196": {
       "title": "2025 Indian Springfield Dark Horse Moss Green Smoke",
       "store_label": "(5) Reno",
@@ -6938,28 +6931,14 @@
       "condition": "New",
       "price": 22298.0
     },
-    "000651": {
-      "title": "2025 CFMOTO 675SS",
+    "024203": {
+      "title": "2025 Indian Scout Bobber Black Metallic",
       "store_label": "(5) Reno",
       "category": "Motorcycle",
       "condition": "New",
-      "price": 6699.0
+      "price": 11495.0
     },
     "000623": {
-      "title": "2025 CFMOTO 675SS",
-      "store_label": "(5) Reno",
-      "category": "Motorcycle",
-      "condition": "New",
-      "price": 6699.0
-    },
-    "000460": {
-      "title": "2025 CFMOTO SS 675",
-      "store_label": "(5) Reno",
-      "category": "Motorcycle",
-      "condition": "New",
-      "price": 6499.0
-    },
-    "000529": {
       "title": "2025 CFMOTO 675SS",
       "store_label": "(5) Reno",
       "category": "Motorcycle",
@@ -6987,13 +6966,6 @@
       "condition": "New",
       "price": 15999.0
     },
-    "440178": {
-      "title": "2025 Indian Roadmaster PowerPlus Dark Horse w/PowerBand Suns",
-      "store_label": "(5) Reno",
-      "category": "Motorcycle",
-      "condition": "New",
-      "price": 31998.0
-    },
     "440027": {
       "title": "2025 Indian Pursuit Dark Horse w/PowerBand Audio Springfield",
       "store_label": "(5) Reno",
@@ -7001,12 +6973,12 @@
       "condition": "New",
       "price": 34499.0
     },
-    "437527": {
-      "title": "2025 Indian Chieftain PowerPlus Dark Horse Black Smoke",
+    "440178": {
+      "title": "2025 Indian Roadmaster PowerPlus Dark Horse w/PowerBand Suns",
       "store_label": "(5) Reno",
       "category": "Motorcycle",
       "condition": "New",
-      "price": 25699.0
+      "price": 31998.0
     },
     "438960": {
       "title": "2025 Indian Challenger Dark Horse 112 w/PowerBand Audio Spri",
@@ -7015,6 +6987,20 @@
       "condition": "New",
       "price": 30799.0
     },
+    "437527": {
+      "title": "2025 Indian Chieftain PowerPlus Dark Horse Black Smoke",
+      "store_label": "(5) Reno",
+      "category": "Motorcycle",
+      "condition": "New",
+      "price": 25699.0
+    },
+    "001069": {
+      "title": "2026 CFMOTO 675NK",
+      "store_label": "(5) Reno",
+      "category": "Motorcycle",
+      "condition": "New",
+      "price": 7499.0
+    },
     "001141": {
       "title": "2026 CFMOTO 675NK",
       "store_label": "(5) Reno",
@@ -7022,7 +7008,7 @@
       "condition": "New",
       "price": 7499.0
     },
-    "001069": {
+    "000893": {
       "title": "2026 CFMOTO 675NK",
       "store_label": "(5) Reno",
       "category": "Motorcycle",
@@ -7036,12 +7022,12 @@
       "condition": "New",
       "price": 5399.0
     },
-    "000893": {
-      "title": "2026 CFMOTO 675NK",
+    "000383": {
+      "title": "2026 CFMOTO Ibex 800 E",
       "store_label": "(5) Reno",
       "category": "Motorcycle",
       "condition": "New",
-      "price": 7499.0
+      "price": 10299.0
     },
     "000882": {
       "title": "2026 CFMOTO 675NK",
@@ -7050,26 +7036,12 @@
       "condition": "New",
       "price": 7499.0
     },
-    "000383": {
-      "title": "2026 CFMOTO Ibex 800 E",
-      "store_label": "(5) Reno",
-      "category": "Motorcycle",
-      "condition": "New",
-      "price": 10299.0
-    },
     "019050": {
       "title": "2025 Indian Sport Chief RT Sunset Red Smoke",
       "store_label": "(5) Reno",
       "category": "Motorcycle",
       "condition": "New",
       "price": 20998.0
-    },
-    "001079": {
-      "title": "2026 CFMOTO 675NK",
-      "store_label": "(5) Reno",
-      "category": "Motorcycle",
-      "condition": "New",
-      "price": 7499.0
     },
     "002019": {
       "title": "2026 CFMOTO Ibex 450 400",
@@ -7078,19 +7050,19 @@
       "condition": "New",
       "price": 6499.0
     },
+    "001079": {
+      "title": "2026 CFMOTO 675NK",
+      "store_label": "(5) Reno",
+      "category": "Motorcycle",
+      "condition": "New",
+      "price": 7499.0
+    },
     "015433": {
       "title": "2024 Indian Chief Dark Horse Black Smoke",
       "store_label": "(5) Reno",
       "category": "Motorcycle",
       "condition": "Used",
       "price": 14899.0
-    },
-    "203446": {
-      "title": "2025 Indian Sport Scout Limited +Tech Nara Bronze Metallic Sm",
-      "store_label": "(5) Reno",
-      "category": "Motorcycle",
-      "condition": "Used",
-      "price": 11995.0
     },
     "386672": {
       "title": "2020 Indian Challenger Limited Deepwater Metallic",
@@ -7106,19 +7078,19 @@
       "condition": "New",
       "price": 15949.0
     },
-    "020795": {
-      "title": "2025 Indian Super Scout Black Metallic",
-      "store_label": "(5) Reno",
-      "category": "Motorcycle",
-      "condition": "New",
-      "price": 14299.0
-    },
     "026678": {
       "title": "2026 Indian Scout Bobber Limited +Tech Maroon Metallic Smoke",
       "store_label": "(5) Reno",
       "category": "Motorcycle",
       "condition": "New",
       "price": 15449.0
+    },
+    "020795": {
+      "title": "2025 Indian Super Scout Black Metallic",
+      "store_label": "(5) Reno",
+      "category": "Motorcycle",
+      "condition": "New",
+      "price": 14299.0
     },
     "019098": {
       "title": "2025 Indian Chief Bobber Nara Bronze Smoke",
@@ -7134,19 +7106,12 @@
       "condition": "New",
       "price": 6499.0
     },
-    "002163": {
-      "title": "2026 CFMOTO Ibex 450 400",
+    "000974": {
+      "title": "2026 CFMOTO NK 675",
       "store_label": "(5) Reno",
       "category": "Motorcycle",
       "condition": "New",
-      "price": 6499.0
-    },
-    "002226": {
-      "title": "2026 CFMOTO Ibex 450 400",
-      "store_label": "(5) Reno",
-      "category": "Motorcycle",
-      "condition": "New",
-      "price": 6499.0
+      "price": 7499.0
     },
     "001292": {
       "title": "2026 CFMOTO NK 675",
@@ -7155,19 +7120,19 @@
       "condition": "New",
       "price": 7499.0
     },
-    "000974": {
-      "title": "2026 CFMOTO NK 675",
+    "002226": {
+      "title": "2026 CFMOTO Ibex 450 400",
       "store_label": "(5) Reno",
       "category": "Motorcycle",
       "condition": "New",
-      "price": 7499.0
+      "price": 6499.0
     },
-    "441995": {
-      "title": "2026 Indian Challenger Dark Horse Black Smoke",
+    "002163": {
+      "title": "2026 CFMOTO Ibex 450 400",
       "store_label": "(5) Reno",
       "category": "Motorcycle",
       "condition": "New",
-      "price": 29249.0
+      "price": 6499.0
     },
     "028211": {
       "title": "2026 Indian Sport Scout RT Chalk",
@@ -7175,6 +7140,13 @@
       "category": "Motorcycle",
       "condition": "New",
       "price": 17249.0
+    },
+    "441995": {
+      "title": "2026 Indian Challenger Dark Horse Black Smoke",
+      "store_label": "(5) Reno",
+      "category": "Motorcycle",
+      "condition": "New",
+      "price": 29249.0
     },
     "302544": {
       "title": "2025 Harley-Davidson RH975S - Nightster Special",
@@ -7210,6 +7182,13 @@
       "category": "Motorcycle",
       "condition": "Used",
       "price": 3699.0
+    },
+    "203446": {
+      "title": "2025 Indian Sport Scout Limited +Tech Nara Bronze Metallic Sm",
+      "store_label": "(5) Reno",
+      "category": "Motorcycle",
+      "condition": "Used",
+      "price": 11995.0
     },
     "P2329": {
       "title": "2024 Honda Shadow Phantom",
@@ -7309,6 +7288,13 @@
       "condition": "New",
       "price": 8799.0
     },
+    "P3047": {
+      "title": "2025 Kawasaki KX450X",
+      "store_label": "(3) Parker",
+      "category": "Motorcycle",
+      "condition": "New",
+      "price": 8199.0
+    },
     "P3046": {
       "title": "2025 Kawasaki KX250X",
       "store_label": "(3) Parker",
@@ -7323,26 +7309,12 @@
       "condition": "New",
       "price": 7099.0
     },
-    "P3047": {
-      "title": "2025 Kawasaki KX450X",
-      "store_label": "(3) Parker",
-      "category": "Motorcycle",
-      "condition": "New",
-      "price": 8199.0
-    },
     "P3042": {
       "title": "2025 Kawasaki Ninja 650 ABS",
       "store_label": "(3) Parker",
       "category": "Motorcycle",
       "condition": "New",
       "price": 6999.0
-    },
-    "P3043": {
-      "title": "2025 Kawasaki KLX140R L",
-      "store_label": "(3) Parker",
-      "category": "Motorcycle",
-      "condition": "New",
-      "price": 3499.0
     },
     "P2356A": {
       "title": "2023 Yamaha YZ85",
@@ -7449,13 +7421,6 @@
       "condition": "New",
       "price": 5649.0
     },
-    "P3307": {
-      "title": "2026 Kawasaki KLX300",
-      "store_label": "(3) Parker",
-      "category": "Motorcycle",
-      "condition": "New",
-      "price": 5649.0
-    },
     "P3306": {
       "title": "2026 Kawasaki KLR650 S",
       "store_label": "(3) Parker",
@@ -7519,21 +7484,7 @@
       "condition": "Used",
       "price": 0
     },
-    "P3073A": {
-      "title": "2023 Kawasaki KX250",
-      "store_label": "(3) Parker",
-      "category": "Motorcycle",
-      "condition": "Used",
-      "price": 0
-    },
     "P3407": {
-      "title": "2026 Kawasaki KLX300",
-      "store_label": "(3) Parker",
-      "category": "Motorcycle",
-      "condition": "New",
-      "price": 5649.0
-    },
-    "P3408": {
       "title": "2026 Kawasaki KLX300",
       "store_label": "(3) Parker",
       "category": "Motorcycle",
@@ -7546,6 +7497,13 @@
       "category": "Motorcycle",
       "condition": "New",
       "price": 5799.0
+    },
+    "P3408": {
+      "title": "2026 Kawasaki KLX300",
+      "store_label": "(3) Parker",
+      "category": "Motorcycle",
+      "condition": "New",
+      "price": 5649.0
     },
     "P3417": {
       "title": "2026 Kawasaki KX65",
@@ -7589,6 +7547,13 @@
       "condition": "New",
       "price": 8199.0
     },
+    "P3446": {
+      "title": "2026 Yamaha MT03TB",
+      "store_label": "(3) Parker",
+      "category": "Motorcycle",
+      "condition": "New",
+      "price": 4999.0
+    },
     "P3445": {
       "title": "2026 Yamaha YZF-R3",
       "store_label": "(3) Parker",
@@ -7596,12 +7561,12 @@
       "condition": "New",
       "price": 5699.0
     },
-    "P3446": {
-      "title": "2026 Yamaha MT03TB",
+    "P3450": {
+      "title": "2025 Honda Dax 125",
       "store_label": "(3) Parker",
       "category": "Motorcycle",
       "condition": "New",
-      "price": 4999.0
+      "price": 4199.0
     },
     "P3451": {
       "title": "2025 Honda Dax 125",
@@ -7610,12 +7575,40 @@
       "condition": "New",
       "price": 4199.0
     },
-    "P3450": {
-      "title": "2025 Honda Dax 125",
-      "store_label": "(3) Parker",
+    "000460": {
+      "title": "2025 CFMOTO SS 675",
+      "store_label": "(5) Reno",
       "category": "Motorcycle",
       "condition": "New",
-      "price": 4199.0
+      "price": 6499.0
+    },
+    "000529": {
+      "title": "2025 CFMOTO 675SS",
+      "store_label": "(5) Reno",
+      "category": "Motorcycle",
+      "condition": "New",
+      "price": 6699.0
+    },
+    "000651": {
+      "title": "2025 CFMOTO 675SS",
+      "store_label": "(5) Reno",
+      "category": "Motorcycle",
+      "condition": "New",
+      "price": 6699.0
+    },
+    "001531": {
+      "title": "2025 CFMOTO 675SS",
+      "store_label": "(5) Reno",
+      "category": "Motorcycle",
+      "condition": "New",
+      "price": 6499.0
+    },
+    "P3073A": {
+      "title": "2023 Kawasaki KX250",
+      "store_label": "(3) Parker",
+      "category": "Motorcycle",
+      "condition": "Used",
+      "price": 0
     },
     "A2103A": {
       "title": "2023 Yamaha UMAX Rally 2+2",
@@ -7629,7 +7622,7 @@
       "store_label": "(5) Reno",
       "category": "Snowmobile",
       "condition": "New",
-      "price": 16599.0
+      "price": 15299.0
     },
     "639500": {
       "title": "2025 Polaris 9R PRO RMK 155 Shadow Gray / Gloss Black 9R Storm Gray Indy Red",
@@ -7827,14 +7820,14 @@
       "condition": "New",
       "price": 10299.0
     },
-    "001017": {
+    "001015": {
       "title": "2026 CFMOTO Ibex 800 E 800 Touring",
       "store_label": "(5) Reno",
       "category": "Motorcycle",
       "condition": "New",
       "price": 10299.0
     },
-    "001015": {
+    "001017": {
       "title": "2026 CFMOTO Ibex 800 E 800 Touring",
       "store_label": "(5) Reno",
       "category": "Motorcycle",
